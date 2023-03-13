@@ -1,7 +1,7 @@
 [
   {
-    "id": "_1S06CemwqYARc4So1SE1",
-    "name": "PO-CDR Screen",
+    "id": "958f3dPHjGr4R4LXKSSBj",
+    "name": "PO-CDR widget",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -25,7 +25,7 @@
         "id": "kn0PwNbfokIPWu81HFMkc",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "PO-CDR",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -47,7 +47,7 @@
           "name": "PO-CDR Screen"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
@@ -58,11 +58,11 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "Nm4HmtduDckc3GNAv1POn",
+            "id": "ZWwluEbYsCDsVN5cqjOaK",
             "gridProps": [
               {
                 "id": "a_qCSah9kKsglE9Zk1Zgf",
@@ -6656,20 +6656,29 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "events": [],
-    "subType": "screen",
-    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "widget",
+    "screenId": "958f3dPHjGr4R4LXKSSBj",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "_1S06CemwqYARc4So1SE1",
+    "_id": "958f3dPHjGr4R4LXKSSBj",
     "createdBy": "ahmerjavedkhan",
     "updatedAt": "3/8/2023",
     "createdAt": "3/8/2023",
@@ -6677,7 +6686,7 @@
   },
   {
     "id": "kn0PwNbfokIPWu81HFMkc",
-    "name": "Grid layout",
+    "name": "PO-CDR",
     "type": "10001",
     "attributes": {
       "gridProps": [

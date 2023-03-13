@@ -1239,7 +1239,9 @@
             "1029": "lDZnjOg6T6U-faBPv3wlH",
             "1030": "6P40rUBTu65pMBQToIXaN",
             "1031": "sOhbM902mH_D7HYq54qTc",
-            "1034": "_1S06CemwqYARc4So1SE1"
+            "1033": "qRRDZqymu0Ev4VlAUF_jN",
+            "1034": "_1S06CemwqYARc4So1SE1",
+            "1036": "kXkGzpWEMjfVJ9wS08OoY"
           },
           "permissionsTemp": [
             {
@@ -1403,6 +1405,20 @@
                 "id": "_1S06CemwqYARc4So1SE1",
                 "name": "PO-CDR Screen"
               }
+            },
+            {
+              "permission": "1033",
+              "screen": {
+                "id": "qRRDZqymu0Ev4VlAUF_jN",
+                "name": "PO-CDR Pending List Screen"
+              }
+            },
+            {
+              "permission": "1036",
+              "screen": {
+                "id": "kXkGzpWEMjfVJ9wS08OoY",
+                "name": "RTGS Payment"
+              }
             }
           ]
         },
@@ -1549,8 +1565,8 @@
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/7/2023",
-    "createdAt": "3/7/2023",
+    "updatedAt": "3/9/2023",
+    "createdAt": "3/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2444,7 +2460,9 @@
         "1029": "lDZnjOg6T6U-faBPv3wlH",
         "1030": "6P40rUBTu65pMBQToIXaN",
         "1031": "sOhbM902mH_D7HYq54qTc",
-        "1034": "_1S06CemwqYARc4So1SE1"
+        "1033": "qRRDZqymu0Ev4VlAUF_jN",
+        "1034": "_1S06CemwqYARc4So1SE1",
+        "1036": "kXkGzpWEMjfVJ9wS08OoY"
       },
       "permissionsTemp": [
         {
@@ -2596,6 +2614,17 @@
         {
           "permission": "1034",
           "screen": { "id": "_1S06CemwqYARc4So1SE1", "name": "PO-CDR Screen" }
+        },
+        {
+          "permission": "1033",
+          "screen": {
+            "id": "qRRDZqymu0Ev4VlAUF_jN",
+            "name": "PO-CDR Pending List Screen"
+          }
+        },
+        {
+          "permission": "1036",
+          "screen": { "id": "kXkGzpWEMjfVJ9wS08OoY", "name": "RTGS Payment" }
         }
       ],
       "gridProps": [

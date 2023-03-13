@@ -106,8 +106,8 @@
           {
             "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Show Modal",
-            "triggerId": "VRx8_idvROvDWK5FkWGXH"
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },

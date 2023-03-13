@@ -1,7 +1,7 @@
 [
   {
-    "id": "qRRDZqymu0Ev4VlAUF_jN",
-    "name": "PO-CDR Pending List Screen",
+    "id": "tS2aBOXMMd-uFzpoReMF-",
+    "name": "PO-CDR Pending List widget",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -25,7 +25,7 @@
         "id": "RnPxjqebOQPSqTd6qzECJ",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "PO-CDR Pending List",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -47,7 +47,7 @@
           "name": "PO-CDR Pending List Screen"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
@@ -58,11 +58,11 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "hE-tndXu88Mhknmc2TfiM",
+            "id": "NwiWXZpPXdNGlX0LLc-3M",
             "gridProps": [
               {
                 "id": "Mg_ZTOgfSvGVNUahygCh9",
@@ -741,20 +741,29 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "events": [],
-    "subType": "screen",
-    "screenId": "qRRDZqymu0Ev4VlAUF_jN",
+    "subType": "widget",
+    "screenId": "tS2aBOXMMd-uFzpoReMF-",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "qRRDZqymu0Ev4VlAUF_jN",
+    "_id": "tS2aBOXMMd-uFzpoReMF-",
     "createdBy": "ahmerjavedkhan",
     "updatedAt": "3/9/2023",
     "createdAt": "3/9/2023",
@@ -762,7 +771,7 @@
   },
   {
     "id": "RnPxjqebOQPSqTd6qzECJ",
-    "name": "Grid layout",
+    "name": "PO-CDR Pending List",
     "type": "10001",
     "attributes": {
       "gridProps": [
