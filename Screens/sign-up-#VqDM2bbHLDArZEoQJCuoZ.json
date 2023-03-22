@@ -150,7 +150,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "J50-sScFVYQoL1KpeeNM-",
+                                            "id": "vvzBSHea24heyrYjADtg4",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -535,7 +535,7 @@
                                                                           "label": "",
                                                                           "name": "Text box",
                                                                           "label-locale-key": "",
-                                                                          "maxLength": 20,
+                                                                          "maxLength": "100",
                                                                           "type": "text",
                                                                           "variant": "standard",
                                                                           "value": "",
@@ -1858,8 +1858,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-0-0"
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -1893,7 +1892,16 @@
                                             { "cssClassName": "loginContainer" }
                                           ]
                                         },
-                                        "events": [],
+                                        "events": [
+                                          {
+                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                                            "triggerName": "Clear Form Data",
+                                            "serviceType": "14",
+                                            "attributes": {},
+                                            "type": "1",
+                                            "name": "On initialization"
+                                          }
+                                        ],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
@@ -2480,7 +2488,14 @@
       "cssClassNames": [{ "cssClassName": "loginContainer" }]
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "projectId": "63f4845e476fc83100e3a899",
@@ -3019,7 +3034,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",

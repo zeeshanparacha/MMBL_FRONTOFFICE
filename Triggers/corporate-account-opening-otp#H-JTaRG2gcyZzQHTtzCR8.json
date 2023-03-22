@@ -54,7 +54,14 @@
           "baseURL": "641aedb2676c823a449fd597",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "data.result.isValidated" }, true] },
+            "triggerName": "coprorate account opening otp to product selection screen",
+            "triggerId": "HkyIfTyxsavo2pSOk6BU8"
+          }
+        ]
       }
     }
   ],
