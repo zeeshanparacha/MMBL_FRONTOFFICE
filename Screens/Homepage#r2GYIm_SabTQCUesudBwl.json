@@ -1239,10 +1239,13 @@
             "1029": "lDZnjOg6T6U-faBPv3wlH",
             "1030": "6P40rUBTu65pMBQToIXaN",
             "1031": "sOhbM902mH_D7HYq54qTc",
-            "1033": "qRRDZqymu0Ev4VlAUF_jN",
-            "1034": "_1S06CemwqYARc4So1SE1",
-            "1036": "kXkGzpWEMjfVJ9wS08OoY",
-            "1037": "GeNqWiTBvCJFr4ZcYlDs2"
+            "1033": "_1S06CemwqYARc4So1SE1",
+            "1034": "qRRDZqymu0Ev4VlAUF_jN",
+            "1035": "DI3EeadccdKXvbiNonsah",
+            "1037": "kXkGzpWEMjfVJ9wS08OoY",
+            "1038": "GeNqWiTBvCJFr4ZcYlDs2",
+            "1039": "uoXcG3sQW5M24K1O0iz2b",
+            "1044": "DTduOZRqks5R0jJPnUtna"
           },
           "permissionsTemp": [
             {
@@ -1401,31 +1404,52 @@
               }
             },
             {
-              "permission": "1034",
+              "permission": "1033",
               "screen": {
                 "id": "_1S06CemwqYARc4So1SE1",
                 "name": "PO-CDR Screen"
               }
             },
             {
-              "permission": "1033",
+              "permission": "1034",
               "screen": {
                 "id": "qRRDZqymu0Ev4VlAUF_jN",
                 "name": "PO-CDR Pending List Screen"
               }
             },
             {
-              "permission": "1036",
+              "permission": "1037",
               "screen": {
                 "id": "kXkGzpWEMjfVJ9wS08OoY",
                 "name": "RTGS Payment"
               }
             },
             {
-              "permission": "1037",
+              "permission": "1038",
               "screen": {
                 "id": "GeNqWiTBvCJFr4ZcYlDs2",
                 "name": "RTGS Pendling List Screen"
+              }
+            },
+            {
+              "permission": "1035",
+              "screen": {
+                "id": "DI3EeadccdKXvbiNonsah",
+                "name": "PO Submitted Request Screen"
+              }
+            },
+            {
+              "permission": "1044",
+              "screen": {
+                "id": "DTduOZRqks5R0jJPnUtna",
+                "name": "CDR Submitted Request Screen"
+              }
+            },
+            {
+              "permission": "1039",
+              "screen": {
+                "id": "uoXcG3sQW5M24K1O0iz2b",
+                "name": "RTGS Submitted Request Screen"
               }
             }
           ]
@@ -1573,8 +1597,8 @@
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/16/2023",
-    "createdAt": "3/16/2023",
+    "updatedAt": "3/29/2023",
+    "createdAt": "3/29/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2468,10 +2492,13 @@
         "1029": "lDZnjOg6T6U-faBPv3wlH",
         "1030": "6P40rUBTu65pMBQToIXaN",
         "1031": "sOhbM902mH_D7HYq54qTc",
-        "1033": "qRRDZqymu0Ev4VlAUF_jN",
-        "1034": "_1S06CemwqYARc4So1SE1",
-        "1036": "kXkGzpWEMjfVJ9wS08OoY",
-        "1037": "GeNqWiTBvCJFr4ZcYlDs2"
+        "1033": "_1S06CemwqYARc4So1SE1",
+        "1034": "qRRDZqymu0Ev4VlAUF_jN",
+        "1035": "DI3EeadccdKXvbiNonsah",
+        "1037": "kXkGzpWEMjfVJ9wS08OoY",
+        "1038": "GeNqWiTBvCJFr4ZcYlDs2",
+        "1039": "uoXcG3sQW5M24K1O0iz2b",
+        "1044": "DTduOZRqks5R0jJPnUtna"
       },
       "permissionsTemp": [
         {
@@ -2621,25 +2648,46 @@
           }
         },
         {
-          "permission": "1034",
+          "permission": "1033",
           "screen": { "id": "_1S06CemwqYARc4So1SE1", "name": "PO-CDR Screen" }
         },
         {
-          "permission": "1033",
+          "permission": "1034",
           "screen": {
             "id": "qRRDZqymu0Ev4VlAUF_jN",
             "name": "PO-CDR Pending List Screen"
           }
         },
         {
-          "permission": "1036",
+          "permission": "1037",
           "screen": { "id": "kXkGzpWEMjfVJ9wS08OoY", "name": "RTGS Payment" }
         },
         {
-          "permission": "1037",
+          "permission": "1038",
           "screen": {
             "id": "GeNqWiTBvCJFr4ZcYlDs2",
             "name": "RTGS Pendling List Screen"
+          }
+        },
+        {
+          "permission": "1035",
+          "screen": {
+            "id": "DI3EeadccdKXvbiNonsah",
+            "name": "PO Submitted Request Screen"
+          }
+        },
+        {
+          "permission": "1044",
+          "screen": {
+            "id": "DTduOZRqks5R0jJPnUtna",
+            "name": "CDR Submitted Request Screen"
+          }
+        },
+        {
+          "permission": "1039",
+          "screen": {
+            "id": "uoXcG3sQW5M24K1O0iz2b",
+            "name": "RTGS Submitted Request Screen"
           }
         }
       ],

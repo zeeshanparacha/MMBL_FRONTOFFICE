@@ -61,11 +61,12 @@
                       "background-color": "#fff",
                       "border": "1px solid #e5e5e5",
                       "box-shadow": "none",
-                      "border-radius": "4px"
+                      "border-radius": "4px",
+                      "width": "97.5%",
+                      "padding": "0 7px"
                     },
                     "inputProps": {
-                      "//": "Use this class to style dropdown element.",
-                      "paddingLeft": "8px"
+                      "//": "Use this class to style dropdown element."
                     },
                     "mainContainer": "autocomplete",
                     "xl": 12,
@@ -88,7 +89,7 @@
                 "isLatest": true,
                 "projectType": "web",
                 "component": { "content": "Drop down", "type": "20003" },
-                "path": "0-0-1-0-0-0-4-0-0-0-1-0-0-0-0-0-1-2-0-0-1-0-0"
+                "path": "0-0-0"
               }
             ],
             "layoutProperties": {
@@ -119,7 +120,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Card Drop Down Selection  widget"
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
@@ -144,8 +145,8 @@
     "gitBranchName": "master",
     "_id": "JZSxb7cSwcc4-Q9vmbQjo",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/7/2023",
-    "createdAt": "3/7/2023",
+    "updatedAt": "3/29/2023",
+    "createdAt": "3/29/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -182,12 +183,12 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Card Drop Down Selection  widget"
     },
     "layout": null,
     "events": [],
     "subType": "component",
-    "screenId": "_1S06CemwqYARc4So1SE1",
+    "screenId": "JZSxb7cSwcc4-Q9vmbQjo",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
@@ -222,12 +223,11 @@
           "background-color": "#fff",
           "border": "1px solid #e5e5e5",
           "box-shadow": "none",
-          "border-radius": "4px"
+          "border-radius": "4px",
+          "width": "97.5%",
+          "padding": "0 7px"
         },
-        "inputProps": {
-          "//": "Use this class to style dropdown element.",
-          "paddingLeft": "8px"
-        },
+        "inputProps": { "//": "Use this class to style dropdown element." },
         "mainContainer": "autocomplete",
         "xl": 12,
         "lg": 12,
@@ -249,8 +249,8 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-1-0-0-0-4-0-0-0-1-0-0-0-0-0-1-2-0-0-1-0-0",
-    "screenId": "_1S06CemwqYARc4So1SE1",
+    "path": "0-0-0",
+    "screenId": "JZSxb7cSwcc4-Q9vmbQjo",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",

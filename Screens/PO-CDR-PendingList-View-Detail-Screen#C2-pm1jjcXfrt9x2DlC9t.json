@@ -5399,7 +5399,7 @@
                                                   "label": "Comment (Write comment in text field or select from dropdown)",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": true,
+                                                  "mandatory": false,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component.",
@@ -5683,7 +5683,7 @@
                                                     "xs": 12
                                                   },
                                                   "validate": {
-                                                    "required": true,
+                                                    "required": false,
                                                     "errorMsg": "This field is required"
                                                   },
                                                   "placeholder": "",
@@ -5872,7 +5872,7 @@
                                                 "status": "ACTIVE",
                                                 "attributes": {
                                                   "label": "Back",
-                                                  "variant": "contained",
+                                                  "variant": "outlined",
                                                   "name": "Button",
                                                   "label-locale-key": "",
                                                   "fullWidth": true,
@@ -5926,7 +5926,7 @@
                                                     "name": "On click"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-6-0-0-0-0"
+                                                "path": "0-0-1-0-0-0-5-0-0-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -6495,8 +6495,8 @@
     "gitBranchName": "master",
     "_id": "C2-pm1jjcXfrt9x2DlC9t",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/17/2023",
-    "createdAt": "3/17/2023",
+    "updatedAt": "3/28/2023",
+    "createdAt": "3/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -11216,7 +11216,7 @@
       "label": "Comment (Write comment in text field or select from dropdown)",
       "variant": "body1",
       "name": "Label",
-      "mandatory": true,
+      "mandatory": false,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -11440,7 +11440,7 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "This field is required" },
+      "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
@@ -11605,7 +11605,7 @@
     "status": "ACTIVE",
     "attributes": {
       "label": "Back",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
       "fullWidth": true,
@@ -11642,7 +11642,7 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-1-0-0-0-6-0-0-0-0",
+    "path": "0-0-1-0-0-0-5-0-0-0-0",
     "screenId": "C2-pm1jjcXfrt9x2DlC9t",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

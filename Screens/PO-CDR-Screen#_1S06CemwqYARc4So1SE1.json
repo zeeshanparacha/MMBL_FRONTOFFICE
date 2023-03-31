@@ -5938,7 +5938,7 @@
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
                                                             "triggerName": "PO Request API",
                                                             "serviceType": "8",
                                                             "attributes": {
@@ -6016,7 +6016,7 @@
                                                                   "type": 1,
                                                                   "name": "Form",
                                                                   "key": "otherRepresentativeCity",
-                                                                  "value": "otherRepresentativeCity"
+                                                                  "value": "branch.name"
                                                                 },
                                                                 {
                                                                   "type": 1,
@@ -6046,11 +6046,11 @@
                                                               "baseURL": "631b0ff6d005932c10ce3bbe",
                                                               "storeType": 2
                                                             },
-                                                            "type": "4",
-                                                            "name": "On Submit"
+                                                            "type": "2",
+                                                            "name": "On click"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0"
+                                                        "path": "0-0-1-0-0-0-7-1-0-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -6671,8 +6671,8 @@
     "gitBranchName": "master",
     "_id": "_1S06CemwqYARc4So1SE1",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/17/2023",
-    "createdAt": "3/17/2023",
+    "updatedAt": "3/29/2023",
+    "createdAt": "3/29/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -11957,14 +11957,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+        "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
         "triggerName": "PO Request API",
-        "name": "On Submit",
-        "type": "4",
+        "name": "On click",
+        "type": "2",
         "serviceType": "8"
       }
     ],
-    "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-7-1-0-0-0-0-0",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

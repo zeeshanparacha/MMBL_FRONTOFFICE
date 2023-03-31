@@ -1,0 +1,42 @@
+{
+  "id": "QGZBTadRBj7l1n9PWKo_p",
+  "_id": "9-gBjwmxO6kpHJk6NZbz-",
+  "name": "add data grid for sole",
+  "old_name": "canvas.dataGrid.name",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "sole",
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "name", "value": "name" },
+            { "type": 1, "name": "Form", "key": "dob", "value": "dob" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "birthplace",
+              "value": "birthplace"
+            },
+            { "type": 1, "name": "Form", "key": "city", "value": "city" },
+            { "type": 1, "name": "Form", "key": "country", "value": "country" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "nationality",
+              "value": "nationality"
+            }
+          ],
+          "selectedObjectBindingKey": "selectedObject"
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/30/2023",
+  "createdAt": "3/30/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

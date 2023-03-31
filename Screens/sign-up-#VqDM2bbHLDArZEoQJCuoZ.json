@@ -25,7 +25,7 @@
         "id": "ni4_nn2YQK9c_99gMVjez",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "sign up ",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -61,7 +61,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "ncKeKasHqLOlcpgXSa31c",
+            "id": "n0mCFFc8EHDcWPKhvd_3Y",
             "gridProps": [
               {
                 "id": "c_bTUMhrhfISW59BhPmkB",
@@ -133,7 +133,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "F9k1eL9FnOjBzeig3ltRs",
+                            "id": "uUThPlU6_eJPx3PleLg84",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -493,7 +493,7 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Full Name",
+                                                                          "placeholder": "Company Name (as per registration)",
                                                                           "stateName": "fullname",
                                                                           "disableUnderline": true
                                                                         },
@@ -635,7 +635,7 @@
                                                                             "regexErrorMsg": "invalid email",
                                                                             "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
                                                                           },
-                                                                          "placeholder": "Email",
+                                                                          "placeholder": "Business Mailing Address",
                                                                           "stateName": "email",
                                                                           "disableUnderline": true
                                                                         },
@@ -829,7 +829,7 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Mobile No",
+                                                                          "placeholder": "Company  Telephone No",
                                                                           "stateName": "mobilenumber",
                                                                           "disableUnderline": true
                                                                         },
@@ -969,7 +969,7 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Company Name",
+                                                                          "placeholder": "City & Country",
                                                                           "disableUnderline": true,
                                                                           "stateName": "companyname"
                                                                         },
@@ -1034,20 +1034,20 @@
                                                               },
                                                               {
                                                                 "type": "10001",
-                                                                "name": "Grid layout",
+                                                                "name": "corporate text box widget",
                                                                 "id": "M6mp-4s3gn_njrpGhhkVp",
                                                                 "gridProps": [
                                                                   {
                                                                     "type": "column",
-                                                                    "id": "yyLu44EzOb10sLv2wxNia",
+                                                                    "id": "IGET_5fikd_qdPdy5QSvD",
                                                                     "gridProps": [
                                                                       {
                                                                         "id": "OArRSZnUXAAFKeLqb3SYI",
                                                                         "status": "ACTIVE",
-                                                                        "name": "Text Box",
+                                                                        "name": "company",
                                                                         "attributes": {
                                                                           "label": "",
-                                                                          "name": "Text box",
+                                                                          "name": "company",
                                                                           "label-locale-key": "",
                                                                           "maxLength": 20,
                                                                           "type": "text",
@@ -1147,7 +1147,7 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Company Address",
+                                                                          "placeholder": "Company  Fax No",
                                                                           "disableUnderline": true,
                                                                           "stateName": "companyaddress"
                                                                         },
@@ -1179,27 +1179,55 @@
                                                                   },
                                                                   {
                                                                     "type": "column",
-                                                                    "id": "04ondHmGlyXV2GtNBJLjf",
+                                                                    "id": "xZwqpBTC-n1v0_dKu3CxP",
                                                                     "gridProps": [
                                                                       {
-                                                                        "id": "r0OSILwUAw0hu0FVHxWDn",
-                                                                        "type": "20003",
-                                                                        "name": "Drop down",
+                                                                        "id": "RfspXmRbiuirBh-SEPL7E",
+                                                                        "type": "20004",
+                                                                        "name": "company",
                                                                         "component": {
-                                                                          "content": "Drop down",
-                                                                          "type": "20003"
+                                                                          "content": "Text Box",
+                                                                          "type": "20004"
                                                                         },
                                                                         "attributes": {
-                                                                          "name": "Drop down",
-                                                                          "stateName": "designation",
-                                                                          "allValues": true,
-                                                                          "dataSource": "",
-                                                                          "dataKey": "",
-                                                                          "dataValue": "",
+                                                                          "label": "",
+                                                                          "name": "company",
+                                                                          "label-locale-key": "",
+                                                                          "maxLength": 20,
+                                                                          "type": "text",
+                                                                          "variant": "standard",
+                                                                          "value": "",
+                                                                          "readOnly": false,
+                                                                          "tooltip": "",
+                                                                          "font-family": "Verdana",
                                                                           "mandatory": true,
+                                                                          "tooltipState": "",
+                                                                          "layoutProperties": {
+                                                                            "textField": {
+                                                                              "//": "Use this class to style text field component.",
+                                                                              "borderWidth": "1px",
+                                                                              "borderRadius": "27px",
+                                                                              "background-color": "#f5f5f5",
+                                                                              "color": "rgb(122 122 122)",
+                                                                              "border": "1px solid #ebe7e7",
+                                                                              "width": "90%"
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style  text field element.",
+                                                                              "paddingLeft": "10px",
+                                                                              "margin": "8px",
+                                                                              "color": "rgb(122 122 122)"
+                                                                            },
+                                                                            "mainContainer": "textField",
+                                                                            "xl": 6,
+                                                                            "lg": 6,
+                                                                            "md": 6,
+                                                                            "sm": 6,
+                                                                            "xs": 6
+                                                                          },
                                                                           "validate": {
                                                                             "required": true,
-                                                                            "errorMsg": "This Field is Required",
+                                                                            "errorMsg": "company address is required",
                                                                             "bindButton": [
                                                                               {
                                                                                 "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -1263,60 +1291,371 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "layoutProperties": {
-                                                                            "autocomplete": {
-                                                                              "//": "Use this class to style autocomplete component in dropdown."
-                                                                            },
-                                                                            "textField": {
-                                                                              "//": "Use this class to style text field component.",
-                                                                              "borderWidth": "1px",
-                                                                              "borderRadius": "27px",
-                                                                              "background-color": "#f5f5f5",
-                                                                              "color": "rgb(122 122 122)",
-                                                                              "border": "1px solid #ebe7e7",
-                                                                              "width": "90%",
-                                                                              "height": "48px"
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style  text field element.",
-                                                                              "paddingLeft": "10px",
-                                                                              "margin": "8px",
-                                                                              "color": "rgb(122 122 122)"
-                                                                            },
-                                                                            "mainContainer": "textField",
-                                                                            "xl": 6,
-                                                                            "lg": 6,
-                                                                            "md": 6,
-                                                                            "sm": 6,
-                                                                            "xs": 6
-                                                                          },
-                                                                          "dropdownOptions": [
-                                                                            {
-                                                                              "code": "cto",
-                                                                              "name": "CTO"
-                                                                            },
-                                                                            {
-                                                                              "code": "ceo",
-                                                                              "name": "CEO"
-                                                                            },
-                                                                            {
-                                                                              "code": "cfo",
-                                                                              "name": "CFO"
-                                                                            }
-                                                                          ],
-                                                                          "variant": "standard",
+                                                                          "placeholder": "Company  Email ID",
                                                                           "disableUnderline": true,
-                                                                          "storeType": 1,
-                                                                          "placeholder": "Select",
-                                                                          "cssClassNames": [],
-                                                                          "selectedDataType": 1,
-                                                                          "defaultKey": "designation"
+                                                                          "stateName": "companyaddress"
                                                                         },
                                                                         "events": [],
                                                                         "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
                                                                         "version": "1.0.0"
                                                                       }
                                                                     ],
+                                                                    "layoutProperties": {
+                                                                      "xl": 6,
+                                                                      "lg": 6,
+                                                                      "md": 6,
+                                                                      "sm": 6,
+                                                                      "xs": 6
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                },
+                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2",
+                                                                "dimensions": {
+                                                                  "rows": 1,
+                                                                  "columns": 2,
+                                                                  "colSize0xs": 6,
+                                                                  "colSize0sm": 6,
+                                                                  "colSize0md": 6,
+                                                                  "colSize0lg": 6,
+                                                                  "colSize0xl": 6,
+                                                                  "colSize1xs": 6,
+                                                                  "colSize1sm": 6,
+                                                                  "colSize1md": 6,
+                                                                  "colSize1lg": 6,
+                                                                  "colSize1xl": 6
+                                                                },
+                                                                "readOnly": true
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "corporate text box widget",
+                                                                "id": "0luUsF34VX_SczRmXEzDN",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "ljuUPuAXJPCn2BJ7Yej84",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 6,
+                                                                      "lg": 6,
+                                                                      "md": 6,
+                                                                      "sm": 6,
+                                                                      "xs": 6
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "vInUkGEPhpKdhgFaDDIv9",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 6,
+                                                                      "lg": 6,
+                                                                      "md": 6,
+                                                                      "sm": 6,
+                                                                      "xs": 6
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                },
+                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2",
+                                                                "dimensions": {
+                                                                  "rows": 1,
+                                                                  "columns": 2,
+                                                                  "colSize0xs": 6,
+                                                                  "colSize0sm": 6,
+                                                                  "colSize0md": 6,
+                                                                  "colSize0lg": 6,
+                                                                  "colSize0xl": 6,
+                                                                  "colSize1xs": 6,
+                                                                  "colSize1sm": 6,
+                                                                  "colSize1md": 6,
+                                                                  "colSize1lg": 6,
+                                                                  "colSize1xl": 6
+                                                                },
+                                                                "readOnly": true
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "Grid layout",
+                                                                "id": "ao0mGbTFuzAMeXQGOI8Sf",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "pGDDEaFDRR1yPllPXOMaS",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 12,
+                                                                      "lg": 12,
+                                                                      "md": 12,
+                                                                      "sm": 12,
+                                                                      "xs": 12
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                }
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "Grid layout",
+                                                                "id": "bg8gqR3kLUGqHSmSZMR24",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "O_eclfM59hWuran2DeUwq",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 12,
+                                                                      "lg": 12,
+                                                                      "md": 12,
+                                                                      "sm": 12,
+                                                                      "xs": 12
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                }
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "Grid layout",
+                                                                "id": "WkCxMLnb8WGn0wxyS71Xh",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "lAQo7Uzi5YepPsSap4OXf",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 12,
+                                                                      "lg": 12,
+                                                                      "md": 12,
+                                                                      "sm": 12,
+                                                                      "xs": 12
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                }
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "Grid layout",
+                                                                "id": "QYdUJb_r37xfd8btPu3pO",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "t_1uP0hQhvoZK4uUUr_DX",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 12,
+                                                                      "lg": 12,
+                                                                      "md": 12,
+                                                                      "sm": 12,
+                                                                      "xs": 12
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "events": [],
+                                                                "component": {
+                                                                  "type": "10001",
+                                                                  "content": "Grid layout"
+                                                                }
+                                                              },
+                                                              {
+                                                                "type": "10001",
+                                                                "name": "Grid layout",
+                                                                "id": "niqSY55bYnPS0yO6uXYL6",
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "2bLAxwRmQwZumVgDBMN4c",
+                                                                    "gridProps": [],
+                                                                    "layoutProperties": {
+                                                                      "xl": 6,
+                                                                      "lg": 6,
+                                                                      "md": 6,
+                                                                      "sm": 6,
+                                                                      "xs": 6
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "0ui-rlQ5P_5p9ul4MQYzu",
+                                                                    "gridProps": [],
                                                                     "layoutProperties": {
                                                                       "xl": 6,
                                                                       "lg": 6,
@@ -2075,8 +2414,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -2123,7 +2461,7 @@
                           "colSize0lg": 12,
                           "colSize0xl": 12
                         },
-                        "readOnly": false
+                        "readOnly": true
                       }
                     ],
                     "layoutProperties": {
@@ -2169,13 +2507,13 @@
     "gitBranchName": "master",
     "_id": "VqDM2bbHLDArZEoQJCuoZ",
     "createdBy": "areeb",
-    "updatedAt": "3/22/2023",
-    "createdAt": "3/22/2023",
+    "updatedAt": "3/31/2023",
+    "createdAt": "3/31/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "ni4_nn2YQK9c_99gMVjez",
-    "name": "Grid layout",
+    "name": "sign up ",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -2815,6 +3153,120 @@
           }
         },
         {
+          "componentId": "0luUsF34VX_SczRmXEzDN",
+          "componentType": "10001",
+          "id": "0luUsF34VX_SczRmXEzDN",
+          "position": {
+            "i": "0luUsF34VX_SczRmXEzDN",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "ao0mGbTFuzAMeXQGOI8Sf",
+          "componentType": "10001",
+          "id": "ao0mGbTFuzAMeXQGOI8Sf",
+          "position": {
+            "i": "ao0mGbTFuzAMeXQGOI8Sf",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "bg8gqR3kLUGqHSmSZMR24",
+          "componentType": "10001",
+          "id": "bg8gqR3kLUGqHSmSZMR24",
+          "position": {
+            "i": "bg8gqR3kLUGqHSmSZMR24",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "WkCxMLnb8WGn0wxyS71Xh",
+          "componentType": "10001",
+          "id": "WkCxMLnb8WGn0wxyS71Xh",
+          "position": {
+            "i": "WkCxMLnb8WGn0wxyS71Xh",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "QYdUJb_r37xfd8btPu3pO",
+          "componentType": "10001",
+          "id": "QYdUJb_r37xfd8btPu3pO",
+          "position": {
+            "i": "QYdUJb_r37xfd8btPu3pO",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "niqSY55bYnPS0yO6uXYL6",
+          "componentType": "10001",
+          "id": "niqSY55bYnPS0yO6uXYL6",
+          "position": {
+            "i": "niqSY55bYnPS0yO6uXYL6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
           "componentId": "uS_7HMOCwVkA604Un2Y_U",
           "componentType": "10001",
           "id": "uS_7HMOCwVkA604Un2Y_U",
@@ -3003,7 +3455,7 @@
           }
         ]
       },
-      "placeholder": "Full Name",
+      "placeholder": "Company Name (as per registration)",
       "stateName": "fullname",
       "disableUnderline": true
     },
@@ -3126,7 +3578,7 @@
         "regexErrorMsg": "invalid email",
         "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
       },
-      "placeholder": "Email",
+      "placeholder": "Business Mailing Address",
       "stateName": "email",
       "disableUnderline": true
     },
@@ -3292,7 +3744,7 @@
           }
         ]
       },
-      "placeholder": "Mobile No",
+      "placeholder": "Company  Telephone No",
       "stateName": "mobilenumber",
       "disableUnderline": true
     },
@@ -3413,7 +3865,7 @@
           }
         ]
       },
-      "placeholder": "Company Name",
+      "placeholder": "City & Country",
       "disableUnderline": true,
       "stateName": "companyname"
     },
@@ -3438,7 +3890,7 @@
   },
   {
     "id": "M6mp-4s3gn_njrpGhhkVp",
-    "name": "Grid layout",
+    "name": "corporate text box widget",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -3450,8 +3902,8 @@
         },
         {
           "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
-          "componentId": "r0OSILwUAw0hu0FVHxWDn",
-          "componentType": "20003",
+          "componentId": "RfspXmRbiuirBh-SEPL7E",
+          "componentType": "20004",
           "order": 1
         }
       ],
@@ -3484,10 +3936,10 @@
   {
     "id": "OArRSZnUXAAFKeLqb3SYI",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "company",
     "attributes": {
       "label": "",
-      "name": "Text box",
+      "name": "company",
       "label-locale-key": "",
       "maxLength": 20,
       "type": "text",
@@ -3579,7 +4031,7 @@
           }
         ]
       },
-      "placeholder": "Company Address",
+      "placeholder": "Company  Fax No",
       "disableUnderline": true,
       "stateName": "companyaddress"
     },
@@ -3603,21 +4055,49 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "r0OSILwUAw0hu0FVHxWDn",
-    "type": "20003",
-    "name": "Drop down",
-    "component": { "content": "Drop down", "type": "20003" },
+    "id": "RfspXmRbiuirBh-SEPL7E",
+    "type": "20004",
+    "name": "company",
+    "component": { "content": "Text Box", "type": "20004" },
     "attributes": {
-      "name": "Drop down",
-      "stateName": "designation",
-      "allValues": true,
-      "dataSource": "",
-      "dataKey": "",
-      "dataValue": "",
+      "label": "",
+      "name": "company",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
       "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "borderWidth": "1px",
+          "borderRadius": "27px",
+          "background-color": "#f5f5f5",
+          "color": "rgb(122 122 122)",
+          "border": "1px solid #ebe7e7",
+          "width": "90%"
+        },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
       "validate": {
         "required": true,
-        "errorMsg": "This Field is Required",
+        "errorMsg": "company address is required",
         "bindButton": [
           {
             "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -3673,45 +4153,9 @@
           }
         ]
       },
-      "layoutProperties": {
-        "autocomplete": {
-          "//": "Use this class to style autocomplete component in dropdown."
-        },
-        "textField": {
-          "//": "Use this class to style text field component.",
-          "borderWidth": "1px",
-          "borderRadius": "27px",
-          "background-color": "#f5f5f5",
-          "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
-          "width": "90%",
-          "height": "48px"
-        },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "10px",
-          "margin": "8px",
-          "color": "rgb(122 122 122)"
-        },
-        "mainContainer": "textField",
-        "xl": 6,
-        "lg": 6,
-        "md": 6,
-        "sm": 6,
-        "xs": 6
-      },
-      "dropdownOptions": [
-        { "code": "cto", "name": "CTO" },
-        { "code": "ceo", "name": "CEO" },
-        { "code": "cfo", "name": "CFO" }
-      ],
-      "variant": "standard",
+      "placeholder": "Company  Email ID",
       "disableUnderline": true,
-      "storeType": 1,
-      "placeholder": "Select",
-      "cssClassNames": [],
-      "selectedDataType": 1,
-      "defaultKey": "designation"
+      "stateName": "companyaddress"
     },
     "events": [],
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
@@ -3719,6 +4163,198 @@
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0luUsF34VX_SczRmXEzDN",
+    "name": "corporate text box widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ao0mGbTFuzAMeXQGOI8Sf",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "bg8gqR3kLUGqHSmSZMR24",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WkCxMLnb8WGn0wxyS71Xh",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QYdUJb_r37xfd8btPu3pO",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "niqSY55bYnPS0yO6uXYL6",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "VqDM2bbHLDArZEoQJCuoZ",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

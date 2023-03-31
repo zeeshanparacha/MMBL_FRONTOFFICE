@@ -183,7 +183,7 @@
                 "id": "-Qabog1zjYZo8-QiNLeXo",
                 "status": "ACTIVE",
                 "_id": "610134a1d1f5e860b1e8c751",
-                "name": "Grid layout",
+                "name": "RTGS Pending View Detail",
                 "icon": "FaGripHorizontal",
                 "attributes": {
                   "gridProps": [],
@@ -223,11 +223,11 @@
                   "widget"
                 ],
                 "component": { "content": "Grid layout", "type": "10001" },
-                "path": "0-0-2",
+                "path": "0-0-1",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "PJM-Re4OPNGX3y6VLD2mV",
+                    "id": "JWvuQb-S2qOdH9qnUvaUQ",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -567,7 +567,8 @@
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element."
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -614,7 +615,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-0-0-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-0-0-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -1259,7 +1260,8 @@
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element."
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -1306,7 +1308,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-0-2-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-0-2-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -2382,7 +2384,8 @@
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element."
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -2429,7 +2432,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-1-2-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -3771,8 +3774,7 @@
                                                       "padding": "0 15px"
                                                     },
                                                     "inputProps": {
-                                                      "//": "Use this class to style dropdown element.",
-                                                      "paddingLeft": "8px"
+                                                      "//": "Use this class to style dropdown element."
                                                     },
                                                     "mainContainer": "autocomplete",
                                                     "xl": 12,
@@ -3823,7 +3825,7 @@
                                                     "name": "On change"
                                                   }
                                                 ],
-                                                "path": "0-0-4-0-1-0-0",
+                                                "path": "0-0-1-0-0-0-4-0-1-0-0",
                                                 "version": "1.0.0"
                                               }
                                             ],
@@ -4720,8 +4722,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-2-0"
+                    }
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -4781,8 +4782,8 @@
     "gitBranchName": "master",
     "_id": "b4-Mao8-kjT58p7vQe2ul",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/17/2023",
-    "createdAt": "3/17/2023",
+    "updatedAt": "3/29/2023",
+    "createdAt": "3/29/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4947,7 +4948,7 @@
   },
   {
     "id": "-Qabog1zjYZo8-QiNLeXo",
-    "name": "Grid layout",
+    "name": "RTGS Pending View Detail",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -5605,7 +5606,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -5636,7 +5640,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-0-0-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-0-0-0-1-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -6187,7 +6191,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -6218,7 +6225,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-0-2-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-2-0-0-1-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -7159,7 +7166,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -7190,7 +7200,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-1-2-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -8294,10 +8304,7 @@
           "width": "97.5%",
           "padding": "0 15px"
         },
-        "inputProps": {
-          "//": "Use this class to style dropdown element.",
-          "paddingLeft": "8px"
-        },
+        "inputProps": { "//": "Use this class to style dropdown element." },
         "mainContainer": "autocomplete",
         "xl": 12,
         "lg": 12,
@@ -8326,7 +8333,7 @@
         "serviceType": "11"
       }
     ],
-    "path": "0-0-4-0-1-0-0",
+    "path": "0-0-1-0-0-0-4-0-1-0-0",
     "version": "1.0.0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
