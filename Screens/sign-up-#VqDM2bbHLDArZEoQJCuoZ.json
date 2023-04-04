@@ -493,8 +493,8 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Company Name (as per registration)",
-                                                                          "stateName": "fullname",
+                                                                          "placeholder": "Full name",
+                                                                          "stateName": "fullName",
                                                                           "disableUnderline": true
                                                                         },
                                                                         "icon": "FaWindowMinimize",
@@ -528,25 +528,31 @@
                                                                     "id": "dW7M8J5iKFyDBTxzuGZ1q",
                                                                     "gridProps": [
                                                                       {
-                                                                        "id": "Shvu-K4tMZ7m7_ji-XuS4",
+                                                                        "id": "rtti4gCHD3SjGHN_8N5Fr",
                                                                         "status": "ACTIVE",
-                                                                        "name": "Text Box",
+                                                                        "name": "Drop down",
+                                                                        "icon": "FaCaretSquareDown",
+                                                                        "group": "Form",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
                                                                         "attributes": {
-                                                                          "label": "",
-                                                                          "name": "Text box",
-                                                                          "label-locale-key": "",
-                                                                          "maxLength": "100",
-                                                                          "type": "text",
-                                                                          "variant": "standard",
-                                                                          "value": "",
-                                                                          "readOnly": false,
-                                                                          "tooltip": "",
-                                                                          "font-family": "Verdana",
+                                                                          "name": "Drop down",
+                                                                          "stateName": "designation",
+                                                                          "allValues": true,
+                                                                          "dataSource": "designation",
+                                                                          "dataKey": "value",
+                                                                          "dataValue": "displayName",
                                                                           "mandatory": true,
-                                                                          "tooltipState": "",
+                                                                          "validate": {
+                                                                            "required": false,
+                                                                            "errorMsg": "This Field is Required"
+                                                                          },
                                                                           "layoutProperties": {
+                                                                            "autocomplete": {
+                                                                              "//": "Use this class to style autocomplete component in dropdown."
+                                                                            },
                                                                             "textField": {
-                                                                              "//": "Use this class to style text field component.",
+                                                                              "//": "Use this class to style textField component in dropdown.",
                                                                               "borderWidth": "1px",
                                                                               "borderRadius": "27px",
                                                                               "background-color": "#f5f5f5",
@@ -555,105 +561,73 @@
                                                                               "width": "90%"
                                                                             },
                                                                             "inputProps": {
-                                                                              "//": "Use this class to style  text field element.",
-                                                                              "paddingLeft": "10px",
-                                                                              "margin": "8px",
-                                                                              "color": "rgb(122 122 122)"
+                                                                              "//": "Use this class to style dropdown element."
                                                                             },
-                                                                            "mainContainer": "textField",
+                                                                            "mainContainer": "autocomplete",
                                                                             "xl": 6,
                                                                             "lg": 6,
                                                                             "md": 6,
                                                                             "sm": 6,
                                                                             "xs": 6
                                                                           },
-                                                                          "validate": {
-                                                                            "required": true,
-                                                                            "errorMsg": "email is required",
-                                                                            "bindButton": [
-                                                                              {
-                                                                                "id": "QkXHmQUlBDoP0fvbdnBkK",
-                                                                                "type": "20006",
-                                                                                "name": "Submit_btn",
-                                                                                "component": {
-                                                                                  "content": "Button",
-                                                                                  "type": "20006"
-                                                                                },
-                                                                                "attributes": {
-                                                                                  "label": "Submit",
-                                                                                  "variant": "contained",
-                                                                                  "name": "Submit_btn",
-                                                                                  "label-locale-key": "",
-                                                                                  "fullWidth": true,
-                                                                                  "layoutProperties": {
-                                                                                    "button": {
-                                                                                      "//": "Use this class to style button component.",
-                                                                                      "color": "#ffffff",
-                                                                                      "background": "#DA0006",
-                                                                                      "borderRadius": "50px",
-                                                                                      "padding": "12px"
-                                                                                    },
-                                                                                    "inputProps": {
-                                                                                      "//": "Use this class to style button element."
-                                                                                    },
-                                                                                    "mainContainer": "button",
-                                                                                    "xl": 12,
-                                                                                    "lg": 12,
-                                                                                    "md": 12,
-                                                                                    "sm": 12,
-                                                                                    "xs": 12
-                                                                                  },
-                                                                                  "disableCondition": {
-                                                                                    "logic": {
-                                                                                      "==": [
-                                                                                        {
-                                                                                          "var": "currentScreen.otpResponse.status"
-                                                                                        },
-                                                                                        1
-                                                                                      ]
-                                                                                    }
-                                                                                  }
-                                                                                },
-                                                                                "events": [
-                                                                                  {
-                                                                                    "triggerId": "dsTyrjRbzll0-aTvkCkK6",
-                                                                                    "triggerName": "corporate opening details post request",
-                                                                                    "name": "On Submit",
-                                                                                    "type": "4",
-                                                                                    "serviceType": "8"
-                                                                                  }
-                                                                                ],
-                                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
-                                                                                "version": "1.0.0",
-                                                                                "screenId": "VqDM2bbHLDArZEoQJCuoZ",
-                                                                                "subType": "component",
-                                                                                "projectId": "63f4845e476fc83100e3a899",
-                                                                                "gitBranchName": "master",
-                                                                                "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                              }
-                                                                            ],
-                                                                            "regexErrorMsg": "invalid email",
-                                                                            "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
-                                                                          },
-                                                                          "placeholder": "Business Mailing Address",
-                                                                          "stateName": "email",
-                                                                          "disableUnderline": true
+                                                                          "dropdownOptions": [],
+                                                                          "variant": "outlined",
+                                                                          "selectedDataType": 0,
+                                                                          "disableUnderline": true,
+                                                                          "storeType": 2
                                                                         },
-                                                                        "icon": "FaWindowMinimize",
-                                                                        "group": "Form",
-                                                                        "type": "20004",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 20,
+                                                                        "type": "20003",
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "zciKQrhFurZokLB6XT-8n",
+                                                                            "triggerName": "Designation api ",
+                                                                            "serviceType": "8",
+                                                                            "attributes": {
+                                                                              "loaderWidgetIds": [
+                                                                                906070
+                                                                              ],
+                                                                              "messageWidgetIds": [
+                                                                                906070
+                                                                              ],
+                                                                              "responseStateKey": "designation",
+                                                                              "responseReturnValue": "data.result.lookupValue",
+                                                                              "url": "/lookup/values",
+                                                                              "checksum": true,
+                                                                              "encryption": true,
+                                                                              "isDeviceDetails": true,
+                                                                              "loginTrigger": false,
+                                                                              "formData": false,
+                                                                              "logoutTrigger": false,
+                                                                              "headers": {
+                                                                                "Content-Type": "application/json",
+                                                                                "Accept": "application/json",
+                                                                                "channel_key": "001",
+                                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                "locale": "en-ltr"
+                                                                              },
+                                                                              "requestBody": [
+                                                                                {
+                                                                                  "type": 4,
+                                                                                  "name": "Static",
+                                                                                  "key": "lookupType",
+                                                                                  "value": "designation"
+                                                                                }
+                                                                              ],
+                                                                              "baseURL": "641aedb2676c823a449fd597",
+                                                                              "storeType": 2
+                                                                            },
+                                                                            "type": "1",
+                                                                            "name": "On initialization"
+                                                                          }
+                                                                        ],
+                                                                        "order": 10,
                                                                         "version": "1.0.0",
                                                                         "isLatest": true,
                                                                         "projectType": "web",
                                                                         "component": {
-                                                                          "content": "Text Box",
-                                                                          "type": "20004"
+                                                                          "content": "Drop down",
+                                                                          "type": "20003"
                                                                         },
-                                                                        "events": [],
                                                                         "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0"
                                                                       }
                                                                     ],
@@ -829,8 +803,8 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Company  Telephone No",
-                                                                          "stateName": "mobilenumber",
+                                                                          "placeholder": "Mobile No",
+                                                                          "stateName": "mobileNumber",
                                                                           "disableUnderline": true
                                                                         },
                                                                         "icon": "FaWindowMinimize",
@@ -969,9 +943,9 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "City & Country",
+                                                                          "placeholder": "Company Name",
                                                                           "disableUnderline": true,
-                                                                          "stateName": "companyname"
+                                                                          "stateName": "companyName"
                                                                         },
                                                                         "icon": "FaWindowMinimize",
                                                                         "group": "Form",
@@ -1147,9 +1121,9 @@
                                                                               }
                                                                             ]
                                                                           },
-                                                                          "placeholder": "Company  Fax No",
+                                                                          "placeholder": "Company Address",
                                                                           "disableUnderline": true,
-                                                                          "stateName": "companyaddress"
+                                                                          "stateName": "companyAddress"
                                                                         },
                                                                         "icon": "FaWindowMinimize",
                                                                         "group": "Form",
@@ -1193,7 +1167,7 @@
                                                                           "label": "",
                                                                           "name": "company",
                                                                           "label-locale-key": "",
-                                                                          "maxLength": 20,
+                                                                          "maxLength": "100",
                                                                           "type": "text",
                                                                           "variant": "standard",
                                                                           "value": "",
@@ -1227,7 +1201,7 @@
                                                                           },
                                                                           "validate": {
                                                                             "required": true,
-                                                                            "errorMsg": "company address is required",
+                                                                            "errorMsg": "invalid email",
                                                                             "bindButton": [
                                                                               {
                                                                                 "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -1289,11 +1263,12 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
                                                                           },
-                                                                          "placeholder": "Company  Email ID",
+                                                                          "placeholder": "Email Address",
                                                                           "disableUnderline": true,
-                                                                          "stateName": "companyaddress"
+                                                                          "stateName": "email"
                                                                         },
                                                                         "events": [],
                                                                         "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
@@ -1828,7 +1803,7 @@
                                                                                     "name": "On Submit"
                                                                                   }
                                                                                 ],
-                                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+                                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-9-0-0-0-0",
                                                                                 "version": "1.0.0"
                                                                               }
                                                                             ],
@@ -3326,8 +3301,8 @@
         },
         {
           "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
-          "componentId": "Shvu-K4tMZ7m7_ji-XuS4",
-          "componentType": "20004",
+          "componentId": "rtti4gCHD3SjGHN_8N5Fr",
+          "componentType": "20003",
           "order": 1
         }
       ],
@@ -3455,8 +3430,8 @@
           }
         ]
       },
-      "placeholder": "Company Name (as per registration)",
-      "stateName": "fullname",
+      "placeholder": "Full name",
+      "stateName": "fullName",
       "disableUnderline": true
     },
     "icon": "FaWindowMinimize",
@@ -3479,25 +3454,28 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Shvu-K4tMZ7m7_ji-XuS4",
+    "id": "rtti4gCHD3SjGHN_8N5Fr",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
     "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": "100",
-      "type": "text",
-      "variant": "standard",
-      "value": "",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
+      "name": "Drop down",
+      "stateName": "designation",
+      "allValues": true,
+      "dataSource": "designation",
+      "dataKey": "value",
+      "dataValue": "displayName",
       "mandatory": true,
-      "tooltipState": "",
+      "validate": { "required": false, "errorMsg": "This Field is Required" },
       "layoutProperties": {
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
+        },
         "textField": {
-          "//": "Use this class to style text field component.",
+          "//": "Use this class to style textField component in dropdown.",
           "borderWidth": "1px",
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
@@ -3505,95 +3483,35 @@
           "border": "1px solid #ebe7e7",
           "width": "90%"
         },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "10px",
-          "margin": "8px",
-          "color": "rgb(122 122 122)"
-        },
-        "mainContainer": "textField",
+        "inputProps": { "//": "Use this class to style dropdown element." },
+        "mainContainer": "autocomplete",
         "xl": 6,
         "lg": 6,
         "md": 6,
         "sm": 6,
         "xs": 6
       },
-      "validate": {
-        "required": true,
-        "errorMsg": "email is required",
-        "bindButton": [
-          {
-            "id": "QkXHmQUlBDoP0fvbdnBkK",
-            "type": "20006",
-            "name": "Submit_btn",
-            "component": { "content": "Button", "type": "20006" },
-            "attributes": {
-              "label": "Submit",
-              "variant": "contained",
-              "name": "Submit_btn",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "color": "#ffffff",
-                  "background": "#DA0006",
-                  "borderRadius": "50px",
-                  "padding": "12px"
-                },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "disableCondition": {
-                "logic": {
-                  "==": [{ "var": "currentScreen.otpResponse.status" }, 1]
-                }
-              }
-            },
-            "events": [
-              {
-                "triggerId": "dsTyrjRbzll0-aTvkCkK6",
-                "triggerName": "corporate opening details post request",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
-            "version": "1.0.0",
-            "screenId": "VqDM2bbHLDArZEoQJCuoZ",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ],
-        "regexErrorMsg": "invalid email",
-        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
-      },
-      "placeholder": "Business Mailing Address",
-      "stateName": "email",
-      "disableUnderline": true
+      "dropdownOptions": [],
+      "variant": "outlined",
+      "selectedDataType": 0,
+      "disableUnderline": true,
+      "storeType": 2
     },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
+    "type": "20003",
+    "events": [
+      {
+        "triggerId": "zciKQrhFurZokLB6XT-8n",
+        "triggerName": "Designation api ",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "8"
+      }
+    ],
+    "order": 10,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
-    "events": [],
+    "component": { "content": "Drop down", "type": "20003" },
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0",
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "subType": "component",
@@ -3744,8 +3662,8 @@
           }
         ]
       },
-      "placeholder": "Company  Telephone No",
-      "stateName": "mobilenumber",
+      "placeholder": "Mobile No",
+      "stateName": "mobileNumber",
       "disableUnderline": true
     },
     "icon": "FaWindowMinimize",
@@ -3865,9 +3783,9 @@
           }
         ]
       },
-      "placeholder": "City & Country",
+      "placeholder": "Company Name",
       "disableUnderline": true,
-      "stateName": "companyname"
+      "stateName": "companyName"
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -4031,9 +3949,9 @@
           }
         ]
       },
-      "placeholder": "Company  Fax No",
+      "placeholder": "Company Address",
       "disableUnderline": true,
-      "stateName": "companyaddress"
+      "stateName": "companyAddress"
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -4063,7 +3981,7 @@
       "label": "",
       "name": "company",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -4097,7 +4015,7 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "company address is required",
+        "errorMsg": "invalid email",
         "bindButton": [
           {
             "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -4151,11 +4069,12 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
       },
-      "placeholder": "Company  Email ID",
+      "placeholder": "Email Address",
       "disableUnderline": true,
-      "stateName": "companyaddress"
+      "stateName": "email"
     },
     "events": [],
     "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
@@ -4503,7 +4422,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-3-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-9-0-0-0-0",
     "version": "1.0.0",
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "subType": "component",

@@ -611,7 +611,7 @@
                                                   "dataSource": "pricingModel",
                                                   "dataKey": "id",
                                                   "dataValue": "name",
-                                                  "mandatory": true,
+                                                  "mandatory": false,
                                                   "validate": {
                                                     "required": false,
                                                     "errorMsg": "This Field is Required"
@@ -651,7 +651,8 @@
                                                       "cssClassName": "card_dropdown"
                                                     }
                                                   ],
-                                                  "selectedDataType": 0
+                                                  "selectedDataType": 0,
+                                                  "multiSelect": false
                                                 },
                                                 "type": "20003",
                                                 "events": [
@@ -938,7 +939,8 @@
                                                       "cssClassName": "card_dropdown"
                                                     }
                                                   ],
-                                                  "selectedDataType": 0
+                                                  "selectedDataType": 0,
+                                                  "multiSelect": true
                                                 },
                                                 "type": "20003",
                                                 "events": [],
@@ -1566,9 +1568,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "zeeshan",
-    "updatedAt": "3/30/2023",
-    "createdAt": "3/30/2023",
+    "createdBy": "areeb",
+    "updatedAt": "4/4/2023",
+    "createdAt": "4/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2230,7 +2232,7 @@
       "dataSource": "pricingModel",
       "dataKey": "id",
       "dataValue": "name",
-      "mandatory": true,
+      "mandatory": false,
       "validate": { "required": false, "errorMsg": "This Field is Required" },
       "layoutProperties": {
         "autocomplete": {
@@ -2263,7 +2265,8 @@
       "storeType": 2,
       "placeholder": "Select",
       "cssClassNames": [{ "cssClassName": "card_dropdown" }],
-      "selectedDataType": 0
+      "selectedDataType": 0,
+      "multiSelect": false
     },
     "type": "20003",
     "events": [
@@ -2534,7 +2537,8 @@
       "storeType": 1,
       "placeholder": "Select",
       "cssClassNames": [{ "cssClassName": "card_dropdown" }],
-      "selectedDataType": 0
+      "selectedDataType": 0,
+      "multiSelect": true
     },
     "type": "20003",
     "events": [],

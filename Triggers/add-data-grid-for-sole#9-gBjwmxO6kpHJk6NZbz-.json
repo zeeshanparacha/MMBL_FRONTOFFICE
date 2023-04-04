@@ -2,7 +2,7 @@
   "id": "QGZBTadRBj7l1n9PWKo_p",
   "_id": "9-gBjwmxO6kpHJk6NZbz-",
   "name": "add data grid for sole",
-  "old_name": "canvas.dataGrid.name",
+  "old_name": "add data grid for sole",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -13,21 +13,59 @@
         "attributes": {
           "stateName": "sole",
           "requestBody": [
-            { "type": 1, "name": "Form", "key": "name", "value": "name" },
-            { "type": 1, "name": "Form", "key": "dob", "value": "dob" },
             {
               "type": 1,
               "name": "Form",
-              "key": "birthplace",
-              "value": "birthplace"
+              "key": "customerName",
+              "value": "customerName"
             },
-            { "type": 1, "name": "Form", "key": "city", "value": "city" },
-            { "type": 1, "name": "Form", "key": "country", "value": "country" },
             {
               "type": 1,
               "name": "Form",
-              "key": "nationality",
-              "value": "nationality"
+              "key": "customerDOB",
+              "value": "customerDOB"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerBirthPlace",
+              "value": "customerBirthPlace"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerCity",
+              "value": "customerCity"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerCountry",
+              "value": "customerCountry"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerNationality",
+              "value": "customerNationality"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerLegalId",
+              "value": "customerLegalId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "ntnDocId",
+              "value": "uploadFileResponse.data.result.docId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "areYouPoliticallyInvolved",
+              "value": "areYouPoliticallyInvolved.code"
             }
           ],
           "selectedObjectBindingKey": "selectedObject"
@@ -35,8 +73,8 @@
       }
     }
   ],
-  "updatedAt": "3/30/2023",
-  "createdAt": "3/30/2023",
+  "updatedAt": "4/1/2023",
+  "createdAt": "4/1/2023",
   "createdBy": "areeb",
   "updatedBy": "areeb"
 }
