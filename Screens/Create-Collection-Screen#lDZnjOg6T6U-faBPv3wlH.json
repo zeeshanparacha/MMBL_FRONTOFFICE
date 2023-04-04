@@ -1556,79 +1556,250 @@
                     "gridProps": [
                       {
                         "type": "10001",
-                        "id": "CTecRQDX7A4453TjJWhqA",
+                        "name": "Grid layout",
+                        "id": "r8feO_sDjZhRo--PsEhWf",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "xPcxOqVc8yhP-HgXEUkcc",
+                            "id": "TVKOmVfF3F9XsjDPb0LsP",
                             "gridProps": [
                               {
-                                "id": "WLfRWkfDPeg_zy533BOox",
-                                "status": "ACTIVE",
-                                "name": "Label",
-                                "attributes": {
-                                  "label": "collectionResponse.collectionSchemeMessage",
-                                  "variant": "body1",
-                                  "name": "Label",
-                                  "mandatory": false,
-                                  "layoutProperties": {
-                                    "label": {
-                                      "//": "Use this class to style label component.",
-                                      "fontSize": "12px",
-                                      "fontWeight": "600"
-                                    },
-                                    "mainContainer": "label",
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
+                                "type": "10001",
+                                "id": "CTecRQDX7A4453TjJWhqA",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "OzHCN46iS9t0kFVyi4Y5d",
+                                    "gridProps": [
+                                      {
+                                        "id": "7fdTtnVgZVxiHnAYBlRJr",
+                                        "type": "20002",
+                                        "name": "Label",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "attributes": {
+                                          "label": "collectionResponse.collectionSchemeMessage",
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component.",
+                                              "fontSize": "12px",
+                                              "paddingLeft": "40px",
+                                              "fontWeight": "600"
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 11,
+                                            "lg": 11,
+                                            "md": 11,
+                                            "sm": 11,
+                                            "xs": 11
+                                          },
+                                          "prefix": "Profit Margin Scheme: ",
+                                          "cssClassNames": [],
+                                          "searchInState": true,
+                                          "storeType": 2,
+                                          "hideCondition": {}
+                                        },
+                                        "events": [],
+                                        "path": "0-0-3-0-0-0-1-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 11,
+                                      "lg": 11,
+                                      "md": 11,
+                                      "sm": 11,
+                                      "xs": 11
+                                    }
                                   },
-                                  "prefix": "Profit Margin Scheme: ",
+                                  {
+                                    "type": "column",
+                                    "id": "tHt8vZkM4_jNxppzEBDaX",
+                                    "gridProps": [
+                                      {
+                                        "id": "TDG850GYnMnF-mR6R2v3G",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "height": "12px",
+                                              "paddingLeft": "30px",
+                                              "cursor": "pointer"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 1,
+                                            "lg": 1,
+                                            "md": 1,
+                                            "sm": 1,
+                                            "xs": 1
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "ahmerjavedkhan",
+                                            "_id": "642c65dc6d1206270c03162c",
+                                            "name": "Black_cross.png",
+                                            "type": "png",
+                                            "projectId": "63f4845e476fc83100e3a899",
+                                            "id": "Rz3UxYlLrf1fpxUYCgevg",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/Black_cross.png",
+                                            "canvasUrl": "web/Black_cross.png",
+                                            "createdAt": "2023-04-04T18:01:00.309Z",
+                                            "updatedAt": "2023-04-04T18:01:00.309Z",
+                                            "__v": 0,
+                                            "uri": "web/Black_cross.png"
+                                          },
+                                          "imageAssetId": "Rz3UxYlLrf1fpxUYCgevg",
+                                          "stateName": null,
+                                          "storeType": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "vbGqKGxadCcoL_l3O2lPV",
+                                            "triggerName": "Clear Profit Margin Scheme Value",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "collectionSchemeMessage",
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": ""
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-3-0-0-0-0-1-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 1,
+                                      "lg": 1,
+                                      "md": 1,
+                                      "sm": 1,
+                                      "xs": 1
+                                    }
+                                  }
+                                ],
+                                "path": "0-0-3-0-0-0-0",
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout",
                                   "cssClassNames": [
                                     { "cssClassName": "notice " }
                                   ],
-                                  "searchInState": true,
-                                  "storeType": 2,
                                   "hideCondition": {
                                     "logic": {
                                       "<": [
                                         {
-                                          "var": "currentScreen.collectionResponse.collectionSchemeMessage.length"
+                                          "var": "currentScreen.collectionSchemeMessage.length"
                                         },
                                         1
                                       ]
                                     }
                                   }
                                 },
-                                "icon": "FaFont",
-                                "group": "Form",
-                                "type": "20002",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 15,
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
                                 "component": {
-                                  "content": "Label",
-                                  "type": "20002"
+                                  "type": "10001",
+                                  "content": "Grid layout"
                                 },
-                                "events": [],
-                                "path": "0-0-3-0-0-0-0"
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 2,
+                                  "colSize0xs": 11,
+                                  "colSize0sm": 11,
+                                  "colSize0md": 11,
+                                  "colSize0lg": 11,
+                                  "colSize0xl": 11,
+                                  "colSize1xs": 1,
+                                  "colSize1sm": 1,
+                                  "colSize1md": 1,
+                                  "colSize1lg": 1,
+                                  "colSize1xl": 1
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 12,
-                              "lg": 12,
-                              "md": 12,
-                              "sm": 12,
-                              "xs": 12
+                              "xl": 10,
+                              "lg": 10,
+                              "md": 10,
+                              "sm": 10,
+                              "xs": 10
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "ce3LvglGWemFL0XrEq9zG",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
                             }
                           }
                         ],
-                        "path": "0-0-3-0-0",
-                        "events": [],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
                         "attributes": {
                           "gridProps": [],
                           "label": "Header",
@@ -1646,29 +1817,27 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout",
-                          "cssClassNames": []
+                          "name": "Grid layout"
                         },
+                        "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "name": "Grid layout",
+                        "path": "0-0-3-0-0",
                         "dimensions": {
                           "rows": 1,
-                          "columns": 1,
-                          "colSize0xs": 12,
-                          "colSize0sm": 12,
-                          "colSize0md": 12,
-                          "colSize0lg": 12,
-                          "colSize0xl": 12
+                          "columns": 2,
+                          "colSize0xs": 8,
+                          "colSize0sm": 8,
+                          "colSize0md": 8,
+                          "colSize0lg": 8,
+                          "colSize0xl": 8,
+                          "colSize1xs": 2,
+                          "colSize1sm": 2,
+                          "colSize1md": 2,
+                          "colSize1lg": 2,
+                          "colSize1xl": 2
                         },
                         "readOnly": true
                       },
@@ -1892,6 +2061,38 @@
                                       "field": "type",
                                       "type": "text",
                                       "triggerId": null
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "schemeTypeApplied",
+                                      "headerName": "Profit Margin Scheme",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": []
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "schemeValueApplied",
+                                      "headerName": "Profit Value",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
                                     }
                                   ],
                                   "rowDefinition": [],
@@ -2475,8 +2676,8 @@
     "gitBranchName": "master",
     "_id": "lDZnjOg6T6U-faBPv3wlH",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/3/2023",
-    "createdAt": "4/3/2023",
+    "updatedAt": "4/4/2023",
+    "createdAt": "4/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3858,11 +4059,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "CTecRQDX7A4453TjJWhqA",
+          "componentId": "r8feO_sDjZhRo--PsEhWf",
           "componentType": "10001",
-          "id": "CTecRQDX7A4453TjJWhqA",
+          "id": "r8feO_sDjZhRo--PsEhWf",
           "position": {
-            "i": "CTecRQDX7A4453TjJWhqA",
+            "i": "r8feO_sDjZhRo--PsEhWf",
             "x": null,
             "y": null,
             "w": null,
@@ -3923,6 +4124,58 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "r8feO_sDjZhRo--PsEhWf",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "CTecRQDX7A4453TjJWhqA",
+          "componentType": "10001",
+          "id": "CTecRQDX7A4453TjJWhqA",
+          "position": {
+            "i": "CTecRQDX7A4453TjJWhqA",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 10,
+            "lg": 10,
+            "md": 10,
+            "sm": 10,
+            "xs": 10
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "lDZnjOg6T6U-faBPv3wlH",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "CTecRQDX7A4453TjJWhqA",
     "name": "Grid layout",
     "type": "10001",
@@ -3930,14 +4183,20 @@
       "gridProps": [
         {
           "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
+            "xl": 11,
+            "lg": 11,
+            "md": 11,
+            "sm": 11,
+            "xs": 11
           },
-          "componentId": "WLfRWkfDPeg_zy533BOox",
+          "componentId": "7fdTtnVgZVxiHnAYBlRJr",
           "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 1, "xs": 1 },
+          "componentId": "TDG850GYnMnF-mR6R2v3G",
+          "componentType": "20012",
           "order": 1
         }
       ],
@@ -3957,7 +4216,12 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "cssClassNames": []
+      "cssClassNames": [{ "cssClassName": "notice " }],
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.collectionSchemeMessage.length" }, 1]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -3969,9 +4233,10 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "WLfRWkfDPeg_zy533BOox",
-    "status": "ACTIVE",
+    "id": "7fdTtnVgZVxiHnAYBlRJr",
+    "type": "20002",
     "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
     "attributes": {
       "label": "collectionResponse.collectionSchemeMessage",
       "variant": "body1",
@@ -3981,43 +4246,99 @@
         "label": {
           "//": "Use this class to style label component.",
           "fontSize": "12px",
+          "paddingLeft": "40px",
           "fontWeight": "600"
         },
         "mainContainer": "label",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
+        "xl": 11,
+        "lg": 11,
+        "md": 11,
+        "sm": 11,
+        "xs": 11
       },
       "prefix": "Profit Margin Scheme: ",
-      "cssClassNames": [{ "cssClassName": "notice " }],
+      "cssClassNames": [],
       "searchInState": true,
       "storeType": 2,
-      "hideCondition": {
-        "logic": {
-          "<": [
-            {
-              "var": "currentScreen.collectionResponse.collectionSchemeMessage.length"
-            },
-            1
-          ]
-        }
-      }
+      "hideCondition": {}
     },
-    "icon": "FaFont",
+    "events": [],
+    "path": "0-0-3-0-0-0-1-0-0",
+    "version": "1.0.0",
+    "screenId": "lDZnjOg6T6U-faBPv3wlH",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "TDG850GYnMnF-mR6R2v3G",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "height": "12px",
+          "paddingLeft": "30px",
+          "cursor": "pointer"
+        },
+        "mainContainer": "image",
+        "xl": 1,
+        "lg": 1,
+        "md": 1,
+        "sm": 1,
+        "xs": 1
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "ahmerjavedkhan",
+        "_id": "642c65dc6d1206270c03162c",
+        "name": "Black_cross.png",
+        "type": "png",
+        "projectId": "63f4845e476fc83100e3a899",
+        "id": "Rz3UxYlLrf1fpxUYCgevg",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/Black_cross.png",
+        "canvasUrl": "web/Black_cross.png",
+        "createdAt": "2023-04-04T18:01:00.309Z",
+        "updatedAt": "2023-04-04T18:01:00.309Z",
+        "__v": 0,
+        "uri": "web/Black_cross.png"
+      },
+      "imageAssetId": "Rz3UxYlLrf1fpxUYCgevg",
+      "stateName": null,
+      "storeType": null
+    },
     "group": "Form",
-    "type": "20002",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
-    "order": 15,
+    "order": 0,
+    "type": "20012",
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "subType": "component",
-    "component": { "content": "Label", "type": "20002" },
-    "events": [],
-    "path": "0-0-3-0-0-0-0",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [
+      {
+        "triggerId": "vbGqKGxadCcoL_l3O2lPV",
+        "triggerName": "Clear Profit Margin Scheme Value",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-3-0-0-0-0-1-0",
     "screenId": "lDZnjOg6T6U-faBPv3wlH",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
@@ -4204,6 +4525,26 @@
           "field": "type",
           "type": "text",
           "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "schemeTypeApplied",
+          "headerName": "Profit Margin Scheme",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "schemeValueApplied",
+          "headerName": "Profit Value",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         }
       ],
       "rowDefinition": [],
