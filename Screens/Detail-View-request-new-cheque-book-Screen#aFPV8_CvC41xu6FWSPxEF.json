@@ -2674,7 +2674,7 @@
                                                         "status": "ACTIVE",
                                                         "attributes": {
                                                           "label": "Back",
-                                                          "variant": "contained",
+                                                          "variant": "outlined",
                                                           "name": "Button",
                                                           "label-locale-key": "",
                                                           "fullWidth": true,
@@ -2729,7 +2729,7 @@
                                                             "name": "On click"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-1-0-5-0-0-0-0"
+                                                        "path": "0-0-1-0-0-0-1-0-7-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -2974,7 +2974,7 @@
                                                         "status": "ACTIVE",
                                                         "attributes": {
                                                           "label": "Reject",
-                                                          "variant": "contained",
+                                                          "variant": "outlined",
                                                           "name": "Button",
                                                           "label-locale-key": "",
                                                           "fullWidth": true,
@@ -3014,7 +3014,7 @@
                                                           "type": "20006"
                                                         },
                                                         "events": [],
-                                                        "path": "0-0-1-0-0-0-1-0-3-3-0-0-0"
+                                                        "path": "0-0-1-0-0-0-1-0-7-3-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -3271,7 +3271,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "aFPV8_CvC41xu6FWSPxEF",
-    "createdBy": "ishfaque",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "4/4/2023",
     "createdAt": "4/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -5904,7 +5904,7 @@
     "status": "ACTIVE",
     "attributes": {
       "label": "Back",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
       "fullWidth": true,
@@ -5941,7 +5941,7 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-1-0-0-0-1-0-5-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-7-0-0-0-0",
     "screenId": "aFPV8_CvC41xu6FWSPxEF",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -6116,7 +6116,7 @@
     "status": "ACTIVE",
     "attributes": {
       "label": "Reject",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
       "fullWidth": true,
@@ -6145,7 +6145,7 @@
     "projectType": "web",
     "component": { "content": "Button", "type": "20006" },
     "events": [],
-    "path": "0-0-1-0-0-0-1-0-3-3-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-7-3-0-0-0",
     "screenId": "aFPV8_CvC41xu6FWSPxEF",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
