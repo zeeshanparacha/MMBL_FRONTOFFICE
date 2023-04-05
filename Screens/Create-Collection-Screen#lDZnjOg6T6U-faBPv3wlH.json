@@ -1561,7 +1561,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "TVKOmVfF3F9XsjDPb0LsP",
+                            "id": "oUntiSv0PEJq0_u2CSbyC",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1588,7 +1588,7 @@
                                             "label": {
                                               "//": "Use this class to style label component.",
                                               "fontSize": "12px",
-                                              "paddingLeft": "40px",
+                                              "textAlign": "center",
                                               "fontWeight": "600"
                                             },
                                             "mainContainer": "label",
@@ -1605,7 +1605,7 @@
                                           "hideCondition": {}
                                         },
                                         "events": [],
-                                        "path": "0-0-3-0-0-0-1-0-0",
+                                        "path": "0-0-3-0-0-0-0-0-0",
                                         "version": "1.0.0"
                                       }
                                     ],
@@ -1636,8 +1636,9 @@
                                           "layoutProperties": {
                                             "image": {
                                               "//": "Use this class to style image component.",
+                                              "float": "right",
+                                              "paddingRight": "20px",
                                               "height": "12px",
-                                              "paddingLeft": "30px",
                                               "cursor": "pointer"
                                             },
                                             "mainContainer": "image",
@@ -1782,7 +1783,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "ce3LvglGWemFL0XrEq9zG",
+                            "id": "dumfixHa3bRmV8UfXoXGj",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 2,
@@ -1828,16 +1829,16 @@
                         "dimensions": {
                           "rows": 1,
                           "columns": 2,
-                          "colSize0xs": 8,
-                          "colSize0sm": 8,
-                          "colSize0md": 8,
-                          "colSize0lg": 8,
-                          "colSize0xl": 8,
-                          "colSize1xs": 2,
-                          "colSize1sm": 2,
-                          "colSize1md": 2,
-                          "colSize1lg": 2,
-                          "colSize1xl": 2
+                          "colSize0xs": 11,
+                          "colSize0sm": 11,
+                          "colSize0md": 11,
+                          "colSize0lg": 11,
+                          "colSize0xl": 11,
+                          "colSize1xs": 1,
+                          "colSize1sm": 1,
+                          "colSize1md": 1,
+                          "colSize1lg": 1,
+                          "colSize1xl": 1
                         },
                         "readOnly": true
                       },
@@ -2676,8 +2677,8 @@
     "gitBranchName": "master",
     "_id": "lDZnjOg6T6U-faBPv3wlH",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/4/2023",
-    "createdAt": "4/4/2023",
+    "updatedAt": "4/5/2023",
+    "createdAt": "4/5/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4246,7 +4247,7 @@
         "label": {
           "//": "Use this class to style label component.",
           "fontSize": "12px",
-          "paddingLeft": "40px",
+          "textAlign": "center",
           "fontWeight": "600"
         },
         "mainContainer": "label",
@@ -4263,7 +4264,7 @@
       "hideCondition": {}
     },
     "events": [],
-    "path": "0-0-3-0-0-0-1-0-0",
+    "path": "0-0-3-0-0-0-0-0-0",
     "version": "1.0.0",
     "screenId": "lDZnjOg6T6U-faBPv3wlH",
     "subType": "component",
@@ -4286,8 +4287,9 @@
       "layoutProperties": {
         "image": {
           "//": "Use this class to style image component.",
+          "float": "right",
+          "paddingRight": "20px",
           "height": "12px",
-          "paddingLeft": "30px",
           "cursor": "pointer"
         },
         "mainContainer": "image",
@@ -4327,7 +4329,6 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Image", "type": "20012" },
     "events": [
       {
@@ -4340,6 +4341,7 @@
     ],
     "path": "0-0-3-0-0-0-0-1-0",
     "screenId": "lDZnjOg6T6U-faBPv3wlH",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

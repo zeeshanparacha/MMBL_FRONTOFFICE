@@ -184,7 +184,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "2aL29e_KzpVEbzxWEC3JU",
+                    "id": "EpYPeNWYq8v_BKeJyQdDT",
                     "gridProps": [
                       {
                         "id": "JFA2WOiNv82RfDQ7Uwcxm",
@@ -310,14 +310,11 @@
                               "iconButtons": [
                                 {
                                   "label": "View Details",
-                                  "cssClassNames": [
-                                    { "cssClassName": "viewDetailsButton" }
-                                  ],
                                   "trigger": {
-                                    "id": "mUxe0Y0SXMUphNBNZHnZj",
+                                    "id": "K8DFvOUAR_TdMtpOPncqC",
                                     "projectId": "63f4845e476fc83100e3a899",
                                     "gitBranchName": "master",
-                                    "name": "Open Detail View Request new cheque book screen and Manipulate Value chain Trigger",
+                                    "name": "Call Open View Detail Cheque Book Screen and Manipulate Value Chain Trigger",
                                     "old_name": "",
                                     "status": "ACTIVE",
                                     "services": [
@@ -329,36 +326,33 @@
                                             "delay": "",
                                             "triggers": [
                                               {
-                                                "id": "Dr-PRRl6w-8OZdpX2kYR4",
-                                                "name": "Open Detail View request new cheque book Screen",
+                                                "id": "FOHJMLxKK_zKDMeOL00pF",
+                                                "name": "Open View Detail Cheque Book Screen",
                                                 "projectId": "63f4845e476fc83100e3a899",
                                                 "gitBranchName": "master",
                                                 "services": [
                                                   {
                                                     "type": "1",
                                                     "command": {
-                                                      "type": "2",
+                                                      "type": "3",
                                                       "attributes": {
-                                                        "fromWidgetId": "Ab-ouc1h_Xd71snpw51Ti",
                                                         "nextWidgetId": "aFPV8_CvC41xu6FWSPxEF",
-                                                        "gridRadioValue": "Screen",
+                                                        "gridRadioValue": "",
                                                         "selectedObjectBindingKey": "selectedObject.payload",
                                                         "editableForm": true
                                                       }
                                                     }
                                                   }
                                                 ],
-                                                "_id": "AWrD2osZdieVF5gc4I3bG",
-                                                "updatedAt": "4/4/2023",
-                                                "createdAt": "4/4/2023",
-                                                "createdBy": "ishfaque",
-                                                "updatedBy": "ishfaque"
+                                                "_id": "oHKhLOTeJbM_Lby-FHzLJ",
+                                                "updatedAt": "4/5/2023",
+                                                "createdAt": "4/5/2023",
+                                                "createdBy": "ahmerjavedkhan",
+                                                "updatedBy": "ahmerjavedkhan"
                                               },
                                               {
-                                                "id": "Qu16BtcJ3TX8tOJuK7FSW",
-                                                "_id": "Z7NOvHbY2VkUXWE6425qj",
-                                                "name": "PO-CDR Mani Value ",
-                                                "old_name": "PO-CDR Mani Value ",
+                                                "id": "IJHq_s6UBW0ubMqqOYh_c",
+                                                "name": "Cheque Book Manipulate value",
                                                 "projectId": "63f4845e476fc83100e3a899",
                                                 "gitBranchName": "master",
                                                 "services": [
@@ -367,12 +361,11 @@
                                                     "command": {
                                                       "type": "6",
                                                       "attributes": {
-                                                        "requestBody": [],
                                                         "storeType": "",
                                                         "selectedObjectBindingKey": "selectedObject",
                                                         "dataType": "value",
-                                                        "destinationBindingKey": "selfRepresentative",
-                                                        "sourceBindingKey": "selectedObject.payload.selfRepresentative",
+                                                        "destinationBindingKey": "selfDeliveryMode",
+                                                        "sourceBindingKey": "selectedObject.payload.selfDeliveryMode",
                                                         "sourceStoreType": 2,
                                                         "destinationStoreType": 1,
                                                         "logic": {
@@ -380,7 +373,7 @@
                                                             {
                                                               "==": [
                                                                 {
-                                                                  "var": "selectedObject.payload.selfRepresentative"
+                                                                  "var": "selectedObject.payload.selfDeliveryMode"
                                                                 },
                                                                 true
                                                               ]
@@ -395,28 +388,31 @@
                                                     }
                                                   }
                                                 ],
-                                                "updatedAt": "3/9/2023",
-                                                "createdAt": "3/9/2023",
+                                                "_id": "AuEbFOtBlQZEzOGgy8J_o",
+                                                "updatedAt": "4/5/2023",
+                                                "createdAt": "4/5/2023",
                                                 "createdBy": "ahmerjavedkhan",
                                                 "updatedBy": "ahmerjavedkhan"
                                               }
                                             ],
                                             "triggerIds": [
-                                              "Dr-PRRl6w-8OZdpX2kYR4",
-                                              "Qu16BtcJ3TX8tOJuK7FSW"
+                                              "FOHJMLxKK_zKDMeOL00pF",
+                                              "IJHq_s6UBW0ubMqqOYh_c"
                                             ]
                                           }
                                         }
                                       }
                                     ],
-                                    "_id": "pb5MKucksmzT0pKJOTm5Y",
-                                    "updatedAt": "4/4/2023",
-                                    "createdAt": "4/4/2023",
-                                    "createdBy": "ishfaque",
-                                    "updatedBy": "ishfaque"
+                                    "_id": "PZJGsyfd8PmFMU10n6BzK",
+                                    "updatedAt": "4/5/2023",
+                                    "createdAt": "4/5/2023",
+                                    "createdBy": "ahmerjavedkhan",
+                                    "updatedBy": "ahmerjavedkhan"
                                   },
-                                  "selectedObjectBindingKey": "seletedObject",
-                                  "triggerId": "mUxe0Y0SXMUphNBNZHnZj",
+                                  "cssClassNames": [
+                                    { "cssClassName": "viewDetailsButton" }
+                                  ],
+                                  "triggerId": "K8DFvOUAR_TdMtpOPncqC",
                                   "conditional": {},
                                   "values": [],
                                   "disableConditional": {},
@@ -495,44 +491,97 @@
                 },
                 "events": [
                   {
-                    "triggerId": "yLrkLla3gikB1eYSlhsGJ",
-                    "triggerName": "Request new cheque book PendingList-API",
-                    "serviceType": "8",
+                    "triggerId": "CqCh4YrpWf5Gx3z3UgSSH",
+                    "triggerName": "Call Cheque book Pending List API and Clear Binding Key",
+                    "serviceType": "2",
                     "attributes": {
-                      "loaderWidgetIds": [906070],
-                      "messageWidgetIds": [906070],
-                      "responseStateKey": "listResponse",
-                      "responseReturnValue": "data.requests",
-                      "url": "/offline-requests/cheque-book/pending-list",
-                      "checksum": true,
-                      "encryption": true,
-                      "isDeviceDetails": true,
-                      "loginTrigger": false,
-                      "formData": false,
-                      "logoutTrigger": false,
-                      "headers": {
-                        "Content-Type": "application/json",
-                        "Accept": "application/json",
-                        "channel_key": "001",
-                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                        "locale": "en-ltr"
-                      },
-                      "requestBody": [
+                      "delay": "",
+                      "triggers": [
                         {
-                          "type": 4,
-                          "name": "Static",
-                          "key": "pageNumber",
-                          "value": "1"
+                          "id": "86Dsw6qgSA71t2v3DsSk2",
+                          "name": "Clear PO-CDR PendingList BindingKey",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "4",
+                                "attributes": {
+                                  "stateName": "listResponse",
+                                  "storeType": 2
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "0zPl60MIHVZ-5WzGAhVdH",
+                          "updatedAt": "3/8/2023",
+                          "createdAt": "3/8/2023",
+                          "createdBy": "ahmerjavedkhan",
+                          "updatedBy": "ahmerjavedkhan"
                         },
                         {
-                          "type": 4,
-                          "name": "Static",
-                          "key": "pageSize",
-                          "value": "5"
+                          "id": "yLrkLla3gikB1eYSlhsGJ",
+                          "projectId": "63f4845e476fc83100e3a899",
+                          "gitBranchName": "master",
+                          "name": "Request new cheque book PendingList-API",
+                          "status": "ACTIVE",
+                          "services": [
+                            {
+                              "type": "8",
+                              "command": {
+                                "type": "1",
+                                "attributes": {
+                                  "loaderWidgetIds": [906070],
+                                  "messageWidgetIds": [906070],
+                                  "responseStateKey": "listResponse",
+                                  "responseReturnValue": "data.requests",
+                                  "url": "/offline-requests/cheque-book/pending-list",
+                                  "checksum": true,
+                                  "encryption": true,
+                                  "isDeviceDetails": true,
+                                  "loginTrigger": false,
+                                  "formData": false,
+                                  "logoutTrigger": false,
+                                  "headers": {
+                                    "Content-Type": "application/json",
+                                    "Accept": "application/json",
+                                    "channel_key": "001",
+                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                    "locale": "en-ltr"
+                                  },
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "pageNumber",
+                                      "value": "1"
+                                    },
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "pageSize",
+                                      "value": "5"
+                                    }
+                                  ],
+                                  "baseURL": "631b0ff6d005932c10ce3bbe",
+                                  "storeType": 2
+                                },
+                                "responseHandler": []
+                              }
+                            }
+                          ],
+                          "_id": "xnVW5n6ko8O_c_1DRL_we",
+                          "updatedAt": "4/4/2023",
+                          "createdAt": "4/4/2023",
+                          "createdBy": "ishfaque",
+                          "updatedBy": "ishfaque"
                         }
                       ],
-                      "baseURL": "631b0ff6d005932c10ce3bbe",
-                      "storeType": 2
+                      "triggerIds": [
+                        "86Dsw6qgSA71t2v3DsSk2",
+                        "yLrkLla3gikB1eYSlhsGJ"
+                      ]
                     },
                     "type": "1",
                     "name": "On initialization"
@@ -573,8 +622,8 @@
     "gitBranchName": "master",
     "_id": "Ab-ouc1h_Xd71snpw51Ti",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/4/2023",
-    "createdAt": "4/4/2023",
+    "updatedAt": "4/5/2023",
+    "createdAt": "4/5/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -778,8 +827,8 @@
     "layout": null,
     "events": [
       {
-        "triggerId": "yLrkLla3gikB1eYSlhsGJ",
-        "triggerName": "Request new cheque book PendingList-API",
+        "triggerId": "CqCh4YrpWf5Gx3z3UgSSH",
+        "triggerName": "Call Cheque book Pending List API and Clear Binding Key",
         "name": "On initialization",
         "type": "1"
       }
@@ -898,12 +947,11 @@
           "iconButtons": [
             {
               "label": "View Details",
-              "cssClassNames": [{ "cssClassName": "viewDetailsButton" }],
               "trigger": {
-                "id": "mUxe0Y0SXMUphNBNZHnZj",
+                "id": "K8DFvOUAR_TdMtpOPncqC",
                 "projectId": "63f4845e476fc83100e3a899",
                 "gitBranchName": "master",
-                "name": "Open Detail View Request new cheque book screen and Manipulate Value chain Trigger",
+                "name": "Call Open View Detail Cheque Book Screen and Manipulate Value Chain Trigger",
                 "old_name": "",
                 "status": "ACTIVE",
                 "services": [
@@ -915,36 +963,33 @@
                         "delay": "",
                         "triggers": [
                           {
-                            "id": "Dr-PRRl6w-8OZdpX2kYR4",
-                            "name": "Open Detail View request new cheque book Screen",
+                            "id": "FOHJMLxKK_zKDMeOL00pF",
+                            "name": "Open View Detail Cheque Book Screen",
                             "projectId": "63f4845e476fc83100e3a899",
                             "gitBranchName": "master",
                             "services": [
                               {
                                 "type": "1",
                                 "command": {
-                                  "type": "2",
+                                  "type": "3",
                                   "attributes": {
-                                    "fromWidgetId": "Ab-ouc1h_Xd71snpw51Ti",
                                     "nextWidgetId": "aFPV8_CvC41xu6FWSPxEF",
-                                    "gridRadioValue": "Screen",
+                                    "gridRadioValue": "",
                                     "selectedObjectBindingKey": "selectedObject.payload",
                                     "editableForm": true
                                   }
                                 }
                               }
                             ],
-                            "_id": "AWrD2osZdieVF5gc4I3bG",
-                            "updatedAt": "4/4/2023",
-                            "createdAt": "4/4/2023",
-                            "createdBy": "ishfaque",
-                            "updatedBy": "ishfaque"
+                            "_id": "oHKhLOTeJbM_Lby-FHzLJ",
+                            "updatedAt": "4/5/2023",
+                            "createdAt": "4/5/2023",
+                            "createdBy": "ahmerjavedkhan",
+                            "updatedBy": "ahmerjavedkhan"
                           },
                           {
-                            "id": "Qu16BtcJ3TX8tOJuK7FSW",
-                            "_id": "Z7NOvHbY2VkUXWE6425qj",
-                            "name": "PO-CDR Mani Value ",
-                            "old_name": "PO-CDR Mani Value ",
+                            "id": "IJHq_s6UBW0ubMqqOYh_c",
+                            "name": "Cheque Book Manipulate value",
                             "projectId": "63f4845e476fc83100e3a899",
                             "gitBranchName": "master",
                             "services": [
@@ -953,12 +998,11 @@
                                 "command": {
                                   "type": "6",
                                   "attributes": {
-                                    "requestBody": [],
                                     "storeType": "",
                                     "selectedObjectBindingKey": "selectedObject",
                                     "dataType": "value",
-                                    "destinationBindingKey": "selfRepresentative",
-                                    "sourceBindingKey": "selectedObject.payload.selfRepresentative",
+                                    "destinationBindingKey": "selfDeliveryMode",
+                                    "sourceBindingKey": "selectedObject.payload.selfDeliveryMode",
                                     "sourceStoreType": 2,
                                     "destinationStoreType": 1,
                                     "logic": {
@@ -966,7 +1010,7 @@
                                         {
                                           "==": [
                                             {
-                                              "var": "selectedObject.payload.selfRepresentative"
+                                              "var": "selectedObject.payload.selfDeliveryMode"
                                             },
                                             true
                                           ]
@@ -981,28 +1025,29 @@
                                 }
                               }
                             ],
-                            "updatedAt": "3/9/2023",
-                            "createdAt": "3/9/2023",
+                            "_id": "AuEbFOtBlQZEzOGgy8J_o",
+                            "updatedAt": "4/5/2023",
+                            "createdAt": "4/5/2023",
                             "createdBy": "ahmerjavedkhan",
                             "updatedBy": "ahmerjavedkhan"
                           }
                         ],
                         "triggerIds": [
-                          "Dr-PRRl6w-8OZdpX2kYR4",
-                          "Qu16BtcJ3TX8tOJuK7FSW"
+                          "FOHJMLxKK_zKDMeOL00pF",
+                          "IJHq_s6UBW0ubMqqOYh_c"
                         ]
                       }
                     }
                   }
                 ],
-                "_id": "pb5MKucksmzT0pKJOTm5Y",
-                "updatedAt": "4/4/2023",
-                "createdAt": "4/4/2023",
-                "createdBy": "ishfaque",
-                "updatedBy": "ishfaque"
+                "_id": "PZJGsyfd8PmFMU10n6BzK",
+                "updatedAt": "4/5/2023",
+                "createdAt": "4/5/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
               },
-              "selectedObjectBindingKey": "seletedObject",
-              "triggerId": "mUxe0Y0SXMUphNBNZHnZj",
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton" }],
+              "triggerId": "K8DFvOUAR_TdMtpOPncqC",
               "conditional": {},
               "values": [],
               "disableConditional": {},
