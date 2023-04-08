@@ -257,7 +257,7 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "soleProprietor.formId",
+              "key": "id",
               "value": "soleProprietor.data.result.formId"
             }
           ],
@@ -276,13 +276,25 @@
             "logic": { "==": [{ "var": "status" }, 1] },
             "triggerName": "Clear Form Data",
             "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "triggerName": "pricing model to document upload for sole properietor",
+            "triggerId": "e-Mw5OqX4A63HzPubiQAq",
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "Clear validations",
+            "triggerId": "C9VAY5AImRfafff65"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/4/2023",
-  "createdAt": "4/4/2023",
+  "updatedAt": "4/6/2023",
+  "createdAt": "4/6/2023",
   "createdBy": "areeb",
   "updatedBy": "areeb"
 }

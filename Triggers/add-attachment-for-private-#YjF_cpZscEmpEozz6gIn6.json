@@ -1,0 +1,123 @@
+{
+  "id": "-c_ParFhJHlQmzVyMQhy_",
+  "_id": "YjF_cpZscEmpEozz6gIn6",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "add attachment for private ",
+  "old_name": "add attachment for private ",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "attachmentResponse",
+          "url": "/pre-corp-reg/attachment",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "uuid",
+              "value": "response.data.result.uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.boardOfResolutionDocId",
+              "value": "fileUpload1.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.memorandumOfAssociationDocId",
+              "value": "fileUpload8.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.certificateOfIncorporationDocId",
+              "value": "fileUpload3.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.certificateOfCommencementDocId",
+              "value": "fileUpload2.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.formADocId",
+              "value": "fileUpload7.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.czDocId",
+              "value": "fileUpload5.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.zakatExemptionDocId",
+              "value": "fileUpload11.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.taxExemptionDocId",
+              "value": "fileUpload10.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.ntnDocId",
+              "value": "fileUpload9.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.fatcaDocId",
+              "value": "fileUpload6.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "privateOrPublicDocument.crsDocId",
+              "value": "fileUpload4.docId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "formId",
+              "value": "saveToNextPrivate.data.result.formId"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

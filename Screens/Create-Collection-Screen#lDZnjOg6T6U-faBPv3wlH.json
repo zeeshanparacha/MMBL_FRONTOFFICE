@@ -1598,7 +1598,7 @@
                                             "sm": 11,
                                             "xs": 11
                                           },
-                                          "prefix": "Profit Margin Scheme: ",
+                                          "prefix": "Fee Configuration Scheme: ",
                                           "cssClassNames": [],
                                           "searchInState": true,
                                           "storeType": 2,
@@ -2070,7 +2070,7 @@
                                         "type": "text"
                                       },
                                       "field": "schemeTypeApplied",
-                                      "headerName": "Profit Margin Scheme",
+                                      "headerName": "Fee Scheme",
                                       "conditional": { "bindingKey": "" },
                                       "values": [],
                                       "cssConditional": {
@@ -2086,7 +2086,7 @@
                                         "type": "text"
                                       },
                                       "field": "schemeValueApplied",
-                                      "headerName": "Profit Value",
+                                      "headerName": "Fee Value",
                                       "conditional": { "bindingKey": "" },
                                       "values": [""],
                                       "cssConditional": {
@@ -2677,8 +2677,8 @@
     "gitBranchName": "master",
     "_id": "lDZnjOg6T6U-faBPv3wlH",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "updatedAt": "4/8/2023",
+    "createdAt": "4/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4257,7 +4257,7 @@
         "sm": 11,
         "xs": 11
       },
-      "prefix": "Profit Margin Scheme: ",
+      "prefix": "Fee Configuration Scheme: ",
       "cssClassNames": [],
       "searchInState": true,
       "storeType": 2,
@@ -4532,7 +4532,7 @@
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "schemeTypeApplied",
-          "headerName": "Profit Margin Scheme",
+          "headerName": "Fee Scheme",
           "conditional": { "bindingKey": "" },
           "values": [],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
@@ -4542,7 +4542,7 @@
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "schemeValueApplied",
-          "headerName": "Profit Value",
+          "headerName": "Fee Value",
           "conditional": { "bindingKey": "" },
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },

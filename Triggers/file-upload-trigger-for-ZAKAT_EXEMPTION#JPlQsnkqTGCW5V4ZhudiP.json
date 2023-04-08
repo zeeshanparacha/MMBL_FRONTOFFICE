@@ -1,0 +1,65 @@
+{
+  "id": "EnLYq5MDqBp4grs7J_Prd",
+  "_id": "JPlQsnkqTGCW5V4ZhudiP",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload trigger for ZAKAT_EXEMPTION",
+  "old_name": "file upload trigger for ZAKAT_EXEMPTION",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "fileUpload3",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "docType",
+              "value": "ZAKAT_EXEMPTION"
+            },
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "uuid",
+              "value": "response.data.result.uuid"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "add attachement for declarationDocId",
+            "triggerId": "ndZ5w0j35NJfd2f-wnVko"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/6/2023",
+  "createdAt": "4/6/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

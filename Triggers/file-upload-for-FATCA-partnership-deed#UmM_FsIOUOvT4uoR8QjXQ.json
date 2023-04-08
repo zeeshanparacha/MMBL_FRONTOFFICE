@@ -1,0 +1,60 @@
+{
+  "id": "WVWgOwSWOIZqwdbfOUtfa",
+  "_id": "UmM_FsIOUOvT4uoR8QjXQ",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "file upload for FATCA partnership deed",
+  "old_name": "file upload for FATCA partnership deed",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "fileUpload7",
+          "responseReturnValue": "data.result",
+          "url": "/doc-mgmt/upload-files",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": true,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "docType", "value": "FATCA" },
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "uuid",
+              "value": "response.data.result.uuid"
+            },
+            { "type": 1, "name": "Form", "key": "file", "value": "file" }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

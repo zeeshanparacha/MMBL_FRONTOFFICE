@@ -3371,15 +3371,16 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "mandatory": false,
-                                                          "fileUploadTrigger": "-MgzMa7J8esfyH7B3awE7",
-                                                          "fileDeleteTrigger": "rJeH27BHHnGNVtddJ4kdW",
+                                                          "mandatory": true,
+                                                          "fileUploadTrigger": "JLVXnyvH_LI3F4BXTbFLX",
+                                                          "fileDeleteTrigger": "Tbc8y4yH5KLlx88IDtlcf",
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "fileType": "pdf"
+                                                          "fileType": "pdf",
+                                                          "showDeleteIcon": true
                                                         },
                                                         "icon": "FaFileUpload",
                                                         "group": "Form",
@@ -3396,7 +3397,7 @@
                                                           "type": "20035"
                                                         },
                                                         "events": [],
-                                                        "path": "0-0-0-0-2-2-0-0-1-0-0-0-0"
+                                                        "path": "0-0-0-0-3-2-0-0-1-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -4912,9 +4913,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
-    "createdBy": "zeeshan",
-    "updatedAt": "4/4/2023",
-    "createdAt": "4/4/2023",
+    "createdBy": "areeb",
+    "updatedAt": "4/6/2023",
+    "createdAt": "4/6/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8312,11 +8313,12 @@
         "sm": 12,
         "xs": 12
       },
-      "mandatory": false,
-      "fileUploadTrigger": "-MgzMa7J8esfyH7B3awE7",
-      "fileDeleteTrigger": "rJeH27BHHnGNVtddJ4kdW",
+      "mandatory": true,
+      "fileUploadTrigger": "JLVXnyvH_LI3F4BXTbFLX",
+      "fileDeleteTrigger": "Tbc8y4yH5KLlx88IDtlcf",
       "cssClassNames": [{ "cssClassName": "CardButton" }],
-      "fileType": "pdf"
+      "fileType": "pdf",
+      "showDeleteIcon": true
     },
     "icon": "FaFileUpload",
     "group": "Form",
@@ -8330,7 +8332,7 @@
     "projectType": "web",
     "component": { "content": "File upload", "type": "20035" },
     "events": [],
-    "path": "0-0-0-0-2-2-0-0-1-0-0-0-0",
+    "path": "0-0-0-0-3-2-0-0-1-0-0-0-0",
     "screenId": "bkMldbOK186usdb9G0SuZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

@@ -51,12 +51,6 @@
             {
               "type": 1,
               "name": "Form",
-              "key": "branchId",
-              "value": "branch.id"
-            },
-            {
-              "type": 1,
-              "name": "Form",
               "key": "branchName",
               "value": "branch.name"
             },
@@ -66,12 +60,8 @@
               "key": "niftCode",
               "value": "niftCode"
             },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "selfDeliveryMode",
-              "value": "selfDeliveryMode"
-            },
+            { "type": 1, "name": "Form", "key": "cnic", "value": "cnic" },
+            { "type": 1, "name": "Form", "key": "leaves", "value": "leaves" },
             {
               "type": 4,
               "name": "Static",
@@ -105,8 +95,8 @@
       }
     }
   ],
-  "updatedAt": "4/3/2023",
-  "createdAt": "4/3/2023",
+  "updatedAt": "4/8/2023",
+  "createdAt": "4/8/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

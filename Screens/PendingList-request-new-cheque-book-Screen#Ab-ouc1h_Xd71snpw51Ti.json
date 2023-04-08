@@ -78,7 +78,7 @@
                         "status": "ACTIVE",
                         "name": "Label",
                         "attributes": {
-                          "label": "Pending new cheque book request",
+                          "label": "Pending Request Cheque book",
                           "variant": "body1",
                           "name": "Label",
                           "mandatory": false,
@@ -250,8 +250,8 @@
                             {
                               "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "payload.beneficiaryName",
-                              "headerName": "Beneficiary Name",
+                              "field": "payload.accountTitle",
+                              "headerName": "Account",
                               "conditional": { "bindingKey": "" },
                               "values": [""],
                               "cssConditional": {
@@ -259,6 +259,13 @@
                                 "cssClassNames": []
                               },
                               "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Account No",
+                              "field": "payload.accountNumber",
+                              "type": "text",
+                              "triggerId": null
                             },
                             {
                               "type": "text",
@@ -621,9 +628,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Ab-ouc1h_Xd71snpw51Ti",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/6/2023",
+    "createdAt": "4/6/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -747,7 +754,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Pending new cheque book request",
+      "label": "Pending Request Cheque book",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -899,12 +906,19 @@
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "payload.beneficiaryName",
-          "headerName": "Beneficiary Name",
+          "field": "payload.accountTitle",
+          "headerName": "Account",
           "conditional": { "bindingKey": "" },
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
           "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Account No",
+          "field": "payload.accountNumber",
+          "type": "text",
+          "triggerId": null
         },
         {
           "type": "text",

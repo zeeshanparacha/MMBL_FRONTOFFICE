@@ -1,10 +1,10 @@
 {
-  "id": "-MgzMa7J8esfyH7B3awE7",
-  "_id": "ZiJQ3SiZYZ7GvtYdeBDmr",
+  "id": "oyOco4jloIba25KwA7-W4",
+  "_id": "x0KB9NQ8MlPzd077kOutx",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "file upload for sole proprietor",
-  "old_name": "file upload for sole proprietor",
+  "name": "Upload File fatca for private",
+  "old_name": "Upload File fatca for private",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,7 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "uploadFileResponse",
+          "responseStateKey": "fileUpload6",
+          "responseReturnValue": "data.result",
           "url": "/doc-mgmt/upload-files",
           "checksum": true,
           "encryption": true,
@@ -31,12 +32,7 @@
           },
           "requestBody": [
             { "type": 1, "name": "Form", "key": "file", "value": "file" },
-            {
-              "type": 4,
-              "name": "Static",
-              "key": "docType",
-              "value": "SIGNATORIES"
-            },
+            { "type": 4, "name": "Static", "key": "docType", "value": "FATCA" },
             {
               "type": 3,
               "name": "Current session",
@@ -47,12 +43,18 @@
           "baseURL": "641aedb2676c823a449fd597",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
+          }
+        ]
       }
     }
   ],
-  "updatedAt": "4/4/2023",
-  "createdAt": "4/4/2023",
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
   "createdBy": "areeb",
   "updatedBy": "areeb"
 }
