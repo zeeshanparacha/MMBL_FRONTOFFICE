@@ -45,14 +45,26 @@
             {
               "type": 1,
               "name": "Form",
-              "key": "accountTitle",
-              "value": "account.accountTitle"
+              "key": "accountType",
+              "value": "account.accountType"
             },
             {
               "type": 1,
               "name": "Form",
               "key": "branchName",
               "value": "branch.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchId",
+              "value": "branch.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchCode",
+              "value": "branch.code"
             },
             {
               "type": 1,
@@ -65,8 +77,8 @@
             {
               "type": 4,
               "name": "Static",
-              "key": "accountType",
-              "value": "current"
+              "key": "accountStatus",
+              "value": "Active"
             }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
