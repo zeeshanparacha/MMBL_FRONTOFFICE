@@ -4,7 +4,7 @@
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": "file upload trigger for signatories",
-  "old_name": "file upload trigger",
+  "old_name": "file upload trigger for signatories",
   "status": "ACTIVE",
   "services": [
     {
@@ -38,10 +38,10 @@
               "value": "SIGNATORIES"
             },
             {
-              "type": 3,
-              "name": "Current session",
+              "type": 2,
+              "name": "Current screen",
               "key": "uuid",
-              "value": "response.data.result.uuid"
+              "value": "uuid"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -51,8 +51,8 @@
       }
     }
   ],
-  "updatedAt": "4/5/2023",
-  "createdAt": "4/5/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
 }

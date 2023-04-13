@@ -1,0 +1,27 @@
+{
+  "id": "KnbUvVEjIsPOa-wAngQqG",
+  "name": "save formID from save as draft",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "dataType": "value",
+          "destinationBindingKey": "formId",
+          "sourceBindingKey": "soleProprietor.data.result.formId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "0-K4TZ6gt4KYDD96crbCh",
+  "updatedAt": "4/11/2023",
+  "createdAt": "4/11/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

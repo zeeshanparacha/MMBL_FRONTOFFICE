@@ -1098,12 +1098,12 @@
                       },
                       {
                         "type": "10001",
-                        "name": "Grid layout",
+                        "name": "pricing modal radio layout",
                         "id": "ZRYEWsrTUaqt_N99rrSQ-",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "LUcBORGQ4wMlaGM7baf4I",
+                            "id": "LIH4p-E0o_aMsc39NFcS4",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1114,7 +1114,7 @@
                                     "id": "HopvaYPdLfe-BB2GYX0PT",
                                     "gridProps": [
                                       {
-                                        "id": "WPOm6pVl_1gVzZjuiaj0N",
+                                        "id": "3AMcCUuHOQ96JYjvVRikr",
                                         "status": "ACTIVE",
                                         "name": "Radio",
                                         "icon": "FaDotCircle",
@@ -1160,7 +1160,7 @@
                                             "serviceType": "1",
                                             "attributes": {
                                               "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                              "nextWidgetId": "iipaYjl5Cf-e7wZfZmIDR",
+                                              "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
                                               "gridRadioValue": "Grid",
                                               "selectedObjectBindingKey": "selectedObject",
                                               "editableForm": false
@@ -1388,12 +1388,11 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-3-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "bZ-ep4WCFdngOrzXS4EhG",
+                            "id": "bvnlw_WRr2oI8kZYASRg4",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 3,
@@ -1401,12 +1400,11 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            },
-                            "path": "0-0-0-0-3-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "UKKZt7yp6wZWEKK3RkoWD",
+                            "id": "ffjHXE_zMAD3yuldzvdTs",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 3,
@@ -1414,8 +1412,7 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            },
-                            "path": "0-0-0-0-3-2"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -1442,14 +1439,1100 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "pricing modal radio layout",
+                          "hideCondition": {
+                            "logic": {
+                              "!=": [
+                                {
+                                  "var": "currentScreen.response.data.result.isValidated"
+                                },
+                                true
+                              ]
+                            }
+                          }
                         },
                         "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-3"
+                        "path": "0-0-0-0-3",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 3,
+                          "colSize1sm": 3,
+                          "colSize1md": 3,
+                          "colSize1lg": 3,
+                          "colSize1xl": 3,
+                          "colSize2xs": 3,
+                          "colSize2sm": 3,
+                          "colSize2md": 3,
+                          "colSize2lg": 3,
+                          "colSize2xl": 3
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "name": "pricing modal radio layout",
+                        "id": "2MpQG3trcpaBCnrS_3yJm",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "iUkFSKXld0Gybj7J6ALXW",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "id": "GVQCKsUhkfzdp5ink7JKu",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "ekh4jcSOKh5MLjyEO1IFY",
+                                    "gridProps": [
+                                      {
+                                        "id": "T2dphuWTjEeX1iFrEioOW",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Sole Proprietor",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing1",
+                                          "value": "sole"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-4-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-0"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "10K1zUHAdIz2cmlWFIkT7",
+                                    "gridProps": [
+                                      {
+                                        "id": "53-pn1vqSNGHhwWEaPXSQ",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Partnership",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing1",
+                                          "value": "partnership"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-4-0-0-1-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-1"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "EVFgbz0Mdc8UYFwKmgSm5",
+                                    "gridProps": [
+                                      {
+                                        "id": "_m_rrPAcoiQA3yTNRjLrm",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": true,
+                                          "label": "Private And Public",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing1",
+                                          "value": "private"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+                                            "triggerName": "swap corporate grid flow manager private widget widget",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                              "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "1",
+                                            "name": "On initialization"
+                                          }
+                                        ],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-4-0-0-2-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-2"
+                                  }
+                                ],
+                                "path": "0-0-0-0-3-0-0",
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "0MVJJcNRJSSLveOo6Ax0E",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "etnNVw4nKiaet5tj1DklP",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "pricing modal radio layout",
+                          "hideCondition": {
+                            "logic": {
+                              "!=": [
+                                {
+                                  "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+                                },
+                                true
+                              ]
+                            }
+                          }
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-4",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 3,
+                          "colSize1sm": 3,
+                          "colSize1md": 3,
+                          "colSize1lg": 3,
+                          "colSize1xl": 3,
+                          "colSize2xs": 3,
+                          "colSize2sm": 3,
+                          "colSize2md": 3,
+                          "colSize2lg": 3,
+                          "colSize2xl": 3
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "name": "pricing modal radio layout",
+                        "id": "wWffzaafpshJqYUjoU5Ki",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "AY-os8Ah6ljrKs0ruhQ3a",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "id": "Zd6sbwFlrLA7rjeSfhiqG",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "FAj4YDvUCjjetPsQDKsh4",
+                                    "gridProps": [
+                                      {
+                                        "id": "5uK_dV_BQecl9x2fhxRCi",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Sole Proprietor",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing2",
+                                          "value": "sole"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-5-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-0"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "Wb_5sBHetUEVX3fQWbt_u",
+                                    "gridProps": [
+                                      {
+                                        "id": "lQy9TMvb51-c0Xw2BMhxh",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": true,
+                                          "label": "Partnership",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing2",
+                                          "value": "partnership"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "NKZt3lkO8aR6u-bZGLczV",
+                                            "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                              "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "1",
+                                            "name": "On initialization"
+                                          }
+                                        ],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-5-0-0-1-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-1"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "QQdVdbMcYEU0RHpqffpj7",
+                                    "gridProps": [
+                                      {
+                                        "id": "z6yfQrYweJkbnPt6oQo2h",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Private And Public",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricing2",
+                                          "value": "private"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-5-0-0-2-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-2"
+                                  }
+                                ],
+                                "path": "0-0-0-0-3-0-0",
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "Uomsx4e4KdDhn13tfKHrK",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "s-MqAGolozn5IkmhLtiJ0",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "pricing modal radio layout",
+                          "hideCondition": {
+                            "logic": {
+                              "!=": [
+                                {
+                                  "var": "currentScreen.response.data.result.formRequest.data.isPartnership"
+                                },
+                                true
+                              ]
+                            }
+                          }
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-5",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 3,
+                          "colSize1sm": 3,
+                          "colSize1md": 3,
+                          "colSize1lg": 3,
+                          "colSize1xl": 3,
+                          "colSize2xs": 3,
+                          "colSize2sm": 3,
+                          "colSize2md": 3,
+                          "colSize2lg": 3,
+                          "colSize2xl": 3
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "name": "pricing modal radio layout",
+                        "id": "QKRcYAnDEWlJaT3dNaKpq",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "a9VP87kdgsC1oAOGzKIij",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "id": "fQcxUVLF-1Hmg3xFxTikn",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "diaO8qxiUzfGsbiBjmvar",
+                                    "gridProps": [
+                                      {
+                                        "id": "VzLxAm-z2zWONMi29_D6f",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": true,
+                                          "label": "Sole Proprietor",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricingSole",
+                                          "value": "sole"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "EAQTCCRbDvv2JATNl0ybb",
+                                            "triggerName": "sole proprietor grid flow manager to radio foam widget",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                              "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "1",
+                                            "name": "On initialization"
+                                          }
+                                        ],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-6-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-0"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "Gm2JXjdeHnKyDfSaaYVYo",
+                                    "gridProps": [
+                                      {
+                                        "id": "N-yaHO2Wjvg_Go2IxQzEm",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Partnership",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricingSole",
+                                          "value": "partnership"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-6-0-0-1-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-1"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "YBEFXCiU1lYcyXabT6Psx",
+                                    "gridProps": [
+                                      {
+                                        "id": "ijIohRY9WWjbx9Fn4qPwZ",
+                                        "status": "ACTIVE",
+                                        "name": "Radio",
+                                        "icon": "FaDotCircle",
+                                        "group": "Form",
+                                        "type": "20007",
+                                        "updatedAt": "01-Sep-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "Documentation": "<p>sdfsdfasdasdasd</p>",
+                                        "order": 19,
+                                        "attributes": {
+                                          "layoutProperties": {
+                                            "radioButton": {
+                                              "//": "Use this class to style radiobutton component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style radiobutton label"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style radiobutton element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          },
+                                          "validate": {
+                                            "required": false,
+                                            "errorMsg": "This Field is required"
+                                          },
+                                          "checked": false,
+                                          "label": "Private And Public",
+                                          "name": "Radio",
+                                          "searchInState": false,
+                                          "stateName": "pricingSole",
+                                          "value": "private"
+                                        },
+                                        "events": [],
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Radio",
+                                          "type": "20007"
+                                        },
+                                        "path": "0-0-0-0-6-0-0-2-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-3-0-0-2"
+                                  }
+                                ],
+                                "path": "0-0-0-0-3-0-0",
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "Qo6f65PavE9f6L6KSoyC-",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "_9dCfCENW-Jae5poc33i3",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 3,
+                              "lg": 3,
+                              "md": 3,
+                              "sm": 3,
+                              "xs": 3
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "pricing modal radio layout",
+                          "hideCondition": {
+                            "logic": {
+                              "!=": [
+                                {
+                                  "var": "currentScreen.response.data.result.formRequest.data.isSoleProprietor"
+                                },
+                                true
+                              ]
+                            }
+                          }
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-6",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 3,
+                          "colSize1sm": 3,
+                          "colSize1md": 3,
+                          "colSize1lg": 3,
+                          "colSize1xl": 3,
+                          "colSize2xs": 3,
+                          "colSize2sm": 3,
+                          "colSize2md": 3,
+                          "colSize2lg": 3,
+                          "colSize2xl": 3
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -1568,9 +2651,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "zeeshan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/11/2023",
+    "createdAt": "4/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1694,6 +2777,63 @@
           "id": "ZRYEWsrTUaqt_N99rrSQ-",
           "position": {
             "i": "ZRYEWsrTUaqt_N99rrSQ-",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "2MpQG3trcpaBCnrS_3yJm",
+          "componentType": "10001",
+          "id": "2MpQG3trcpaBCnrS_3yJm",
+          "position": {
+            "i": "2MpQG3trcpaBCnrS_3yJm",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "wWffzaafpshJqYUjoU5Ki",
+          "componentType": "10001",
+          "id": "wWffzaafpshJqYUjoU5Ki",
+          "position": {
+            "i": "wWffzaafpshJqYUjoU5Ki",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "QKRcYAnDEWlJaT3dNaKpq",
+          "componentType": "10001",
+          "id": "QKRcYAnDEWlJaT3dNaKpq",
+          "position": {
+            "i": "QKRcYAnDEWlJaT3dNaKpq",
             "x": null,
             "y": null,
             "w": null,
@@ -2556,7 +3696,7 @@
   },
   {
     "id": "ZRYEWsrTUaqt_N99rrSQ-",
-    "name": "Grid layout",
+    "name": "pricing modal radio layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -2589,7 +3729,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "pricing modal radio layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.response.data.result.isValidated" },
+            true
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -2608,7 +3756,7 @@
       "gridProps": [
         {
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
-          "componentId": "WPOm6pVl_1gVzZjuiaj0N",
+          "componentId": "3AMcCUuHOQ96JYjvVRikr",
           "componentType": "20007",
           "order": 1
         },
@@ -2652,7 +3800,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "WPOm6pVl_1gVzZjuiaj0N",
+    "id": "3AMcCUuHOQ96JYjvVRikr",
     "status": "ACTIVE",
     "name": "Radio",
     "icon": "FaDotCircle",
@@ -2698,10 +3846,10 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
+    "subType": "component",
     "component": { "content": "Radio", "type": "20007" },
     "path": "0-0-0-0-3-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
-    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2810,6 +3958,774 @@
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
     "path": "0-0-0-0-3-0-0-2-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "2MpQG3trcpaBCnrS_3yJm",
+    "name": "pricing modal radio layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "GVQCKsUhkfzdp5ink7JKu",
+          "componentType": "10001",
+          "id": "GVQCKsUhkfzdp5ink7JKu",
+          "position": {
+            "i": "GVQCKsUhkfzdp5ink7JKu",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "pricing modal radio layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            {
+              "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
+            },
+            true
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "GVQCKsUhkfzdp5ink7JKu",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "T2dphuWTjEeX1iFrEioOW",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "53-pn1vqSNGHhwWEaPXSQ",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "_m_rrPAcoiQA3yTNRjLrm",
+          "componentType": "20007",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "T2dphuWTjEeX1iFrEioOW",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Sole Proprietor",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing1",
+      "value": "sole"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-4-0-0-0-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "53-pn1vqSNGHhwWEaPXSQ",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Partnership",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing1",
+      "value": "partnership"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-4-0-0-1-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "_m_rrPAcoiQA3yTNRjLrm",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": true,
+      "label": "Private And Public",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing1",
+      "value": "private"
+    },
+    "events": [
+      {
+        "triggerId": "eUzVr2BZubDt1_rpcAoH_",
+        "triggerName": "swap corporate grid flow manager private widget widget",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-4-0-0-2-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wWffzaafpshJqYUjoU5Ki",
+    "name": "pricing modal radio layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Zd6sbwFlrLA7rjeSfhiqG",
+          "componentType": "10001",
+          "id": "Zd6sbwFlrLA7rjeSfhiqG",
+          "position": {
+            "i": "Zd6sbwFlrLA7rjeSfhiqG",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "pricing modal radio layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            {
+              "var": "currentScreen.response.data.result.formRequest.data.isPartnership"
+            },
+            true
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Zd6sbwFlrLA7rjeSfhiqG",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "5uK_dV_BQecl9x2fhxRCi",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "lQy9TMvb51-c0Xw2BMhxh",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "z6yfQrYweJkbnPt6oQo2h",
+          "componentType": "20007",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "5uK_dV_BQecl9x2fhxRCi",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Sole Proprietor",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing2",
+      "value": "sole"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-5-0-0-0-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "lQy9TMvb51-c0Xw2BMhxh",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": true,
+      "label": "Partnership",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing2",
+      "value": "partnership"
+    },
+    "events": [
+      {
+        "triggerId": "NKZt3lkO8aR6u-bZGLczV",
+        "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-5-0-0-1-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "z6yfQrYweJkbnPt6oQo2h",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Private And Public",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricing2",
+      "value": "private"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-5-0-0-2-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QKRcYAnDEWlJaT3dNaKpq",
+    "name": "pricing modal radio layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "fQcxUVLF-1Hmg3xFxTikn",
+          "componentType": "10001",
+          "id": "fQcxUVLF-1Hmg3xFxTikn",
+          "position": {
+            "i": "fQcxUVLF-1Hmg3xFxTikn",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "pricing modal radio layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            {
+              "var": "currentScreen.response.data.result.formRequest.data.isSoleProprietor"
+            },
+            true
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fQcxUVLF-1Hmg3xFxTikn",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "VzLxAm-z2zWONMi29_D6f",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "N-yaHO2Wjvg_Go2IxQzEm",
+          "componentType": "20007",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "ijIohRY9WWjbx9Fn4qPwZ",
+          "componentType": "20007",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VzLxAm-z2zWONMi29_D6f",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": true,
+      "label": "Sole Proprietor",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricingSole",
+      "value": "sole"
+    },
+    "events": [
+      {
+        "triggerId": "EAQTCCRbDvv2JATNl0ybb",
+        "triggerName": "sole proprietor grid flow manager to radio foam widget",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "1"
+      }
+    ],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-6-0-0-0-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "N-yaHO2Wjvg_Go2IxQzEm",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Partnership",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricingSole",
+      "value": "partnership"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-6-0-0-1-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ijIohRY9WWjbx9Fn4qPwZ",
+    "status": "ACTIVE",
+    "name": "Radio",
+    "icon": "FaDotCircle",
+    "group": "Form",
+    "type": "20007",
+    "updatedAt": "01-Sep-2021",
+    "createdAt": "23-Aug-2021",
+    "Documentation": "<p>sdfsdfasdasdasd</p>",
+    "order": 19,
+    "attributes": {
+      "layoutProperties": {
+        "radioButton": {
+          "//": "Use this class to style radiobutton component."
+        },
+        "formControlLabel": {
+          "//": "Use this class to style radiobutton label"
+        },
+        "inputProps": { "//": "Use this class to style radiobutton element." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      },
+      "validate": { "required": false, "errorMsg": "This Field is required" },
+      "checked": false,
+      "label": "Private And Public",
+      "name": "Radio",
+      "searchInState": false,
+      "stateName": "pricingSole",
+      "value": "private"
+    },
+    "events": [],
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Radio", "type": "20007" },
+    "path": "0-0-0-0-6-0-0-2-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

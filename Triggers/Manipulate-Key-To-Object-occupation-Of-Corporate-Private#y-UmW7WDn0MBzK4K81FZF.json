@@ -1,0 +1,45 @@
+{
+  "id": "3l5vgUwnfmG5-F9DqGMVG",
+  "name": "Manipulate Key To Object occupation Of Corporate Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "occupationOfCorporate",
+          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.occupationOfCorporate",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.occupationOfCorporate"
+              }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.occupationOfCorporate"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "y-UmW7WDn0MBzK4K81FZF",
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

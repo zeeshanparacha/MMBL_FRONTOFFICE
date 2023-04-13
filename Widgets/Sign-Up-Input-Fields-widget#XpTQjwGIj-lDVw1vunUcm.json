@@ -199,7 +199,7 @@
                                   "name": "Drop down",
                                   "stateName": "designation",
                                   "allValues": true,
-                                  "dataSource": "designation",
+                                  "dataSource": "lookUpValueResponse.designation",
                                   "dataKey": "value",
                                   "dataValue": "displayName",
                                   "mandatory": true,
@@ -239,15 +239,15 @@
                                 "type": "20003",
                                 "events": [
                                   {
-                                    "triggerId": "zciKQrhFurZokLB6XT-8n",
-                                    "triggerName": "Designation api ",
+                                    "triggerId": "B5Ds6aJcvRFrOckuDFFzS",
+                                    "triggerName": "LookUp Keys API",
                                     "serviceType": "8",
                                     "attributes": {
                                       "loaderWidgetIds": [906070],
                                       "messageWidgetIds": [906070],
-                                      "responseStateKey": "designation",
-                                      "responseReturnValue": "data.result.lookupValue",
-                                      "url": "/lookup/values",
+                                      "responseStateKey": "lookUpKeyResponse",
+                                      "responseReturnValue": "data.result",
+                                      "url": "/lookup/keys",
                                       "checksum": true,
                                       "encryption": true,
                                       "isDeviceDetails": true,
@@ -261,14 +261,7 @@
                                         "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                         "locale": "en-ltr"
                                       },
-                                      "requestBody": [
-                                        {
-                                          "type": 4,
-                                          "name": "Static",
-                                          "key": "lookupType",
-                                          "value": "designation"
-                                        }
-                                      ],
+                                      "requestBody": [],
                                       "baseURL": "641aedb2676c823a449fd597",
                                       "storeType": 2
                                     },
@@ -284,7 +277,7 @@
                                   "content": "Drop down",
                                   "type": "20003"
                                 },
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0"
+                                "path": "0-0-0-0-0-1-0"
                               }
                             ],
                             "layoutProperties": {
@@ -1472,9 +1465,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "XpTQjwGIj-lDVw1vunUcm",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/8/2023",
-    "createdAt": "4/8/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/11/2023",
+    "createdAt": "4/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1817,7 +1810,7 @@
       "name": "Drop down",
       "stateName": "designation",
       "allValues": true,
-      "dataSource": "designation",
+      "dataSource": "lookUpValueResponse.designation",
       "dataKey": "value",
       "dataValue": "displayName",
       "mandatory": true,
@@ -1852,8 +1845,8 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "zciKQrhFurZokLB6XT-8n",
-        "triggerName": "Designation api ",
+        "triggerId": "B5Ds6aJcvRFrOckuDFFzS",
+        "triggerName": "LookUp Keys API",
         "name": "On initialization",
         "type": "1",
         "serviceType": "8"
@@ -1864,7 +1857,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-1-0",
+    "path": "0-0-0-0-0-1-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

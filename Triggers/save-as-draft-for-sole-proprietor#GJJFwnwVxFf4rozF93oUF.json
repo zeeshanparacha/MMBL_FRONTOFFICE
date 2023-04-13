@@ -253,6 +253,18 @@
               "name": "Current screen",
               "key": "soleProprietor.signatories",
               "value": "sole"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "validateOtpUuid",
+              "value": "uuid"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "id",
+              "value": "formId"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -264,13 +276,19 @@
             "logic": { "==": [{ "var": "status" }, 1] },
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "save formID from save as draft",
+            "triggerId": "KnbUvVEjIsPOa-wAngQqG"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/6/2023",
-  "createdAt": "4/6/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
 }

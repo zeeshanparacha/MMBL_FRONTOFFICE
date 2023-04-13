@@ -13,7 +13,6 @@
         "attributes": {
           "stateName": "directorInformation",
           "requestBody": [
-            { "type": 1, "name": "Form", "key": "city", "value": "city" },
             { "type": 1, "name": "Form", "key": "cnicNo", "value": "cnicNo" },
             {
               "type": 1,
@@ -69,7 +68,8 @@
               "name": "Form",
               "key": "areYouPoliticalMember",
               "value": "areYouPoliticalMember.code"
-            }
+            },
+            { "type": 1, "name": "Form", "key": "city", "value": "city1" }
           ],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
@@ -79,8 +79,8 @@
       }
     }
   ],
-  "updatedAt": "4/6/2023",
-  "createdAt": "4/6/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

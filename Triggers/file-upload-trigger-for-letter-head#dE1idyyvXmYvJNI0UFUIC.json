@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "uploadFileResponse1",
+          "responseStateKey": "uploadFileResponse",
           "responseReturnValue": "data.result",
           "url": "/doc-mgmt/upload-files",
           "checksum": true,
@@ -39,10 +39,10 @@
               "value": "SOLE_PROPRIETOR_DECLARATION_ON_LETTER_HEAD"
             },
             {
-              "type": 3,
-              "name": "Current session",
+              "type": 2,
+              "name": "Current screen",
               "key": "uuid",
-              "value": "response.data.result.uuid"
+              "value": "uuid"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -58,8 +58,8 @@
       }
     }
   ],
-  "updatedAt": "4/6/2023",
-  "createdAt": "4/6/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
 }

@@ -1,6 +1,6 @@
 {
-  "id": "wZ0DUhCht_JjRvebAmDuF",
-  "_id": "vZR6JAkpo77-xbm2LEXaN",
+  "id": "eV9mExfCmHT5YxS4Y1A5Y",
+  "_id": "Rx21TVupujDzBdlWEavus",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": "save as draft for private foam",
@@ -327,16 +327,16 @@
             },
             { "type": 1, "name": "Form", "key": "smsOtp", "value": "smsotp" },
             {
-              "type": 3,
-              "name": "Current session",
+              "type": 2,
+              "name": "Current screen",
               "key": "validateOtpUuid",
-              "value": "response.data.result.uuid"
+              "value": "uuid"
             },
             {
               "type": 2,
               "name": "Current screen",
-              "key": "soleProprietor.signatories",
-              "value": "sole"
+              "key": "id",
+              "value": "formId"
             },
             {
               "type": 2,
@@ -384,13 +384,19 @@
             "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Private FormId Value",
+            "triggerId": "r0GaABrlfnK5UEs8ZMhaW"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/7/2023",
-  "createdAt": "4/7/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

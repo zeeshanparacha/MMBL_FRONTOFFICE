@@ -258,7 +258,13 @@
               "type": 2,
               "name": "Current screen",
               "key": "id",
-              "value": "soleProprietor.data.result.formId"
+              "value": "formId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "validateOtpUuid",
+              "value": "uuid"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -270,12 +276,6 @@
             "logic": { "==": [{ "var": "status" }, 1] },
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
-          },
-          {
-            "httpStatus": 200,
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Clear Form Data",
-            "triggerId": "C9VAY5AImRfVpeNy7pz65"
           },
           {
             "triggerName": "pricing model to document upload for sole properietor",
@@ -293,8 +293,8 @@
       }
     }
   ],
-  "updatedAt": "4/6/2023",
-  "createdAt": "4/6/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
 }

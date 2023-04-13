@@ -44,16 +44,16 @@
         "responseHandler": [
           {
             "httpStatus": 200,
-            "triggerName": "corporate account opening screen to corporate account opening otp",
-            "triggerId": "Q-C2CSZ-WNIXMvOhidNHi",
+            "triggerName": "Swap Sign Up Screen To Corporate User Already Registered Screen",
+            "triggerId": "VvY5UV6qNF4unVo2i0fiT",
             "logic": { "==": [{ "var": "status" }, 1] }
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/8/2023",
-  "createdAt": "4/8/2023",
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

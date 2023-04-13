@@ -1361,7 +1361,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "6I8DZE6ua5m_GwjrmzbEv",
+                                    "id": "buEJkzYjiNnta_rvw-PP9",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -1583,7 +1583,7 @@
                                     }
                                   }
                                 ],
-                                "path": "0-0-0-0-1-0-0-0-0-0-1-2-0",
+                                "path": "0-0-0-0-2-1-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -1602,8 +1602,8 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout",
-                                  "hideComponent": false
+                                  "name": "city and country ",
+                                  "hideComponent": true
                                 },
                                 "component": {
                                   "type": "10001",
@@ -1985,9 +1985,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "ag5Y61Hzq18ZmjHVWSAeu",
-    "createdBy": "areeb",
-    "updatedAt": "4/6/2023",
-    "createdAt": "4/6/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/9/2023",
+    "createdAt": "4/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3413,8 +3413,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout",
-      "hideComponent": false
+      "name": "city and country ",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],

@@ -1,0 +1,42 @@
+{
+  "id": "akkJsBjhFhFScLQy8QYzv",
+  "name": "Manipulate Key To Object expected No Of Credit Amount Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "destinationBindingKey": "expectedNoOfCreditAmount",
+          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditAmount",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditAmount"
+              }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfCreditAmount"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "I6QJoYcGlPtOmRra-mSbV",
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

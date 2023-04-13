@@ -1,0 +1,45 @@
+{
+  "id": "rbywCbuqgD47mwTUuZ22T",
+  "name": "Manipulate Key To Object account Category Private",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "accountCategory",
+          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.accountCategory",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountCategory"
+              }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountCategory"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "ryWvCCH37rEJp315CVDpr",
+  "updatedAt": "4/9/2023",
+  "createdAt": "4/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
