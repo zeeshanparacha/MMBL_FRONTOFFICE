@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "fileUpload5",
+          "responseStateKey": "taxExemptionDocResponse",
           "responseReturnValue": "data.result",
           "url": "/doc-mgmt/upload-files",
           "checksum": true,
@@ -53,13 +53,19 @@
             "httpStatus": 200,
             "triggerName": "add attachment for Partnership Deed",
             "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showTaxExemptionUpload false",
+            "triggerId": "XbAFyvajafKKHHVId76CF"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/7/2023",
-  "createdAt": "4/7/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

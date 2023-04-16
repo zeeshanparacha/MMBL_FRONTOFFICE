@@ -1167,6 +1167,155 @@
                                             },
                                             "type": "3",
                                             "name": "On change"
+                                          },
+                                          {
+                                            "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+                                            "triggerName": "Set Pricing Value Chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "id": "Nw50uGREwJa7Ps0Jcl32b",
+                                                  "name": "Set isSoleProprietor Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isSoleProprietor",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 2,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "sole"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "LlqpIZBrDifrUobpkmfWw",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "kyN44gyFeJt5Uf8h1yW71",
+                                                  "name": "Set isPrivateOrPublic Key Value true",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPrivateOrPublic",
+                                                          "sourceBindingKey": "form.pricing",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "private"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "3Jk2eUTawwOMdJyFdp8zL",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "VNxbj187UVrkqfcAdRNgO",
+                                                  "name": "set isPartnership Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPartnership",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "partnership"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "MySLDa9ZqsXsTPJsgdPtv",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "Nw50uGREwJa7Ps0Jcl32b",
+                                                "kyN44gyFeJt5Uf8h1yW71",
+                                                "VNxbj187UVrkqfcAdRNgO"
+                                              ]
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -1246,6 +1395,155 @@
                                             },
                                             "type": "3",
                                             "name": "On change"
+                                          },
+                                          {
+                                            "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+                                            "triggerName": "Set Pricing Value Chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "id": "Nw50uGREwJa7Ps0Jcl32b",
+                                                  "name": "Set isSoleProprietor Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isSoleProprietor",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 2,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "sole"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "LlqpIZBrDifrUobpkmfWw",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "kyN44gyFeJt5Uf8h1yW71",
+                                                  "name": "Set isPrivateOrPublic Key Value true",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPrivateOrPublic",
+                                                          "sourceBindingKey": "form.pricing",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "private"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "3Jk2eUTawwOMdJyFdp8zL",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "VNxbj187UVrkqfcAdRNgO",
+                                                  "name": "set isPartnership Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPartnership",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "partnership"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "MySLDa9ZqsXsTPJsgdPtv",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "Nw50uGREwJa7Ps0Jcl32b",
+                                                "kyN44gyFeJt5Uf8h1yW71",
+                                                "VNxbj187UVrkqfcAdRNgO"
+                                              ]
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -1325,6 +1623,155 @@
                                             },
                                             "type": "3",
                                             "name": "On change"
+                                          },
+                                          {
+                                            "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+                                            "triggerName": "Set Pricing Value Chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "id": "Nw50uGREwJa7Ps0Jcl32b",
+                                                  "name": "Set isSoleProprietor Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isSoleProprietor",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 2,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "sole"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "LlqpIZBrDifrUobpkmfWw",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "kyN44gyFeJt5Uf8h1yW71",
+                                                  "name": "Set isPrivateOrPublic Key Value true",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPrivateOrPublic",
+                                                          "sourceBindingKey": "form.pricing",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "private"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "3Jk2eUTawwOMdJyFdp8zL",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                },
+                                                {
+                                                  "id": "VNxbj187UVrkqfcAdRNgO",
+                                                  "name": "set isPartnership Key Value True",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "11",
+                                                      "command": {
+                                                        "type": "6",
+                                                        "attributes": {
+                                                          "storeType": "",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "dataType": "value",
+                                                          "destinationBindingKey": "isPartnership",
+                                                          "sourceBindingKey": "form",
+                                                          "sourceStoreType": 2,
+                                                          "destinationStoreType": 1,
+                                                          "logic": {
+                                                            "if": [
+                                                              {
+                                                                "==": [
+                                                                  {
+                                                                    "var": "form.pricing"
+                                                                  },
+                                                                  "partnership"
+                                                                ]
+                                                              },
+                                                              true,
+                                                              false
+                                                            ]
+                                                          },
+                                                          "changeValueConditonally": true,
+                                                          "targettedType": "value"
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "MySLDa9ZqsXsTPJsgdPtv",
+                                                  "updatedAt": "4/15/2023",
+                                                  "createdAt": "4/15/2023",
+                                                  "createdBy": "ajk",
+                                                  "updatedBy": "ajk"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "Nw50uGREwJa7Ps0Jcl32b",
+                                                "kyN44gyFeJt5Uf8h1yW71",
+                                                "VNxbj187UVrkqfcAdRNgO"
+                                              ]
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -2651,9 +3098,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/11/2023",
-    "createdAt": "4/11/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/15/2023",
+    "createdAt": "4/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3841,15 +4288,22 @@
         "name": "On change",
         "type": "3",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+        "triggerName": "Set Pricing Value Chain Trig",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
       }
     ],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Radio", "type": "20007" },
     "path": "0-0-0-0-3-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3896,6 +4350,13 @@
         "name": "On change",
         "type": "3",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+        "triggerName": "Set Pricing Value Chain Trig",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
       }
     ],
     "version": "1.0.0",
@@ -3951,6 +4412,13 @@
         "name": "On change",
         "type": "3",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
+        "triggerName": "Set Pricing Value Chain Trig",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
       }
     ],
     "version": "1.0.0",

@@ -1247,7 +1247,10 @@
             "1039": "uoXcG3sQW5M24K1O0iz2b",
             "1041": "nuv7EaszVxpoaaVLfecTB",
             "1042": "Ab-ouc1h_Xd71snpw51Ti",
-            "1044": "DTduOZRqks5R0jJPnUtna"
+            "1044": "DTduOZRqks5R0jJPnUtna",
+            "1049": "7_2fDxRNGfIbKeo1132ab",
+            "1050": "fsZCk9fYfn5H0QdimMWCa",
+            "1051": "ZYfCK6ZcYsZwdCa19LxO4"
           },
           "permissionsTemp": [
             {
@@ -1467,6 +1470,27 @@
                 "id": "nuv7EaszVxpoaaVLfecTB",
                 "name": "Cheque Book Request Screen"
               }
+            },
+            {
+              "permission": "1049",
+              "screen": {
+                "id": "7_2fDxRNGfIbKeo1132ab",
+                "name": "Create TDR Screen"
+              }
+            },
+            {
+              "permission": "1051",
+              "screen": {
+                "id": "ZYfCK6ZcYsZwdCa19LxO4",
+                "name": "Qr generator for accounts "
+              }
+            },
+            {
+              "permission": "1050",
+              "screen": {
+                "id": "fsZCk9fYfn5H0QdimMWCa",
+                "name": "View TDR List Screen"
+              }
             }
           ]
         },
@@ -1612,9 +1636,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/4/2023",
-    "createdAt": "4/4/2023",
+    "createdBy": "muzzamil",
+    "updatedAt": "4/14/2023",
+    "createdAt": "4/14/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2516,7 +2540,10 @@
         "1039": "uoXcG3sQW5M24K1O0iz2b",
         "1041": "nuv7EaszVxpoaaVLfecTB",
         "1042": "Ab-ouc1h_Xd71snpw51Ti",
-        "1044": "DTduOZRqks5R0jJPnUtna"
+        "1044": "DTduOZRqks5R0jJPnUtna",
+        "1049": "7_2fDxRNGfIbKeo1132ab",
+        "1050": "fsZCk9fYfn5H0QdimMWCa",
+        "1051": "ZYfCK6ZcYsZwdCa19LxO4"
       },
       "permissionsTemp": [
         {
@@ -2720,6 +2747,27 @@
           "screen": {
             "id": "nuv7EaszVxpoaaVLfecTB",
             "name": "Cheque Book Request Screen"
+          }
+        },
+        {
+          "permission": "1049",
+          "screen": {
+            "id": "7_2fDxRNGfIbKeo1132ab",
+            "name": "Create TDR Screen"
+          }
+        },
+        {
+          "permission": "1051",
+          "screen": {
+            "id": "ZYfCK6ZcYsZwdCa19LxO4",
+            "name": "Qr generator for accounts "
+          }
+        },
+        {
+          "permission": "1050",
+          "screen": {
+            "id": "fsZCk9fYfn5H0QdimMWCa",
+            "name": "View TDR List Screen"
           }
         }
       ],

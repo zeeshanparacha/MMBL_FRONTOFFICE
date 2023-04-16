@@ -82,13 +82,24 @@
             "httpStatus": 200,
             "triggerName": "chain trigger for sole proprietor update trigger",
             "triggerId": "L1jbwOc_gF8qi_KpZGQNe"
+          },
+          {
+            "logic": {
+              "==": [
+                { "var": "data.result.formRequest.data.isPartnership" },
+                true
+              ]
+            },
+            "httpStatus": 200,
+            "triggerName": "Partnership Pricing Module chain Trigger",
+            "triggerId": "re04mpZvsn25LOFk7YnH5"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/11/2023",
-  "createdAt": "4/11/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

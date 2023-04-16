@@ -397,16 +397,17 @@
             "triggerId": "C9VAY5AImRfafff65"
           },
           {
+            "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Clear Form Data",
-            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+            "triggerName": "Set Form Id Value on Save to Next Call",
+            "triggerId": "j7MUIg-aNRq3a9YiZblRY"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/12/2023",
-  "createdAt": "4/12/2023",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

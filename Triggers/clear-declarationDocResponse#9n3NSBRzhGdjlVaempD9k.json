@@ -1,0 +1,31 @@
+{
+  "id": "0IIbjEQR8NMai9lKjETY5",
+  "name": "clear declarationDocResponse",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "declarationDocResponse",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "9n3NSBRzhGdjlVaempD9k",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
+}

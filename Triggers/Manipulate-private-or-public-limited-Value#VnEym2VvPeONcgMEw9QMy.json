@@ -1,6 +1,6 @@
 {
-  "id": "RECXHLSS69RnjJqSMk4-3",
-  "_id": "h9MvmgtJQpqPJJiw0DN_W",
+  "id": "IVJLadF8HOCa0JnFO0mrL",
+  "_id": "VnEym2VvPeONcgMEw9QMy",
   "name": "Manipulate private or public limited Value",
   "old_name": "Manipulate private or public limited Value",
   "projectId": "63f4845e476fc83100e3a899",
@@ -26,7 +26,6 @@
             { "key": "email" },
             { "key": "emailOtp" },
             { "key": "fullName" },
-            { "key": "id" },
             { "key": "isPartnership" },
             { "key": "isSavingInDraft" },
             { "key": "isSoleProprietor" },
@@ -412,15 +411,23 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.directorInformation"
               }
-            }
+            },
+            {
+              "key": "id",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.formId"
+              }
+            },
+            { "key": "isPrivateOrPublic", "changeValueConditonally": false }
           ],
           "targettedType": "object"
         }
       }
     }
   ],
-  "updatedAt": "4/10/2023",
-  "createdAt": "4/10/2023",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

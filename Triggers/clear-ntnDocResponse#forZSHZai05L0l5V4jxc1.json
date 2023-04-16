@@ -1,6 +1,8 @@
 {
-  "id": "BeQBwzmciaL7I5ryqMZ_H",
-  "name": "map declarationDocId to docId",
+  "id": "6HCnj1vuZQwtGQa5U9KFJ",
+  "_id": "forZSHZai05L0l5V4jxc1",
+  "name": "clear ntnDocResponse",
+  "old_name": "clear declarationDocResponse",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,21 +11,23 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
-          "destinationBindingKey": "docId",
-          "sourceBindingKey": "declarationDocId",
-          "sourceStoreType": 1,
+          "destinationBindingKey": "ntnDocResponse",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
           "destinationStoreType": 2,
+          "logic": { "if": [true, "", ""] },
+          "changeValueConditonally": true,
           "targettedType": "value"
         }
       }
     }
   ],
-  "_id": "uwDKiSuEfP4qfp5BjZtEi",
-  "updatedAt": "4/12/2023",
-  "createdAt": "4/12/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "talha",
   "updatedBy": "talha"
 }

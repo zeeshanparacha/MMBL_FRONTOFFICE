@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "uploadFileResponse",
+          "responseStateKey": "declarationDocResponse",
           "responseReturnValue": "data.result",
           "url": "/doc-mgmt/upload-files",
           "checksum": true,
@@ -52,14 +52,21 @@
           {
             "httpStatus": 200,
             "triggerName": "add attachement for declarationDocId",
-            "triggerId": "ndZ5w0j35NJfd2f-wnVko"
+            "triggerId": "ndZ5w0j35NJfd2f-wnVko",
+            "logic": true
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "set showDeclarationUpload false",
+            "triggerId": "Y4G4hwPdDBaubTA1uM5aq"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/12/2023",
-  "createdAt": "4/12/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

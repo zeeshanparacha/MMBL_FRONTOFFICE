@@ -1,0 +1,30 @@
+{
+  "id": "VCjCH6B6Cx3xYPxDBDjKG",
+  "name": "Set Form Id Value on Partnership Save to Next Call",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "formId",
+          "sourceBindingKey": "partnershipResponse.data.result.formId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "changeValueConditonally": false,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "7X3TStH_EawD2C5z1tEyp",
+  "updatedAt": "4/15/2023",
+  "createdAt": "4/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

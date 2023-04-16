@@ -13,22 +13,29 @@
         "attributes": {
           "requestBody": [],
           "destinationBindingKey": "zakatExemption",
-          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.zakatExemption",
+          "sourceBindingKey": "form.zakatExemption",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
             {
               "key": "code",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemption"
-              }
+              "logic": { "var": "currentScreen.form.zakatExemption" }
             },
             {
               "key": "name",
               "changeValueConditonally": true,
               "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.zakatExemption"
+                "if": [
+                  {
+                    "==": [
+                      { "var": "currentScreen.form.zakatExemption" },
+                      "yes"
+                    ]
+                  },
+                  "Yes",
+                  "No"
+                ]
               }
             }
           ],
@@ -37,8 +44,8 @@
       }
     }
   ],
-  "updatedAt": "4/10/2023",
-  "createdAt": "4/10/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

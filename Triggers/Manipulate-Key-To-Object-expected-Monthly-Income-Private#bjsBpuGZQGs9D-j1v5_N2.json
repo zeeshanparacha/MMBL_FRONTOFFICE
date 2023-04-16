@@ -1,6 +1,8 @@
 {
   "id": "FnqtY1o92M3VPX_YyYnMJ",
+  "_id": "bjsBpuGZQGs9D-j1v5_N2",
   "name": "Manipulate Key To Object expected Monthly Income Private",
+  "old_name": "Manipulate Key To Object expected Monthly Income Private",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,27 +11,24 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "",
           "destinationBindingKey": "expectedMonthlyIncome",
-          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.expectedMonthlyIncome",
+          "sourceBindingKey": "form.expectedMonthlyIncome",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
             {
               "key": "value",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedMonthlyIncome"
-              }
+              "logic": { "var": "currentScreen.form.expectedMonthlyIncome" }
             },
             {
               "key": "displayName",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedMonthlyIncome"
-              }
+              "logic": { "var": "currentScreen.form.expectedMonthlyIncome" }
             }
           ],
           "targettedType": "object"
@@ -37,9 +36,8 @@
       }
     }
   ],
-  "_id": "bjsBpuGZQGs9D-j1v5_N2",
-  "updatedAt": "4/9/2023",
-  "createdAt": "4/9/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

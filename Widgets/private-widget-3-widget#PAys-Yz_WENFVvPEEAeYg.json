@@ -216,7 +216,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -230,7 +230,8 @@
                                                       "//": "Use this class to style text field component."
                                                     },
                                                     "inputProps": {
-                                                      "//": "Use this class to style  text field element."
+                                                      "//": "Use this class to style  text field element.",
+                                                      "paddingLeft": "15px"
                                                     },
                                                     "mainContainer": "textField",
                                                     "xl": 12,
@@ -503,7 +504,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "13",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -791,7 +792,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -1138,8 +1139,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "11",
+                                                  "type": "number",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1152,7 +1153,8 @@
                                                       "//": "Use this class to style text field component."
                                                     },
                                                     "inputProps": {
-                                                      "//": "Use this class to style  text field element."
+                                                      "//": "Use this class to style  text field element.",
+                                                      "paddingLeft": "15px"
                                                     },
                                                     "mainContainer": "textField",
                                                     "xl": 12,
@@ -1425,7 +1427,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -1451,7 +1453,9 @@
                                                   },
                                                   "validate": {
                                                     "required": false,
-                                                    "errorMsg": "This field is required"
+                                                    "errorMsg": "This field is required",
+                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                                                    "regexErrorMsg": "Email incorrect"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -1713,7 +1717,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -2307,7 +2311,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -2595,7 +2599,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -3238,7 +3242,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -3526,7 +3530,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -3728,167 +3732,11 @@
                       },
                       {
                         "type": "10001",
-                        "id": "gk7AWkHMe2m9_ODqoFIQX",
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "vydbtQUPjm4cifEvRsip3",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-5-0"
-                          },
-                          {
-                            "type": "column",
-                            "id": "a6u2HI3C9cb4Wucjt0NH0",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-5-1"
-                          },
-                          {
-                            "type": "column",
-                            "id": "cTLSaXQFUGIevL5Y_Ykmg",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-5-2"
-                          }
-                        ],
-                        "path": "0-0-0-0-5",
-                        "events": [],
-                        "attributes": {
-                          "gridProps": [],
-                          "label": "Header",
-                          "layoutProperties": {
-                            "gridLayout": {
-                              "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
-                            },
-                            "mainContainer": "gridLayout"
-                          },
-                          "layoutProps": {
-                            "direction": "row",
-                            "justifyContent": "flex-start",
-                            "alignItems": "flex-start"
-                          },
-                          "direction": "row",
-                          "name": "Grid layout"
-                        },
-                        "component": {
-                          "type": "10001",
-                          "content": "Grid layout"
-                        },
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "name": "Grid layout"
-                      },
-                      {
-                        "type": "10001",
-                        "id": "ikDFwUHwIPPvWGraWlsjp",
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "oKR1SQYTnyi6J0nA-Fsy0",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-6-0"
-                          },
-                          {
-                            "type": "column",
-                            "id": "cZKqvDWhkQvKBsj4mrcFv",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-6-1"
-                          },
-                          {
-                            "type": "column",
-                            "id": "mljt2pfbaoSQthFEFZZBJ",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-6-2"
-                          }
-                        ],
-                        "path": "0-0-0-0-6",
-                        "events": [],
-                        "attributes": {
-                          "gridProps": [],
-                          "label": "Header",
-                          "layoutProperties": {
-                            "gridLayout": {
-                              "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
-                            },
-                            "mainContainer": "gridLayout"
-                          },
-                          "layoutProps": {
-                            "direction": "row",
-                            "justifyContent": "flex-start",
-                            "alignItems": "flex-start"
-                          },
-                          "direction": "row",
-                          "name": "Grid layout"
-                        },
-                        "component": {
-                          "type": "10001",
-                          "content": "Grid layout"
-                        },
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "name": "Grid layout"
-                      },
-                      {
-                        "type": "10001",
                         "id": "wEBGlsqQ-d5DUikSmzM-o",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "cvRfdBpyAb-nhGW2FPZ6P",
+                            "id": "Zl9GSyAXCdl4pc5kXao0e",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -3898,7 +3746,123 @@
                                   {
                                     "type": "column",
                                     "id": "NE9wyv8VtNjgucu8_yR2L",
-                                    "gridProps": [],
+                                    "gridProps": [
+                                      {
+                                        "type": "10001",
+                                        "id": "6Y21fFqMJYmD8J9GIpINI",
+                                        "gridProps": [
+                                          {
+                                            "type": "column",
+                                            "id": "dnDV9m8S3G1BJbQiLd0rA",
+                                            "gridProps": [
+                                              {
+                                                "id": "xlDM1OAVbqJKClfSKIFK0",
+                                                "status": "ACTIVE",
+                                                "attributes": {
+                                                  "label": "back",
+                                                  "variant": "outlined",
+                                                  "name": "Button",
+                                                  "label-locale-key": "",
+                                                  "fullWidth": true,
+                                                  "layoutProperties": {
+                                                    "button": {
+                                                      "//": "Use this class to style button component."
+                                                    },
+                                                    "inputProps": {
+                                                      "//": "Use this class to style button element."
+                                                    },
+                                                    "mainContainer": "button",
+                                                    "xl": 12,
+                                                    "lg": 12,
+                                                    "md": 12,
+                                                    "sm": 12,
+                                                    "xs": 12
+                                                  },
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "resetBtnClass"
+                                                    }
+                                                  ]
+                                                },
+                                                "name": "Button",
+                                                "icon": "FaBimobject",
+                                                "group": "Form",
+                                                "type": "20006",
+                                                "Documentation": "<div>components 12344</div>",
+                                                "updatedAt": "23-Aug-2021",
+                                                "createdAt": "23-Aug-2021",
+                                                "order": 1,
+                                                "version": "1.0.0",
+                                                "isLatest": true,
+                                                "projectType": "web",
+                                                "component": {
+                                                  "content": "Button",
+                                                  "type": "20006"
+                                                },
+                                                "events": [
+                                                  {
+                                                    "triggerId": "KGaA0I7BkHxql5CA3v40o",
+                                                    "triggerName": "private widget 3 to widget 2 flow manager",
+                                                    "serviceType": "1",
+                                                    "attributes": {
+                                                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                                      "nextWidgetId": "ag5Y61Hzq18ZmjHVWSAeu",
+                                                      "gridRadioValue": "Grid",
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "editableForm": false
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
+                                                  }
+                                                ],
+                                                "path": "0-0-0-0-5-0-0-0-0-0-0"
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 12,
+                                              "lg": 12,
+                                              "md": 12,
+                                              "sm": 12,
+                                              "xs": 12
+                                            },
+                                            "path": "0-0-0-0-7-0-0-0-0-0"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-7-0-0-0-0",
+                                        "events": [],
+                                        "attributes": {
+                                          "gridProps": [],
+                                          "label": "Header",
+                                          "layoutProperties": {
+                                            "gridLayout": {
+                                              "//": "Use this class to style grid layout component.",
+                                              "padding": "5px",
+                                              "spacing": 0
+                                            },
+                                            "mainContainer": "gridLayout"
+                                          },
+                                          "layoutProps": {
+                                            "direction": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "flex-start"
+                                          },
+                                          "direction": "row",
+                                          "name": "Grid layout"
+                                        },
+                                        "component": {
+                                          "type": "10001",
+                                          "content": "Grid layout"
+                                        },
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout"
+                                      }
+                                    ],
                                     "layoutProperties": {
                                       "xl": 12,
                                       "lg": 12,
@@ -3944,17 +3908,16 @@
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-7-0"
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "9KPSLxRfFcSDoJ2uTlqIs",
+                            "id": "jS-L-MQwqRlOjMmOnAWZb",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -4010,17 +3973,16 @@
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-7-1"
+                              "xl": 8,
+                              "lg": 8,
+                              "md": 8,
+                              "sm": 8,
+                              "xs": 8
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "hvc0-U8CKuA2Zj73hTY1O",
+                            "id": "fBQ5ObjWBJqxYWLpLebad",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -4032,7 +3994,7 @@
                                     "id": "mPdx16pmNrOJeguaUCdg1",
                                     "gridProps": [
                                       {
-                                        "id": "6Y21fFqMJYmD8J9GIpINI",
+                                        "id": "hI1sJGegOZ_BuY6mdRqxX",
                                         "status": "ACTIVE",
                                         "_id": "610134a1d1f5e860b1e8c751",
                                         "name": "Grid layout",
@@ -4081,138 +4043,6 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "dnDV9m8S3G1BJbQiLd0rA",
-                                            "gridProps": [
-                                              {
-                                                "id": "xlDM1OAVbqJKClfSKIFK0",
-                                                "status": "ACTIVE",
-                                                "attributes": {
-                                                  "label": "back",
-                                                  "variant": "contained",
-                                                  "name": "Button",
-                                                  "label-locale-key": "",
-                                                  "fullWidth": false,
-                                                  "layoutProperties": {
-                                                    "button": {
-                                                      "//": "Use this class to style button component."
-                                                    },
-                                                    "inputProps": {
-                                                      "//": "Use this class to style button element."
-                                                    },
-                                                    "mainContainer": "button",
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "cssClassNames": [
-                                                    {
-                                                      "cssClassName": "CardButton"
-                                                    }
-                                                  ]
-                                                },
-                                                "name": "Button",
-                                                "icon": "FaBimobject",
-                                                "group": "Form",
-                                                "type": "20006",
-                                                "Documentation": "<div>components 12344</div>",
-                                                "updatedAt": "23-Aug-2021",
-                                                "createdAt": "23-Aug-2021",
-                                                "order": 1,
-                                                "version": "1.0.0",
-                                                "isLatest": true,
-                                                "projectType": "web",
-                                                "component": {
-                                                  "content": "Button",
-                                                  "type": "20006"
-                                                },
-                                                "events": [
-                                                  {
-                                                    "triggerId": "KGaA0I7BkHxql5CA3v40o",
-                                                    "triggerName": "private widget 3 to widget 2 flow manager",
-                                                    "serviceType": "1",
-                                                    "attributes": {
-                                                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                                      "nextWidgetId": "ag5Y61Hzq18ZmjHVWSAeu",
-                                                      "gridRadioValue": "Grid",
-                                                      "selectedObjectBindingKey": "selectedObject",
-                                                      "editableForm": false
-                                                    },
-                                                    "type": "2",
-                                                    "name": "On click"
-                                                  }
-                                                ],
-                                                "path": "0-0-0-0-7-2-0-0-0-0-0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-0-0-7-2-0-0-0-0"
-                                          }
-                                        ],
-                                        "layoutProperties": {
-                                          "lg": 12,
-                                          "md": 12,
-                                          "sm": 12,
-                                          "xs": 12
-                                        }
-                                      },
-                                      {
-                                        "id": "hI1sJGegOZ_BuY6mdRqxX",
-                                        "status": "ACTIVE",
-                                        "_id": "610134a1d1f5e860b1e8c751",
-                                        "name": "Grid layout",
-                                        "icon": "FaGripHorizontal",
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "group": "Layout",
-                                        "type": "sidebarItem",
-                                        "updatedAt": "23-Sep-2021",
-                                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
-                                        "createdAt": "24-Aug-2021",
-                                        "events": [],
-                                        "order": 1,
-                                        "version": "1.0.0",
-                                        "isLatest": true,
-                                        "projectType": "web",
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "component": {
-                                          "content": "Grid layout",
-                                          "type": "10001"
-                                        },
-                                        "path": "0-0-0-0-7-2-0-0-1",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
                                             "id": "oMxDe1GVerEXH6wpRoZJT",
                                             "gridProps": [
                                               {
@@ -4223,7 +4053,7 @@
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
-                                                  "fullWidth": false,
+                                                  "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
                                                       "//": "Use this class to style button component."
@@ -4261,95 +4091,19 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "G9OsOZWp4z8qdmcBfsc_6",
-                                                    "triggerName": "add data grid for ",
-                                                    "serviceType": "11",
+                                                    "triggerId": "w-5kMnEztpo8WllngCfJm",
+                                                    "triggerName": "Clear DirectorInformation BindingKeys",
+                                                    "serviceType": "2",
                                                     "attributes": {
-                                                      "stateName": "directorInformation",
-                                                      "requestBody": [
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "city",
-                                                          "value": "city"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "areYouPoliticalMember",
-                                                          "value": "areYouPoliticalMember.value"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "cnicNo",
-                                                          "value": "cnicNo"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "comments",
-                                                          "value": "comments"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "contactNumber",
-                                                          "value": "contactNumber"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "country",
-                                                          "value": "country"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "emailAddress",
-                                                          "value": "emailAddress"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "nameAsPerCNIC",
-                                                          "value": "nameAsPerCNIC"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "nationality",
-                                                          "value": "nationality"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "partnerDirectorDateOfBirth",
-                                                          "value": "partnerDirectorDateOfBirth"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "partnerDirectorPlaceOfBirth",
-                                                          "value": "partnerDirectorPlaceOfBirth"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "designation",
-                                                          "value": "designation1"
-                                                        }
-                                                      ],
-                                                      "storeType": "",
-                                                      "selectedObjectBindingKey": "selectedObject",
-                                                      "dataType": "",
-                                                      "sourceBindingKey": ""
+                                                      "delay": "",
+                                                      "triggers": [],
+                                                      "triggerIds": []
                                                     },
-                                                    "type": "2",
-                                                    "name": "On click"
+                                                    "type": "4",
+                                                    "name": "On Submit"
                                                   }
                                                 ],
-                                                "path": "0-0-0-0-7-2-0-0-1-0-0"
+                                                "path": "0-0-0-0-5-2-0-0-0-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -4359,7 +4113,7 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-0-0-7-2-0-0-1-0"
+                                            "path": "0-0-0-0-7-2-0-0-0-0"
                                           }
                                         ],
                                         "layoutProperties": {
@@ -4415,13 +4169,12 @@
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 4,
-                              "lg": 4,
-                              "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-0-0-7-2"
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
+                            }
                           }
                         ],
                         "path": "0-0-0-0-7",
@@ -4444,1417 +4197,6 @@
                           },
                           "direction": "row",
                           "name": "Grid layout"
-                        },
-                        "component": {
-                          "type": "10001",
-                          "content": "Grid layout"
-                        },
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "name": "Grid layout"
-                      },
-                      {
-                        "type": "10001",
-                        "id": "mLcipq8z7cIhxD4GKqjO_",
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "geDO_NB2h0Cy_cQPqdeQi",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "name": "Grid layout",
-                                "id": "I-pLP283PWfqnbT0iIubI",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "sBjMB2ZANd2ReDEhzy0P-",
-                                    "gridProps": [],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-8-0-0-0"
-                                  }
-                                ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "events": [],
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-8-0-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-8-0"
-                          },
-                          {
-                            "type": "column",
-                            "id": "kqclkLsnB7S-nwZVA1SHl",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "name": "Grid layout",
-                                "id": "SkRuX-FvBs7euIJ7-S6oz",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "8niKhnqs-SKPYdiHDFR6j",
-                                    "gridProps": [],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-8-1-0-0"
-                                  }
-                                ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "events": [],
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-8-1-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-8-1"
-                          },
-                          {
-                            "type": "column",
-                            "id": "vYIw0IyKmjG34esVvtXlL",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "id": "Jozlkw9TGe864XJ_kO9Ix",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "pZUg9ySkuwmFyWImLhENY",
-                                    "gridProps": [
-                                      {
-                                        "id": "zo3etUv_dX-I3w42dizCs",
-                                        "type": "20006",
-                                        "name": "Button",
-                                        "component": {
-                                          "content": "Button",
-                                          "type": "20006"
-                                        },
-                                        "attributes": {
-                                          "label": "Save As Draft",
-                                          "variant": "contained",
-                                          "name": "Button",
-                                          "label-locale-key": "",
-                                          "fullWidth": false,
-                                          "layoutProperties": {
-                                            "button": {
-                                              "//": "Use this class to style button component."
-                                            },
-                                            "inputProps": {
-                                              "//": "Use this class to style button element."
-                                            },
-                                            "mainContainer": "button",
-                                            "xl": 12,
-                                            "lg": 12,
-                                            "md": 12,
-                                            "sm": 12,
-                                            "xs": 12
-                                          },
-                                          "cssClassNames": [],
-                                          "asset": null,
-                                          "buttonIconPosition": "start",
-                                          "disableCondition": {}
-                                        },
-                                        "events": [
-                                          {
-                                            "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
-                                            "triggerName": "save as draft for private foam",
-                                            "serviceType": "8",
-                                            "attributes": {
-                                              "loaderWidgetIds": [906070],
-                                              "messageWidgetIds": [906070],
-                                              "responseStateKey": "private",
-                                              "url": "/pre-corp-reg/save-details",
-                                              "checksum": true,
-                                              "encryption": true,
-                                              "isDeviceDetails": true,
-                                              "loginTrigger": false,
-                                              "formData": false,
-                                              "logoutTrigger": false,
-                                              "headers": {
-                                                "Content-Type": "application/json",
-                                                "Accept": "application/json",
-                                                "channel_key": "001",
-                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                "locale": "en-ltr"
-                                              },
-                                              "requestBody": [
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.averageSalaryAmount",
-                                                  "value": "averageSalaryAmount"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.branchNameOfBank",
-                                                  "value": "branchNameOfBank"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.city",
-                                                  "value": "city"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyEmailId",
-                                                  "value": "companyEmailId"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyFaxNumber",
-                                                  "value": "companyFaxNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyMailingAddress",
-                                                  "value": "companyMailingAddress"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyNameAsPerRegistration",
-                                                  "value": "companyNameAsPerRegistration"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyTelephoneNumber",
-                                                  "value": "companyTelephoneNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.companyTelephoneNumber",
-                                                  "value": "companyTelephoneNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.contactNumber",
-                                                  "value": "contactNumber1"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.dateAndPlaceOfIncorporation",
-                                                  "value": "dateAndPlaceOfIncorporation"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.country",
-                                                  "value": "country2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
-                                                  "value": "frequencyOfSalaryDisbursement"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.accountCategory",
-                                                  "value": "accountCategory.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.branchNameOfBank",
-                                                  "value": "branchNameOfBank"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.emailAddress",
-                                                  "value": "emailAddress2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.expectedMonthlyIncome",
-                                                  "value": "expectedMonthlyIncome.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.expectedNoOfCreditAmount",
-                                                  "value": "expectedNoOfCreditAmount.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.expectedNoOfCreditTransactions",
-                                                  "value": "expectedNoOfCreditTransactions.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.expectedNoOfDebitAmount",
-                                                  "value": "expectedNoOfDebitAmount.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.expectedNoOfDebitTransactions",
-                                                  "value": "expectedNoOfDebitTransactions.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
-                                                  "value": "frequencyOfSalaryDisbursement"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.modeOfTransaction",
-                                                  "value": "modeOfTransaction.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.nationalityOfPartnership",
-                                                  "value": "nationalityOfPartnership.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.natureOfBusinessActivity",
-                                                  "value": "natureOfBusinessActivity1"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.ntnDateOfExpiry",
-                                                  "value": "ntnDateOfExpiry"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.ntnDateOfIssuance",
-                                                  "value": "ntnDateOfIssuance"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.ntnNumber",
-                                                  "value": "ntnNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.ntnIssuingAuthority",
-                                                  "value": "ntnIssuingAuthority"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.ntnNumber",
-                                                  "value": "ntnNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.numberOfEmployees",
-                                                  "value": "numberOfEmployees"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.occupationOfCorporate",
-                                                  "value": "occupationOfCorporate.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.pocName",
-                                                  "value": "pocName"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.referral",
-                                                  "value": "referral"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.residenceOfPartnership",
-                                                  "value": "residenceOfPartnership.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.taxExemption",
-                                                  "value": "taxExemption.code"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.zakatExemption",
-                                                  "value": "zakatExemption.code"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "companyAddress",
-                                                  "value": "companyAddress"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "companyName",
-                                                  "value": "companyName"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "designation",
-                                                  "value": "designation.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "email",
-                                                  "value": "email"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "emailOtp",
-                                                  "value": "emailotp"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "fullName",
-                                                  "value": "fullName"
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isSavingInDraft",
-                                                  "value": true
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isSoleProprietor",
-                                                  "value": false
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isPartnership",
-                                                  "value": false
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isPrivateOrPublic",
-                                                  "value": true
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "mobileNumber",
-                                                  "value": "mobileNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "pricingModelId",
-                                                  "value": "items"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "productId",
-                                                  "value": "products.id"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "smsOtp",
-                                                  "value": "smsotp"
-                                                },
-                                                {
-                                                  "type": 3,
-                                                  "name": "Current session",
-                                                  "key": "validateOtpUuid",
-                                                  "value": "response.data.result.uuid"
-                                                },
-                                                {
-                                                  "type": 3,
-                                                  "name": "Current session",
-                                                  "key": "validateOtpUuid",
-                                                  "value": "response.data.result.draftedRequest.uuid"
-                                                },
-                                                {
-                                                  "type": 2,
-                                                  "name": "Current screen",
-                                                  "key": "soleProprietor.signatories",
-                                                  "value": "sole"
-                                                },
-                                                {
-                                                  "type": 2,
-                                                  "name": "Current screen",
-                                                  "key": "privateorPublicLimited.directorInformation",
-                                                  "value": "directorInformation"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.authorizedPersonalDetails.contactNumber",
-                                                  "value": "contactNumber2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.authorizedPersonalDetails.fullName",
-                                                  "value": "fullName2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.authorizedPersonalDetails.officeEmail",
-                                                  "value": "officeEmail"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.authorizedPersonalDetails.natureOfBusinessActivity",
-                                                  "value": "natureOfBusinessActivity2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "privateorPublicLimited.authorizedPersonalDetails.title",
-                                                  "value": "title"
-                                                }
-                                              ],
-                                              "baseURL": "641aedb2676c823a449fd597",
-                                              "storeType": 2
-                                            },
-                                            "type": "4",
-                                            "name": "On Submit"
-                                          }
-                                        ],
-                                        "path": "0-0-0-0-8-2-0-0-0",
-                                        "version": "1.0.0"
-                                      }
-                                    ],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-8-2-0-0"
-                                  }
-                                ],
-                                "path": "0-0-0-0-8-2-0",
-                                "events": [],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "name": "Grid layout"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-8-2"
-                          },
-                          {
-                            "type": "column",
-                            "id": "DM8JZita79TYQBGKlPvvH",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "id": "r-k1H6mB6zH_uSd8OBkL7",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "cyFirh70V8rA2BZ--kddL",
-                                    "gridProps": [
-                                      {
-                                        "id": "4dA7EOE7h3SxrqGZrcihT",
-                                        "status": "ACTIVE",
-                                        "attributes": {
-                                          "label": "Save To Next",
-                                          "variant": "contained",
-                                          "name": "Button",
-                                          "label-locale-key": "",
-                                          "fullWidth": false,
-                                          "layoutProperties": {
-                                            "button": {
-                                              "//": "Use this class to style button component."
-                                            },
-                                            "inputProps": {
-                                              "//": "Use this class to style button element."
-                                            },
-                                            "mainContainer": "button",
-                                            "xl": 12,
-                                            "lg": 12,
-                                            "md": 12,
-                                            "sm": 12,
-                                            "xs": 12
-                                          },
-                                          "cssClassNames": []
-                                        },
-                                        "name": "Button",
-                                        "icon": "FaBimobject",
-                                        "group": "Form",
-                                        "type": "20006",
-                                        "Documentation": "<div>components 12344</div>",
-                                        "updatedAt": "23-Aug-2021",
-                                        "createdAt": "23-Aug-2021",
-                                        "order": 1,
-                                        "version": "1.0.0",
-                                        "isLatest": true,
-                                        "projectType": "web",
-                                        "component": {
-                                          "content": "Button",
-                                          "type": "20006"
-                                        },
-                                        "events": [
-                                          {
-                                            "triggerId": "UQInrLI4KGeU7GXjqP58K",
-                                            "triggerName": "save to next for private foam",
-                                            "serviceType": "8",
-                                            "attributes": {
-                                              "loaderWidgetIds": [906070],
-                                              "messageWidgetIds": [906070],
-                                              "responseStateKey": "saveToNextPrivate",
-                                              "url": "/pre-corp-reg/save-details",
-                                              "checksum": true,
-                                              "encryption": true,
-                                              "isDeviceDetails": true,
-                                              "loginTrigger": false,
-                                              "formData": false,
-                                              "logoutTrigger": false,
-                                              "headers": {
-                                                "Content-Type": "application/json",
-                                                "Accept": "application/json",
-                                                "channel_key": "001",
-                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                "locale": "en-ltr"
-                                              },
-                                              "requestBody": [
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.averageSalaryAmount",
-                                                  "value": "averageSalaryAmount"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.branchNameOfBank",
-                                                  "value": "branchNameOfBank"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.city",
-                                                  "value": "city"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyEmailId",
-                                                  "value": "companyEmailId"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyFaxNumber",
-                                                  "value": "companyFaxNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyMailingAddress",
-                                                  "value": "companyMailingAddress"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyNameAsPerRegistration",
-                                                  "value": "companyNameAsPerRegistration"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyTelephoneNumber",
-                                                  "value": "companyTelephoneNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.companyTelephoneNumber",
-                                                  "value": "companyTelephoneNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.contactNumber",
-                                                  "value": "contactNumber1"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.dateAndPlaceOfIncorporation",
-                                                  "value": "dateAndPlaceOfIncorporation"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.country",
-                                                  "value": "country2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.city",
-                                                  "value": "city2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.frequencyOfSalaryDisbursement",
-                                                  "value": "frequencyOfSalaryDisbursement"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.emailAddress",
-                                                  "value": "emailAddress2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.expectedMonthlyIncome",
-                                                  "value": "expectedMonthlyIncome.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.expectedNoOfCreditAmount",
-                                                  "value": "expectedNoOfCreditAmount.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.expectedNoOfCreditTransactions",
-                                                  "value": "expectedNoOfCreditTransactions.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.expectedNoOfDebitAmount",
-                                                  "value": "expectedNoOfDebitAmount.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.expectedNoOfDebitTransactions",
-                                                  "value": "expectedNoOfDebitTransactions.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.frequencyOfSalaryDisbursement",
-                                                  "value": "frequencyOfSalaryDisbursement"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.modeOfTransaction",
-                                                  "value": "modeOfTransaction.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.nationalityOfPartnership",
-                                                  "value": "nationalityOfPartnership.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.natureOfBusinessActivity",
-                                                  "value": "natureOfBusinessActivity1"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.ntnDateOfExpiry",
-                                                  "value": "ntnDateOfExpiry"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.ntnDateOfIssuance",
-                                                  "value": "ntnDateOfIssuance"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.ntnIssuingAuthority",
-                                                  "value": "ntnIssuingAuthority"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.ntnNumber",
-                                                  "value": "ntnNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.numberOfEmployees",
-                                                  "value": "numberOfEmployees"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.occupationOfCorporate",
-                                                  "value": "occupationOfCorporate.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.pocName",
-                                                  "value": "pocName"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.referral",
-                                                  "value": "referral"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.residenceOfPartnership",
-                                                  "value": "residenceOfPartnership.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.taxExemption",
-                                                  "value": "taxExemption.code"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.zakatExemption",
-                                                  "value": "zakatExemption.code"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "companyAddress",
-                                                  "value": "companyAddress"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "companyName",
-                                                  "value": "companyName"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "designation",
-                                                  "value": "designation.value"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "email",
-                                                  "value": "email"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "emailOtp",
-                                                  "value": "emailotp"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "fullName",
-                                                  "value": "fullName"
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isSavingInDraft",
-                                                  "value": false
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isSoleProprietor",
-                                                  "value": false
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isPartnership",
-                                                  "value": false
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "isPrivateOrPublic",
-                                                  "value": true
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "mobileNumber",
-                                                  "value": "mobileNumber"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "pricingModelId",
-                                                  "value": "items"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "productId",
-                                                  "value": "products.id"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "smsOtp",
-                                                  "value": "smsotp"
-                                                },
-                                                {
-                                                  "type": 3,
-                                                  "name": "Current session",
-                                                  "key": "validateOtpUuid",
-                                                  "value": "response.data.result.uuid"
-                                                },
-                                                {
-                                                  "type": 2,
-                                                  "name": "Current screen",
-                                                  "key": "soleProprietor.signatories",
-                                                  "value": "sole"
-                                                },
-                                                {
-                                                  "type": 2,
-                                                  "name": "Current screen",
-                                                  "key": "private.directorInformation",
-                                                  "value": "directorInformation"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.authorizedPersonalDetails.contactNumber",
-                                                  "value": "contactNumber2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.authorizedPersonalDetails.fullName",
-                                                  "value": "fullName2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.authorizedPersonalDetails.officeEmail",
-                                                  "value": "officeEmail"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.authorizedPersonalDetails.natureOfBusinessActivity",
-                                                  "value": "natureOfBusinessActivity2"
-                                                },
-                                                {
-                                                  "type": 1,
-                                                  "name": "Form",
-                                                  "key": "private.authorizedPersonalDetails.title",
-                                                  "value": "title"
-                                                }
-                                              ],
-                                              "baseURL": "641aedb2676c823a449fd597",
-                                              "storeType": 2
-                                            },
-                                            "type": "4",
-                                            "name": "On Submit"
-                                          }
-                                        ],
-                                        "path": "0-0-0-0-8-3-0-0-0"
-                                      }
-                                    ],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-8-3-0-0"
-                                  }
-                                ],
-                                "path": "0-0-0-0-8-3-0",
-                                "events": [],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "name": "Grid layout"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-8-3"
-                          }
-                        ],
-                        "path": "0-0-0-0-8",
-                        "events": [],
-                        "attributes": {
-                          "gridProps": [],
-                          "label": "Header",
-                          "layoutProperties": {
-                            "gridLayout": {
-                              "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
-                            },
-                            "mainContainer": "gridLayout"
-                          },
-                          "layoutProps": {
-                            "direction": "row",
-                            "justifyContent": "flex-start",
-                            "alignItems": "flex-start"
-                          },
-                          "direction": "row",
-                          "name": "Grid layout",
-                          "hideCondition": {
-                            "logic": {
-                              "!=": [
-                                {
-                                  "var": "currentScreen.response.data.result.isValidated"
-                                },
-                                true
-                              ]
-                            }
-                          }
-                        },
-                        "component": {
-                          "type": "10001",
-                          "content": "Grid layout"
-                        },
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "name": "Grid layout",
-                        "dimensions": {
-                          "rows": 1,
-                          "columns": 4,
-                          "colSize0xs": 3,
-                          "colSize0sm": 3,
-                          "colSize0md": 3,
-                          "colSize0lg": 3,
-                          "colSize0xl": 3,
-                          "colSize1xs": 3,
-                          "colSize1sm": 3,
-                          "colSize1md": 3,
-                          "colSize1lg": 3,
-                          "colSize1xl": 3,
-                          "colSize2xs": 3,
-                          "colSize2sm": 3,
-                          "colSize2md": 3,
-                          "colSize2lg": 3,
-                          "colSize2xl": 3,
-                          "colSize3xs": 3,
-                          "colSize3sm": 3,
-                          "colSize3md": 3,
-                          "colSize3lg": 3,
-                          "colSize3xl": 3
-                        },
-                        "readOnly": true
-                      },
-                      {
-                        "type": "10001",
-                        "id": "hNUr6wqJRpm1fjhg8YV2V",
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "KNrbjtW16HxwunDNTjxWw",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "name": "Grid layout",
-                                "id": "0Bjf53mtGkOTp7EB2lJgb",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "MrakoWrX7-KIMA-pG6q6M",
-                                    "gridProps": [],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-9-0-0-0"
-                                  }
-                                ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "events": [],
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-9-0-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-9-0"
-                          },
-                          {
-                            "type": "column",
-                            "id": "uocfwMYHo6r48-q-oQFCb",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "name": "Grid layout",
-                                "id": "niBCWi_mMfLZ20-0RlqyY",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "nClKK35F51QKmu1SocBoM",
-                                    "gridProps": [],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-9-1-0-0"
-                                  }
-                                ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "events": [],
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-9-1-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-9-1"
-                          },
-                          {
-                            "type": "column",
-                            "id": "pROebqe9dWMGvLW_7fiu-",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-9-2"
-                          },
-                          {
-                            "type": "column",
-                            "id": "S24NRHbr3Eq71SysmVnES",
-                            "gridProps": [],
-                            "layoutProperties": {
-                              "xl": 3,
-                              "lg": 3,
-                              "md": 3,
-                              "sm": 3,
-                              "xs": 3
-                            },
-                            "path": "0-0-0-0-9-3"
-                          }
-                        ],
-                        "path": "0-0-0-0-9",
-                        "events": [],
-                        "attributes": {
-                          "gridProps": [],
-                          "label": "Header",
-                          "layoutProperties": {
-                            "gridLayout": {
-                              "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
-                            },
-                            "mainContainer": "gridLayout"
-                          },
-                          "layoutProps": {
-                            "direction": "row",
-                            "justifyContent": "flex-start",
-                            "alignItems": "flex-start"
-                          },
-                          "direction": "row",
-                          "name": "Grid layout",
-                          "hideCondition": {
-                            "logic": {
-                              "and": [
-                                {
-                                  "!=": [
-                                    {
-                                      "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
-                                    },
-                                    true
-                                  ]
-                                },
-                                {
-                                  "!=": [
-                                    {
-                                      "var": "currentScreen.response.data.result.formRequest.data.isPartnership"
-                                    },
-                                    true
-                                  ]
-                                },
-                                {
-                                  "!=": [
-                                    {
-                                      "var": "currentScreen.response.data.result.formRequest.data.isSoleProprietor"
-                                    },
-                                    true
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         "component": {
                           "type": "10001",
@@ -6133,6 +4475,55 @@
                                 "cssClassNames": []
                               },
                               "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": {
+                                "name": "Icon Button",
+                                "type": "iconButton"
+                              },
+                              "headerName": "Action",
+                              "field": "",
+                              "rowId": "id",
+                              "iconButtons": [
+                                {
+                                  "asset": null,
+                                  "iconname": "FaTrash",
+                                  "trigger": {
+                                    "id": "yn6NsZM7aVv4lq1YavEo4",
+                                    "name": "Delete items in Director Information",
+                                    "projectId": "63f4845e476fc83100e3a899",
+                                    "gitBranchName": "master",
+                                    "services": [
+                                      {
+                                        "type": "11",
+                                        "command": {
+                                          "type": "3",
+                                          "attributes": {
+                                            "stateName": "directorInformation",
+                                            "storeType": "",
+                                            "selectedObjectBindingKey": "selectedObject",
+                                            "dataType": "",
+                                            "sourceBindingKey": ""
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "_id": "xBeb7jIceGctitRpft8gm",
+                                    "updatedAt": "4/14/2023",
+                                    "createdAt": "4/14/2023",
+                                    "createdBy": "ahmerjavedkhan",
+                                    "updatedBy": "ahmerjavedkhan"
+                                  },
+                                  "triggerId": "yn6NsZM7aVv4lq1YavEo4",
+                                  "conditional": {},
+                                  "values": [],
+                                  "disableConditional": {},
+                                  "disableValues": [],
+                                  "cssConditional": {},
+                                  "cssValues": []
+                                }
+                              ],
+                              "type": "iconButton"
                             }
                           ],
                           "rowDefinition": [],
@@ -6236,7 +4627,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-2-0-0-0"
                           }
                         ],
                         "allowedContainers": [
@@ -6269,7 +4661,8 @@
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
-                        }
+                        },
+                        "path": "0-0-2-0-0"
                       }
                     ],
                     "layoutProperties": {
@@ -7338,8 +5731,8 @@
     "gitBranchName": "master",
     "_id": "PAys-Yz_WENFVvPEEAeYg",
     "createdBy": "ajk",
-    "updatedAt": "4/12/2023",
-    "createdAt": "4/12/2023",
+    "updatedAt": "4/15/2023",
+    "createdAt": "4/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7527,87 +5920,11 @@
           }
         },
         {
-          "componentId": "gk7AWkHMe2m9_ODqoFIQX",
-          "componentType": "10001",
-          "id": "gk7AWkHMe2m9_ODqoFIQX",
-          "position": {
-            "i": "gk7AWkHMe2m9_ODqoFIQX",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "ikDFwUHwIPPvWGraWlsjp",
-          "componentType": "10001",
-          "id": "ikDFwUHwIPPvWGraWlsjp",
-          "position": {
-            "i": "ikDFwUHwIPPvWGraWlsjp",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
           "componentId": "wEBGlsqQ-d5DUikSmzM-o",
           "componentType": "10001",
           "id": "wEBGlsqQ-d5DUikSmzM-o",
           "position": {
             "i": "wEBGlsqQ-d5DUikSmzM-o",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "mLcipq8z7cIhxD4GKqjO_",
-          "componentType": "10001",
-          "id": "mLcipq8z7cIhxD4GKqjO_",
-          "position": {
-            "i": "mLcipq8z7cIhxD4GKqjO_",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "hNUr6wqJRpm1fjhg8YV2V",
-          "componentType": "10001",
-          "id": "hNUr6wqJRpm1fjhg8YV2V",
-          "position": {
-            "i": "hNUr6wqJRpm1fjhg8YV2V",
             "x": null,
             "y": null,
             "w": null,
@@ -7945,7 +6262,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -7956,7 +6273,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -8197,7 +6517,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "13",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -8452,7 +6772,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -8779,8 +7099,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "11",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -8790,7 +7110,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -9031,7 +7354,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9053,7 +7376,12 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
+      "validate": {
+        "required": false,
+        "errorMsg": "This field is required",
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "regexErrorMsg": "Email incorrect"
+      },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
@@ -9286,7 +7614,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9856,7 +8184,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10111,7 +8439,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10705,7 +9033,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10960,7 +9288,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -11008,70 +9336,6 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "gk7AWkHMe2m9_ODqoFIQX",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "ikDFwUHwIPPvWGraWlsjp",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
     "id": "wEBGlsqQ-d5DUikSmzM-o",
     "name": "Grid layout",
     "type": "10001",
@@ -11088,7 +9352,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
         },
         {
           "componentId": "uxF4PDl7MsYtnhs-5y7qm",
@@ -11101,7 +9365,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
         },
         {
           "componentId": "VUxK4yxsJ0U4qLlGFkBcT",
@@ -11114,7 +9378,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
         }
       ],
       "label": "Header",
@@ -11148,70 +9412,6 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "uxF4PDl7MsYtnhs-5y7qm",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "VUxK4yxsJ0U4qLlGFkBcT",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
       "gridProps": [
         {
           "componentId": "6Y21fFqMJYmD8J9GIpINI",
@@ -11219,25 +9419,6 @@
           "id": "6Y21fFqMJYmD8J9GIpINI",
           "position": {
             "i": "6Y21fFqMJYmD8J9GIpINI",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "hI1sJGegOZ_BuY6mdRqxX",
-          "componentType": "10001",
-          "id": "hI1sJGegOZ_BuY6mdRqxX",
-          "position": {
-            "i": "hI1sJGegOZ_BuY6mdRqxX",
             "x": null,
             "y": null,
             "w": null,
@@ -11328,10 +9509,10 @@
     "status": "ACTIVE",
     "attributes": {
       "label": "back",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -11342,7 +9523,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "resetBtnClass" }]
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -11365,10 +9546,94 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-0-0-7-2-0-0-0-0-0",
+    "path": "0-0-0-0-5-0-0-0-0-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "uxF4PDl7MsYtnhs-5y7qm",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "PAys-Yz_WENFVvPEEAeYg",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VUxK4yxsJ0U4qLlGFkBcT",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "hI1sJGegOZ_BuY6mdRqxX",
+          "componentType": "10001",
+          "id": "hI1sJGegOZ_BuY6mdRqxX",
+          "position": {
+            "i": "hI1sJGegOZ_BuY6mdRqxX",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "PAys-Yz_WENFVvPEEAeYg",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -11425,7 +9690,7 @@
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -11452,509 +9717,17 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "G9OsOZWp4z8qdmcBfsc_6",
-        "triggerName": "add data grid for ",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "11"
-      }
-    ],
-    "path": "0-0-0-0-7-2-0-0-1-0-0",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "mLcipq8z7cIhxD4GKqjO_",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "I-pLP283PWfqnbT0iIubI",
-          "componentType": "10001",
-          "id": "I-pLP283PWfqnbT0iIubI",
-          "position": {
-            "i": "I-pLP283PWfqnbT0iIubI",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        },
-        {
-          "componentId": "SkRuX-FvBs7euIJ7-S6oz",
-          "componentType": "10001",
-          "id": "SkRuX-FvBs7euIJ7-S6oz",
-          "position": {
-            "i": "SkRuX-FvBs7euIJ7-S6oz",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        },
-        {
-          "componentId": "Jozlkw9TGe864XJ_kO9Ix",
-          "componentType": "10001",
-          "id": "Jozlkw9TGe864XJ_kO9Ix",
-          "position": {
-            "i": "Jozlkw9TGe864XJ_kO9Ix",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        },
-        {
-          "componentId": "r-k1H6mB6zH_uSd8OBkL7",
-          "componentType": "10001",
-          "id": "r-k1H6mB6zH_uSd8OBkL7",
-          "position": {
-            "i": "r-k1H6mB6zH_uSd8OBkL7",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout",
-      "hideCondition": {
-        "logic": {
-          "!=": [
-            { "var": "currentScreen.response.data.result.isValidated" },
-            true
-          ]
-        }
-      }
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "I-pLP283PWfqnbT0iIubI",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "SkRuX-FvBs7euIJ7-S6oz",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "Jozlkw9TGe864XJ_kO9Ix",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "zo3etUv_dX-I3w42dizCs",
-          "componentType": "20006",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "zo3etUv_dX-I3w42dizCs",
-    "type": "20006",
-    "name": "Button",
-    "component": { "content": "Button", "type": "20006" },
-    "attributes": {
-      "label": "Save As Draft",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": false,
-      "layoutProperties": {
-        "button": { "//": "Use this class to style button component." },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "cssClassNames": [],
-      "asset": null,
-      "buttonIconPosition": "start",
-      "disableCondition": {}
-    },
-    "events": [
-      {
-        "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
-        "triggerName": "save as draft for private foam",
+        "triggerId": "w-5kMnEztpo8WllngCfJm",
+        "triggerName": "Clear DirectorInformation BindingKeys",
         "name": "On Submit",
         "type": "4",
-        "serviceType": "8"
+        "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-8-2-0-0-0",
-    "version": "1.0.0",
+    "path": "0-0-0-0-5-2-0-0-0-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "r-k1H6mB6zH_uSd8OBkL7",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "4dA7EOE7h3SxrqGZrcihT",
-          "componentType": "20006",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "4dA7EOE7h3SxrqGZrcihT",
-    "status": "ACTIVE",
-    "attributes": {
-      "label": "Save To Next",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": false,
-      "layoutProperties": {
-        "button": { "//": "Use this class to style button component." },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "cssClassNames": []
-    },
-    "name": "Button",
-    "icon": "FaBimobject",
-    "group": "Form",
-    "type": "20006",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 1,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Button", "type": "20006" },
-    "events": [
-      {
-        "triggerId": "UQInrLI4KGeU7GXjqP58K",
-        "triggerName": "save to next for private foam",
-        "name": "On Submit",
-        "type": "4",
-        "serviceType": "8"
-      }
-    ],
-    "path": "0-0-0-0-8-3-0-0-0",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "hNUr6wqJRpm1fjhg8YV2V",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "0Bjf53mtGkOTp7EB2lJgb",
-          "componentType": "10001",
-          "id": "0Bjf53mtGkOTp7EB2lJgb",
-          "position": {
-            "i": "0Bjf53mtGkOTp7EB2lJgb",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        },
-        {
-          "componentId": "niBCWi_mMfLZ20-0RlqyY",
-          "componentType": "10001",
-          "id": "niBCWi_mMfLZ20-0RlqyY",
-          "position": {
-            "i": "niBCWi_mMfLZ20-0RlqyY",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout",
-      "hideCondition": {
-        "logic": {
-          "and": [
-            {
-              "!=": [
-                {
-                  "var": "currentScreen.response.data.result.formRequest.data.isPrivateOrPublic"
-                },
-                true
-              ]
-            },
-            {
-              "!=": [
-                {
-                  "var": "currentScreen.response.data.result.formRequest.data.isPartnership"
-                },
-                true
-              ]
-            },
-            {
-              "!=": [
-                {
-                  "var": "currentScreen.response.data.result.formRequest.data.isSoleProprietor"
-                },
-                true
-              ]
-            }
-          ]
-        }
-      }
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "0Bjf53mtGkOTp7EB2lJgb",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "niBCWi_mMfLZ20-0RlqyY",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "PAys-Yz_WENFVvPEEAeYg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -12177,6 +9950,52 @@
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
           "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Action",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "asset": null,
+              "iconname": "FaTrash",
+              "trigger": {
+                "id": "yn6NsZM7aVv4lq1YavEo4",
+                "name": "Delete items in Director Information",
+                "projectId": "63f4845e476fc83100e3a899",
+                "gitBranchName": "master",
+                "services": [
+                  {
+                    "type": "11",
+                    "command": {
+                      "type": "3",
+                      "attributes": {
+                        "stateName": "directorInformation",
+                        "storeType": "",
+                        "selectedObjectBindingKey": "selectedObject",
+                        "dataType": "",
+                        "sourceBindingKey": ""
+                      }
+                    }
+                  }
+                ],
+                "_id": "xBeb7jIceGctitRpft8gm",
+                "updatedAt": "4/14/2023",
+                "createdAt": "4/14/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
+              },
+              "triggerId": "yn6NsZM7aVv4lq1YavEo4",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],

@@ -16,23 +16,19 @@
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "object",
           "destinationBindingKey": "nationalityOfPartnership",
-          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.nationalityOfPartnership",
+          "sourceBindingKey": "form.nationalityOfPartnership",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
             {
               "key": "value",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.nationalityOfPartnership"
-              }
+              "logic": { "var": "currentScreen.form.nationalityOfPartnership" }
             },
             {
               "key": "displayName",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.nationalityOfPartnership"
-              }
+              "logic": { "var": "currentScreen.form.nationalityOfPartnership" }
             }
           ],
           "targettedType": "value"
@@ -40,8 +36,8 @@
       }
     }
   ],
-  "updatedAt": "4/9/2023",
-  "createdAt": "4/9/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

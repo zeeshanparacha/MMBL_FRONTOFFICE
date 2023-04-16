@@ -1,6 +1,8 @@
 {
   "id": "r2yPhr0LLI-rLlDCvL8Q3",
+  "_id": "kh8kmsHFJUuUjL5IEvARY",
   "name": "Manipulate Key To Object expected No Of Debit Transactions Private",
+  "old_name": "Manipulate Key To Object expected No Of Debit Transactions Private",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,8 +11,9 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "destinationBindingKey": "expectedNoOfDebitTransactions",
-          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitTransactions",
+          "sourceBindingKey": "form.expectedNoOfDebitTransactions",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
@@ -18,14 +21,14 @@
               "key": "value",
               "changeValueConditonally": true,
               "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitTransactions"
+                "var": "currentScreen.form.expectedNoOfDebitTransactions"
               }
             },
             {
               "key": "displayName",
               "changeValueConditonally": true,
               "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.expectedNoOfDebitTransactions"
+                "var": "currentScreen.form.expectedNoOfDebitTransactions"
               }
             }
           ],
@@ -34,9 +37,8 @@
       }
     }
   ],
-  "_id": "kh8kmsHFJUuUjL5IEvARY",
-  "updatedAt": "4/9/2023",
-  "createdAt": "4/9/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

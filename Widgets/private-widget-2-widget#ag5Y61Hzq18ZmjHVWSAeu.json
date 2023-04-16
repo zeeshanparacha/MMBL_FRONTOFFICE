@@ -236,7 +236,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -524,7 +524,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -550,7 +550,9 @@
                                                   },
                                                   "validate": {
                                                     "required": false,
-                                                    "errorMsg": "This field is required"
+                                                    "errorMsg": "This field is required",
+                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                                                    "regexErrorMsg": "Email incorrect"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -812,8 +814,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "11",
+                                                  "type": "number",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1186,7 +1188,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -1421,10 +1423,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-0-0-1-0-0-0-0-0-1-2-0-0-0-0"
+                                            "path": "0-0-0-0-2-1-0-0-0-0"
                                           }
                                         ],
-                                        "path": "0-0-0-0-1-0-0-0-0-0-1-2-0-0-0",
+                                        "path": "0-0-0-0-2-1-0-0-0",
                                         "events": [],
                                         "attributes": {
                                           "gridProps": [],
@@ -1474,7 +1476,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "100",
                                                   "type": "text",
                                                   "variant": "standard",
                                                   "value": "",
@@ -1536,10 +1538,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-0-0-1-0-0-0-0-0-1-2-0-0-1-0"
+                                            "path": "0-0-0-0-2-1-0-0-1-0"
                                           }
                                         ],
-                                        "path": "0-0-0-0-1-0-0-0-0-0-1-2-0-0-1",
+                                        "path": "0-0-0-0-2-1-0-0-1",
                                         "events": [],
                                         "attributes": {
                                           "gridProps": [],
@@ -1580,7 +1582,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-2-1-0-0"
                                   }
                                 ],
                                 "path": "0-0-0-0-2-1-0",
@@ -1654,11 +1657,311 @@
                         ]
                       },
                       {
-                        "id": "sgu7fhCG65Lx0LXrcvwpm",
-                        "status": "ACTIVE",
-                        "_id": "610134a1d1f5e860b1e8c751",
+                        "type": "10001",
                         "name": "Grid layout",
-                        "icon": "FaGripHorizontal",
+                        "id": "tMHBfy4xEg-N-GC-5pTPk",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "mRn4uJLXzyRcuHBySKbU9",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "I5m8UqH5rK0b7WU8d0Yp-",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "WImFH1yqwx4d8e-HpvC5z",
+                                    "gridProps": [
+                                      {
+                                        "id": "Juk_3qhODnrkbeor5xidS",
+                                        "type": "20006",
+                                        "name": "Button",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "attributes": {
+                                          "label": "Back",
+                                          "variant": "outlined",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "resetBtnClass" }
+                                          ]
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "7RQ5ubADKLUWjE9oV64bE",
+                                            "triggerName": "private widget 2 to widget 1 flow manager",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                              "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-3-0-0-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "DJcOKqTWzgb1sr5oj4pGo",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "fDT4V6OHaTFg-ep78_jyl",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "1Y6BQEEYxbk3aMl9z7St0",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 8,
+                              "lg": 8,
+                              "md": 8,
+                              "sm": 8,
+                              "xs": 8
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "rMSCeBE6gc_KRup9v0u9i",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "glny3--dIU_gyLITGqwcY",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "SP6Jqj3x9dY1HYR1V4CMc",
+                                    "gridProps": [
+                                      {
+                                        "id": "POyfGLvjnHFhRxT8HI8T0",
+                                        "type": "20006",
+                                        "name": "Button",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "attributes": {
+                                          "label": "Next",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ]
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "LJrCMIqBnW3R7vFC6Famn",
+                                            "triggerName": "private widget 2 to widget 3 flow manager",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                              "nextWidgetId": "4YEZ9WMiuQNq7aEJ00cpn",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-3-2-0-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
                         "attributes": {
                           "gridProps": [],
                           "label": "Header",
@@ -1678,239 +1981,10 @@
                           "direction": "row",
                           "name": "Grid layout"
                         },
-                        "group": "Layout",
-                        "type": "sidebarItem",
-                        "updatedAt": "23-Sep-2021",
-                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
-                        "createdAt": "24-Aug-2021",
                         "events": [],
-                        "order": 1,
-                        "version": "1.0.0",
-                        "isLatest": true,
-                        "projectType": "web",
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
                         "component": {
-                          "content": "Grid layout",
-                          "type": "10001"
-                        },
-                        "path": 0,
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "NUhBqvRxeVUEpmXij3j-K",
-                            "gridProps": [
-                              {
-                                "id": "ElplvHUu1h_kZFP-I_-4G",
-                                "status": "ACTIVE",
-                                "attributes": {
-                                  "label": "Back",
-                                  "variant": "contained",
-                                  "name": "Button",
-                                  "label-locale-key": "",
-                                  "fullWidth": false,
-                                  "layoutProperties": {
-                                    "button": {
-                                      "//": "Use this class to style button component."
-                                    },
-                                    "inputProps": {
-                                      "//": "Use this class to style button element."
-                                    },
-                                    "mainContainer": "button",
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  },
-                                  "cssClassNames": [
-                                    { "cssClassName": "CardButton" }
-                                  ]
-                                },
-                                "name": "Button",
-                                "icon": "FaBimobject",
-                                "group": "Form",
-                                "type": "20006",
-                                "Documentation": "<div>components 12344</div>",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 1,
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
-                                "component": {
-                                  "content": "Button",
-                                  "type": "20006"
-                                },
-                                "events": [
-                                  {
-                                    "triggerId": "7RQ5ubADKLUWjE9oV64bE",
-                                    "triggerName": "private widget 2 to widget 1 flow manager",
-                                    "serviceType": "1",
-                                    "attributes": {
-                                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                      "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
-                                      "gridRadioValue": "Grid",
-                                      "selectedObjectBindingKey": "selectedObject",
-                                      "editableForm": false
-                                    },
-                                    "type": "2",
-                                    "name": "On click"
-                                  }
-                                ],
-                                "path": "0-0-0-0-3-0-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 12,
-                              "lg": 12,
-                              "md": 12,
-                              "sm": 12,
-                              "xs": 12
-                            },
-                            "path": "0-0"
-                          }
-                        ],
-                        "layoutProperties": {
-                          "lg": 12,
-                          "md": 12,
-                          "sm": 12,
-                          "xs": 12
-                        }
-                      },
-                      {
-                        "id": "n4ITu-tC78f0LNTuCgynH",
-                        "status": "ACTIVE",
-                        "_id": "610134a1d1f5e860b1e8c751",
-                        "name": "Grid layout",
-                        "icon": "FaGripHorizontal",
-                        "attributes": {
-                          "gridProps": [],
-                          "label": "Header",
-                          "layoutProperties": {
-                            "gridLayout": {
-                              "//": "Use this class to style grid layout component.",
-                              "padding": "5px",
-                              "spacing": 0
-                            },
-                            "mainContainer": "gridLayout"
-                          },
-                          "layoutProps": {
-                            "direction": "row",
-                            "justifyContent": "flex-start",
-                            "alignItems": "flex-start"
-                          },
-                          "direction": "row",
-                          "name": "Grid layout"
-                        },
-                        "group": "Layout",
-                        "type": "sidebarItem",
-                        "updatedAt": "23-Sep-2021",
-                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
-                        "createdAt": "24-Aug-2021",
-                        "events": [],
-                        "order": 1,
-                        "version": "1.0.0",
-                        "isLatest": true,
-                        "projectType": "web",
-                        "allowedContainers": [
-                          "10001",
-                          "20030",
-                          "noLayout",
-                          "20010",
-                          "widget"
-                        ],
-                        "component": {
-                          "content": "Grid layout",
-                          "type": "10001"
-                        },
-                        "path": 0,
-                        "gridProps": [
-                          {
-                            "type": "column",
-                            "id": "mufszTRJxVJJHAIm06rZI",
-                            "gridProps": [
-                              {
-                                "id": "Fokaj7UCGtYlCENiUUOKl",
-                                "status": "ACTIVE",
-                                "attributes": {
-                                  "label": "Next",
-                                  "variant": "contained",
-                                  "name": "Button",
-                                  "label-locale-key": "",
-                                  "fullWidth": false,
-                                  "layoutProperties": {
-                                    "button": {
-                                      "//": "Use this class to style button component."
-                                    },
-                                    "inputProps": {
-                                      "//": "Use this class to style button element."
-                                    },
-                                    "mainContainer": "button",
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  },
-                                  "cssClassNames": [
-                                    { "cssClassName": "CardButton" }
-                                  ]
-                                },
-                                "name": "Button",
-                                "icon": "FaBimobject",
-                                "group": "Form",
-                                "type": "20006",
-                                "Documentation": "<div>components 12344</div>",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 1,
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
-                                "component": {
-                                  "content": "Button",
-                                  "type": "20006"
-                                },
-                                "events": [
-                                  {
-                                    "triggerId": "LJrCMIqBnW3R7vFC6Famn",
-                                    "triggerName": "private widget 2 to widget 3 flow manager",
-                                    "serviceType": "1",
-                                    "attributes": {
-                                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                      "nextWidgetId": "4YEZ9WMiuQNq7aEJ00cpn",
-                                      "gridRadioValue": "Grid",
-                                      "selectedObjectBindingKey": "selectedObject",
-                                      "editableForm": false
-                                    },
-                                    "type": "2",
-                                    "name": "On click"
-                                  }
-                                ],
-                                "path": "0-0-0-0-4-0-0"
-                              }
-                            ],
-                            "layoutProperties": {
-                              "xl": 12,
-                              "lg": 12,
-                              "md": 12,
-                              "sm": 12,
-                              "xs": 12
-                            },
-                            "path": "0-0"
-                          }
-                        ],
-                        "layoutProperties": {
-                          "lg": 12,
-                          "md": 12,
-                          "sm": 12,
-                          "xs": 12
+                          "type": "10001",
+                          "content": "Grid layout"
                         }
                       }
                     ],
@@ -1985,9 +2059,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "ag5Y61Hzq18ZmjHVWSAeu",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/9/2023",
-    "createdAt": "4/9/2023",
+    "createdBy": "iqdar",
+    "updatedAt": "4/13/2023",
+    "createdAt": "4/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2099,30 +2173,11 @@
           }
         },
         {
-          "componentId": "sgu7fhCG65Lx0LXrcvwpm",
+          "componentId": "tMHBfy4xEg-N-GC-5pTPk",
           "componentType": "10001",
-          "id": "sgu7fhCG65Lx0LXrcvwpm",
+          "id": "tMHBfy4xEg-N-GC-5pTPk",
           "position": {
-            "i": "sgu7fhCG65Lx0LXrcvwpm",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "n4ITu-tC78f0LNTuCgynH",
-          "componentType": "10001",
-          "id": "n4ITu-tC78f0LNTuCgynH",
-          "position": {
-            "i": "n4ITu-tC78f0LNTuCgynH",
+            "i": "tMHBfy4xEg-N-GC-5pTPk",
             "x": null,
             "y": null,
             "w": null,
@@ -2481,7 +2536,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -2736,7 +2791,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -2758,7 +2813,12 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
+      "validate": {
+        "required": false,
+        "errorMsg": "This field is required",
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "regexErrorMsg": "Email incorrect"
+      },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
@@ -2991,8 +3051,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "11",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -3306,7 +3366,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -3561,7 +3621,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -3609,7 +3669,79 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "sgu7fhCG65Lx0LXrcvwpm",
+    "id": "tMHBfy4xEg-N-GC-5pTPk",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "I5m8UqH5rK0b7WU8d0Yp-",
+          "componentType": "10001",
+          "id": "I5m8UqH5rK0b7WU8d0Yp-",
+          "position": {
+            "i": "I5m8UqH5rK0b7WU8d0Yp-",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        },
+        {
+          "componentId": "fDT4V6OHaTFg-ep78_jyl",
+          "componentType": "10001",
+          "id": "fDT4V6OHaTFg-ep78_jyl",
+          "position": {
+            "i": "fDT4V6OHaTFg-ep78_jyl",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
+        },
+        {
+          "componentId": "glny3--dIU_gyLITGqwcY",
+          "componentType": "10001",
+          "id": "glny3--dIU_gyLITGqwcY",
+          "position": {
+            "i": "glny3--dIU_gyLITGqwcY",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "I5m8UqH5rK0b7WU8d0Yp-",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -3622,7 +3754,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "ElplvHUu1h_kZFP-I_-4G",
+          "componentId": "Juk_3qhODnrkbeor5xidS",
           "componentType": "20006",
           "order": 1
         }
@@ -3654,14 +3786,16 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "ElplvHUu1h_kZFP-I_-4G",
-    "status": "ACTIVE",
+    "id": "Juk_3qhODnrkbeor5xidS",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
     "attributes": {
       "label": "Back",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -3672,20 +3806,8 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "resetBtnClass" }]
     },
-    "name": "Button",
-    "icon": "FaBimobject",
-    "group": "Form",
-    "type": "20006",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 1,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Button", "type": "20006" },
     "events": [
       {
         "triggerId": "7RQ5ubADKLUWjE9oV64bE",
@@ -3695,7 +3817,8 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-0-0-3-0-0",
+    "path": "0-0-0-0-3-0-0-0-0",
+    "version": "1.0.0",
     "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -3703,7 +3826,39 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "n4ITu-tC78f0LNTuCgynH",
+    "id": "fDT4V6OHaTFg-ep78_jyl",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "glny3--dIU_gyLITGqwcY",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -3716,7 +3871,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "Fokaj7UCGtYlCENiUUOKl",
+          "componentId": "POyfGLvjnHFhRxT8HI8T0",
           "componentType": "20006",
           "order": 1
         }
@@ -3748,14 +3903,16 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Fokaj7UCGtYlCENiUUOKl",
-    "status": "ACTIVE",
+    "id": "POyfGLvjnHFhRxT8HI8T0",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
     "attributes": {
       "label": "Next",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -3768,18 +3925,6 @@
       },
       "cssClassNames": [{ "cssClassName": "CardButton" }]
     },
-    "name": "Button",
-    "icon": "FaBimobject",
-    "group": "Form",
-    "type": "20006",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 1,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Button", "type": "20006" },
     "events": [
       {
         "triggerId": "LJrCMIqBnW3R7vFC6Famn",
@@ -3789,7 +3934,8 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-0-0-4-0-0",
+    "path": "0-0-0-0-3-2-0-0-0",
+    "version": "1.0.0",
     "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

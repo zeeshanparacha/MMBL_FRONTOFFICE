@@ -1,6 +1,8 @@
 {
   "id": "DMVZHRzCavVYc--T2lnPt",
+  "_id": "bNgVHsAyrUsq5o_BYe8wA",
   "name": "Manipulate Key To Object mode Of Transaction Private",
+  "old_name": "Manipulate Key To Object mode Of Transaction Private",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,27 +11,24 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "",
           "destinationBindingKey": "modeOfTransaction",
-          "sourceBindingKey": "response.data.result.formRequest.data.privateorPublicLimited.modeOfTransaction",
+          "sourceBindingKey": "form.modeOfTransaction",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
             {
               "key": "value",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.modeOfTransaction"
-              }
+              "logic": { "var": "currentScreen.form.modeOfTransaction" }
             },
             {
               "key": "displayName",
               "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.modeOfTransaction"
-              }
+              "logic": { "var": "currentScreen.form.modeOfTransaction" }
             }
           ],
           "targettedType": "object"
@@ -37,9 +36,8 @@
       }
     }
   ],
-  "_id": "bNgVHsAyrUsq5o_BYe8wA",
-  "updatedAt": "4/9/2023",
-  "createdAt": "4/9/2023",
+  "updatedAt": "4/14/2023",
+  "createdAt": "4/14/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
