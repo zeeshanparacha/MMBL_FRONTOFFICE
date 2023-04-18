@@ -50,13 +50,20 @@
         },
         "responseHandler": [
           {
+            "triggerName": "Map docId from taxExemptionDocResponse to taxExemptionDocId",
+            "triggerId": "SnWb9CiuwhRFok0W8llL2",
+            "httpStatus": 200,
+            "logic": true
+          },
+          {
+            "logic": true,
             "httpStatus": 200,
             "triggerName": "add attachment for Partnership Deed",
             "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
           },
           {
-            "logic": true,
             "httpStatus": 200,
+            "logic": true,
             "triggerName": "set showTaxExemptionUpload false",
             "triggerId": "XbAFyvajafKKHHVId76CF"
           }
@@ -64,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

@@ -1,0 +1,29 @@
+{
+  "id": "AlVGhbXA6Z9B6bt2P5R3I",
+  "name": "Map docId from BoardOfResolutionResponse to boardOfResolutionDocId",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "boardOfResolutionDocId",
+          "sourceBindingKey": "BoardOfResolutionResponse.docId",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "sWpBMU04aW66ebwbUqV7Q",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

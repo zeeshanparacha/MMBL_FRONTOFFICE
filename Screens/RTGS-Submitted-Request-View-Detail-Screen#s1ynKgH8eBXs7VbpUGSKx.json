@@ -25,7 +25,7 @@
         "id": "6w3pZECfUPbBh0kAMZssV",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "RTGS Submitted Request View Detail Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -434,7 +434,7 @@
                                                                   "label": "From Account/IBAN",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": true,
+                                                                  "mandatory": false,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -2768,7 +2768,7 @@
                                                                   "label": "Amount",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": true,
+                                                                  "mandatory": false,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -4191,14 +4191,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "s1ynKgH8eBXs7VbpUGSKx",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "6w3pZECfUPbBh0kAMZssV",
-    "name": "Grid layout",
+    "name": "RTGS Submitted Request View Detail Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4890,7 +4890,7 @@
       "label": "From Account/IBAN",
       "variant": "body1",
       "name": "Label",
-      "mandatory": true,
+      "mandatory": false,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6920,7 +6920,7 @@
       "label": "Amount",
       "variant": "body1",
       "name": "Label",
-      "mandatory": true,
+      "mandatory": false,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",

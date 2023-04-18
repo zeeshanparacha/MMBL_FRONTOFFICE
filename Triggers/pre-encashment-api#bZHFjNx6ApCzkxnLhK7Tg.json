@@ -1,10 +1,10 @@
 {
-  "id": "_PqbWFeAgdpaL0PeqtUfm",
-  "_id": "c0YjQk92NH5WeK6AbJ2HV",
+  "id": "9K-gi1D83B5cTJ2TAW6cP",
+  "_id": "bZHFjNx6ApCzkxnLhK7Tg",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Delete ZakatExemption Doc API call",
-  "old_name": "Delete ZakatExemption Doc API call",
+  "name": "pre encashment api",
+  "old_name": "pre encashment trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,9 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "deleteDocResponse",
-          "responseReturnValue": "data",
-          "url": "/doc-mgmt/delete-files",
+          "responseStateKey": "preEncashmentResponse",
+          "responseReturnValue": "data.tdrEarlyEncash",
+          "url": "/tdr/pre-encash",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -34,38 +34,25 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "uuid",
-              "value": "uuid"
-            },
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "docId",
-              "value": "docId"
+              "key": "tdrNumber",
+              "value": "selectedObject.ArrangementID"
             }
           ],
-          "baseURL": "641aedb2676c823a449fd597",
+          "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
         "responseHandler": [
           {
             "httpStatus": 200,
-            "logic": true,
-            "triggerName": "set showZakatExemptionUpload true",
-            "triggerId": "gf7Iw66FHfRTw7E4IOve9"
-          },
-          {
-            "logic": true,
-            "httpStatus": 200,
-            "triggerName": "clear zakatExemptionDocResponse",
-            "triggerId": "iXGS8lbjXEpNafkILuN-Y"
+            "triggerName": "view tdr to pre encashment ",
+            "triggerId": "kuQnVVsvYUyXPNQganF3-"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

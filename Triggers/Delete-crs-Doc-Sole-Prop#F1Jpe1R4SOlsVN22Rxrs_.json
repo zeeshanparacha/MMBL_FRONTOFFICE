@@ -60,8 +60,8 @@
               "_id": "W3dkRYgmHW6bbtx-gC8PJ",
               "projectId": "63f4845e476fc83100e3a899",
               "gitBranchName": "master",
-              "name": "Delete crs Doc API call",
-              "old_name": "Delete Declaration Doc API call",
+              "name": "Delete crs Doc API call Sole",
+              "old_name": "Delete crs Doc API call",
               "status": "ACTIVE",
               "services": [
                 {
@@ -110,15 +110,21 @@
                         "logic": true,
                         "triggerName": "set showCrsUpload true",
                         "triggerId": "UmUW6zv9etiuz3mi5ZByX"
+                      },
+                      {
+                        "logic": true,
+                        "httpStatus": 200,
+                        "triggerName": "clear crsDocResponse",
+                        "triggerId": "bh9JVycjjm1FJ6gOEumLo"
                       }
                     ]
                   }
                 }
               ],
-              "updatedAt": "4/14/2023",
-              "createdAt": "4/14/2023",
-              "createdBy": "talha2",
-              "updatedBy": "talha2"
+              "updatedAt": "4/18/2023",
+              "createdAt": "4/18/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
             }
           ],
           "triggerIds": ["EMQEsMJDfxuVZEN8VNApt", "UwxiEKlN_AV2icrymlB63"]
@@ -126,8 +132,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha2",
-  "updatedBy": "talha2"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

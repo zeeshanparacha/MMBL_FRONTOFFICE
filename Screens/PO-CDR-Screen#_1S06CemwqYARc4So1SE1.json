@@ -25,7 +25,7 @@
         "id": "kn0PwNbfokIPWu81HFMkc",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "PO-CDR Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -1320,7 +1320,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "11",
-                                                                  "type": "text",
+                                                                  "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -1770,7 +1770,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "13",
-                                                                  "type": "text",
+                                                                  "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -5004,7 +5004,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "13",
-                                                                  "type": "text",
+                                                                  "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -5353,7 +5353,7 @@
                                                                   "label": "City",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -5487,7 +5487,7 @@
                                                                     "xs": 12
                                                                   },
                                                                   "validate": {
-                                                                    "required": false,
+                                                                    "required": true,
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
@@ -6670,14 +6670,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_1S06CemwqYARc4So1SE1",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "kn0PwNbfokIPWu81HFMkc",
-    "name": "Grid layout",
+    "name": "PO-CDR Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -8060,7 +8060,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "11",
-      "type": "text",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -8424,7 +8424,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "13",
-      "type": "text",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11148,7 +11148,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "13",
-      "type": "text",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11425,7 +11425,7 @@
       "label": "City",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -11534,7 +11534,7 @@
         "xs": 12
       },
       "validate": {
-        "required": false,
+        "required": true,
         "errorMsg": "This field is required",
         "bindButton": [
           {

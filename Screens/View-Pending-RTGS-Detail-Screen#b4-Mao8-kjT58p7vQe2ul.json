@@ -737,7 +737,7 @@
                                                                   "label": "Contact Number",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -766,7 +766,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-0-1-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-0-1-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -1127,7 +1127,7 @@
                                                                   "label": "Branch Name",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1156,7 +1156,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-0-2-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-0-2-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -1505,7 +1505,7 @@
                                                                   "label": "To Account Number",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1534,7 +1534,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-1-0-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-1-0-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -1905,7 +1905,7 @@
                                                                   "label": "To Account Title",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1934,7 +1934,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-1-1-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-1-1-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -2305,7 +2305,7 @@
                                                                   "label": "Bank Name",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -2334,7 +2334,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-1-0-1-2-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-1-0-1-2-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -3210,7 +3210,7 @@
                                                                   "label": "Purpose",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -3239,7 +3239,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-3-0-0-1-0-0-0-0-0"
+                                                                "path": "0-0-1-0-0-0-3-0-0-1-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -4771,7 +4771,7 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "RTGS Payment"
+        "name": "View Pending RTGS Detail Screen"
       }
     ],
     "events": [],
@@ -4781,14 +4781,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "b4-Mao8-kjT58p7vQe2ul",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "R2_W_wAvMi85DGug9w1pC",
-    "name": "RTGS Payment",
+    "name": "View Pending RTGS Detail Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -5771,7 +5771,7 @@
       "label": "Contact Number",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -5797,7 +5797,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-0-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-1-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -6089,7 +6089,7 @@
       "label": "Branch Name",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6115,7 +6115,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-0-2-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-2-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -6428,7 +6428,7 @@
       "label": "To Account Number",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6454,7 +6454,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-1-0-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-1-0-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -6746,7 +6746,7 @@
       "label": "To Account Title",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6772,7 +6772,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-1-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-1-1-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -7064,7 +7064,7 @@
       "label": "Bank Name",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -7090,7 +7090,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-1-2-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-1-0-1-2-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -7858,7 +7858,7 @@
       "label": "Purpose",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -7884,7 +7884,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-2-0-0-0-3-0-0-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-3-0-0-1-0-0-0-0-0",
     "screenId": "b4-Mao8-kjT58p7vQe2ul",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

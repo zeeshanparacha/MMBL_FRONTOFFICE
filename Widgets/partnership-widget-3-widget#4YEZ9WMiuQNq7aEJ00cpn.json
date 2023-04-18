@@ -4598,8 +4598,8 @@
                                                         "5MXOcGuclToRvebmBdbyk"
                                                       ]
                                                     },
-                                                    "type": "4",
-                                                    "name": "On Submit"
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-7-2-0-0-0-0-0"
@@ -6334,8 +6334,8 @@
     "gitBranchName": "master",
     "_id": "4YEZ9WMiuQNq7aEJ00cpn",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/14/2023",
-    "createdAt": "4/14/2023",
+    "updatedAt": "4/17/2023",
+    "createdAt": "4/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -10417,8 +10417,8 @@
       {
         "triggerId": "w-5kMnEztpo8WllngCfJm",
         "triggerName": "Clear DirectorInformation BindingKeys",
-        "name": "On Submit",
-        "type": "4",
+        "name": "On click",
+        "type": "2",
         "serviceType": "2"
       }
     ],

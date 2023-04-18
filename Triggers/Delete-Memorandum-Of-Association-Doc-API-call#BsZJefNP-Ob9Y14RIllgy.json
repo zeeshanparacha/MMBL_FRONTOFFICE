@@ -1,8 +1,10 @@
 {
   "id": "lVgDtAwKQsKSOhOdt4joj",
+  "_id": "BsZJefNP-Ob9Y14RIllgy",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": "Delete Memorandum Of Association Doc API call",
+  "old_name": "Delete Memorandum Of Association Doc API call",
   "status": "ACTIVE",
   "services": [
     {
@@ -57,14 +59,19 @@
             "httpStatus": 200,
             "triggerName": "clear memorandumOfAssociationResponse",
             "triggerId": "xSvbuRqyMg4kc7J2KTmWS"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
           }
         ]
       }
     }
   ],
-  "_id": "BsZJefNP-Ob9Y14RIllgy",
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

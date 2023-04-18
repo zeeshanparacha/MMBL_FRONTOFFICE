@@ -1,10 +1,10 @@
 {
-  "id": "BEey6tCcEd_fSG6EqM-Eo",
-  "_id": "G516KCrMoUxN7qoJ_q3X0",
+  "id": "8BTwCJNZHVTaLw2dSG6MF",
+  "_id": "2Lc2j8XKtWmW2y5QpZTO8",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Delete taxExemption Doc API call",
-  "old_name": "Delete taxExemption Doc API call",
+  "name": "Delete Declaration Doc API call Private",
+  "old_name": "Delete Declaration Doc API call Private",
   "status": "ACTIVE",
   "services": [
     {
@@ -51,21 +51,27 @@
           {
             "httpStatus": 200,
             "logic": true,
-            "triggerName": "set showTaxExemptionUpload true",
-            "triggerId": "g9brRAsZBZIN1RabGbzaI"
+            "triggerName": "set showDeclarationUpload true",
+            "triggerId": "Pzkn3N47c5MmIklLVDEKg"
           },
           {
             "logic": true,
             "httpStatus": 200,
-            "triggerName": "clear taxExemptionDocResponse",
-            "triggerId": "36Au98XNOyt6xP0JqdysP"
+            "triggerName": "Clear declarationOfChangesDocId BindingKey",
+            "triggerId": "B6BuEFNPZ39Qvfe0h-7tZ"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

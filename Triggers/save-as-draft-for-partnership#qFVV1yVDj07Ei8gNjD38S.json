@@ -367,6 +367,54 @@
               "name": "Form",
               "key": "partnership.authorizedPersonalDetails.title",
               "value": "title"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.czDocId",
+              "value": "czDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.zakatExemptionDocId",
+              "value": "zakatExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.taxExemptionDocId",
+              "value": "taxExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.ntnDocId",
+              "value": "ntnDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.fatcaDocId",
+              "value": "fatcaDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.crsDocId",
+              "value": "crsDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.partnershipDeedDocId",
+              "value": "partnershipDeedDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.registrationCertificateDocId",
+              "value": "registrationCertificateDocId"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -389,8 +437,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

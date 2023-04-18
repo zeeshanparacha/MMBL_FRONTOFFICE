@@ -25,7 +25,7 @@
         "id": "3ofICFfEYhkcK-LcgCNzM",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "RTGS View Pending layout",
+        "name": "RTGS Payment",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -829,7 +829,7 @@
                                                                   "label": "Contact Number",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1210,7 +1210,7 @@
                                                                   "label": "Branch Name",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1655,7 +1655,7 @@
                                                                   "label": "To Account Number",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -2046,7 +2046,7 @@
                                                                   "label": "To Account Title",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -2437,7 +2437,7 @@
                                                                   "label": "Bank Name",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -3417,7 +3417,7 @@
                                                                   "label": "Purpose",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -4398,14 +4398,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "kXkGzpWEMjfVJ9wS08OoY",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/17/2023",
-    "createdAt": "3/17/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "3ofICFfEYhkcK-LcgCNzM",
-    "name": "RTGS View Pending layout",
+    "name": "RTGS Payment",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -5441,7 +5441,7 @@
       "label": "Contact Number",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -5755,7 +5755,7 @@
       "label": "Branch Name",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6158,7 +6158,7 @@
       "label": "To Account Number",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6472,7 +6472,7 @@
       "label": "To Account Title",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6786,7 +6786,7 @@
       "label": "Bank Name",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -7640,7 +7640,7 @@
       "label": "Purpose",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",

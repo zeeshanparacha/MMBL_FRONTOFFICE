@@ -50,6 +50,13 @@
         },
         "responseHandler": [
           {
+            "triggerName": "Map docId from certificateOfCommencementResponse to certificateOfCommencementDocId",
+            "triggerId": "G-CiXpgddePJWy4dgcZux",
+            "httpStatus": 200,
+            "logic": true
+          },
+          {
+            "logic": true,
             "httpStatus": 200,
             "triggerName": "add attachment for private ",
             "triggerId": "-c_ParFhJHlQmzVyMQhy_"
@@ -64,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

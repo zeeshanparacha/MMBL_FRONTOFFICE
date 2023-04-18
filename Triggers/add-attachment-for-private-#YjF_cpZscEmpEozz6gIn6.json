@@ -37,70 +37,70 @@
               "value": "uuid"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.boardOfResolutionDocId",
-              "value": "BoardOfResolutionResponse.docId"
+              "value": "boardOfResolutionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.memorandumOfAssociationDocId",
-              "value": "memorandumOfAssociationResponse.docId"
+              "value": "memorandumOfAssociationDocId.docId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.certificateOfIncorporationDocId",
-              "value": "certificateOfIncorporationResponse.docId"
+              "value": "certificateOfIncorporationDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.certificateOfCommencementDocId",
-              "value": "certificateOfCommencementResponse.docId"
+              "value": "certificateOfCommencementDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.formADocId",
-              "value": "formAResponse.docId"
+              "value": "formADocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.czDocId",
-              "value": "czDocResponse.docId"
+              "value": "czDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.zakatExemptionDocId",
-              "value": "zakatExemptionDocResponse.docId"
+              "value": "zakatExemptionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.taxExemptionDocId",
-              "value": "taxExemptionDocResponse.docId"
+              "value": "taxExemptionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.ntnDocId",
-              "value": "ntnDocResponse.docId"
+              "value": "ntnDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.fatcaDocId",
-              "value": "fatcaDocResponse.docId"
+              "value": "fatcaDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.crsDocId",
-              "value": "crsDocResponse.docId"
+              "value": "crsDocId"
             },
             {
               "type": 2,
@@ -109,10 +109,10 @@
               "value": "formId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "privateOrPublicDocument.declarationOfChangesDocId",
-              "value": "declarationDocResponse.docId"
+              "value": "declarationOfChangesDocId"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -122,8 +122,8 @@
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

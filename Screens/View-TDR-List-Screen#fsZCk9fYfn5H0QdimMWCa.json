@@ -6,6 +6,19 @@
     "attributes": {
       "gridProps": [
         {
+          "componentId": "bXoD2IA9whwuM96pyeiOW",
+          "componentType": "10001",
+          "id": "bXoD2IA9whwuM96pyeiOW",
+          "position": {
+            "i": "bXoD2IA9whwuM96pyeiOW",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
           "componentId": "CrtVrDyoEV00euThHTDSS",
           "componentType": "10001",
           "id": "CrtVrDyoEV00euThHTDSS",
@@ -21,6 +34,28 @@
       ]
     },
     "layout": [
+      {
+        "type": "10001",
+        "id": "bXoD2IA9whwuM96pyeiOW",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "gj8CDN0bvl-F6n9MjH-DX",
+            "gridProps": [
+              {
+                "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                "name": "Show Error Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                  "layoutProperties": {}
+                },
+                "component": { "type": "20031" }
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "CrtVrDyoEV00euThHTDSS",
         "status": "ACTIVE",
@@ -47,7 +82,7 @@
           "name": "View TDR List Screen"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
@@ -58,12 +93,44 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "1",
         "gridProps": [
           {
             "type": "column",
-            "id": "gRly1hOvnsjgus4Wxu6g0",
+            "id": "0rUXs4Luh_-HSxQaESANA",
             "gridProps": [
+              {
+                "id": "sjo5KorsTz6KITUBVhFja",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
+                "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                "name": "Show Error Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
               {
                 "type": "10001",
                 "name": "Grid layout",
@@ -71,7 +138,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "LOtz5sTNAljYsXM-qm_m-",
+                    "id": "OL_59nPawq98MC6K5t7WL",
                     "gridProps": [
                       {
                         "id": "jdvfLu5QmpmPgVrB0aVnj",
@@ -369,17 +436,6 @@
                                   },
                                   "columnDefinition": [
                                     {
-                                      "type": "checkbox",
-                                      "typeTemp": {
-                                        "name": "Checkbox",
-                                        "type": "checkbox"
-                                      },
-                                      "bindingKeyForSelectedRow": "selectedRows",
-                                      "storeType": 2,
-                                      "field": "",
-                                      "checkboxValue": "account"
-                                    },
-                                    {
                                       "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
@@ -456,6 +512,120 @@
                                       "field": "MaturityDate",
                                       "type": "text",
                                       "triggerId": null
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "PrincipalAmount",
+                                      "headerName": "Profit Rate",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Branch",
+                                      "field": "BranchName",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Icon Button",
+                                        "type": "iconButton"
+                                      },
+                                      "headerName": "Action",
+                                      "field": "",
+                                      "rowId": "id",
+                                      "iconButtons": [
+                                        {
+                                          "label": "Early Encash",
+                                          "trigger": {
+                                            "id": "9K-gi1D83B5cTJ2TAW6cP",
+                                            "_id": "bZHFjNx6ApCzkxnLhK7Tg",
+                                            "projectId": "63f4845e476fc83100e3a899",
+                                            "gitBranchName": "master",
+                                            "name": "pre encashment api",
+                                            "old_name": "pre encashment trigger",
+                                            "status": "ACTIVE",
+                                            "services": [
+                                              {
+                                                "type": "8",
+                                                "command": {
+                                                  "type": "1",
+                                                  "attributes": {
+                                                    "loaderWidgetIds": [906070],
+                                                    "messageWidgetIds": [
+                                                      906070
+                                                    ],
+                                                    "responseStateKey": "preEncashmentResponse",
+                                                    "responseReturnValue": "data.tdrEarlyEncash",
+                                                    "url": "/tdr/pre-encash",
+                                                    "checksum": true,
+                                                    "encryption": true,
+                                                    "isDeviceDetails": true,
+                                                    "loginTrigger": false,
+                                                    "formData": false,
+                                                    "logoutTrigger": false,
+                                                    "headers": {
+                                                      "Content-Type": "application/json",
+                                                      "Accept": "application/json",
+                                                      "channel_key": "001",
+                                                      "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                      "locale": "en-ltr"
+                                                    },
+                                                    "requestBody": [
+                                                      {
+                                                        "type": 2,
+                                                        "name": "Current screen",
+                                                        "key": "tdrNumber",
+                                                        "value": "selectedObject.ArrangementID"
+                                                      }
+                                                    ],
+                                                    "baseURL": "631b0ff6d005932c10ce3bbe",
+                                                    "storeType": 2
+                                                  },
+                                                  "responseHandler": [
+                                                    {
+                                                      "httpStatus": 200,
+                                                      "triggerName": "view tdr to pre encashment ",
+                                                      "triggerId": "kuQnVVsvYUyXPNQganF3-"
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ],
+                                            "updatedAt": "4/18/2023",
+                                            "createdAt": "4/18/2023",
+                                            "createdBy": "areeb",
+                                            "updatedBy": "areeb"
+                                          },
+                                          "selectedObjectBindingKey": "selectedObject",
+                                          "triggerId": "9K-gi1D83B5cTJ2TAW6cP",
+                                          "conditional": {},
+                                          "values": [],
+                                          "disableConditional": {},
+                                          "disableValues": [],
+                                          "cssConditional": {},
+                                          "cssValues": [],
+                                          "cssClassNames": [
+                                            {
+                                              "cssClassName": "viewDetailsButton"
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "type": "iconButton"
                                     }
                                   ],
                                   "rowDefinition": [],
@@ -480,7 +650,7 @@
                                   "type": "20014"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-1-0-0"
+                                "path": "1-0-2-0-1-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -546,7 +716,18 @@
                   "name": "Grid layout"
                 },
                 "events": [],
-                "component": { "type": "10001", "content": "Grid layout" }
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "1-0-2",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               }
             ],
             "layoutProperties": {
@@ -555,11 +736,20 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "events": [],
@@ -569,9 +759,47 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "fsZCk9fYfn5H0QdimMWCa",
-    "createdBy": "muzzamil",
-    "updatedAt": "4/15/2023",
-    "createdAt": "4/15/2023",
+    "createdBy": "areeb",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "bXoD2IA9whwuM96pyeiOW",
+    "name": "Component",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {},
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "fsZCk9fYfn5H0QdimMWCa",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-ILXb_OcmXs_8OQtk6Kb",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "fsZCk9fYfn5H0QdimMWCa",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -580,6 +808,30 @@
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        },
         {
           "componentId": "tp4M0aPAuus3WM3qJS_uG",
           "componentType": "10001",
@@ -621,6 +873,22 @@
     "events": [],
     "subType": "component",
     "screenId": "fsZCk9fYfn5H0QdimMWCa",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "fsZCk9fYfn5H0QdimMWCa",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
@@ -889,14 +1157,6 @@
       },
       "columnDefinition": [
         {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedRows",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "account"
-        },
-        {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "AccountNo",
@@ -946,6 +1206,102 @@
           "field": "MaturityDate",
           "type": "text",
           "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "PrincipalAmount",
+          "headerName": "Profit Rate",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Branch",
+          "field": "BranchName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Action",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "Early Encash",
+              "trigger": {
+                "id": "9K-gi1D83B5cTJ2TAW6cP",
+                "_id": "bZHFjNx6ApCzkxnLhK7Tg",
+                "projectId": "63f4845e476fc83100e3a899",
+                "gitBranchName": "master",
+                "name": "pre encashment api",
+                "old_name": "pre encashment trigger",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "8",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "loaderWidgetIds": [906070],
+                        "messageWidgetIds": [906070],
+                        "responseStateKey": "preEncashmentResponse",
+                        "responseReturnValue": "data.tdrEarlyEncash",
+                        "url": "/tdr/pre-encash",
+                        "checksum": true,
+                        "encryption": true,
+                        "isDeviceDetails": true,
+                        "loginTrigger": false,
+                        "formData": false,
+                        "logoutTrigger": false,
+                        "headers": {
+                          "Content-Type": "application/json",
+                          "Accept": "application/json",
+                          "channel_key": "001",
+                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                          "locale": "en-ltr"
+                        },
+                        "requestBody": [
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "tdrNumber",
+                            "value": "selectedObject.ArrangementID"
+                          }
+                        ],
+                        "baseURL": "631b0ff6d005932c10ce3bbe",
+                        "storeType": 2
+                      },
+                      "responseHandler": [
+                        {
+                          "httpStatus": 200,
+                          "triggerName": "view tdr to pre encashment ",
+                          "triggerId": "kuQnVVsvYUyXPNQganF3-"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "updatedAt": "4/18/2023",
+                "createdAt": "4/18/2023",
+                "createdBy": "areeb",
+                "updatedBy": "areeb"
+              },
+              "selectedObjectBindingKey": "selectedObject",
+              "triggerId": "9K-gi1D83B5cTJ2TAW6cP",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": [],
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton" }]
+            }
+          ],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],
@@ -967,7 +1323,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-0-0-1-0-0",
+    "path": "1-0-2-0-1-0-0",
     "screenId": "fsZCk9fYfn5H0QdimMWCa",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

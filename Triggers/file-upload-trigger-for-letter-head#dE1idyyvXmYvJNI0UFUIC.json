@@ -50,10 +50,16 @@
         },
         "responseHandler": [
           {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Map docId from declarationDocResponse to declarationDocId",
+            "triggerId": "2j-oy1BSwtJqxuw3Bcb1k"
+          },
+          {
+            "logic": true,
             "httpStatus": 200,
             "triggerName": "add attachement for declarationDocId",
-            "triggerId": "ndZ5w0j35NJfd2f-wnVko",
-            "logic": true
+            "triggerId": "ndZ5w0j35NJfd2f-wnVko"
           },
           {
             "logic": true,
@@ -65,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
 }

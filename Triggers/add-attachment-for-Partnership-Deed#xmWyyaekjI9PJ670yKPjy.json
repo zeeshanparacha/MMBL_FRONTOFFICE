@@ -31,52 +31,52 @@
           },
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.czDocId",
-              "value": "czDocResponse.docId"
+              "value": "czDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.crsDocId",
-              "value": "crsDocResponse.docId"
+              "value": "crsDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.fatcaDocId",
-              "value": "fatcaDocResponse.docId"
+              "value": "fatcaDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.ntnDocId",
-              "value": "ntnDocResponse.docId"
+              "value": "ntnDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.taxExemptionDocId",
-              "value": "taxExemptionDocResponse.docId"
+              "value": "taxExemptionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.zakatExemptionDocId",
-              "value": "zakatExemptionDocResponse.docId"
+              "value": "zakatExemptionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.partnershipDeedDocId",
-              "value": "partnershipDeedDocResponse.docId"
+              "value": "partnershipDeedDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "partnershipDocument.registrationCertificateDocId",
-              "value": "registrationCertificateDocResponse.docId"
+              "value": "registrationCertificateDocId"
             },
             {
               "type": 2,
@@ -98,8 +98,8 @@
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

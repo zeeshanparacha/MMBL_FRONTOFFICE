@@ -4,7 +4,7 @@
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": " file upload NTN for partnership",
-  "old_name": "trigger file upload partnership",
+  "old_name": " file upload NTN for partnership",
   "status": "ACTIVE",
   "services": [
     {
@@ -50,13 +50,20 @@
         },
         "responseHandler": [
           {
+            "triggerName": "Map docId from ntnDocResponse to ntnDocId",
+            "triggerId": "6p1C10ixnexS-p8ABh0NQ",
+            "httpStatus": 200,
+            "logic": true
+          },
+          {
+            "logic": true,
             "httpStatus": 200,
             "triggerName": "add attachment for Partnership Deed",
             "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
           },
           {
-            "logic": true,
             "httpStatus": 200,
+            "logic": true,
             "triggerName": "set showNtnUpload false",
             "triggerId": "iLzQ5lQd_zBGdL0ZV0k99"
           }
@@ -64,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

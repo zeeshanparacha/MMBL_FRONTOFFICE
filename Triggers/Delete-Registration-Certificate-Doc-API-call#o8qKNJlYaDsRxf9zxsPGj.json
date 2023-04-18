@@ -1,8 +1,10 @@
 {
   "id": "m5WYOixgH4XPZHcjrmRVA",
+  "_id": "o8qKNJlYaDsRxf9zxsPGj",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": "Delete Registration Certificate Doc API call",
+  "old_name": "Delete Registration Certificate Doc API call",
   "status": "ACTIVE",
   "services": [
     {
@@ -57,14 +59,19 @@
             "httpStatus": 200,
             "triggerName": "Clear registrationCertificateDocResponse BindingKey",
             "triggerId": "v5bSSlAbuDte-VLZ5t413"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
           }
         ]
       }
     }
   ],
-  "_id": "o8qKNJlYaDsRxf9zxsPGj",
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

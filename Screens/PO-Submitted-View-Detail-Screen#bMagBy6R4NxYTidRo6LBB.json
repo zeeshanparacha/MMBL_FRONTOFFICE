@@ -25,7 +25,7 @@
         "id": "Cq2kYd2jRp_ZZfYisepEk",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "PO Submitted View Detail Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -3674,7 +3674,10 @@
                                                   "searchInState": true,
                                                   "stateName": "isSelfRepresentative",
                                                   "storeType": 1,
-                                                  "value": "true"
+                                                  "value": "true",
+                                                  "disableCondition": {
+                                                    "logic": { "==": [1, 1] }
+                                                  }
                                                 },
                                                 "events": [],
                                                 "version": "1.0.0",
@@ -3739,7 +3742,10 @@
                                                   "searchInState": true,
                                                   "stateName": "isSelfRepresentative",
                                                   "storeType": 1,
-                                                  "value": "false"
+                                                  "value": "false",
+                                                  "disableCondition": {
+                                                    "logic": { "==": [1, 1] }
+                                                  }
                                                 },
                                                 "events": [],
                                                 "version": "1.0.0",
@@ -5688,14 +5694,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "bMagBy6R4NxYTidRo6LBB",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "createdBy": "ishfaque",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "Cq2kYd2jRp_ZZfYisepEk",
-    "name": "Grid layout",
+    "name": "PO Submitted View Detail Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -9015,7 +9021,8 @@
       "searchInState": true,
       "stateName": "isSelfRepresentative",
       "storeType": 1,
-      "value": "true"
+      "value": "true",
+      "disableCondition": { "logic": { "==": [1, 1] } }
     },
     "events": [],
     "version": "1.0.0",
@@ -9063,7 +9070,8 @@
       "searchInState": true,
       "stateName": "isSelfRepresentative",
       "storeType": 1,
-      "value": "false"
+      "value": "false",
+      "disableCondition": { "logic": { "==": [1, 1] } }
     },
     "events": [],
     "version": "1.0.0",

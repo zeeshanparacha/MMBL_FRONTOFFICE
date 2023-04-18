@@ -2,7 +2,7 @@
   "id": "36Au98XNOyt6xP0JqdysP",
   "_id": "cD72gYGb_-RXOZO9mMMCI",
   "name": "clear taxExemptionDocResponse",
-  "old_name": "clear declarationDocResponse",
+  "old_name": "clear taxExemptionDocResponse",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -15,19 +15,19 @@
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
-          "destinationBindingKey": "taxExemptionDocResponse",
+          "destinationBindingKey": "taxExemptionDocId",
           "sourceBindingKey": "form",
           "sourceStoreType": 2,
-          "destinationStoreType": 2,
-          "logic": { "if": [true, "", ""] },
+          "destinationStoreType": 1,
+          "logic": { "if": [true, null, null] },
           "changeValueConditonally": true,
           "targettedType": "value"
         }
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
 }

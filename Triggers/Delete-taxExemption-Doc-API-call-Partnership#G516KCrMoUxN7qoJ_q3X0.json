@@ -1,10 +1,10 @@
 {
-  "id": "4UOFPYSLs9c5m78pjyBbs",
-  "_id": "zCHfa6wk5DUaAln1mpHVT",
+  "id": "BEey6tCcEd_fSG6EqM-Eo",
+  "_id": "G516KCrMoUxN7qoJ_q3X0",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Delete ntn Doc API call",
-  "old_name": "Delete ntn Doc API call",
+  "name": "Delete taxExemption Doc API call Partnership",
+  "old_name": "Delete taxExemption Doc API call Partnership",
   "status": "ACTIVE",
   "services": [
     {
@@ -51,21 +51,27 @@
           {
             "httpStatus": 200,
             "logic": true,
-            "triggerName": "set showNtnUpload true",
-            "triggerId": "_7qmz7WfgCqdSdF8nUKav"
+            "triggerName": "set showTaxExemptionUpload true",
+            "triggerId": "g9brRAsZBZIN1RabGbzaI"
           },
           {
             "logic": true,
             "httpStatus": 200,
-            "triggerName": "clear ntnDocResponse",
-            "triggerId": "6HCnj1vuZQwtGQa5U9KFJ"
+            "triggerName": "clear taxExemptionDocResponse",
+            "triggerId": "36Au98XNOyt6xP0JqdysP"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

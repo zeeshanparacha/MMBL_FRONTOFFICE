@@ -15,6 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "qrCodeResponse",
+          "responseReturnValue": "data.qrCodeImage",
           "url": "/p2p/payment-qr/generate",
           "checksum": true,
           "encryption": true,
@@ -44,8 +45,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
+  "updatedAt": "4/17/2023",
+  "createdAt": "4/17/2023",
   "createdBy": "areeb",
   "updatedBy": "areeb"
 }

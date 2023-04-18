@@ -1,8 +1,10 @@
 {
   "id": "9Ke3s8m6TIBqag3swA5O6",
+  "_id": "g5LvJ9kVxu5Xg0j4kSOHK",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": " Delete Board Of Resolution Doc API call",
+  "old_name": " Delete Board Of Resolution Doc API call",
   "status": "ACTIVE",
   "services": [
     {
@@ -55,16 +57,21 @@
           {
             "logic": true,
             "httpStatus": 200,
-            "triggerName": "Clear Board Of Resolution Doc Response",
-            "triggerId": "aQLnSEhFRipp5eT55VirO"
+            "triggerName": "Call Clear Board Of Resolution Doc Response and call  attachment Chain",
+            "triggerId": "Ec5i3hJDGLsUHuC3Bk4hh"
+          },
+          {
+            "httpStatus": 200,
+            "logic": true,
+            "triggerName": "add attachment for Partnership Deed",
+            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
           }
         ]
       }
     }
   ],
-  "_id": "g5LvJ9kVxu5Xg0j4kSOHK",
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

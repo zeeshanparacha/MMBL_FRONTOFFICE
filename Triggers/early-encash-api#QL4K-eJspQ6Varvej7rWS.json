@@ -1,10 +1,10 @@
 {
-  "id": "UwxiEKlN_AV2icrymlB63",
-  "_id": "W3dkRYgmHW6bbtx-gC8PJ",
+  "id": "YPaSRpb57RATUIFXH2GUE",
+  "_id": "QL4K-eJspQ6Varvej7rWS",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Delete crs Doc API call",
-  "old_name": "Delete crs Doc API call",
+  "name": "early encash api",
+  "old_name": "early encash api",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "deleteDocResponse",
-          "responseReturnValue": "data",
-          "url": "/doc-mgmt/delete-files",
+          "responseStateKey": "earlyResponse",
+          "url": "/tdr/early-encash",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -34,38 +33,37 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "uuid",
-              "value": "uuid"
-            },
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "docId",
-              "value": "docId"
+              "key": "tdrNumber",
+              "value": "selectedObject.ArrangementID"
             }
           ],
-          "baseURL": "641aedb2676c823a449fd597",
+          "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
         },
         "responseHandler": [
           {
+            "logic": { "==": [{ "var": "status" }, 0] },
             "httpStatus": 200,
-            "logic": true,
-            "triggerName": "set showCrsUpload true",
-            "triggerId": "UmUW6zv9etiuz3mi5ZByX"
+            "triggerName": "Show Error Modal",
+            "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
           },
           {
-            "logic": true,
+            "triggerName": "early in cash to view tdr back button",
+            "triggerId": "FnBjDa_JbJoTl1mRxdmGG",
+            "httpStatus": 200
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "clear crsDocResponse",
-            "triggerId": "bh9JVycjjm1FJ6gOEumLo"
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

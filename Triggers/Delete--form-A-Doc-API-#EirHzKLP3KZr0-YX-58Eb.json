@@ -1,8 +1,10 @@
 {
   "id": "w3rOb57OCmfvd7tuL7YWQ",
+  "_id": "EirHzKLP3KZr0-YX-58Eb",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "name": "Delete  form A Doc API ",
+  "old_name": "Delete  form A Doc API ",
   "status": "ACTIVE",
   "services": [
     {
@@ -57,14 +59,19 @@
             "httpStatus": 200,
             "triggerName": "Clear formAResponse BindingKey",
             "triggerId": "t6cKemrxLLfKyHuMVWzZQ"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachment for private ",
+            "triggerId": "-c_ParFhJHlQmzVyMQhy_"
           }
         ]
       }
     }
   ],
-  "_id": "EirHzKLP3KZr0-YX-58Eb",
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

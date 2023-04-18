@@ -419,15 +419,22 @@
                 "var": "currentScreen.response.data.result.formRequest.formId"
               }
             },
-            { "key": "isPrivateOrPublic", "changeValueConditonally": false }
+            { "key": "isPrivateOrPublic", "changeValueConditonally": false },
+            {
+              "key": "declarationOfChangesDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.declarationOfChangesDocId"
+              }
+            }
           ],
           "targettedType": "object"
         }
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

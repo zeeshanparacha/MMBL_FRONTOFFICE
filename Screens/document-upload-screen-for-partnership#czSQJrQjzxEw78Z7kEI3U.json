@@ -630,48 +630,149 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "R62cTs09ipKlww67yz-h5",
-                                                                            "triggerName": "Delete Partnership Deed Doc API call",
-                                                                            "serviceType": "8",
+                                                                            "triggerId": "yOZQ5MqvEHJpqw72ag6gK",
+                                                                            "triggerName": "Delete Partnership Deed Doc API Chain Trigger",
+                                                                            "serviceType": "2",
                                                                             "attributes": {
-                                                                              "loaderWidgetIds": [
-                                                                                906070
-                                                                              ],
-                                                                              "messageWidgetIds": [
-                                                                                906070
-                                                                              ],
-                                                                              "responseStateKey": "deleteDocResponse",
-                                                                              "responseReturnValue": "data",
-                                                                              "url": "/doc-mgmt/delete-files",
-                                                                              "checksum": true,
-                                                                              "encryption": true,
-                                                                              "isDeviceDetails": true,
-                                                                              "loginTrigger": false,
-                                                                              "formData": false,
-                                                                              "logoutTrigger": false,
-                                                                              "headers": {
-                                                                                "Content-Type": "application/json",
-                                                                                "Accept": "application/json",
-                                                                                "channel_key": "001",
-                                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                                "locale": "en-ltr"
-                                                                              },
-                                                                              "requestBody": [
+                                                                              "delay": "",
+                                                                              "triggers": [
                                                                                 {
-                                                                                  "type": 2,
-                                                                                  "name": "Current screen",
-                                                                                  "key": "uuid",
-                                                                                  "value": "uuid"
+                                                                                  "id": "B1lA9h_by7HIq25rLgpi3",
+                                                                                  "name": "map Partnership Deed DocId to DocId",
+                                                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                                                  "gitBranchName": "master",
+                                                                                  "services": [
+                                                                                    {
+                                                                                      "type": "11",
+                                                                                      "command": {
+                                                                                        "type": "6",
+                                                                                        "attributes": {
+                                                                                          "storeType": "",
+                                                                                          "selectedObjectBindingKey": "selectedObject",
+                                                                                          "dataType": "value",
+                                                                                          "destinationBindingKey": "docId",
+                                                                                          "sourceBindingKey": "form.partnershipDeedDocId",
+                                                                                          "sourceStoreType": 2,
+                                                                                          "destinationStoreType": 2,
+                                                                                          "logic": {
+                                                                                            "if": [
+                                                                                              {
+                                                                                                "var": "form.partnershipDeedDocId"
+                                                                                              },
+                                                                                              {
+                                                                                                "var": "form.partnershipDeedDocId"
+                                                                                              },
+                                                                                              {
+                                                                                                "if": [
+                                                                                                  {
+                                                                                                    "var": "partnershipDeedDocResponse.docId"
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "var": "partnershipDeedDocResponse.docId"
+                                                                                                  },
+                                                                                                  ""
+                                                                                                ]
+                                                                                              }
+                                                                                            ]
+                                                                                          },
+                                                                                          "changeValueConditonally": true,
+                                                                                          "targettedType": "value"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "_id": "FGwJ4JwgX72mvW68z5k9T",
+                                                                                  "updatedAt": "4/15/2023",
+                                                                                  "createdAt": "4/15/2023",
+                                                                                  "createdBy": "ahmerjavedkhan",
+                                                                                  "updatedBy": "ahmerjavedkhan"
                                                                                 },
                                                                                 {
-                                                                                  "type": 2,
-                                                                                  "name": "Current screen",
-                                                                                  "key": "docId",
-                                                                                  "value": "docId"
+                                                                                  "id": "R62cTs09ipKlww67yz-h5",
+                                                                                  "_id": "owP0cLx1vsu2liMJU7zTx",
+                                                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                                                  "gitBranchName": "master",
+                                                                                  "name": "Delete Partnership Deed Doc API call",
+                                                                                  "old_name": "Delete Partnership Deed Doc API call",
+                                                                                  "status": "ACTIVE",
+                                                                                  "services": [
+                                                                                    {
+                                                                                      "type": "8",
+                                                                                      "command": {
+                                                                                        "type": "1",
+                                                                                        "attributes": {
+                                                                                          "loaderWidgetIds": [
+                                                                                            906070
+                                                                                          ],
+                                                                                          "messageWidgetIds": [
+                                                                                            906070
+                                                                                          ],
+                                                                                          "responseStateKey": "deleteDocResponse",
+                                                                                          "responseReturnValue": "data",
+                                                                                          "url": "/doc-mgmt/delete-files",
+                                                                                          "checksum": true,
+                                                                                          "encryption": true,
+                                                                                          "isDeviceDetails": true,
+                                                                                          "loginTrigger": false,
+                                                                                          "formData": false,
+                                                                                          "logoutTrigger": false,
+                                                                                          "headers": {
+                                                                                            "Content-Type": "application/json",
+                                                                                            "Accept": "application/json",
+                                                                                            "channel_key": "001",
+                                                                                            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                            "locale": "en-ltr"
+                                                                                          },
+                                                                                          "requestBody": [
+                                                                                            {
+                                                                                              "type": 2,
+                                                                                              "name": "Current screen",
+                                                                                              "key": "uuid",
+                                                                                              "value": "uuid"
+                                                                                            },
+                                                                                            {
+                                                                                              "type": 2,
+                                                                                              "name": "Current screen",
+                                                                                              "key": "docId",
+                                                                                              "value": "docId"
+                                                                                            }
+                                                                                          ],
+                                                                                          "baseURL": "641aedb2676c823a449fd597",
+                                                                                          "storeType": 2
+                                                                                        },
+                                                                                        "responseHandler": [
+                                                                                          {
+                                                                                            "logic": true,
+                                                                                            "httpStatus": 200,
+                                                                                            "triggerName": "set showpartnershipDeedUpload true",
+                                                                                            "triggerId": "Zt_IhXDAPz0wbkK66FRsI"
+                                                                                          },
+                                                                                          {
+                                                                                            "logic": true,
+                                                                                            "httpStatus": 200,
+                                                                                            "triggerName": "Clear partnershipDeedDocResponse Bindingkey",
+                                                                                            "triggerId": "lndsuFlq-d4qv2b6RJaaq"
+                                                                                          },
+                                                                                          {
+                                                                                            "logic": true,
+                                                                                            "httpStatus": 200,
+                                                                                            "triggerName": "add attachment for Partnership Deed",
+                                                                                            "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
+                                                                                          }
+                                                                                        ]
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "updatedAt": "4/18/2023",
+                                                                                  "createdAt": "4/18/2023",
+                                                                                  "createdBy": "ajk",
+                                                                                  "updatedBy": "ajk"
                                                                                 }
                                                                               ],
-                                                                              "baseURL": "641aedb2676c823a449fd597",
-                                                                              "storeType": 2
+                                                                              "triggerIds": [
+                                                                                "B1lA9h_by7HIq25rLgpi3",
+                                                                                "R62cTs09ipKlww67yz-h5"
+                                                                              ]
                                                                             },
                                                                             "type": "2",
                                                                             "name": "On click"
@@ -5689,8 +5790,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "ZKAus6bhqH5W7rbrkVfMz",
-                                                                                                    "triggerName": "Delete cz50 Doc Sole Prop",
+                                                                                                    "triggerId": "dLXD42iNSuSY6kiRdWDsR",
+                                                                                                    "triggerName": "Delete cz50 Doc Partnership Chain Trig",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -5749,10 +5850,12 @@
                                                                                                           "updatedBy": "talha2"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "QYxuQcOj37MCJh-JTumIW",
+                                                                                                          "_id": "4VZtwKjxfrqSiW8q3ZcCd",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete cz50 Doc API call partnership",
+                                                                                                          "old_name": "Delete cz50 Doc API call",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -5799,27 +5902,39 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showcz50Upload true",
+                                                                                                                    "triggerId": "5eVHZC7kvW3en0LDDMz_v"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear czDocResponse",
+                                                                                                                    "triggerId": "kwxe_P2hEyKFeCTeRGvuh"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ahmerjavedkhan",
+                                                                                                          "updatedBy": "ahmerjavedkhan"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "BeQBwzmciaL7I5ryqMZ_H",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "QYxuQcOj37MCJh-JTumIW"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-0-1-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-1-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -6540,8 +6655,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "wjkOnUh8lxZsZt8-uz8u4",
-                                                                                                    "triggerName": "Delete ZakatExemption Doc Sole Prop",
+                                                                                                    "triggerId": "fjOhMqpwlRD9kq6R5BKX3",
+                                                                                                    "triggerName": "Delete ZakatExemption Doc Partnership",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -6598,10 +6713,12 @@
                                                                                                           "updatedBy": "talha"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "niCeKvJVV9iTK4-3km9Tt",
+                                                                                                          "_id": "8Vqjaosnx4HPe8pE8Kscy",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete ZakatExemption Doc API call Partnership",
+                                                                                                          "old_name": "Delete ZakatExemption Doc API call Partnership",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -6648,27 +6765,45 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showZakatExemptionUpload true",
+                                                                                                                    "triggerId": "gf7Iw66FHfRTw7E4IOve9"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear zakatExemptionDocResponse",
+                                                                                                                    "triggerId": "iXGS8lbjXEpNafkILuN-Y"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "add attachment for Partnership Deed",
+                                                                                                                    "triggerId": "kziyS3YGV_RUX4tmfTgOZ"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ajk",
+                                                                                                          "updatedBy": "ajk"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "6P8r9TQqEMCcCDdHYN_Vb",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "niCeKvJVV9iTK4-3km9Tt"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-0-2-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-2-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -7345,7 +7480,7 @@
                                                                                   },
                                                                                   "mandatory": false,
                                                                                   "showDeleteIcon": true,
-                                                                                  "fileUploadTrigger": "u9aobaXiiCNDmSgy3_6W4",
+                                                                                  "fileUploadTrigger": "8wbErKuz6wpcVZaJ3JpaD",
                                                                                   "fileDeleteTrigger": "UEXXgJ2TIhndKi2-flf_p",
                                                                                   "fileType": "pdf",
                                                                                   "showPreview": false,
@@ -7436,8 +7571,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "UEXXgJ2TIhndKi2-flf_p",
-                                                                                                    "triggerName": "Delete taxExemption Doc Sole Prop",
+                                                                                                    "triggerId": "Na1lraIdYLVku5_kKMJmg",
+                                                                                                    "triggerName": "Delete taxExemption Doc Partnership",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -7492,10 +7627,12 @@
                                                                                                           "updatedBy": "talha"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "BEey6tCcEd_fSG6EqM-Eo",
+                                                                                                          "_id": "G516KCrMoUxN7qoJ_q3X0",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete taxExemption Doc API call Partnership",
+                                                                                                          "old_name": "Delete taxExemption Doc API call",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -7542,27 +7679,39 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showTaxExemptionUpload true",
+                                                                                                                    "triggerId": "g9brRAsZBZIN1RabGbzaI"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear taxExemptionDocResponse",
+                                                                                                                    "triggerId": "36Au98XNOyt6xP0JqdysP"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ahmerjavedkhan",
+                                                                                                          "updatedBy": "ahmerjavedkhan"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "NvdJUeuzlfEPN_paqDYEX",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "BEey6tCcEd_fSG6EqM-Eo"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-1-0-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-0-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -8290,8 +8439,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "pzy78AtRypDQYOFxUIYGl",
-                                                                                                    "triggerName": "Delete ntn Doc Sole Prop",
+                                                                                                    "triggerId": "sZFz8Cy8w5I_p79Z_y3iu",
+                                                                                                    "triggerName": "Delete ntn Doc Partnership",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -8346,10 +8495,12 @@
                                                                                                           "updatedBy": "talha"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "nbq073DACGn6-8SRqdgUi",
+                                                                                                          "_id": "X0xYeokCl4OsswmWg0e3T",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete ntn Doc API call Partnership",
+                                                                                                          "old_name": "Delete ntn Doc API call",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -8396,27 +8547,39 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showNtnUpload true",
+                                                                                                                    "triggerId": "_7qmz7WfgCqdSdF8nUKav"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear ntnDocResponse",
+                                                                                                                    "triggerId": "6HCnj1vuZQwtGQa5U9KFJ"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ahmerjavedkhan",
+                                                                                                          "updatedBy": "ahmerjavedkhan"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "y8ebf3_dB9hRR1RSWdOyA",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "nbq073DACGn6-8SRqdgUi"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-1-1-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-1-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -9134,8 +9297,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "uVXaVWbHxwtbisvDJ8ukz",
-                                                                                                    "triggerName": "Delete fatca Doc Sole Prop",
+                                                                                                    "triggerId": "KgFgJ9dSG7iWNziFekpAA",
+                                                                                                    "triggerName": "Delete fatca Doc Partnership Chain trig",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -9190,10 +9353,12 @@
                                                                                                           "updatedBy": "talha"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "Z4My4RgjOzmTPizMbNDtB",
+                                                                                                          "_id": "wAgCWLhwzyWosF9-NpTHp",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete fatca Doc API call Partnership",
+                                                                                                          "old_name": "Delete fatca Doc API call",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -9240,27 +9405,39 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showFatcaUpload true",
+                                                                                                                    "triggerId": "_o1qn7fuuiUdAWlj_hcgT"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear fatcaDocResponse",
+                                                                                                                    "triggerId": "aZ9tXQqzgU1fxRFRKCfhX"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ahmerjavedkhan",
+                                                                                                          "updatedBy": "ahmerjavedkhan"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "lMLS0DDBalcOOMTGZrSKB",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "Z4My4RgjOzmTPizMbNDtB"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-1-2-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-2-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -10017,8 +10194,8 @@
                                                                                                 },
                                                                                                 "events": [
                                                                                                   {
-                                                                                                    "triggerId": "9WkNPJy5m-4zaIcdKzWS5",
-                                                                                                    "triggerName": "Delete crs Doc Sole Prop",
+                                                                                                    "triggerId": "qf0van-hZaFcY3LPOEmYU",
+                                                                                                    "triggerName": "Delete crs Doc Partnership Chain Trig",
                                                                                                     "serviceType": "2",
                                                                                                     "attributes": {
                                                                                                       "delay": "",
@@ -10073,10 +10250,12 @@
                                                                                                           "updatedBy": "talha"
                                                                                                         },
                                                                                                         {
-                                                                                                          "id": "O-3NGdGe_AnuxfBPH4LKb",
+                                                                                                          "id": "A2dlGV2cdf-yPuCUbKnLC",
+                                                                                                          "_id": "VaGVyLY1hGld0BKTExjEk",
                                                                                                           "projectId": "63f4845e476fc83100e3a899",
                                                                                                           "gitBranchName": "master",
-                                                                                                          "name": "Delete Sole Prop Document",
+                                                                                                          "name": "Delete crs Doc API call partnership",
+                                                                                                          "old_name": "Delete crs Doc API call",
                                                                                                           "status": "ACTIVE",
                                                                                                           "services": [
                                                                                                             {
@@ -10123,27 +10302,39 @@
                                                                                                                   "baseURL": "641aedb2676c823a449fd597",
                                                                                                                   "storeType": 2
                                                                                                                 },
-                                                                                                                "responseHandler": []
+                                                                                                                "responseHandler": [
+                                                                                                                  {
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "logic": true,
+                                                                                                                    "triggerName": "set showCrsUpload true",
+                                                                                                                    "triggerId": "UmUW6zv9etiuz3mi5ZByX"
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                    "logic": true,
+                                                                                                                    "httpStatus": 200,
+                                                                                                                    "triggerName": "clear crsDocResponse",
+                                                                                                                    "triggerId": "bh9JVycjjm1FJ6gOEumLo"
+                                                                                                                  }
+                                                                                                                ]
                                                                                                               }
                                                                                                             }
                                                                                                           ],
-                                                                                                          "_id": "Rkiii1Ksx4O_zf6WgLooo",
-                                                                                                          "updatedAt": "4/12/2023",
-                                                                                                          "createdAt": "4/12/2023",
-                                                                                                          "createdBy": "talha",
-                                                                                                          "updatedBy": "talha"
+                                                                                                          "updatedAt": "4/18/2023",
+                                                                                                          "createdAt": "4/18/2023",
+                                                                                                          "createdBy": "ahmerjavedkhan",
+                                                                                                          "updatedBy": "ahmerjavedkhan"
                                                                                                         }
                                                                                                       ],
                                                                                                       "triggerIds": [
                                                                                                         "EMQEsMJDfxuVZEN8VNApt",
-                                                                                                        "O-3NGdGe_AnuxfBPH4LKb"
+                                                                                                        "A2dlGV2cdf-yPuCUbKnLC"
                                                                                                       ]
                                                                                                     },
                                                                                                     "type": "2",
                                                                                                     "name": "On click"
                                                                                                   }
                                                                                                 ],
-                                                                                                "path": "0-0-0-0-0-0-1-0-2-0-0-0-0-0-2-0-0-0-0"
+                                                                                                "path": "0-0-0-0-0-0-0-0-1-0-8-0-2-0-0-0-0-0-2-0-0-0-0"
                                                                                               }
                                                                                             ],
                                                                                             "layoutProperties": {
@@ -11331,8 +11522,8 @@
     "gitBranchName": "master",
     "_id": "czSQJrQjzxEw78Z7kEI3U",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/16/2023",
-    "createdAt": "4/16/2023",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12293,11 +12484,11 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "R62cTs09ipKlww67yz-h5",
-        "triggerName": "Delete Partnership Deed Doc API call",
+        "triggerId": "yOZQ5MqvEHJpqw72ag6gK",
+        "triggerName": "Delete Partnership Deed Doc API Chain Trigger",
         "name": "On click",
         "type": "2",
-        "serviceType": "8"
+        "serviceType": "2"
       }
     ],
     "path": "0-0-0-0-0-0-0-0-1-0-0-3-0-0-0-0-0",
@@ -16229,14 +16420,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "ZKAus6bhqH5W7rbrkVfMz",
-        "triggerName": "Delete cz50 Doc Sole Prop",
+        "triggerId": "dLXD42iNSuSY6kiRdWDsR",
+        "triggerName": "Delete cz50 Doc Partnership Chain Trig",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-0-1-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-1-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16797,14 +16988,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "wjkOnUh8lxZsZt8-uz8u4",
-        "triggerName": "Delete ZakatExemption Doc Sole Prop",
+        "triggerId": "fjOhMqpwlRD9kq6R5BKX3",
+        "triggerName": "Delete ZakatExemption Doc Partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-0-2-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-2-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17260,7 +17451,7 @@
       },
       "mandatory": false,
       "showDeleteIcon": true,
-      "fileUploadTrigger": "u9aobaXiiCNDmSgy3_6W4",
+      "fileUploadTrigger": "8wbErKuz6wpcVZaJ3JpaD",
       "fileDeleteTrigger": "UEXXgJ2TIhndKi2-flf_p",
       "fileType": "pdf",
       "showPreview": false,
@@ -17435,14 +17626,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "UEXXgJ2TIhndKi2-flf_p",
-        "triggerName": "Delete taxExemption Doc Sole Prop",
+        "triggerId": "Na1lraIdYLVku5_kKMJmg",
+        "triggerName": "Delete taxExemption Doc Partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-1-0-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-0-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17994,14 +18185,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "pzy78AtRypDQYOFxUIYGl",
-        "triggerName": "Delete ntn Doc Sole Prop",
+        "triggerId": "sZFz8Cy8w5I_p79Z_y3iu",
+        "triggerName": "Delete ntn Doc Partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-1-1-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-1-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18553,14 +18744,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "uVXaVWbHxwtbisvDJ8ukz",
-        "triggerName": "Delete fatca Doc Sole Prop",
+        "triggerId": "KgFgJ9dSG7iWNziFekpAA",
+        "triggerName": "Delete fatca Doc Partnership Chain trig",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-1-2-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-1-2-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19184,14 +19375,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "9WkNPJy5m-4zaIcdKzWS5",
-        "triggerName": "Delete crs Doc Sole Prop",
+        "triggerId": "qf0van-hZaFcY3LPOEmYU",
+        "triggerName": "Delete crs Doc Partnership Chain Trig",
         "name": "On click",
         "type": "2",
         "serviceType": "2"
       }
     ],
-    "path": "0-0-0-0-0-0-1-0-2-0-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-2-0-0-0-0-0-2-0-0-0-0",
     "screenId": "czSQJrQjzxEw78Z7kEI3U",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

@@ -46,6 +46,13 @@
         "responseHandler": [
           {
             "httpStatus": 200,
+            "logic": true,
+            "triggerName": "Map docId from czDocResponse to czDocId",
+            "triggerId": "HH7XSeAuYDmUdsI4P74BM"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
             "triggerName": "add attachment for private ",
             "triggerId": "-c_ParFhJHlQmzVyMQhy_"
           },
@@ -59,8 +66,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

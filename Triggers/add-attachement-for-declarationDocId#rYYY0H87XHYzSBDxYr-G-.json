@@ -31,46 +31,46 @@
           },
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.declarationDocId",
-              "value": "declarationDocResponse.docId"
+              "value": "declarationDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.czDocId",
-              "value": "czDocResponse.docId"
+              "value": "czDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.crsDocId",
-              "value": "crsDocResponse.docId"
+              "value": "crsDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.fatcaDocId",
-              "value": "fatcaDocResponse.docId"
+              "value": "fatcaDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.ntnDocId",
-              "value": "ntnDocResponse.docId"
+              "value": "ntnDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.taxExemptionDocId",
-              "value": "taxExemptionDocResponse.docId"
+              "value": "taxExemptionDocId"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietorDocument.zakatExemptionDocId",
-              "value": "zakatExemptionDocResponse.docId"
+              "value": "zakatExemptionDocId"
             },
             {
               "type": 2,
@@ -92,8 +92,8 @@
       }
     }
   ],
-  "updatedAt": "4/13/2023",
-  "createdAt": "4/13/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "talha2",
+  "updatedBy": "talha2"
 }

@@ -265,6 +265,42 @@
               "name": "Current screen",
               "key": "validateOtpUuid",
               "value": "uuid"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.czDocId",
+              "value": "czDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.zakatExemptionDocId",
+              "value": "zakatExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.taxExemptionDocId",
+              "value": "taxExemptionDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.ntnDocId",
+              "value": "ntnDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.fatcaDocId",
+              "value": "fatcaDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.crsDocId",
+              "value": "crsDocId"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -293,8 +329,8 @@
       }
     }
   ],
-  "updatedAt": "4/12/2023",
-  "createdAt": "4/12/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

@@ -418,6 +418,20 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.formId"
               }
+            },
+            {
+              "key": "partnershipDeedDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.partnership.partnershipDeedDocId"
+              }
+            },
+            {
+              "key": "registrationCertificateDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.partnership.registrationCertificateDocId"
+              }
             }
           ],
           "targettedType": "object"
@@ -425,8 +439,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
+  "updatedAt": "4/16/2023",
+  "createdAt": "4/16/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

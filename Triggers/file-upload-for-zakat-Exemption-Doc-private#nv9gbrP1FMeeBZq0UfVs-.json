@@ -50,6 +50,13 @@
         },
         "responseHandler": [
           {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "Map docId from zakatExemptionDocResponse to zakatExemptionDocId",
+            "triggerId": "SldWXcp_3f2rE1Tg4ZgiJ"
+          },
+          {
+            "logic": true,
             "httpStatus": 200,
             "triggerName": "add attachment for private ",
             "triggerId": "-c_ParFhJHlQmzVyMQhy_"
@@ -64,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

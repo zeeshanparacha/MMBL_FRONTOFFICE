@@ -1,10 +1,10 @@
 {
-  "id": "QYxuQcOj37MCJh-JTumIW",
-  "_id": "4VZtwKjxfrqSiW8q3ZcCd",
+  "id": "XuFxNmRJWxcrYUAm-5dkx",
+  "_id": "sTlS8iVuPAzhL0TDn9S58",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Delete cz50 Doc API call",
-  "old_name": "Delete cz50 Doc API call",
+  "name": "Delete ZakatExemption Doc API call Sole",
+  "old_name": "Delete ZakatExemption Doc API call Sole",
   "status": "ACTIVE",
   "services": [
     {
@@ -51,21 +51,27 @@
           {
             "httpStatus": 200,
             "logic": true,
-            "triggerName": "set showcz50Upload true",
-            "triggerId": "5eVHZC7kvW3en0LDDMz_v"
+            "triggerName": "set showZakatExemptionUpload true",
+            "triggerId": "gf7Iw66FHfRTw7E4IOve9"
           },
           {
             "logic": true,
             "httpStatus": 200,
-            "triggerName": "clear czDocResponse",
-            "triggerId": "kwxe_P2hEyKFeCTeRGvuh"
+            "triggerName": "clear zakatExemptionDocResponse",
+            "triggerId": "iXGS8lbjXEpNafkILuN-Y"
+          },
+          {
+            "logic": true,
+            "httpStatus": 200,
+            "triggerName": "add attachement for declarationDocId",
+            "triggerId": "ndZ5w0j35NJfd2f-wnVko"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

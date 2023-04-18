@@ -367,7 +367,7 @@
                                                               {
                                                                 "id": "kATtK8xMxjTJmSl9OKkST",
                                                                 "type": "20035",
-                                                                "name": "File Upload",
+                                                                "name": "File Upload2",
                                                                 "component": {
                                                                   "content": "File upload",
                                                                   "type": "20035"
@@ -384,7 +384,7 @@
                                                                   },
                                                                   "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
                                                                   "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-                                                                  "name": "File Upload",
+                                                                  "name": "File Upload2",
                                                                   "layoutProperties": {
                                                                     "container": {
                                                                       "boxSizing": "border-box",
@@ -1936,7 +1936,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "Wc82901xfLU9zzHjx1Fam",
+                                                    "id": "LL_oIQeBPkFjvOX9c3BPC",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
@@ -2744,16 +2744,7 @@
                                                   },
                                                   "direction": "row",
                                                   "name": "file upload document",
-                                                  "hideCondition": {
-                                                    "logic": {
-                                                      "!=": [
-                                                        {
-                                                          "var": "currentScreen.form.zakatExemption.code"
-                                                        },
-                                                        "yes"
-                                                      ]
-                                                    }
-                                                  }
+                                                  "hideCondition": {}
                                                 },
                                                 "events": [],
                                                 "component": {
@@ -2832,7 +2823,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "JtgL1V8QSohg-VbIERTDS",
+                                                    "id": "EZtygJLnTJpgGwhPQhOj8",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
@@ -3637,16 +3628,7 @@
                                                   },
                                                   "direction": "row",
                                                   "name": "file upload document",
-                                                  "hideCondition": {
-                                                    "logic": {
-                                                      "!=": [
-                                                        {
-                                                          "var": "currentScreen.form.taxExemption.code"
-                                                        },
-                                                        "yes"
-                                                      ]
-                                                    }
-                                                  }
+                                                  "hideCondition": {}
                                                 },
                                                 "events": [],
                                                 "component": {
@@ -5521,7 +5503,7 @@
                                                               {
                                                                 "id": "HwDjiWx-FgtD3-YgJU19f",
                                                                 "type": "20035",
-                                                                "name": "File Upload2",
+                                                                "name": "File Upload",
                                                                 "component": {
                                                                   "content": "File upload",
                                                                   "type": "20035"
@@ -5538,7 +5520,7 @@
                                                                   },
                                                                   "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
                                                                   "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-                                                                  "name": "File Upload2",
+                                                                  "name": "File Upload",
                                                                   "layoutProperties": {
                                                                     "container": {
                                                                       "boxSizing": "border-box",
@@ -6954,9 +6936,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "60-JoICA1uTGOAgECFHt-",
-    "createdBy": "ajk",
-    "updatedAt": "4/16/2023",
-    "createdAt": "4/16/2023",
+    "createdBy": "talha2",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7620,7 +7602,7 @@
   {
     "id": "kATtK8xMxjTJmSl9OKkST",
     "type": "20035",
-    "name": "File Upload",
+    "name": "File Upload2",
     "component": { "content": "File upload", "type": "20035" },
     "attributes": {
       "label": "Upload File",
@@ -7631,7 +7613,7 @@
       "validate": { "errorMsg": "File Required", "required": false },
       "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
       "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-      "name": "File Upload",
+      "name": "File Upload2",
       "layoutProperties": {
         "container": {
           "boxSizing": "border-box",
@@ -8550,11 +8532,7 @@
       },
       "direction": "row",
       "name": "file upload document",
-      "hideCondition": {
-        "logic": {
-          "!=": [{ "var": "currentScreen.form.zakatExemption.code" }, "yes"]
-        }
-      }
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -9190,11 +9168,7 @@
       },
       "direction": "row",
       "name": "file upload document",
-      "hideCondition": {
-        "logic": {
-          "!=": [{ "var": "currentScreen.form.taxExemption.code" }, "yes"]
-        }
-      }
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -11133,7 +11107,7 @@
   {
     "id": "HwDjiWx-FgtD3-YgJU19f",
     "type": "20035",
-    "name": "File Upload2",
+    "name": "File Upload",
     "component": { "content": "File upload", "type": "20035" },
     "attributes": {
       "label": "Upload File",
@@ -11144,7 +11118,7 @@
       "validate": { "errorMsg": "File Required", "required": false },
       "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
       "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-      "name": "File Upload2",
+      "name": "File Upload",
       "layoutProperties": {
         "container": {
           "boxSizing": "border-box",
