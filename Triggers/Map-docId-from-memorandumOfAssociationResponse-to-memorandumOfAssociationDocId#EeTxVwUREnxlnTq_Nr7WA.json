@@ -1,6 +1,8 @@
 {
   "id": "OGECTRwKwXibpW6O6TbxH",
+  "_id": "EeTxVwUREnxlnTq_Nr7WA",
   "name": "Map docId from memorandumOfAssociationResponse to memorandumOfAssociationDocId",
+  "old_name": "Map docId from memorandumOfAssociationResponse to memorandumOfAssociationDocId",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,18 +11,19 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
           "destinationBindingKey": "memorandumOfAssociationDocId",
           "sourceBindingKey": "memorandumOfAssociationResponse.docId",
           "sourceStoreType": 2,
+          "destinationStoreType": 1,
           "targettedType": "value"
         }
       }
     }
   ],
-  "_id": "EeTxVwUREnxlnTq_Nr7WA",
   "updatedAt": "4/18/2023",
   "createdAt": "4/18/2023",
   "createdBy": "ahmerjavedkhan",

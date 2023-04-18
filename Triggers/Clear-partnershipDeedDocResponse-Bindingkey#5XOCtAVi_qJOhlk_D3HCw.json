@@ -15,10 +15,10 @@
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
-          "destinationBindingKey": "partnershipDeedDocResponse.docId",
+          "destinationBindingKey": "partnershipDeedDocId",
           "sourceBindingKey": "form",
           "sourceStoreType": 2,
-          "destinationStoreType": 2,
+          "destinationStoreType": 1,
           "logic": { "if": [true, null, null] },
           "changeValueConditonally": true,
           "targettedType": "value"
