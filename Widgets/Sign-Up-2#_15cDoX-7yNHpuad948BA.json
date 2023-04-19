@@ -465,6 +465,108 @@
                       },
                       {
                         "type": "10001",
+                        "name": "Grid layout",
+                        "id": "E0MtcBzDpzWDR822YQrAG",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "4po6RdqkS1eK2K-Ezgn5Y",
+                            "gridProps": [
+                              {
+                                "id": "CLn71_tUIR6n_bmQ0fRJy",
+                                "status": "ACTIVE",
+                                "name": "Google recaptcha v2",
+                                "icon": "FaShieldVirus",
+                                "group": "Security",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "type": "20048",
+                                "attributes": {
+                                  "label": "Google Captcha",
+                                  "siteKey": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI",
+                                  "name": "Google Captcha",
+                                  "stateName": "captcha",
+                                  "imageSrc": "captchaImage",
+                                  "validate": {
+                                    "required": false,
+                                    "errorMsg": "Captcha is required."
+                                  },
+                                  "captchaUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/generateCaptcha",
+                                  "layoutProperties": {
+                                    "xl": 6,
+                                    "lg": 6,
+                                    "md": 6,
+                                    "sm": 6,
+                                    "xs": 6
+                                  }
+                                },
+                                "order": 9,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Google recaptcha v2",
+                                  "type": "20048"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-3-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "WgRTauIovO42AZiZ9k7fn",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 6,
+                              "lg": 6,
+                              "md": 6,
+                              "sm": 6,
+                              "xs": 6
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        }
+                      },
+                      {
+                        "type": "10001",
                         "id": "VkHh_jNOmDP_2YXccKI4n",
                         "gridProps": [
                           {
@@ -858,7 +960,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_15cDoX-7yNHpuad948BA",
-    "createdBy": "zeeshan",
+    "createdBy": "areeb",
     "updatedAt": "4/19/2023",
     "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -966,6 +1068,25 @@
           "id": "n7_Bkv1yujsgCJqRCyRb5",
           "position": {
             "i": "n7_Bkv1yujsgCJqRCyRb5",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "E0MtcBzDpzWDR822YQrAG",
+          "componentType": "10001",
+          "id": "E0MtcBzDpzWDR822YQrAG",
+          "position": {
+            "i": "E0MtcBzDpzWDR822YQrAG",
             "x": null,
             "y": null,
             "w": null,
@@ -1329,6 +1450,77 @@
     "path": "0-0-0-0-2-0-0",
     "screenId": "_15cDoX-7yNHpuad948BA",
     "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "E0MtcBzDpzWDR822YQrAG",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "CLn71_tUIR6n_bmQ0fRJy",
+          "componentType": "20048",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_15cDoX-7yNHpuad948BA",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CLn71_tUIR6n_bmQ0fRJy",
+    "status": "ACTIVE",
+    "name": "Google recaptcha v2",
+    "icon": "FaShieldVirus",
+    "group": "Security",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "type": "20048",
+    "attributes": {
+      "label": "Google Captcha",
+      "siteKey": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI",
+      "name": "Google Captcha",
+      "stateName": "captcha",
+      "imageSrc": "captchaImage",
+      "validate": { "required": false, "errorMsg": "Captcha is required." },
+      "captchaUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/generateCaptcha",
+      "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+    },
+    "order": 9,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Google recaptcha v2", "type": "20048" },
+    "events": [],
+    "path": "0-0-0-0-3-0-0",
+    "screenId": "_15cDoX-7yNHpuad948BA",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

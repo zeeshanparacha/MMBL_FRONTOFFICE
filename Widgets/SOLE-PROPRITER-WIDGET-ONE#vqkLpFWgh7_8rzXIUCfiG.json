@@ -44,89 +44,25 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "SOLE PROPRITER WIDGET ONE"
+          "name": "sole proprietor widget 1"
         },
         "group": "Layout",
         "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
-        "events": [
-          {
-            "triggerId": "bJoiNEmYWaX29xUtkjtBk",
-            "triggerName": "Get UUID from session",
-            "serviceType": "11",
-            "attributes": {
-              "storeType": "",
-              "selectedObjectBindingKey": "selectedObject",
-              "dataType": "value",
-              "destinationBindingKey": "uuid",
-              "sourceBindingKey": "response.data.result",
-              "sourceStoreType": 3,
-              "destinationStoreType": 2,
-              "logic": {
-                "if": [
-                  { "var": "uuid" },
-                  { "var": "uuid" },
-                  {
-                    "if": [
-                      { "var": "draftedRequest.uuid" },
-                      { "var": "draftedRequest.uuid" },
-                      ""
-                    ]
-                  }
-                ]
-              },
-              "changeValueConditonally": true,
-              "targettedType": "value"
-            },
-            "type": "1",
-            "name": "On initialization"
-          },
-          {
-            "triggerId": "Rm_fn2CQFJYBREGTLarA6",
-            "triggerName": "Get FormId from session",
-            "serviceType": "11",
-            "attributes": {
-              "requestBody": [],
-              "storeType": "",
-              "selectedObjectBindingKey": "selectedObject",
-              "dataType": "value",
-              "destinationBindingKey": "uuid",
-              "sourceBindingKey": "response.data.result",
-              "sourceStoreType": 3,
-              "destinationStoreType": 2,
-              "logic": {
-                "if": [
-                  { "var": "response.data.result.uuid" },
-                  { "var": "response.data.result.uuid" },
-                  {
-                    "if": [
-                      { "var": "response.data.result.draftedRequest.uuid" },
-                      { "var": "response.data.result.draftedRequest.uuid" },
-                      ""
-                    ]
-                  }
-                ]
-              },
-              "changeValueConditonally": true,
-              "targettedType": "value"
-            },
-            "type": "1",
-            "name": "On initialization"
-          }
-        ],
+        "events": [],
         "order": 1,
         "version": "1.0.0",
         "isLatest": true,
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "9RTFzJo2bM-U5xwpB5hA0",
+            "id": "8N3dW5-YFZ6hm8S_ERlHp",
             "gridProps": [
               {
                 "type": "10001",
@@ -326,7 +262,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -664,7 +600,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -1003,7 +939,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -1746,7 +1682,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "11",
                                                                   "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -2461,7 +2397,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -2801,7 +2737,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -3562,8 +3498,8 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
-                                                                  "type": "text",
+                                                                  "maxLength": "13",
+                                                                  "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -3902,7 +3838,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -4655,29 +4591,39 @@
                                                             "id": "KTzWUYbVurHV8HXHxRMND",
                                                             "gridProps": [
                                                               {
-                                                                "id": "0I6oMQ5WaJuyOX1Lmds1r",
+                                                                "id": "li9fgJY2RTcuxFrJa3Ii8",
                                                                 "status": "ACTIVE",
-                                                                "name": "Text Box",
+                                                                "name": "Amount",
                                                                 "attributes": {
-                                                                  "label": "",
-                                                                  "name": "Text box",
+                                                                  "multicurrency": false,
+                                                                  "stateName": "averageSalaryAmount",
+                                                                  "name": "Amount",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
-                                                                  "type": "text",
+                                                                  "maxLength": "10",
                                                                   "variant": "standard",
-                                                                  "value": "",
+                                                                  "value": "100",
                                                                   "readOnly": false,
                                                                   "tooltip": "",
                                                                   "font-family": "Verdana",
                                                                   "mandatory": true,
                                                                   "tooltipState": "",
+                                                                  "fromCurrency": "PKR",
+                                                                  "fromCurrencyState": "",
+                                                                  "toCurrency": "USD",
+                                                                  "toCurrencyState": "",
+                                                                  "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
                                                                   "layoutProperties": {
                                                                     "textField": {
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element.",
-                                                                      "paddingLeft": "15px"
+                                                                      "//": "Use this class to style text field element."
+                                                                    },
+                                                                    "amountInWordsLabel": {
+                                                                      "//": "Use this class to style amount in words label."
+                                                                    },
+                                                                    "amountInWords": {
+                                                                      "//": "Use this class to style amount in words."
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -4758,12 +4704,11 @@
                                                                     {
                                                                       "cssClassName": "textbox"
                                                                     }
-                                                                  ],
-                                                                  "stateName": "averageSalaryAmount"
+                                                                  ]
                                                                 },
-                                                                "icon": "FaWindowMinimize",
+                                                                "icon": "FaDollarSign",
                                                                 "group": "Form",
-                                                                "type": "20004",
+                                                                "type": "20040",
                                                                 "Documentation": "<div>components 12344</div>",
                                                                 "updatedAt": "23-Aug-2021",
                                                                 "createdAt": "23-Aug-2021",
@@ -4772,11 +4717,11 @@
                                                                 "isLatest": true,
                                                                 "projectType": "web",
                                                                 "component": {
-                                                                  "content": "Text Box",
-                                                                  "type": "20004"
+                                                                  "content": "Amount",
+                                                                  "type": "20040"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-5-0-0-0-1-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-5-0-0-0-1-0-1"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -5002,7 +4947,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -5711,7 +5656,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": 20,
-                                                                  "type": "text",
+                                                                  "type": "number",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -6050,7 +5995,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -7147,7 +7092,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -7422,13 +7367,29 @@
                                         "path": "0-0-0-0-0-0-0-0-7"
                                       },
                                       {
+                                        "id": "sjo5KorsTz6KITUBVhFja",
+                                        "name": "Open Success Modal",
+                                        "type": "20031",
+                                        "attributes": {
+                                          "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                                          "layoutProperties": {
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "component": { "type": "20031" }
+                                      },
+                                      {
                                         "type": "10001",
                                         "name": "Grid layout",
                                         "id": "4r2dO8VzX8NBoYkk9c9iH",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "nHoATvaUhT-OxsRROPnPE",
+                                            "id": "qDeoBODmGUZVPufnH-HlZ",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -7489,12 +7450,11 @@
                                               "md": 9,
                                               "sm": 9,
                                               "xs": 9
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-8-0"
+                                            }
                                           },
                                           {
                                             "type": "column",
-                                            "id": "zPKPvhRiMdFiaV1EBrCnf",
+                                            "id": "NpVvD3yTSRfCSim0CEW0O",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -8137,8 +8097,7 @@
                                               "md": 3,
                                               "sm": 3,
                                               "xs": 3
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-8-1"
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -8172,7 +8131,22 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-0-0-0-0-8"
+                                        "path": "0-0-0-0-0-0-0-0-9",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 2,
+                                          "colSize0xs": 9,
+                                          "colSize0sm": 9,
+                                          "colSize0md": 9,
+                                          "colSize0lg": 9,
+                                          "colSize0xl": 9,
+                                          "colSize1xs": 3,
+                                          "colSize1sm": 3,
+                                          "colSize1md": 3,
+                                          "colSize1lg": 3,
+                                          "colSize1xl": 3
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -8348,8 +8322,7 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
         "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -8373,8 +8346,8 @@
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
     "createdBy": "ajk",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8418,23 +8391,10 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "SOLE PROPRITER WIDGET ONE"
+      "name": "sole proprietor widget 1"
     },
     "layout": null,
-    "events": [
-      {
-        "triggerId": "bJoiNEmYWaX29xUtkjtBk",
-        "triggerName": "Get UUID from session",
-        "name": "On initialization",
-        "type": "1"
-      },
-      {
-        "triggerId": "Rm_fn2CQFJYBREGTLarA6",
-        "triggerName": "Get FormId from session",
-        "name": "On initialization",
-        "type": "1"
-      }
-    ],
+    "events": [],
     "subType": "component",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "projectId": "63f4845e476fc83100e3a899",
@@ -8699,6 +8659,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "4r2dO8VzX8NBoYkk9c9iH",
@@ -9073,7 +9045,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9383,7 +9355,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9694,7 +9666,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10389,7 +10361,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "11",
       "type": "number",
       "variant": "standard",
       "value": "",
@@ -11082,7 +11054,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -11393,7 +11365,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -12077,8 +12049,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "13",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -12387,7 +12359,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -13031,8 +13003,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "0I6oMQ5WaJuyOX1Lmds1r",
-          "componentType": "20004",
+          "componentId": "li9fgJY2RTcuxFrJa3Ii8",
+          "componentType": "20040",
           "order": 1
         }
       ],
@@ -13063,28 +13035,34 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "0I6oMQ5WaJuyOX1Lmds1r",
+    "id": "li9fgJY2RTcuxFrJa3Ii8",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Amount",
     "attributes": {
-      "label": "",
-      "name": "Text box",
+      "multicurrency": false,
+      "stateName": "averageSalaryAmount",
+      "name": "Amount",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "10",
       "variant": "standard",
-      "value": "",
+      "value": "100",
       "readOnly": false,
       "tooltip": "",
       "font-family": "Verdana",
       "mandatory": true,
       "tooltipState": "",
+      "fromCurrency": "PKR",
+      "fromCurrencyState": "",
+      "toCurrency": "USD",
+      "toCurrencyState": "",
+      "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "15px"
+        "inputProps": { "//": "Use this class to style text field element." },
+        "amountInWordsLabel": {
+          "//": "Use this class to style amount in words label."
         },
+        "amountInWords": { "//": "Use this class to style amount in words." },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -13151,12 +13129,11 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "textbox" }],
-      "stateName": "averageSalaryAmount"
+      "cssClassNames": [{ "cssClassName": "textbox" }]
     },
-    "icon": "FaWindowMinimize",
+    "icon": "FaDollarSign",
     "group": "Form",
-    "type": "20004",
+    "type": "20040",
     "Documentation": "<div>components 12344</div>",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
@@ -13164,9 +13141,9 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
+    "component": { "content": "Amount", "type": "20040" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-5-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-5-0-0-0-1-0-1",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13381,7 +13358,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -14066,7 +14043,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": 20,
-      "type": "text",
+      "type": "number",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -14376,7 +14353,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -15370,7 +15347,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -15470,6 +15447,22 @@
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

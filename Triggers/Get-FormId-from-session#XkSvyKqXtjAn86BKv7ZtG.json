@@ -2,7 +2,7 @@
   "id": "Rm_fn2CQFJYBREGTLarA6",
   "_id": "XkSvyKqXtjAn86BKv7ZtG",
   "name": "Get FormId from session",
-  "old_name": "Get UUID from session",
+  "old_name": "Get FormId from session",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -23,7 +23,7 @@
             "if": [
               { "var": "response.data.result.draftedRequest.formId" },
               { "var": "response.data.result.draftedRequest.formId" },
-              ""
+              null
             ]
           },
           "changeValueConditonally": true,
@@ -32,8 +32,8 @@
       }
     }
   ],
-  "updatedAt": "4/11/2023",
-  "createdAt": "4/11/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

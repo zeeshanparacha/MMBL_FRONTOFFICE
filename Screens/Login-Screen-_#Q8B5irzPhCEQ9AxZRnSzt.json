@@ -510,7 +510,7 @@
                                                         "status": "ACTIVE",
                                                         "name": "Label",
                                                         "attributes": {
-                                                          "label": "userProfile.error_description",
+                                                          "label": "userProfile.error",
                                                           "variant": "body1",
                                                           "name": "Label",
                                                           "mandatory": false,
@@ -657,9 +657,8 @@
                                                               "borderWidth": "1px",
                                                               "borderRadius": "27px",
                                                               "background-color": "#f5f5f5",
-                                                              "color": "rgb(122 122 122)",
-                                                              "border": "1px solid rgb(221 211 211)",
-                                                              "width": "90%"
+                                                              "color": "#BCBCBC",
+                                                              "border": "1px solid #ebe7e7"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style  text field element.",
@@ -687,7 +686,7 @@
                                                                   "type": "20006"
                                                                 },
                                                                 "attributes": {
-                                                                  "label": "Login",
+                                                                  "label": "login",
                                                                   "variant": "contained",
                                                                   "name": "Next_btn",
                                                                   "label-locale-key": "",
@@ -728,7 +727,7 @@
                                                                     "serviceType": "14"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
                                                                 "version": "1.0.0",
                                                                 "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
                                                                 "subType": "component",
@@ -837,9 +836,8 @@
                                                               "borderWidth": "1px",
                                                               "borderRadius": "27px",
                                                               "background-color": "#f5f5f5",
-                                                              "color": "rgb(122 122 122)",
-                                                              "border": "1px solid rgb(221 211 211)",
-                                                              "width": "90%"
+                                                              "color": "#BCBCBC",
+                                                              "border": "1px solid #ebe7e7"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style  text field element.",
@@ -856,7 +854,67 @@
                                                           },
                                                           "validate": {
                                                             "required": true,
-                                                            "errorMsg": "Password is required"
+                                                            "errorMsg": "Password is required",
+                                                            "bindButton": [
+                                                              {
+                                                                "id": "Ac97owAE4pwEumgc58V99",
+                                                                "type": "20006",
+                                                                "name": "Next_btn",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
+                                                                "attributes": {
+                                                                  "label": "login",
+                                                                  "variant": "contained",
+                                                                  "name": "Next_btn",
+                                                                  "label-locale-key": "",
+                                                                  "fullWidth": true,
+                                                                  "layoutProperties": {
+                                                                    "button": {
+                                                                      "//": "Use this class to style button component.",
+                                                                      "color": "#ffffff",
+                                                                      "background": "#DA0006",
+                                                                      "borderRadius": "50px",
+                                                                      "padding": "12px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style button element."
+                                                                    },
+                                                                    "mainContainer": "button",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "onEnterKey": true
+                                                                },
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "rJeH27BHHnGNVtddJ4kdW",
+                                                                    "triggerName": "Login",
+                                                                    "name": "On Submit",
+                                                                    "type": "4",
+                                                                    "serviceType": "8"
+                                                                  },
+                                                                  {
+                                                                    "triggerId": "C9VAY5AIiTfVpeNy7pz65",
+                                                                    "triggerName": "Clear Form Validations",
+                                                                    "name": "On click",
+                                                                    "type": "2",
+                                                                    "serviceType": "14"
+                                                                  }
+                                                                ],
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
+                                                                "version": "1.0.0",
+                                                                "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+                                                                "subType": "component",
+                                                                "projectId": "63f4845e476fc83100e3a899",
+                                                                "gitBranchName": "master",
+                                                                "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                              }
+                                                            ]
                                                           },
                                                           "placeholder": "Password",
                                                           "disableUnderline": true
@@ -1081,6 +1139,12 @@
                                                             "triggerName": "login to corporate account opening",
                                                             "type": "2",
                                                             "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "C9VAY5AImRfafff65",
+                                                            "triggerName": "Clear validations",
+                                                            "type": "2",
+                                                            "name": "On click"
                                                           }
                                                         ],
                                                         "path": "0-0-0-0-0-0-0-0-2-0-5-0-0"
@@ -1152,7 +1216,7 @@
                                                                   "type": "20006"
                                                                 },
                                                                 "attributes": {
-                                                                  "label": "Login",
+                                                                  "label": "login",
                                                                   "variant": "contained",
                                                                   "name": "Next_btn",
                                                                   "label-locale-key": "",
@@ -1241,14 +1305,15 @@
                                                                     "name": "On Submit"
                                                                   },
                                                                   {
-                                                                    "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-                                                                    "triggerName": "Clear Form Validations",
+                                                                    "triggerId": "C9VAY5AImRfafff65",
+                                                                    "triggerName": "Clear validations",
                                                                     "serviceType": "14",
+                                                                    "attributes": {},
                                                                     "type": "2",
                                                                     "name": "On click"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
                                                                 "version": "1.0.0"
                                                               }
                                                             ],
@@ -1853,9 +1918,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "zeeshan",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2661,7 +2726,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "userProfile.error_description",
+      "label": "userProfile.error",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -2764,9 +2829,8 @@
           "borderWidth": "1px",
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
-          "color": "rgb(122 122 122)",
-          "border": "1px solid rgb(221 211 211)",
-          "width": "90%"
+          "color": "#BCBCBC",
+          "border": "1px solid #ebe7e7"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",
@@ -2791,7 +2855,7 @@
             "name": "Next_btn",
             "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "Login",
+              "label": "login",
               "variant": "contained",
               "name": "Next_btn",
               "label-locale-key": "",
@@ -2832,7 +2896,7 @@
                 "serviceType": "14"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
             "version": "1.0.0",
             "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
             "subType": "component",
@@ -2934,9 +2998,8 @@
           "borderWidth": "1px",
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
-          "color": "rgb(122 122 122)",
-          "border": "1px solid rgb(221 211 211)",
-          "width": "90%"
+          "color": "#BCBCBC",
+          "border": "1px solid #ebe7e7"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",
@@ -2951,7 +3014,67 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "Password is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "Password is required",
+        "bindButton": [
+          {
+            "id": "Ac97owAE4pwEumgc58V99",
+            "type": "20006",
+            "name": "Next_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "login",
+              "variant": "contained",
+              "name": "Next_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#DA0006",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "onEnterKey": true
+            },
+            "events": [
+              {
+                "triggerId": "rJeH27BHHnGNVtddJ4kdW",
+                "triggerName": "Login",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              },
+              {
+                "triggerId": "C9VAY5AIiTfVpeNy7pz65",
+                "triggerName": "Clear Form Validations",
+                "name": "On click",
+                "type": "2",
+                "serviceType": "14"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "placeholder": "Password",
       "disableUnderline": true
     },
@@ -3151,6 +3274,12 @@
         "triggerName": "login to corporate account opening",
         "name": "On click",
         "type": "2"
+      },
+      {
+        "triggerId": "C9VAY5AImRfafff65",
+        "triggerName": "Clear validations",
+        "name": "On click",
+        "type": "2"
       }
     ],
     "path": "0-0-0-0-0-0-0-0-2-0-5-0-0",
@@ -3271,7 +3400,7 @@
     "name": "Next_btn",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "Login",
+      "label": "login",
       "variant": "contained",
       "name": "Next_btn",
       "label-locale-key": "",
@@ -3303,14 +3432,14 @@
         "serviceType": "8"
       },
       {
-        "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-        "triggerName": "Clear Form Validations",
+        "triggerId": "C9VAY5AImRfafff65",
+        "triggerName": "Clear validations",
         "name": "On click",
         "type": "2",
         "serviceType": "14"
       }
     ],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0",
     "version": "1.0.0",
     "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
     "subType": "component",

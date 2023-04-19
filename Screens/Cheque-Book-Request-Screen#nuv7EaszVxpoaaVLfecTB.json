@@ -1758,8 +1758,8 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": "13",
-                                                                  "type": "number",
+                                                                  "maxLength": "15",
+                                                                  "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -1783,8 +1783,72 @@
                                                                     "xs": 12
                                                                   },
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This field is required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This field is required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "m1nErPtOWdPYhd-EKgsiX",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "Create",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "g6yTVytIN5YT8KAO2qY0_",
+                                                                            "triggerName": "Request new cheque book API",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-1-0-0-0-1-0-4-1-0-0-0",
+                                                                        "screenId": "nuv7EaszVxpoaaVLfecTB",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f4845e476fc83100e3a899",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ],
+                                                                    "regex": "/^([0-9]{5})[\\-]([0-9]{7})[\\-]([0-9]{1})+/",
+                                                                    "regexErrorMsg": "invalid email"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -4025,9 +4089,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nuv7EaszVxpoaaVLfecTB",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/17/2023",
-    "createdAt": "4/17/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5897,8 +5961,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "13",
-      "type": "number",
+      "maxLength": "15",
+      "type": "text",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -5919,7 +5983,65 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This field is required",
+        "bindButton": [
+          {
+            "id": "m1nErPtOWdPYhd-EKgsiX",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "Create",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }]
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "g6yTVytIN5YT8KAO2qY0_",
+                "triggerName": "Request new cheque book API",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-1-0-0-0-1-0-4-1-0-0-0",
+            "screenId": "nuv7EaszVxpoaaVLfecTB",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ],
+        "regex": "/^([0-9]{5})[\\-]([0-9]{7})[\\-]([0-9]{1})+/",
+        "regexErrorMsg": "invalid email"
+      },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],

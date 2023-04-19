@@ -51,7 +51,65 @@
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
-        "events": [],
+        "events": [
+          {
+            "triggerId": "bJoiNEmYWaX29xUtkjtBk",
+            "triggerName": "Get UUID from session",
+            "serviceType": "11",
+            "attributes": {
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "value",
+              "destinationBindingKey": "uuid",
+              "sourceBindingKey": "response.data.result",
+              "sourceStoreType": 3,
+              "destinationStoreType": 2,
+              "logic": {
+                "if": [
+                  { "var": "response.data.result.uuid" },
+                  { "var": "response.data.result.uuid" },
+                  {
+                    "if": [
+                      { "var": "response.data.result.draftedRequest.uuid" },
+                      { "var": "response.data.result.draftedRequest.uuid" },
+                      ""
+                    ]
+                  }
+                ]
+              },
+              "changeValueConditonally": true,
+              "targettedType": "value"
+            },
+            "type": "1",
+            "name": "On initialization"
+          },
+          {
+            "triggerId": "Rm_fn2CQFJYBREGTLarA6",
+            "triggerName": "Get FormId from session",
+            "serviceType": "11",
+            "attributes": {
+              "requestBody": [],
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "value",
+              "destinationBindingKey": "formId",
+              "sourceBindingKey": "response.data.result",
+              "sourceStoreType": 3,
+              "destinationStoreType": 2,
+              "logic": {
+                "if": [
+                  { "var": "response.data.result.draftedRequest.formId" },
+                  { "var": "response.data.result.draftedRequest.formId" },
+                  null
+                ]
+              },
+              "changeValueConditonally": true,
+              "targettedType": "value"
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
         "order": 1,
         "version": "1.0.0",
         "isLatest": true,
@@ -62,7 +120,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "iGeiU7fFXsJPPL3E6xVjY",
+            "id": "8h_XAJE1hXB1AedfVZj8n",
             "gridProps": [
               {
                 "id": "AVnJsWsa1tfP6YMG1yBeB",
@@ -164,7 +222,8 @@
                               "md": 10,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "0-0-0-0-0-0"
                           },
                           {
                             "type": "column",
@@ -173,11 +232,11 @@
                               {
                                 "type": "10001",
                                 "name": "Grid layout",
-                                "id": "-0yNTzvRBr6wsmQWqubxl",
+                                "id": "jg7yBheZctGjOPDQGGNUF",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "71bbmdhQNdD6PPE_PxboJ",
+                                    "id": "dDJP2urK6z1Tzgtm9EV2b",
                                     "gridProps": [],
                                     "layoutProperties": {
                                       "xl": 12,
@@ -185,8 +244,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-1-0-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -219,8 +277,7 @@
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-0-1-0"
+                                }
                               }
                             ],
                             "layoutProperties": {
@@ -229,7 +286,8 @@
                               "md": 1,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "0-0-0-0-0-1"
                           },
                           {
                             "type": "column",
@@ -237,13 +295,73 @@
                             "gridProps": [
                               {
                                 "type": "10001",
-                                "name": "Grid layout",
-                                "id": "5WG8yvL_Pl-upfO2iG79_",
+                                "id": "T5y6JZhkCT7MVC9NzvgzP",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "5kbCHPwC1bjhPcsboIDas",
-                                    "gridProps": [],
+                                    "id": "O21H3nUHG9RHUYVoT9vcJ",
+                                    "gridProps": [
+                                      {
+                                        "id": "fAAud47SXOZ2w89lO9PD_",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Login",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ]
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "fJCdhU7q3XYHvO4xWj_bo",
+                                            "triggerName": "swap pricing model to Login Screen_",
+                                            "serviceType": "1",
+                                            "attributes": {
+                                              "fromWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+                                              "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+                                              "gridRadioValue": "Screen",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-0-2-0-0-0"
+                                      }
+                                    ],
                                     "layoutProperties": {
                                       "xl": 12,
                                       "lg": 12,
@@ -254,13 +372,8 @@
                                     "path": "0-0-0-0-0-2-0-0"
                                   }
                                 ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
+                                "path": "0-0-0-0-0-2-0",
+                                "events": [],
                                 "attributes": {
                                   "gridProps": [],
                                   "label": "Header",
@@ -280,12 +393,18 @@
                                   "direction": "row",
                                   "name": "Grid layout"
                                 },
-                                "events": [],
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "0-0-0-0-0-2-0"
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
                               }
                             ],
                             "layoutProperties": {
@@ -294,7 +413,8 @@
                               "md": 1,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "0-0-0-0-0-2"
                           }
                         ],
                         "path": "0-0-0-0-0",
@@ -764,7 +884,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-2-0-0-0"
                                   }
                                 ],
                                 "readOnly": true
@@ -776,7 +897,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-2-0"
                           },
                           {
                             "type": "column",
@@ -1016,7 +1138,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-2-1-0-0"
                                   }
                                 ],
                                 "allowedContainers": [
@@ -1069,7 +1192,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-2-1"
                           }
                         ],
                         "allowedContainers": [
@@ -1864,7 +1988,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-3-0"
                           },
                           {
                             "type": "column",
@@ -1876,7 +2001,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-3-1"
                           },
                           {
                             "type": "column",
@@ -1888,7 +2014,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-3-2"
                           }
                         ],
                         "allowedContainers": [
@@ -2029,7 +2156,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-0"
+                                    "path": "0-0-0-0-4-0-0-0"
                                   },
                                   {
                                     "type": "column",
@@ -2093,7 +2220,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-1"
+                                    "path": "0-0-0-0-4-0-0-1"
                                   },
                                   {
                                     "type": "column",
@@ -2172,10 +2299,10 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-2"
+                                    "path": "0-0-0-0-4-0-0-2"
                                   }
                                 ],
-                                "path": "0-0-0-0-3-0-0",
+                                "path": "0-0-0-0-4-0-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -2216,7 +2343,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-4-0"
                           },
                           {
                             "type": "column",
@@ -2228,7 +2356,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-4-1"
                           },
                           {
                             "type": "column",
@@ -2240,7 +2369,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-4-2"
                           }
                         ],
                         "allowedContainers": [
@@ -2381,7 +2511,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-0"
+                                    "path": "0-0-0-0-5-0-0-0"
                                   },
                                   {
                                     "type": "column",
@@ -2460,7 +2590,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-1"
+                                    "path": "0-0-0-0-5-0-0-1"
                                   },
                                   {
                                     "type": "column",
@@ -2524,10 +2654,10 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-2"
+                                    "path": "0-0-0-0-5-0-0-2"
                                   }
                                 ],
-                                "path": "0-0-0-0-3-0-0",
+                                "path": "0-0-0-0-5-0-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -2568,7 +2698,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-5-0"
                           },
                           {
                             "type": "column",
@@ -2580,7 +2711,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-5-1"
                           },
                           {
                             "type": "column",
@@ -2592,7 +2724,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-5-2"
                           }
                         ],
                         "allowedContainers": [
@@ -2748,7 +2881,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-0"
+                                    "path": "0-0-0-0-6-0-0-0"
                                   },
                                   {
                                     "type": "column",
@@ -2812,7 +2945,7 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-1"
+                                    "path": "0-0-0-0-6-0-0-1"
                                   },
                                   {
                                     "type": "column",
@@ -2876,10 +3009,10 @@
                                       "sm": 4,
                                       "xs": 4
                                     },
-                                    "path": "0-0-0-0-3-0-0-2"
+                                    "path": "0-0-0-0-6-0-0-2"
                                   }
                                 ],
-                                "path": "0-0-0-0-3-0-0",
+                                "path": "0-0-0-0-6-0-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -2920,7 +3053,8 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            }
+                            },
+                            "path": "0-0-0-0-6-0"
                           },
                           {
                             "type": "column",
@@ -2932,7 +3066,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-6-1"
                           },
                           {
                             "type": "column",
@@ -2944,7 +3079,8 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            }
+                            },
+                            "path": "0-0-0-0-6-2"
                           }
                         ],
                         "allowedContainers": [
@@ -3026,7 +3162,7 @@
                               "sm": 12,
                               "xs": 12
                             },
-                            "path": "0-0-0-0-4-0"
+                            "path": "0-0-0-0-7-0"
                           }
                         ],
                         "allowedContainers": [
@@ -3062,7 +3198,7 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-4",
+                        "path": "0-0-0-0-7",
                         "dimensions": {
                           "rows": 1,
                           "columns": 1,
@@ -3081,7 +3217,8 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    }
+                    },
+                    "path": "0-0-0-0"
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -3126,9 +3263,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "zeeshan",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3175,7 +3312,20 @@
       "name": "Pricing model"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "bJoiNEmYWaX29xUtkjtBk",
+        "triggerName": "Get UUID from session",
+        "name": "On initialization",
+        "type": "1"
+      },
+      {
+        "triggerId": "Rm_fn2CQFJYBREGTLarA6",
+        "triggerName": "Get FormId from session",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "projectId": "63f4845e476fc83100e3a899",
@@ -3387,11 +3537,11 @@
           "order": 1
         },
         {
-          "componentId": "-0yNTzvRBr6wsmQWqubxl",
+          "componentId": "jg7yBheZctGjOPDQGGNUF",
           "componentType": "10001",
-          "id": "-0yNTzvRBr6wsmQWqubxl",
+          "id": "jg7yBheZctGjOPDQGGNUF",
           "position": {
-            "i": "-0yNTzvRBr6wsmQWqubxl",
+            "i": "jg7yBheZctGjOPDQGGNUF",
             "x": null,
             "y": null,
             "w": null,
@@ -3400,11 +3550,11 @@
           "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "5WG8yvL_Pl-upfO2iG79_",
+          "componentId": "T5y6JZhkCT7MVC9NzvgzP",
           "componentType": "10001",
-          "id": "5WG8yvL_Pl-upfO2iG79_",
+          "id": "T5y6JZhkCT7MVC9NzvgzP",
           "position": {
-            "i": "5WG8yvL_Pl-upfO2iG79_",
+            "i": "T5y6JZhkCT7MVC9NzvgzP",
             "x": null,
             "y": null,
             "w": null,
@@ -3479,7 +3629,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "-0yNTzvRBr6wsmQWqubxl",
+    "id": "jg7yBheZctGjOPDQGGNUF",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -3511,11 +3661,24 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "5WG8yvL_Pl-upfO2iG79_",
+    "id": "T5y6JZhkCT7MVC9NzvgzP",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "fAAud47SXOZ2w89lO9PD_",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -3539,6 +3702,55 @@
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fAAud47SXOZ2w89lO9PD_",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Login",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardButton" }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "fJCdhU7q3XYHvO4xWj_bo",
+        "triggerName": "swap pricing model to Login Screen_",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "1"
+      }
+    ],
+    "path": "0-0-0-0-0-2-0-0-0",
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

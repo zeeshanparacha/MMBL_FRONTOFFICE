@@ -25,7 +25,7 @@
         "id": "garg5MvEKK92FPc-CsDcJ",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "Corporate User Already Registered User OTP Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -44,7 +44,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Corporate User Already Registered User OTP Screen"
         },
         "group": "Layout",
         "type": "10001",
@@ -73,12 +73,28 @@
                     "id": "px_Q5gIA8PhzaeYBo2Bzc",
                     "gridProps": [
                       {
+                        "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                        "name": "Show Error Modal",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "id": "j5SwlscTX-s_KbuIqpt2U",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "u-V6GdQ-K0wSGK9qApBef",
+                            "id": "smSpUb_GgA43N5YYbsW_v",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1211,12 +1227,11 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-0-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "bdNJcj7GJ9Qn1L41ccinX",
+                            "id": "EaJ4xz0mExOc46iDUzYS_",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 8,
@@ -1224,11 +1239,10 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-0-1"
+                            }
                           }
                         ],
-                        "path": "0-0-0-0-0",
+                        "path": "0-0-0-0-1",
                         "events": [],
                         "attributes": {
                           "gridProps": [],
@@ -1260,7 +1274,22 @@
                           "20010",
                           "widget"
                         ],
-                        "name": "Grid layout"
+                        "name": "Grid layout",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 12,
+                          "colSize0sm": 12,
+                          "colSize0md": 12,
+                          "colSize0lg": 4,
+                          "colSize0xl": 4,
+                          "colSize1xs": 12,
+                          "colSize1sm": 12,
+                          "colSize1md": 12,
+                          "colSize1lg": 8,
+                          "colSize1xl": 8
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -1477,14 +1506,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "paMa94X9U4DiPcCd2veQK",
-    "createdBy": "ajk",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "4/19/2023",
     "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "garg5MvEKK92FPc-CsDcJ",
-    "name": "Grid layout",
+    "name": "Corporate User Already Registered User OTP Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -1523,7 +1552,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Corporate User Already Registered User OTP Screen"
     },
     "layout": null,
     "events": [],
@@ -1540,6 +1569,18 @@
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        },
         {
           "componentId": "j5SwlscTX-s_KbuIqpt2U",
           "componentType": "10001",
@@ -1603,6 +1644,22 @@
     "events": [],
     "subType": "component",
     "screenId": "paMa94X9U4DiPcCd2veQK",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-ILXb_OcmXs_8OQtk6Kb",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",

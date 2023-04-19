@@ -49,6 +49,13 @@
         "responseHandler": [
           {
             "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "Swap Partnership to Login Screen",
+            "triggerId": "VdpkDm4rLqan1SeXq56Ts"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
           }
@@ -56,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
