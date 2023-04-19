@@ -119,7 +119,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "7HNt0hQOOOQkjcOZW9-3m",
+                            "id": "KrN9y71qU8oXTPQ4-P0LF",
                             "gridProps": [
                               {
                                 "id": "428O6xyy_o69H0ojp9w7V",
@@ -164,12 +164,11 @@
                               "md": 10,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "OkGXljSON676Aucg58vMe",
+                            "id": "u_i6a98wpSqNbt-H30cNM",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -230,12 +229,11 @@
                               "md": 1,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "rueHfjwWhrg4Q_AKwy358",
+                            "id": "jXKbCy_hZEnEGDBUcES5n",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -296,8 +294,7 @@
                               "md": 1,
                               "sm": 4,
                               "xs": 4
-                            },
-                            "path": "0-0-0-0-0-2"
+                            }
                           }
                         ],
                         "path": "0-0-0-0-0",
@@ -320,9 +317,7 @@
                           },
                           "direction": "row",
                           "name": "Grid layout",
-                          "cssClassNames": [
-                            { "cssClassName": "pageTitleBorder" }
-                          ]
+                          "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
                         },
                         "component": {
                           "type": "10001",
@@ -335,7 +330,27 @@
                           "20010",
                           "widget"
                         ],
-                        "name": "Grid layout"
+                        "name": "Grid layout",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 4,
+                          "colSize0sm": 4,
+                          "colSize0md": 10,
+                          "colSize0lg": 10,
+                          "colSize0xl": 10,
+                          "colSize1xs": 4,
+                          "colSize1sm": 4,
+                          "colSize1md": 1,
+                          "colSize1lg": 1,
+                          "colSize1xl": 1,
+                          "colSize2xs": 4,
+                          "colSize2sm": 4,
+                          "colSize2md": 1,
+                          "colSize2lg": 1,
+                          "colSize2xl": 1
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -435,7 +450,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "Uoa8TECijYxZi_jx0b7cp",
+                            "id": "i7oQowkHQA1ng7pZY7MzH",
                             "gridProps": [
                               {
                                 "id": "rsU-h6_OBIZlg-LasdyW8",
@@ -523,7 +538,7 @@
                                                   },
                                                   "cssClassNames": [
                                                     {
-                                                      "cssClassName": "textfieldLabel"
+                                                      "cssClassName": "textLabel"
                                                     }
                                                   ]
                                                 },
@@ -632,7 +647,7 @@
                                                     },
                                                     "inputProps": {
                                                       "//": "Use this class to style dropdown element.",
-                                                      "paddingLeft": "8px"
+                                                      "padding-left": "8px"
                                                     },
                                                     "mainContainer": "autocomplete",
                                                     "xl": 12,
@@ -648,7 +663,7 @@
                                                   "placeholder": "Select",
                                                   "cssClassNames": [
                                                     {
-                                                      "cssClassName": "card_dropdown"
+                                                      "cssClassName": "dropdownWidth"
                                                     }
                                                   ],
                                                   "selectedDataType": 0,
@@ -765,12 +780,11 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-2-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "mYaPaEhq-npTrXdKsYDtc",
+                            "id": "mSo9NM3G0oQyK66w-_B4E",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -811,7 +825,7 @@
                                                   },
                                                   "cssClassNames": [
                                                     {
-                                                      "cssClassName": "textfieldLabel"
+                                                      "cssClassName": "textLabel"
                                                     }
                                                   ]
                                                 },
@@ -936,7 +950,7 @@
                                                   "placeholder": "Select",
                                                   "cssClassNames": [
                                                     {
-                                                      "cssClassName": "card_dropdown"
+                                                      "cssClassName": "dropdownWidth"
                                                     }
                                                   ],
                                                   "selectedDataType": 0,
@@ -1059,8 +1073,7 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-2-1"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -1087,14 +1100,30 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "Grid layout",
+                          "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
                         },
                         "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-2"
+                        "path": "0-0-0-0-2",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 6,
+                          "colSize1sm": 6,
+                          "colSize1md": 6,
+                          "colSize1lg": 6,
+                          "colSize1xl": 6
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -3098,9 +3127,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "ajk",
-    "updatedAt": "4/15/2023",
-    "createdAt": "4/15/2023",
+    "createdBy": "zeeshan",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3401,7 +3430,7 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "cssClassNames": [{ "cssClassName": "pageTitleBorder" }]
+      "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
     },
     "layout": null,
     "events": [],
@@ -3594,7 +3623,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
     },
     "layout": null,
     "events": [],
@@ -3739,7 +3769,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -3837,7 +3867,7 @@
         },
         "inputProps": {
           "//": "Use this class to style dropdown element.",
-          "paddingLeft": "8px"
+          "padding-left": "8px"
         },
         "mainContainer": "autocomplete",
         "xl": 12,
@@ -3851,7 +3881,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0,
       "multiSelect": false
     },
@@ -4011,7 +4041,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -4123,7 +4153,7 @@
       "disableUnderline": true,
       "storeType": 1,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0,
       "multiSelect": true
     },

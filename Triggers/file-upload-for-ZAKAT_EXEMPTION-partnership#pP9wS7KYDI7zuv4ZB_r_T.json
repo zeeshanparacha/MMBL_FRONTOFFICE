@@ -31,7 +31,7 @@
             "locale": "en-ltr"
           },
           "requestBody": [
-            { "type": 4, "name": "Static", "key": "file", "value": "file" },
+            { "type": 1, "name": "Form", "key": "file", "value": "file" },
             {
               "type": 4,
               "name": "Static",
@@ -71,8 +71,8 @@
       }
     }
   ],
-  "updatedAt": "4/18/2023",
-  "createdAt": "4/18/2023",
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
