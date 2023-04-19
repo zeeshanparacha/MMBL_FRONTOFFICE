@@ -134,7 +134,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "PaPbjr-o8IguKNeRUrPcX",
+                            "id": "2D8SUurAjficv5k6WD0Ug",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -539,7 +539,8 @@
                                                                               "borderRadius": "27px",
                                                                               "background-color": "#f5f5f5",
                                                                               "color": "rgb(122 122 122)",
-                                                                              "border": "1px solid #ebe7e7"
+                                                                              "border": "1px solid rgb(221 211 211)",
+                                                                              "width": "90%"
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style  text field element.",
@@ -664,7 +665,8 @@
                                                                               "borderRadius": "27px",
                                                                               "background-color": "#f5f5f5",
                                                                               "color": "rgb(122 122 122)",
-                                                                              "border": "1px solid #ebe7e7"
+                                                                              "border": "1px solid rgb(221 211 211)",
+                                                                              "width": "90%"
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style  text field element.",
@@ -1530,8 +1532,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -1549,7 +1550,7 @@
                               "//": "Use this class to style grid layout component.",
                               "padding": "5px",
                               "spacing": 0,
-                              "background": "url(http://172.16.11.67:8196/corporateAsset/web/loginback2.jpg) fixed no-repeat",
+                              "background": "url(http://172.16.11.67:9996/web/loginback2.jpg) fixed no-repeat",
                               "background-size": "cover",
                               "height": "100vh"
                             },
@@ -1568,7 +1569,7 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0",
+                        "path": "0-0-0-0-0",
                         "dimensions": {
                           "rows": 1,
                           "columns": 1,
@@ -1578,7 +1579,7 @@
                           "colSize0lg": 12,
                           "colSize0xl": 12
                         },
-                        "readOnly": false
+                        "readOnly": true
                       }
                     ],
                     "layoutProperties": {
@@ -1623,9 +1624,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "d8PJUngQ349Ixuz4dKa4r",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/8/2023",
-    "createdAt": "4/8/2023",
+    "createdBy": "zeeshan",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1790,7 +1791,7 @@
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
           "spacing": 0,
-          "background": "url(http://172.16.11.67:8196/corporateAsset/web/loginback2.jpg) fixed no-repeat",
+          "background": "url(http://172.16.11.67:9996/web/loginback2.jpg) fixed no-repeat",
           "background-size": "cover",
           "height": "100vh"
         },
@@ -2468,7 +2469,8 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7"
+          "border": "1px solid rgb(221 211 211)",
+          "width": "90%"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",
@@ -2576,7 +2578,8 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7"
+          "border": "1px solid rgb(221 211 211)",
+          "width": "90%"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",

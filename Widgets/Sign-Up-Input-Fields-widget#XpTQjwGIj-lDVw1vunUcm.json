@@ -71,7 +71,7 @@
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
+                                      "border": "1px solid rgb(221 211 211)",
                                       "width": "90%"
                                     },
                                     "inputProps": {
@@ -172,7 +172,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0"
+                                "path": "0-0-0-0-0-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -208,22 +208,24 @@
                                     "errorMsg": "This Field is Required"
                                   },
                                   "layoutProperties": {
-                                    "autocomplete": {
-                                      "//": "Use this class to style autocomplete component in dropdown."
-                                    },
                                     "textField": {
-                                      "//": "Use this class to style textField component in dropdown.",
+                                      "//": "Use this class to style text field component.",
                                       "borderWidth": "1px",
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
-                                      "width": "90%"
+                                      "border": "1px solid rgb(221 211 211)",
+                                      "width": "83%",
+                                      "height": "39px",
+                                      "padding": "10px 10px 0px"
                                     },
                                     "inputProps": {
-                                      "//": "Use this class to style dropdown element."
+                                      "//": "Use this class to style  text field element.",
+                                      "paddingLeft": "10px",
+                                      "margin": "8px",
+                                      "color": "rgb(122 122 122)"
                                     },
-                                    "mainContainer": "autocomplete",
+                                    "mainContainer": "textField",
                                     "xl": 6,
                                     "lg": 6,
                                     "md": 6,
@@ -231,10 +233,11 @@
                                     "xs": 6
                                   },
                                   "dropdownOptions": [],
-                                  "variant": "outlined",
+                                  "variant": "standard",
                                   "selectedDataType": 0,
                                   "disableUnderline": true,
-                                  "storeType": 2
+                                  "storeType": 2,
+                                  "placeholder": "Designation"
                                 },
                                 "type": "20003",
                                 "events": [
@@ -370,7 +373,7 @@
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
+                                      "border": "1px solid rgb(221 211 211)",
                                       "width": "90%"
                                     },
                                     "inputProps": {
@@ -471,7 +474,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-1-0-0"
+                                "path": "0-0-0-0-1-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -510,7 +513,7 @@
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
+                                      "border": "1px solid rgb(221 211 211)",
                                       "width": "90%"
                                     },
                                     "inputProps": {
@@ -611,7 +614,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-1-1-0"
+                                "path": "0-0-0-0-1-1-0"
                               }
                             ],
                             "layoutProperties": {
@@ -688,7 +691,7 @@
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
+                                      "border": "1px solid rgb(221 211 211)",
                                       "width": "90%"
                                     },
                                     "inputProps": {
@@ -789,7 +792,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-0-0"
+                                "path": "0-0-0-0-2-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -832,7 +835,7 @@
                                       "borderRadius": "27px",
                                       "background-color": "#f5f5f5",
                                       "color": "rgb(122 122 122)",
-                                      "border": "1px solid #ebe7e7",
+                                      "border": "1px solid rgb(221 211 211)",
                                       "width": "90%"
                                     },
                                     "inputProps": {
@@ -920,7 +923,7 @@
                                   "stateName": "email"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
+                                "path": "0-0-0-0-2-1-0",
                                 "version": "1.0.0"
                               }
                             ],
@@ -995,7 +998,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "CSQO2eSNdrA4dqjTBGzmQ",
+                                    "id": "aJ7Fe8xEl6eGXPXaBPh5p",
                                     "gridProps": [
                                       {
                                         "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -1118,11 +1121,10 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-7-0-0-0"
+                                    }
                                   }
                                 ],
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-7-0-0",
+                                "path": "0-0-0-0-3-0-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -1131,7 +1133,9 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "padding": "5px",
-                                      "spacing": 0
+                                      "spacing": 0,
+                                      "width": "19.5em",
+                                      "margin-left": "-8px"
                                     },
                                     "mainContainer": "gridLayout"
                                   },
@@ -1154,7 +1158,17 @@
                                   "20010",
                                   "widget"
                                 ],
-                                "name": "Grid layout"
+                                "name": "Grid layout",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -1182,7 +1196,9 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "padding": "5px",
-                                      "spacing": 0
+                                      "spacing": 0,
+                                      "width": "19.5em",
+                                      "margin-left": "-8px"
                                     },
                                     "mainContainer": "gridLayout"
                                   },
@@ -1195,7 +1211,7 @@
                                   "name": "Grid layout"
                                 },
                                 "group": "Layout",
-                                "type": "sidebarItem",
+                                "type": "10001",
                                 "updatedAt": "23-Sep-2021",
                                 "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
                                 "createdAt": "24-Aug-2021",
@@ -1215,11 +1231,11 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-7-1-0",
+                                "path": "0-0-0-0-3-1-0",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "SIUAT4HZE2eCnIsj8r9tV",
+                                    "id": "8TCVxs6wso9OzObYxul5L",
                                     "gridProps": [
                                       {
                                         "id": "wlcZ2A1gaO9V5MC1fYfLL",
@@ -1289,8 +1305,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-7-1-0-0"
+                                    }
                                   }
                                 ],
                                 "layoutProperties": {
@@ -1298,7 +1313,17 @@
                                   "md": 12,
                                   "sm": 12,
                                   "xs": 12
-                                }
+                                },
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -1465,9 +1490,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "XpTQjwGIj-lDVw1vunUcm",
-    "createdBy": "ajk",
-    "updatedAt": "4/11/2023",
-    "createdAt": "4/11/2023",
+    "createdBy": "areeb",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1701,7 +1726,7 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
+          "border": "1px solid rgb(221 211 211)",
           "width": "90%"
         },
         "inputProps": {
@@ -1791,7 +1816,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -1816,20 +1841,24 @@
       "mandatory": true,
       "validate": { "required": false, "errorMsg": "This Field is Required" },
       "layoutProperties": {
-        "autocomplete": {
-          "//": "Use this class to style autocomplete component in dropdown."
-        },
         "textField": {
-          "//": "Use this class to style textField component in dropdown.",
+          "//": "Use this class to style text field component.",
           "borderWidth": "1px",
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
-          "width": "90%"
+          "border": "1px solid rgb(221 211 211)",
+          "width": "83%",
+          "height": "39px",
+          "padding": "10px 10px 0px"
         },
-        "inputProps": { "//": "Use this class to style dropdown element." },
-        "mainContainer": "autocomplete",
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
         "xl": 6,
         "lg": 6,
         "md": 6,
@@ -1837,10 +1866,11 @@
         "xs": 6
       },
       "dropdownOptions": [],
-      "variant": "outlined",
+      "variant": "standard",
       "selectedDataType": 0,
       "disableUnderline": true,
-      "storeType": 2
+      "storeType": 2,
+      "placeholder": "Designation"
     },
     "type": "20003",
     "events": [
@@ -1933,7 +1963,7 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
+          "border": "1px solid rgb(221 211 211)",
           "width": "90%"
         },
         "inputProps": {
@@ -2023,7 +2053,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-1-0-0",
+    "path": "0-0-0-0-1-0-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -2054,7 +2084,7 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
+          "border": "1px solid rgb(221 211 211)",
           "width": "90%"
         },
         "inputProps": {
@@ -2144,7 +2174,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-1-1-0",
+    "path": "0-0-0-0-1-1-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -2220,7 +2250,7 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
+          "border": "1px solid rgb(221 211 211)",
           "width": "90%"
         },
         "inputProps": {
@@ -2310,7 +2340,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-0-0",
+    "path": "0-0-0-0-2-0-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -2342,7 +2372,7 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7",
+          "border": "1px solid rgb(221 211 211)",
           "width": "90%"
         },
         "inputProps": {
@@ -2422,7 +2452,7 @@
       "stateName": "email"
     },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-2-1-0",
+    "path": "0-0-0-0-2-1-0",
     "version": "1.0.0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
@@ -2514,7 +2544,9 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
-          "spacing": 0
+          "spacing": 0,
+          "width": "19.5em",
+          "margin-left": "-8px"
         },
         "mainContainer": "gridLayout"
       },
@@ -2607,7 +2639,9 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
-          "spacing": 0
+          "spacing": 0,
+          "width": "19.5em",
+          "margin-left": "-8px"
         },
         "mainContainer": "gridLayout"
       },

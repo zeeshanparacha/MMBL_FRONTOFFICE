@@ -89,7 +89,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "yLkiF4KiZQFT5AJ2qw0X5",
+                    "id": "flYifJ2J3_RrgAyyIKBQG",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -658,7 +658,8 @@
                                                               "borderRadius": "27px",
                                                               "background-color": "#f5f5f5",
                                                               "color": "rgb(122 122 122)",
-                                                              "border": "1px solid #ebe7e7"
+                                                              "border": "1px solid rgb(221 211 211)",
+                                                              "width": "90%"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style  text field element.",
@@ -675,7 +676,67 @@
                                                           },
                                                           "validate": {
                                                             "required": true,
-                                                            "errorMsg": "Username is required"
+                                                            "errorMsg": "Username is required",
+                                                            "bindButton": [
+                                                              {
+                                                                "id": "Ac97owAE4pwEumgc58V99",
+                                                                "type": "20006",
+                                                                "name": "Next_btn",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
+                                                                "attributes": {
+                                                                  "label": "Login",
+                                                                  "variant": "contained",
+                                                                  "name": "Next_btn",
+                                                                  "label-locale-key": "",
+                                                                  "fullWidth": true,
+                                                                  "layoutProperties": {
+                                                                    "button": {
+                                                                      "//": "Use this class to style button component.",
+                                                                      "color": "#ffffff",
+                                                                      "background": "#DA0006",
+                                                                      "borderRadius": "50px",
+                                                                      "padding": "12px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style button element."
+                                                                    },
+                                                                    "mainContainer": "button",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "onEnterKey": true
+                                                                },
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "rJeH27BHHnGNVtddJ4kdW",
+                                                                    "triggerName": "Login",
+                                                                    "name": "On Submit",
+                                                                    "type": "4",
+                                                                    "serviceType": "8"
+                                                                  },
+                                                                  {
+                                                                    "triggerId": "C9VAY5AIiTfVpeNy7pz65",
+                                                                    "triggerName": "Clear Form Validations",
+                                                                    "name": "On click",
+                                                                    "type": "2",
+                                                                    "serviceType": "14"
+                                                                  }
+                                                                ],
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+                                                                "version": "1.0.0",
+                                                                "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+                                                                "subType": "component",
+                                                                "projectId": "63f4845e476fc83100e3a899",
+                                                                "gitBranchName": "master",
+                                                                "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                              }
+                                                            ]
                                                           },
                                                           "placeholder": "Username",
                                                           "stateName": "username",
@@ -776,8 +837,9 @@
                                                               "borderWidth": "1px",
                                                               "borderRadius": "27px",
                                                               "background-color": "#f5f5f5",
-                                                              "color": "#BCBCBC",
-                                                              "border": "1px solid #ebe7e7"
+                                                              "color": "rgb(122 122 122)",
+                                                              "border": "1px solid rgb(221 211 211)",
+                                                              "width": "90%"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style  text field element.",
@@ -1717,7 +1779,7 @@
                     }
                   }
                 ],
-                "path": "0-0-1",
+                "path": "0-0-0",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -1727,7 +1789,7 @@
                       "//": "Use this class to style grid layout component.",
                       "padding": "5px",
                       "spacing": 0,
-                      "background": "url(http://172.16.11.67:8196/corporateAsset/web/loginback2.jpg) fixed no-repeat",
+                      "background": "url(http://172.16.11.67:9996/web/loginback2.jpg) fixed no-repeat",
                       "background-size": "cover",
                       "height": "100vh"
                     },
@@ -1791,9 +1853,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/16/2023",
-    "createdAt": "4/16/2023",
+    "createdBy": "zeeshan",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1922,7 +1984,7 @@
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
           "spacing": 0,
-          "background": "url(http://172.16.11.67:8196/corporateAsset/web/loginback2.jpg) fixed no-repeat",
+          "background": "url(http://172.16.11.67:9996/web/loginback2.jpg) fixed no-repeat",
           "background-size": "cover",
           "height": "100vh"
         },
@@ -2703,7 +2765,8 @@
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
           "color": "rgb(122 122 122)",
-          "border": "1px solid #ebe7e7"
+          "border": "1px solid rgb(221 211 211)",
+          "width": "90%"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",
@@ -2718,7 +2781,67 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "Username is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "Username is required",
+        "bindButton": [
+          {
+            "id": "Ac97owAE4pwEumgc58V99",
+            "type": "20006",
+            "name": "Next_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "Login",
+              "variant": "contained",
+              "name": "Next_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#DA0006",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "onEnterKey": true
+            },
+            "events": [
+              {
+                "triggerId": "rJeH27BHHnGNVtddJ4kdW",
+                "triggerName": "Login",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              },
+              {
+                "triggerId": "C9VAY5AIiTfVpeNy7pz65",
+                "triggerName": "Clear Form Validations",
+                "name": "On click",
+                "type": "2",
+                "serviceType": "14"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "placeholder": "Username",
       "stateName": "username",
       "disableUnderline": true
@@ -2811,8 +2934,9 @@
           "borderWidth": "1px",
           "borderRadius": "27px",
           "background-color": "#f5f5f5",
-          "color": "#BCBCBC",
-          "border": "1px solid #ebe7e7"
+          "color": "rgb(122 122 122)",
+          "border": "1px solid rgb(221 211 211)",
+          "width": "90%"
         },
         "inputProps": {
           "//": "Use this class to style  text field element.",

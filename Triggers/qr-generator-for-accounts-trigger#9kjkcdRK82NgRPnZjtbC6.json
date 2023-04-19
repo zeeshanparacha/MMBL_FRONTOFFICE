@@ -35,7 +35,7 @@
               "type": 1,
               "name": "Form",
               "key": "accountId",
-              "value": "selectedAccount.accountNumber"
+              "value": "selectedAccount.id"
             }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
@@ -45,8 +45,8 @@
       }
     }
   ],
-  "updatedAt": "4/17/2023",
-  "createdAt": "4/17/2023",
+  "updatedAt": "4/19/2023",
+  "createdAt": "4/19/2023",
   "createdBy": "areeb",
   "updatedBy": "areeb"
 }

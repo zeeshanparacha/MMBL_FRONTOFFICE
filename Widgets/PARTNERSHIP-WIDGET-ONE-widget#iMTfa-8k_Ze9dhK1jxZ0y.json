@@ -78,7 +78,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "dH1TUNYr-KhaPSk3zR3Fm",
+                            "id": "0-CtgkWcGu61zZsKuXxxL",
                             "gridProps": [
                               {
                                 "id": "Y71eIW2cDOxA74_TaEucA",
@@ -92,7 +92,7 @@
                                   "layoutProperties": {
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
+                                      "padding": "0px",
                                       "spacing": 0
                                     },
                                     "mainContainer": "gridLayout"
@@ -106,7 +106,7 @@
                                   "name": "Grid layout"
                                 },
                                 "group": "Layout",
-                                "type": "sidebarItem",
+                                "type": "10001",
                                 "updatedAt": "23-Sep-2021",
                                 "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
                                 "createdAt": "24-Aug-2021",
@@ -130,7 +130,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "ad1dXpQXpnUzIbAc6s3-z",
+                                    "id": "04ybgQZqiyY9PMl7_k5eT",
                                     "gridProps": [
                                       {
                                         "id": "YuKtiu5oNkRH_pwBlOJF0",
@@ -153,9 +153,7 @@
                                             "xs": 12
                                           },
                                           "cssClassNames": [
-                                            {
-                                              "cssClassName": "CardHeaderContainer"
-                                            }
+                                            { "cssClassName": "cardHearderBox" }
                                           ]
                                         },
                                         "icon": "FaFont",
@@ -218,8 +216,7 @@
                                                                           "mandatory": false,
                                                                           "layoutProperties": {
                                                                             "label": {
-                                                                              "//": "Use this class to style label component.",
-                                                                              "color": "#a8a8a8"
+                                                                              "//": "Use this class to style label component."
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -230,7 +227,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -248,7 +245,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -344,7 +341,7 @@
                                                                           "stateName": "companyNameAsPerRegistration",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ]
                                                                         },
@@ -363,7 +360,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -506,7 +503,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -524,7 +521,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -680,7 +677,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "companyMailingAddress"
@@ -700,7 +697,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -844,7 +841,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -862,7 +859,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -957,7 +954,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "country2"
@@ -977,7 +974,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-0-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1161,7 +1158,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -1179,7 +1176,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1319,7 +1316,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "companyEmailId"
@@ -1339,7 +1336,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1457,8 +1454,7 @@
                                                                           "mandatory": false,
                                                                           "layoutProperties": {
                                                                             "label": {
-                                                                              "//": "Use this class to style label component.",
-                                                                              "color": "#a8a8a8"
+                                                                              "//": "Use this class to style label component."
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -1469,7 +1465,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -1487,7 +1483,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1583,7 +1579,7 @@
                                                                           "stateName": "companyTelephoneNumber",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ]
                                                                         },
@@ -1602,7 +1598,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1745,7 +1741,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -1763,7 +1759,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1919,7 +1915,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "companyFaxNumber"
@@ -1939,7 +1935,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-1-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-1-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2122,7 +2118,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -2140,7 +2136,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2235,7 +2231,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "natureOfBusinessActivity1"
@@ -2255,7 +2251,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2400,7 +2396,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -2418,7 +2414,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2513,7 +2509,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "dateAndPlaceOfIncorporation"
@@ -2533,7 +2529,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2678,7 +2674,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -2696,7 +2692,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -2829,7 +2825,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "disableUnderline": true,
@@ -2843,7 +2839,7 @@
                                                                           "type": "20027"
                                                                         },
                                                                         "event": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-2-2-0-0-1-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-2-2-0-0-1-0-0",
                                                                         "events": []
                                                                       }
                                                                     ],
@@ -3002,8 +2998,7 @@
                                                                           "mandatory": false,
                                                                           "layoutProperties": {
                                                                             "label": {
-                                                                              "//": "Use this class to style label component.",
-                                                                              "color": "#a8a8a8"
+                                                                              "//": "Use this class to style label component."
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -3014,7 +3009,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -3032,7 +3027,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -3164,7 +3159,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "disableUnderline": true,
@@ -3178,7 +3173,7 @@
                                                                           "type": "20027"
                                                                         },
                                                                         "event": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-0-0-0-1-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-0-0-0-1-0-0",
                                                                         "events": []
                                                                       }
                                                                     ],
@@ -3296,7 +3291,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -3314,7 +3309,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -3447,7 +3442,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "disableUnderline": true,
@@ -3461,7 +3456,7 @@
                                                                           "type": "20027"
                                                                         },
                                                                         "event": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-1-0-0-1-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-1-0-0-1-0-0",
                                                                         "events": []
                                                                       }
                                                                     ],
@@ -3579,7 +3574,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -3597,7 +3592,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -3740,7 +3735,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "disableUnderline": true,
@@ -3754,7 +3749,7 @@
                                                                           "type": "20027"
                                                                         },
                                                                         "event": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-3-2-0-0-1-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-3-2-0-0-1-0-0",
                                                                         "events": []
                                                                       }
                                                                     ],
@@ -3913,7 +3908,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -3931,7 +3926,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4038,7 +4033,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -4053,7 +4048,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4208,7 +4203,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -4226,7 +4221,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4333,7 +4328,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -4348,7 +4343,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4503,7 +4498,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -4521,7 +4516,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4628,7 +4623,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -4643,7 +4638,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-4-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-4-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4837,7 +4832,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -4855,7 +4850,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -4962,7 +4957,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -4977,7 +4972,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5132,7 +5127,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -5150,7 +5145,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5257,7 +5252,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -5272,7 +5267,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5427,7 +5422,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -5445,7 +5440,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5552,7 +5547,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -5567,7 +5562,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-5-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-5-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5762,7 +5757,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -5780,7 +5775,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -5887,7 +5882,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -5902,7 +5897,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6067,7 +6062,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -6085,7 +6080,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6192,7 +6187,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -6207,7 +6202,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6372,7 +6367,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -6390,7 +6385,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6497,7 +6492,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -6512,7 +6507,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-6-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-6-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6716,7 +6711,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -6734,7 +6729,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -6841,7 +6836,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 0
@@ -6856,7 +6851,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7021,7 +7016,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -7039,7 +7034,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7155,7 +7150,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 1,
@@ -7171,7 +7166,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7336,7 +7331,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -7354,7 +7349,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7470,7 +7465,7 @@
                                                                           "placeholder": "Select",
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "card_dropdown"
+                                                                              "cssClassName": "dropdownWidth"
                                                                             }
                                                                           ],
                                                                           "selectedDataType": 1,
@@ -7486,7 +7481,7 @@
                                                                           "content": "Drop down",
                                                                           "type": "20003"
                                                                         },
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-7-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-7-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7690,7 +7685,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -7708,7 +7703,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7813,7 +7808,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ]
                                                                         },
@@ -7832,7 +7827,7 @@
                                                                           "type": "20040"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -7977,7 +7972,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -7995,7 +7990,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8090,7 +8085,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "numberOfEmployees"
@@ -8110,7 +8105,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8255,7 +8250,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -8273,7 +8268,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8368,7 +8363,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "frequencyOfSalaryDisbursement"
@@ -8388,7 +8383,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-8-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-8-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8583,7 +8578,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -8601,7 +8596,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8698,7 +8693,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "emailAddress2"
@@ -8718,7 +8713,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8863,7 +8858,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -8881,7 +8876,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -8976,7 +8971,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "referral"
@@ -8996,7 +8991,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9151,7 +9146,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -9169,7 +9164,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9264,7 +9259,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "pocName"
@@ -9284,7 +9279,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-9-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-9-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9468,7 +9463,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -9486,7 +9481,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-0-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-0-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9581,7 +9576,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "branchNameOfBank"
@@ -9601,7 +9596,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-0-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-0-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9746,7 +9741,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -9764,7 +9759,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9859,7 +9854,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "contactNumber1"
@@ -9879,7 +9874,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -10034,7 +10029,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -10052,7 +10047,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-2-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-2-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -10147,7 +10142,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "city"
@@ -10167,7 +10162,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-10-2-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-10-2-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -10374,7 +10369,7 @@
                                                                           },
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "textfieldLabel"
+                                                                              "cssClassName": "textLabel"
                                                                             }
                                                                           ]
                                                                         },
@@ -10392,7 +10387,7 @@
                                                                           "type": "20002"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-11-1-0-0-0-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-11-1-0-0-0-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -10487,7 +10482,7 @@
                                                                           "disableUnderline": true,
                                                                           "cssClassNames": [
                                                                             {
-                                                                              "cssClassName": "emptyTextField"
+                                                                              "cssClassName": "textbox"
                                                                             }
                                                                           ],
                                                                           "stateName": "natureOfBusinessActivity1"
@@ -10507,7 +10502,7 @@
                                                                           "type": "20004"
                                                                         },
                                                                         "events": [],
-                                                                        "path": "0-0-0-0-0-0-0-0-2-0-11-1-0-0-1-0-0"
+                                                                        "path": "0-0-0-0-0-0-0-0-1-0-11-1-0-0-1-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -10811,14 +10806,14 @@
                                                                 "id": "Ho1NP0QgYPrBOMdvWYh8v",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
-                                                                  "label": "Next",
                                                                   "variant": "outlined",
                                                                   "name": "Button",
                                                                   "label-locale-key": "",
                                                                   "fullWidth": true,
                                                                   "layoutProperties": {
                                                                     "button": {
-                                                                      "//": "Use this class to style button component."
+                                                                      "//": "Use this class to style button component.",
+                                                                      "float": "right"
                                                                     },
                                                                     "inputProps": {
                                                                       "//": "Use this class to style button element."
@@ -10832,9 +10827,13 @@
                                                                   },
                                                                   "cssClassNames": [
                                                                     {
-                                                                      "cssClassName": "resetBtnClass"
+                                                                      "cssClassName": "navigateButton"
                                                                     }
-                                                                  ]
+                                                                  ],
+                                                                  "buttonIconPosition": "start",
+                                                                  "asset": null,
+                                                                  "iconname": "IoReturnUpForward",
+                                                                  "iconName": "IoReturnUpForward"
                                                                 },
                                                                 "name": "Button",
                                                                 "icon": "FaBimobject",
@@ -11031,8 +11030,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-0-0-0"
+                                    }
                                   }
                                 ],
                                 "layoutProperties": {
@@ -11040,7 +11038,17 @@
                                   "md": 12,
                                   "sm": 12,
                                   "xs": 12
-                                }
+                                },
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -11049,8 +11057,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-0-0"
+                            }
                           }
                         ],
                         "path": "0-0-0-0-0",
@@ -11073,9 +11080,7 @@
                           },
                           "direction": "row",
                           "name": "public & Partnership",
-                          "cssClassNames": [
-                            { "cssClassName": "cardMainContainer" }
-                          ],
+                          "cssClassNames": [{ "cssClassName": "cardMainBox" }],
                           "isSwappable": true
                         },
                         "component": {
@@ -11280,9 +11285,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "iMTfa-8k_Ze9dhK1jxZ0y",
-    "createdBy": "ajk",
-    "updatedAt": "4/14/2023",
-    "createdAt": "4/14/2023",
+    "createdBy": "zeeshan",
+    "updatedAt": "4/19/2023",
+    "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -11450,7 +11455,7 @@
       },
       "direction": "row",
       "name": "public & Partnership",
-      "cssClassNames": [{ "cssClassName": "cardMainContainer" }],
+      "cssClassNames": [{ "cssClassName": "cardMainBox" }],
       "isSwappable": true
     },
     "layout": null,
@@ -11504,7 +11509,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -11544,7 +11549,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardHeaderContainer" }]
+      "cssClassNames": [{ "cssClassName": "cardHearderBox" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -12042,10 +12047,7 @@
       "name": "Label",
       "mandatory": false,
       "layoutProperties": {
-        "label": {
-          "//": "Use this class to style label component.",
-          "color": "#a8a8a8"
-        },
+        "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
         "xl": 12,
         "lg": 12,
@@ -12053,7 +12055,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -12066,7 +12068,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12152,7 +12154,7 @@
       "placeholder": "",
       "disableUnderline": true,
       "stateName": "companyNameAsPerRegistration",
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
+      "cssClassNames": [{ "cssClassName": "textbox" }]
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -12166,7 +12168,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12307,7 +12309,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -12320,7 +12322,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12462,7 +12464,7 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "companyMailingAddress"
     },
     "icon": "FaWindowMinimize",
@@ -12477,7 +12479,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12619,7 +12621,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -12632,7 +12634,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12717,7 +12719,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "country2"
     },
     "icon": "FaWindowMinimize",
@@ -12732,7 +12734,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-0-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-0-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -12946,7 +12948,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -12959,7 +12961,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13048,7 +13050,7 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "companyEmailId"
     },
     "icon": "FaWindowMinimize",
@@ -13063,7 +13065,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13196,10 +13198,7 @@
       "name": "Label",
       "mandatory": false,
       "layoutProperties": {
-        "label": {
-          "//": "Use this class to style label component.",
-          "color": "#a8a8a8"
-        },
+        "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
         "xl": 12,
         "lg": 12,
@@ -13207,7 +13206,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -13220,7 +13219,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13306,7 +13305,7 @@
       "placeholder": "",
       "disableUnderline": true,
       "stateName": "companyTelephoneNumber",
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
+      "cssClassNames": [{ "cssClassName": "textbox" }]
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -13320,7 +13319,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13461,7 +13460,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -13474,7 +13473,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13616,7 +13615,7 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "companyFaxNumber"
     },
     "icon": "FaWindowMinimize",
@@ -13631,7 +13630,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-1-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-1-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13846,7 +13845,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -13859,7 +13858,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -13944,7 +13943,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "natureOfBusinessActivity1"
     },
     "icon": "FaWindowMinimize",
@@ -13959,7 +13958,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -14101,7 +14100,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -14114,7 +14113,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -14199,7 +14198,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "dateAndPlaceOfIncorporation"
     },
     "icon": "FaWindowMinimize",
@@ -14214,7 +14213,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -14356,7 +14355,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -14369,7 +14368,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -14447,7 +14446,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "disableUnderline": true,
       "calenderIconPosition": "start"
     },
@@ -14456,7 +14455,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-2-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-2-2-0-0-1-0-0",
     "events": [],
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
@@ -14663,10 +14662,7 @@
       "name": "Label",
       "mandatory": false,
       "layoutProperties": {
-        "label": {
-          "//": "Use this class to style label component.",
-          "color": "#a8a8a8"
-        },
+        "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
         "xl": 12,
         "lg": 12,
@@ -14674,7 +14670,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -14687,7 +14683,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -14765,7 +14761,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "disableUnderline": true,
       "calenderIconPosition": "start"
     },
@@ -14774,7 +14770,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-0-0-0-1-0-0",
     "events": [],
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
@@ -14916,7 +14912,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -14929,7 +14925,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -15007,7 +15003,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "disableUnderline": true,
       "calenderIconPosition": "start"
     },
@@ -15016,7 +15012,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-1-0-0-1-0-0",
     "events": [],
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
@@ -15159,7 +15155,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -15172,7 +15168,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -15250,7 +15246,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "disableUnderline": true,
       "calenderIconPosition": "start"
     },
@@ -15259,7 +15255,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-3-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-3-2-0-0-1-0-0",
     "events": [],
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
@@ -15474,7 +15470,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -15487,7 +15483,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-4-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -15586,7 +15582,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -15596,7 +15592,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-4-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -15738,7 +15734,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -15751,7 +15747,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-4-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -15850,7 +15846,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -15860,7 +15856,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-4-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16002,7 +15998,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -16015,7 +16011,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-4-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16114,7 +16110,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -16124,7 +16120,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-4-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-4-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16339,7 +16335,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -16352,7 +16348,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16451,7 +16447,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -16461,7 +16457,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-5-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16603,7 +16599,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -16616,7 +16612,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16715,7 +16711,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -16725,7 +16721,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-5-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16867,7 +16863,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -16880,7 +16876,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-5-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -16979,7 +16975,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -16989,7 +16985,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-5-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-5-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17203,7 +17199,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -17216,7 +17212,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17315,7 +17311,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -17325,7 +17321,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-6-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17467,7 +17463,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -17480,7 +17476,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17579,7 +17575,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -17589,7 +17585,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-6-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17731,7 +17727,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -17744,7 +17740,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-6-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -17843,7 +17839,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -17853,7 +17849,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-6-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-6-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18067,7 +18063,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -18080,7 +18076,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-7-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18179,7 +18175,7 @@
       "disableUnderline": true,
       "storeType": 2,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 0
     },
     "type": "20003",
@@ -18189,7 +18185,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-7-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18331,7 +18327,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -18344,7 +18340,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-7-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18446,7 +18442,7 @@
       "disableUnderline": true,
       "storeType": 1,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 1,
       "defaultKey": "taxExemption1"
     },
@@ -18457,7 +18453,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-7-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18599,7 +18595,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -18612,7 +18608,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-7-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18714,7 +18710,7 @@
       "disableUnderline": true,
       "storeType": 1,
       "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
       "selectedDataType": 1,
       "defaultKey": "zakatExemption1"
     },
@@ -18725,7 +18721,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-2-0-7-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-7-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -18939,7 +18935,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -18952,7 +18948,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19043,7 +19039,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
+      "cssClassNames": [{ "cssClassName": "textbox" }]
     },
     "icon": "FaDollarSign",
     "group": "Form",
@@ -19057,7 +19053,7 @@
     "projectType": "web",
     "component": { "content": "Amount", "type": "20040" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19199,7 +19195,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -19212,7 +19208,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19297,7 +19293,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "numberOfEmployees"
     },
     "icon": "FaWindowMinimize",
@@ -19312,7 +19308,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19454,7 +19450,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -19467,7 +19463,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19552,7 +19548,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "frequencyOfSalaryDisbursement"
     },
     "icon": "FaWindowMinimize",
@@ -19567,7 +19563,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-8-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-8-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19781,7 +19777,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -19794,7 +19790,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -19884,7 +19880,7 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "emailAddress2"
     },
     "icon": "FaWindowMinimize",
@@ -19899,7 +19895,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20041,7 +20037,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -20054,7 +20050,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20139,7 +20135,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "referral"
     },
     "icon": "FaWindowMinimize",
@@ -20154,7 +20150,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20296,7 +20292,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -20309,7 +20305,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20394,7 +20390,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "pocName"
     },
     "icon": "FaWindowMinimize",
@@ -20409,7 +20405,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-9-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-9-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20623,7 +20619,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -20636,7 +20632,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-0-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20721,7 +20717,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "branchNameOfBank"
     },
     "icon": "FaWindowMinimize",
@@ -20736,7 +20732,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-0-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20878,7 +20874,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -20891,7 +20887,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -20976,7 +20972,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "contactNumber1"
     },
     "icon": "FaWindowMinimize",
@@ -20991,7 +20987,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -21133,7 +21129,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -21146,7 +21142,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -21231,7 +21227,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "city"
     },
     "icon": "FaWindowMinimize",
@@ -21246,7 +21242,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-10-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-10-2-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -21435,7 +21431,7 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+      "cssClassNames": [{ "cssClassName": "textLabel" }]
     },
     "icon": "FaFont",
     "group": "Form",
@@ -21448,7 +21444,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-11-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-11-1-0-0-0-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -21533,7 +21529,7 @@
       "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "natureOfBusinessActivity1"
     },
     "icon": "FaWindowMinimize",
@@ -21548,7 +21544,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-2-0-11-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-1-0-11-1-0-0-1-0-0",
     "screenId": "iMTfa-8k_Ze9dhK1jxZ0y",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -21741,13 +21737,15 @@
     "id": "Ho1NP0QgYPrBOMdvWYh8v",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Next",
       "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
       "fullWidth": true,
       "layoutProperties": {
-        "button": { "//": "Use this class to style button component." },
+        "button": {
+          "//": "Use this class to style button component.",
+          "float": "right"
+        },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
         "xl": 12,
@@ -21756,7 +21754,11 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "resetBtnClass" }]
+      "cssClassNames": [{ "cssClassName": "navigateButton" }],
+      "buttonIconPosition": "start",
+      "asset": null,
+      "iconname": "IoReturnUpForward",
+      "iconName": "IoReturnUpForward"
     },
     "name": "Button",
     "icon": "FaBimobject",

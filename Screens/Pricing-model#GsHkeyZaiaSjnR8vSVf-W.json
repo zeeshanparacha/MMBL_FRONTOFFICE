@@ -33,7 +33,7 @@
           "layoutProperties": {
             "gridLayout": {
               "//": "Use this class to style grid layout component.",
-              "padding": "5px",
+              "padding": "20px 34px 20px 34px",
               "spacing": 0
             },
             "mainContainer": "gridLayout"
@@ -62,7 +62,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "nbYfY3Wt2QZ639tMl33ho",
+            "id": "iGeiU7fFXsJPPL3E6xVjY",
             "gridProps": [
               {
                 "id": "AVnJsWsa1tfP6YMG1yBeB",
@@ -111,7 +111,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "Iu9AlLRfJi0h1S3YXKEEY",
+                    "id": "oLi3Sh0vDKJDjdw39TMSN",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -450,7 +450,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "i7oQowkHQA1ng7pZY7MzH",
+                            "id": "XoIyFoSP-wKQkIqstWJEI",
                             "gridProps": [
                               {
                                 "id": "rsU-h6_OBIZlg-LasdyW8",
@@ -467,7 +467,8 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "padding": "0px",
-                                      "spacing": 0
+                                      "spacing": 0,
+                                      "margin": "0px 0px 25px 0px"
                                     },
                                     "mainContainer": "gridLayout"
                                   },
@@ -490,23 +491,18 @@
                                   "widget"
                                 ],
                                 "dimensions": {
-                                  "widgets": 1,
-                                  "dndConfig": [
-                                    { "x": 0, "y": 0, "w": 6, "h": 12 }
-                                  ],
                                   "rows": 1,
                                   "columns": 1,
                                   "colSize0xs": 12,
                                   "colSize0sm": 12,
                                   "colSize0md": 12,
                                   "colSize0lg": 12,
-                                  "colSize0xl": 12,
-                                  "firstTime": true
+                                  "colSize0xl": 12
                                 },
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "jzydSpFEgPgipfIJQVA-0",
+                                    "id": "opuV0GBl558iHfMmzXI08",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -768,10 +764,10 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-2-0-0-0"
+                                    }
                                   }
-                                ]
+                                ],
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -784,7 +780,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "mSo9NM3G0oQyK66w-_B4E",
+                            "id": "afdgSTXGMcWN0sput_HuF",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1090,7 +1086,8 @@
                             "gridLayout": {
                               "//": "Use this class to style grid layout component.",
                               "padding": "5px",
-                              "spacing": 0
+                              "spacing": 0,
+                              "margin": "0px 0px 13px 0px"
                             },
                             "mainContainer": "gridLayout"
                           },
@@ -1159,7 +1156,9 @@
                                               "//": "Use this class to style radiobutton component."
                                             },
                                             "formControlLabel": {
-                                              "//": "Use this class to style radiobutton label"
+                                              "//": "Use this class to style radiobutton label",
+                                              "font-family": "special !important",
+                                              "font-size": "14px"
                                             },
                                             "inputProps": {
                                               "//": "Use this class to style radiobutton element."
@@ -1180,7 +1179,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricing",
-                                          "value": "sole"
+                                          "value": "sole",
+                                          "cssClassNames": []
                                         },
                                         "events": [
                                           {
@@ -3081,8 +3081,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -3162,7 +3161,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "20px 34px 20px 34px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3613,7 +3612,8 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
-          "spacing": 0
+          "spacing": 0,
+          "margin": "0px 0px 13px 0px"
         },
         "mainContainer": "gridLayout"
       },
@@ -3685,7 +3685,8 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "0px",
-          "spacing": 0
+          "spacing": 0,
+          "margin": "0px 0px 25px 0px"
         },
         "mainContainer": "gridLayout"
       },
@@ -4293,7 +4294,9 @@
           "//": "Use this class to style radiobutton component."
         },
         "formControlLabel": {
-          "//": "Use this class to style radiobutton label"
+          "//": "Use this class to style radiobutton label",
+          "font-family": "special !important",
+          "font-size": "14px"
         },
         "inputProps": { "//": "Use this class to style radiobutton element." },
         "mainContainer": "formControlLabel",
@@ -4309,7 +4312,8 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricing",
-      "value": "sole"
+      "value": "sole",
+      "cssClassNames": []
     },
     "events": [
       {

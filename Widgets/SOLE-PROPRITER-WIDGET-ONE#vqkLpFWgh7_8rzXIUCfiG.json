@@ -122,7 +122,7 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": "0",
+        "path": 0,
         "gridProps": [
           {
             "type": "column",
@@ -204,7 +204,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "IZU6RcHBREcF8Ei_byRGz",
+                                            "id": "0UT8bdR2DrQBo4rbsZpQj",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -355,19 +355,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -409,7 +407,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -545,7 +543,7 @@
                                           },
                                           {
                                             "type": "column",
-                                            "id": "Czdyd7BFlpMtGL7naKIKY",
+                                            "id": "U2Vz4-LnmHj9Ge-YexqGH",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -695,19 +693,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -749,7 +745,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -886,7 +882,7 @@
                                           },
                                           {
                                             "type": "column",
-                                            "id": "RniJmCAKcdZs6c61jWLra",
+                                            "id": "R0c_1NuQWMxp4tEy28lDI",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -1036,19 +1032,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -1090,7 +1084,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1241,7 +1235,8 @@
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
                                               "padding": "5px",
-                                              "spacing": 0
+                                              "spacing": 0,
+                                              "margin": "15px 0px 0px 0px"
                                             },
                                             "mainContainer": "gridLayout"
                                           },
@@ -1258,7 +1253,27 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-0-0-0-0-1"
+                                        "path": "0-0-0-0-0-0-0-0-1",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 3,
+                                          "colSize0xs": 4,
+                                          "colSize0sm": 4,
+                                          "colSize0md": 4,
+                                          "colSize0lg": 4,
+                                          "colSize0xl": 4,
+                                          "colSize1xs": 4,
+                                          "colSize1sm": 4,
+                                          "colSize1md": 4,
+                                          "colSize1lg": 4,
+                                          "colSize1xl": 4,
+                                          "colSize2xs": 4,
+                                          "colSize2sm": 4,
+                                          "colSize2md": 4,
+                                          "colSize2lg": 4,
+                                          "colSize2xl": 4
+                                        },
+                                        "readOnly": true
                                       },
                                       {
                                         "type": "10001",
@@ -1414,22 +1429,20 @@
                                                                   },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "Invalid Email",
+                                                                    "errorMsg": "email is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -1471,7 +1484,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1479,7 +1492,8 @@
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
                                                                     ],
-                                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+                                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                                                                    "regexErrorMsg": "Invalid Email"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -1761,19 +1775,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -1815,7 +1827,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2097,22 +2109,20 @@
                                                                     "xs": 12
                                                                   },
                                                                   "validate": {
-                                                                    "required": false,
+                                                                    "required": true,
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -2154,7 +2164,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2480,19 +2490,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -2534,7 +2542,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2547,7 +2555,7 @@
                                                                   "disableUnderline": true,
                                                                   "cssClassNames": [
                                                                     {
-                                                                      "cssClassName": "emptyTextField"
+                                                                      "cssClassName": "textbox"
                                                                     }
                                                                   ],
                                                                   "stateName": "natureOfBusinessActivity"
@@ -2822,19 +2830,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -2876,7 +2882,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3193,19 +3199,17 @@
                                                                     "isCalendar": true,
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -3247,7 +3251,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3587,19 +3591,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -3641,7 +3643,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3929,19 +3931,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -3983,7 +3983,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -4309,19 +4309,17 @@
                                                                     "isCalendar": true,
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -4363,7 +4361,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -4693,19 +4691,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -4747,7 +4743,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -5035,19 +5031,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -5089,7 +5083,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -5362,19 +5356,17 @@
                                                                     "isCalendar": true,
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -5416,7 +5408,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -5747,19 +5739,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -5801,7 +5791,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -6089,19 +6079,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -6143,7 +6131,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -6431,19 +6419,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -6485,7 +6471,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -6845,22 +6831,20 @@
                                                                   },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "Invalid Email",
+                                                                    "errorMsg": "emain is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -6902,7 +6886,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -6910,7 +6894,8 @@
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
                                                                     ],
-                                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+                                                                    "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                                                                    "regexErrorMsg": "invalid email"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -7191,19 +7176,17 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Next",
+                                                                          "label": "save to nExt ",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
                                                                           "fullWidth": false,
                                                                           "layoutProperties": {
                                                                             "button": {
-                                                                              "//": "Use this class to style button component.",
-                                                                              "margin": "0px 0px 0px 7.5em",
-                                                                              "width": "32.5%"
+                                                                              "//": "Use this class to style button component."
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style button element."
@@ -7245,7 +7228,7 @@
                                                                             "serviceType": "1"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -7440,15 +7423,15 @@
                                       },
                                       {
                                         "type": "10001",
-                                        "id": "1Yf-gzE5sjxhwGUEQO1kG",
+                                        "name": "Grid layout",
+                                        "id": "4r2dO8VzX8NBoYkk9c9iH",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "kjIq9E2WcKeOF6eSVYo0t",
+                                            "id": "nHoATvaUhT-OxsRROPnPE",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
-                                                "name": "Grid layout",
                                                 "id": "JjXf83-OLiiOKj0Em8BMa",
                                                 "gridProps": [
                                                   {
@@ -7461,16 +7444,12 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    }
+                                                    },
+                                                    "path": "0-0-0-0-0-0-0-0-8-0-0-0"
                                                   }
                                                 ],
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
+                                                "path": "0-0-0-0-0-0-0-0-8-0-0",
+                                                "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
                                                   "label": "Header",
@@ -7490,43 +7469,10 @@
                                                   "direction": "row",
                                                   "name": "Grid layout"
                                                 },
-                                                "events": [],
                                                 "component": {
                                                   "type": "10001",
                                                   "content": "Grid layout"
-                                                }
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 6,
-                                              "lg": 6,
-                                              "md": 6,
-                                              "sm": 6,
-                                              "xs": 6
-                                            }
-                                          },
-                                          {
-                                            "type": "column",
-                                            "id": "tB1J2bXwr-ZvNwtrKGPfv",
-                                            "gridProps": [
-                                              {
-                                                "type": "10001",
-                                                "name": "Grid layout",
-                                                "id": "xD22IlRWsvXkZa29CezHb",
-                                                "gridProps": [
-                                                  {
-                                                    "type": "column",
-                                                    "id": "TpzVqKWE47EXU0MOKgWjT",
-                                                    "gridProps": [],
-                                                    "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    }
-                                                  }
-                                                ],
+                                                },
                                                 "allowedContainers": [
                                                   "10001",
                                                   "20030",
@@ -7534,208 +7480,681 @@
                                                   "20010",
                                                   "widget"
                                                 ],
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout"
-                                                },
-                                                "events": [],
-                                                "component": {
-                                                  "type": "10001",
-                                                  "content": "Grid layout"
-                                                }
+                                                "name": "Grid layout"
                                               }
                                             ],
                                             "layoutProperties": {
-                                              "xl": 5,
-                                              "lg": 5,
-                                              "md": 5,
-                                              "sm": 5,
-                                              "xs": 5
-                                            }
+                                              "xl": 9,
+                                              "lg": 9,
+                                              "md": 9,
+                                              "sm": 9,
+                                              "xs": 9
+                                            },
+                                            "path": "0-0-0-0-0-0-0-0-8-0"
                                           },
                                           {
                                             "type": "column",
-                                            "id": "nn-E0IAhKBAZsLQAIt70h",
+                                            "id": "zPKPvhRiMdFiaV1EBrCnf",
                                             "gridProps": [
                                               {
-                                                "id": "sxMCLetpjGe7LesHn_ARm",
-                                                "status": "ACTIVE",
-                                                "_id": "610134a1d1f5e860b1e8c751",
-                                                "name": "Grid layout",
-                                                "icon": "FaGripHorizontal",
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "0px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout"
-                                                },
-                                                "group": "Layout",
                                                 "type": "10001",
-                                                "updatedAt": "23-Sep-2021",
-                                                "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
-                                                "createdAt": "24-Aug-2021",
-                                                "events": [],
-                                                "order": 1,
-                                                "version": "1.0.0",
-                                                "isLatest": true,
-                                                "projectType": "web",
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
-                                                "component": {
-                                                  "content": "Grid layout",
-                                                  "type": "10001"
-                                                },
-                                                "path": "0-0-0-0-0-0-0-0-8-2-0",
+                                                "name": "Grid layout",
+                                                "id": "ixo72pt0l1YJuPMdb2BA3",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "QBFnAgnKhajGgLc3J_hX8",
+                                                    "id": "KUe00ch7il5YcaiWyaXLm",
                                                     "gridProps": [
                                                       {
-                                                        "id": "_hlGouDOkT1IbFJD1ODXG",
+                                                        "id": "WAfC7AkFV95sTv0DEJjKK",
                                                         "status": "ACTIVE",
+                                                        "_id": "610134a1d1f5e860b1e8c751",
+                                                        "name": "Grid layout",
+                                                        "icon": "FaGripHorizontal",
                                                         "attributes": {
-                                                          "variant": "contained",
-                                                          "name": "Button",
-                                                          "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "gridProps": [],
+                                                          "label": "Header",
                                                           "layoutProperties": {
-                                                            "button": {
-                                                              "//": "Use this class to style button component."
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "0px",
+                                                              "spacing": 0
                                                             },
-                                                            "inputProps": {
-                                                              "//": "Use this class to style button element."
-                                                            },
-                                                            "mainContainer": "button",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
+                                                            "mainContainer": "gridLayout"
                                                           },
-                                                          "cssClassNames": [
-                                                            {
-                                                              "cssClassName": "navigateButton"
-                                                            }
-                                                          ],
-                                                          "asset": null,
-                                                          "iconname": "IoReturnUpForward",
-                                                          "iconName": "IoReturnUpForward",
-                                                          "buttonIconPosition": "start"
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout"
                                                         },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
+                                                        "group": "Layout",
+                                                        "type": "10001",
+                                                        "updatedAt": "23-Sep-2021",
+                                                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                                                        "createdAt": "24-Aug-2021",
+                                                        "events": [],
                                                         "order": 1,
                                                         "version": "1.0.0",
                                                         "isLatest": true,
                                                         "projectType": "web",
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
                                                         "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "content": "Grid layout",
+                                                          "type": "10001"
                                                         },
-                                                        "events": [
+                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-0-0",
+                                                        "gridProps": [
                                                           {
-                                                            "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
-                                                            "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
-                                                            "serviceType": "1",
-                                                            "attributes": {
-                                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                                              "nextWidgetId": "bkMldbOK186usdb9G0SuZ",
-                                                              "gridRadioValue": "Grid",
-                                                              "selectedObjectBindingKey": "selectedObject",
-                                                              "editableForm": false
-                                                            },
-                                                            "type": "4",
-                                                            "name": "On Submit"
+                                                            "type": "column",
+                                                            "id": "2EvJICKz3lobLqEy0XVSh",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "dbvudiGn1mKqSoJXQobrq",
+                                                                "status": "ACTIVE",
+                                                                "attributes": {
+                                                                  "label": "saVe As dRaft",
+                                                                  "variant": "contained",
+                                                                  "name": "Button",
+                                                                  "label-locale-key": "",
+                                                                  "fullWidth": false,
+                                                                  "layoutProperties": {
+                                                                    "button": {
+                                                                      "//": "Use this class to style button component."
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style button element."
+                                                                    },
+                                                                    "mainContainer": "button",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "cssClassNames": [
+                                                                    {
+                                                                      "cssClassName": "cardButtonSecondary"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "name": "Button",
+                                                                "icon": "FaBimobject",
+                                                                "group": "Form",
+                                                                "type": "20006",
+                                                                "Documentation": "<div>components 12344</div>",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 1,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                                                                    "triggerName": "save as draft for sole proprietor",
+                                                                    "serviceType": "8",
+                                                                    "attributes": {
+                                                                      "loaderWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "messageWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "responseStateKey": "soleProprietor",
+                                                                      "url": "/pre-corp-reg/save-details",
+                                                                      "checksum": true,
+                                                                      "encryption": true,
+                                                                      "isDeviceDetails": true,
+                                                                      "loginTrigger": false,
+                                                                      "formData": false,
+                                                                      "logoutTrigger": false,
+                                                                      "headers": {
+                                                                        "Content-Type": "application/json",
+                                                                        "Accept": "application/json",
+                                                                        "channel_key": "001",
+                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                        "locale": "en-ltr"
+                                                                      },
+                                                                      "requestBody": [
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.frequencyOfSalaryDisbursement",
+                                                                          "value": "frequencyOfSalaryDisbursement"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.averageSalaryAmount",
+                                                                          "value": "averageSalaryAmount"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.businessMailingAddress",
+                                                                          "value": "businessMailingAddress"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.businessMailingAddress",
+                                                                          "value": "businessMailingAddress"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.city",
+                                                                          "value": "city"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.companyEmailId",
+                                                                          "value": "companyEmailId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.companyFaxNumber",
+                                                                          "value": "companyFaxNumber"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.companyNameAsPerRegistration",
+                                                                          "value": "companyNameAsPerRegistration"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.companyTelephoneNumber",
+                                                                          "value": "companyTelephoneNumber"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.country",
+                                                                          "value": "country"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.dateAndPlaceOfIncorporation",
+                                                                          "value": "dateAndPlaceOfIncorporation"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.emailAddress",
+                                                                          "value": "emailAddress"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.frequencyOfSalaryDisbursement",
+                                                                          "value": "frequencyOfSalaryDisbursement"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.natureOfBusinessActivity",
+                                                                          "value": "natureOfBusinessActivity"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnDateOfExpiry",
+                                                                          "value": "ntnDateOfExpiry"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnDateOfIssuance",
+                                                                          "value": "ntnDateOfIssuance"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnIssuingAuthority",
+                                                                          "value": "ntnIssuingAuthority"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnNumber",
+                                                                          "value": "ntnNumber"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.numberOfEmployees",
+                                                                          "value": "numberOfEmployees"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.pocName",
+                                                                          "value": "pocName"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.referral",
+                                                                          "value": "referral"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.registrationDate",
+                                                                          "value": "registrationDate"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnNumber",
+                                                                          "value": "ntnNumber"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "companyAddress",
+                                                                          "value": "companyAddress"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "companyName",
+                                                                          "value": "companyName"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "designation",
+                                                                          "value": "designation.value"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "email",
+                                                                          "value": "email"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "emailOtp",
+                                                                          "value": "emailotp"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "fullName",
+                                                                          "value": "fullName"
+                                                                        },
+                                                                        {
+                                                                          "type": 4,
+                                                                          "name": "Static",
+                                                                          "key": "isSavingInDraft",
+                                                                          "value": true
+                                                                        },
+                                                                        {
+                                                                          "type": 4,
+                                                                          "name": "Static",
+                                                                          "key": "isSoleProprietor",
+                                                                          "value": true
+                                                                        },
+                                                                        {
+                                                                          "type": 4,
+                                                                          "name": "Static",
+                                                                          "key": "isPartnership",
+                                                                          "value": false
+                                                                        },
+                                                                        {
+                                                                          "type": 4,
+                                                                          "name": "Static",
+                                                                          "key": "isPrivateOrPublic",
+                                                                          "value": false
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "mobileNumber",
+                                                                          "value": "mobileNumber"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "pricingModelId",
+                                                                          "value": "items"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "productId",
+                                                                          "value": "products.id"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "smsOtp",
+                                                                          "value": "smsotp"
+                                                                        },
+                                                                        {
+                                                                          "type": 3,
+                                                                          "name": "Current session",
+                                                                          "key": "validateOtpUuid",
+                                                                          "value": "response.data.result.uuid"
+                                                                        },
+                                                                        {
+                                                                          "type": 2,
+                                                                          "name": "Current screen",
+                                                                          "key": "soleProprietor.signatories",
+                                                                          "value": "sole"
+                                                                        },
+                                                                        {
+                                                                          "type": 2,
+                                                                          "name": "Current screen",
+                                                                          "key": "validateOtpUuid",
+                                                                          "value": "uuid"
+                                                                        },
+                                                                        {
+                                                                          "type": 2,
+                                                                          "name": "Current screen",
+                                                                          "key": "id",
+                                                                          "value": "formId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.czDocId",
+                                                                          "value": "czDocId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.zakatExemptionDocId",
+                                                                          "value": "zakatExemptionDocId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.taxExemptionDocId",
+                                                                          "value": "taxExemptionDocId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.ntnDocId",
+                                                                          "value": "ntnDocId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.fatcaDocId",
+                                                                          "value": "fatcaDocId"
+                                                                        },
+                                                                        {
+                                                                          "type": 1,
+                                                                          "name": "Form",
+                                                                          "key": "soleProprietor.crsDocId",
+                                                                          "value": "crsDocId"
+                                                                        }
+                                                                      ],
+                                                                      "baseURL": "641aedb2676c823a449fd597",
+                                                                      "storeType": 2
+                                                                    },
+                                                                    "type": "2",
+                                                                    "name": "On click"
+                                                                  }
+                                                                ],
+                                                                "path": "0-0-0-0-0-0-0-0-8-1-0-0-0-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-0-0-0-0-8-2-0-0-0"
+                                                        "layoutProperties": {
+                                                          "lg": 12,
+                                                          "md": 12,
+                                                          "sm": 12,
+                                                          "xs": 12
+                                                        },
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
                                                     },
-                                                    "path": "0-0-0-0-0-0-0-0-8-2-0-0"
+                                                    "path": "0-0-0-0-0-0-0-0-8-1-0-0"
+                                                  },
+                                                  {
+                                                    "type": "column",
+                                                    "id": "ptaDmh_lJa4svsXG3Ps-2",
+                                                    "gridProps": [
+                                                      {
+                                                        "type": "10001",
+                                                        "id": "hT14twwRJ6lpHK58WWATQ",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "j_uWXJoRGsJcYX98ZFE07",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "YzeOrGktIZ7c5ROCzDY_q",
+                                                                "status": "ACTIVE",
+                                                                "attributes": {
+                                                                  "label": "save to nExt ",
+                                                                  "variant": "contained",
+                                                                  "name": "Button",
+                                                                  "label-locale-key": "",
+                                                                  "fullWidth": false,
+                                                                  "layoutProperties": {
+                                                                    "button": {
+                                                                      "//": "Use this class to style button component."
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style button element."
+                                                                    },
+                                                                    "mainContainer": "button",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "cssClassNames": [
+                                                                    {
+                                                                      "cssClassName": "CardButton"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "name": "Button",
+                                                                "icon": "FaBimobject",
+                                                                "group": "Form",
+                                                                "type": "20006",
+                                                                "Documentation": "<div>components 12344</div>",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 1,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
+                                                                    "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
+                                                                    "serviceType": "1",
+                                                                    "attributes": {
+                                                                      "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                                                      "nextWidgetId": "bkMldbOK186usdb9G0SuZ",
+                                                                      "gridRadioValue": "Grid",
+                                                                      "selectedObjectBindingKey": "selectedObject",
+                                                                      "editableForm": false
+                                                                    },
+                                                                    "type": "4",
+                                                                    "name": "On Submit"
+                                                                  }
+                                                                ],
+                                                                "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
+                                                          }
+                                                        ],
+                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0",
+                                                        "events": [],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "0px",
+                                                              "spacing": 0
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout"
+                                                        },
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "name": "Grid layout",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
+                                                      }
+                                                    ],
+                                                    "layoutProperties": {
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
+                                                    },
+                                                    "path": "0-0-0-0-0-0-0-0-8-1-0-1"
                                                   }
                                                 ],
-                                                "layoutProperties": {
-                                                  "lg": 12,
-                                                  "md": 12,
-                                                  "sm": 12,
-                                                  "xs": 12
+                                                "allowedContainers": [
+                                                  "10001",
+                                                  "20030",
+                                                  "noLayout",
+                                                  "20010",
+                                                  "widget"
+                                                ],
+                                                "attributes": {
+                                                  "gridProps": [],
+                                                  "label": "Header",
+                                                  "layoutProperties": {
+                                                    "gridLayout": {
+                                                      "//": "Use this class to style grid layout component.",
+                                                      "padding": "5px",
+                                                      "spacing": 0
+                                                    },
+                                                    "mainContainer": "gridLayout"
+                                                  },
+                                                  "layoutProps": {
+                                                    "direction": "row",
+                                                    "justifyContent": "flex-start",
+                                                    "alignItems": "flex-start"
+                                                  },
+                                                  "direction": "row",
+                                                  "name": "Grid layout"
                                                 },
-                                                "dimensions": {
-                                                  "rows": 1,
-                                                  "columns": 1,
-                                                  "colSize0xs": 12,
-                                                  "colSize0sm": 12,
-                                                  "colSize0md": 12,
-                                                  "colSize0lg": 12,
-                                                  "colSize0xl": 12
+                                                "events": [],
+                                                "component": {
+                                                  "type": "10001",
+                                                  "content": "Grid layout"
                                                 },
-                                                "readOnly": true
+                                                "path": "0-0-0-0-0-0-0-0-8-1-0"
                                               }
                                             ],
                                             "layoutProperties": {
-                                              "xl": 1,
-                                              "lg": 1,
-                                              "md": 1,
-                                              "sm": 1,
-                                              "xs": 1
-                                            }
+                                              "xl": 3,
+                                              "lg": 3,
+                                              "md": 3,
+                                              "sm": 3,
+                                              "xs": 3
+                                            },
+                                            "path": "0-0-0-0-0-0-0-0-8-1"
                                           }
                                         ],
-                                        "path": "0-0-0-0-0-0-0-0-8",
-                                        "events": [],
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
+                                              "padding": "5px",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -7748,38 +8167,12 @@
                                           "direction": "row",
                                           "name": "Grid layout"
                                         },
+                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "name": "Grid layout",
-                                        "dimensions": {
-                                          "rows": 1,
-                                          "columns": 3,
-                                          "colSize0xs": 4,
-                                          "colSize0sm": 4,
-                                          "colSize0md": 4,
-                                          "colSize0lg": 4,
-                                          "colSize0xl": 4,
-                                          "colSize1xs": 4,
-                                          "colSize1sm": 4,
-                                          "colSize1md": 4,
-                                          "colSize1lg": 4,
-                                          "colSize1xl": 4,
-                                          "colSize2xs": 4,
-                                          "colSize2sm": 4,
-                                          "colSize2md": 4,
-                                          "colSize2lg": 4,
-                                          "colSize2xl": 4
-                                        },
-                                        "readOnly": true
+                                        "path": "0-0-0-0-0-0-0-0-8"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -7788,7 +8181,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-0-0-0"
                                   }
                                 ],
                                 "path": "0-0-0-0-0-0-0",
@@ -7844,7 +8238,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-0-0-0-0"
                           }
                         ],
                         "path": "0-0-0-0-0",
@@ -7900,7 +8295,8 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    }
+                    },
+                    "path": "0-0-0-0"
                   }
                 ],
                 "path": "0-0-0",
@@ -7952,7 +8348,8 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            }
+            },
+            "path": "0-0"
           }
         ],
         "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -7975,7 +8372,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
-    "createdBy": "zeeshan",
+    "createdBy": "ajk",
     "updatedAt": "4/19/2023",
     "createdAt": "4/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8304,11 +8701,11 @@
           }
         },
         {
-          "componentId": "1Yf-gzE5sjxhwGUEQO1kG",
+          "componentId": "4r2dO8VzX8NBoYkk9c9iH",
           "componentType": "10001",
-          "id": "1Yf-gzE5sjxhwGUEQO1kG",
+          "id": "4r2dO8VzX8NBoYkk9c9iH",
           "position": {
-            "i": "1Yf-gzE5sjxhwGUEQO1kG",
+            "i": "4r2dO8VzX8NBoYkk9c9iH",
             "x": null,
             "y": null,
             "w": null,
@@ -8447,7 +8844,8 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "5px",
-          "spacing": 0
+          "spacing": 0,
+          "margin": "15px 0px 0px 0px"
         },
         "mainContainer": "gridLayout"
       },
@@ -8702,20 +9100,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -8749,7 +9143,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9016,20 +9410,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9063,7 +9453,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9331,20 +9721,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9378,7 +9764,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9715,23 +10101,19 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "Invalid Email",
+        "errorMsg": "email is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9765,7 +10147,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9773,7 +10155,8 @@
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
         ],
-        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "regexErrorMsg": "Invalid Email"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -10033,20 +10416,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -10080,7 +10459,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10343,23 +10722,19 @@
         "xs": 12
       },
       "validate": {
-        "required": false,
+        "required": true,
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -10393,7 +10768,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10734,20 +11109,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -10781,7 +11152,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10792,7 +11163,7 @@
       },
       "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "cssClassNames": [{ "cssClassName": "textbox" }],
       "stateName": "natureOfBusinessActivity"
     },
     "icon": "FaWindowMinimize",
@@ -11049,20 +11420,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -11096,7 +11463,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -11351,20 +11718,16 @@
         "isCalendar": true,
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -11398,7 +11761,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -11741,20 +12104,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -11788,7 +12147,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -12055,20 +12414,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -12102,7 +12457,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -12357,20 +12712,16 @@
         "isCalendar": true,
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -12404,7 +12755,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -12746,20 +13097,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -12793,7 +13140,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -13061,20 +13408,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -13108,7 +13451,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -13363,20 +13706,16 @@
         "isCalendar": true,
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -13410,7 +13749,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -13753,20 +14092,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -13800,7 +14135,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -14068,20 +14403,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -14115,7 +14446,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -14383,20 +14714,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -14430,7 +14757,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -14754,23 +15081,19 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "Invalid Email",
+        "errorMsg": "emain is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -14804,7 +15127,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -14812,7 +15135,8 @@
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
         ],
-        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/"
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "regexErrorMsg": "invalid email"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -15073,20 +15397,16 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "_hlGouDOkT1IbFJD1ODXG",
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Next",
+              "label": "save to nExt ",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
               "fullWidth": false,
               "layoutProperties": {
-                "button": {
-                  "//": "Use this class to style button component.",
-                  "margin": "0px 0px 0px 7.5em",
-                  "width": "32.5%"
-                },
+                "button": { "//": "Use this class to style button component." },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -15120,7 +15440,7 @@
                 "serviceType": "1"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -15154,7 +15474,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "1Yf-gzE5sjxhwGUEQO1kG",
+    "id": "4r2dO8VzX8NBoYkk9c9iH",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -15170,40 +15490,27 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          "layoutProperties": { "xl": 9, "lg": 9, "md": 9, "sm": 9, "xs": 9 }
         },
         {
-          "componentId": "xD22IlRWsvXkZa29CezHb",
+          "componentId": "ixo72pt0l1YJuPMdb2BA3",
           "componentType": "10001",
-          "id": "xD22IlRWsvXkZa29CezHb",
+          "id": "ixo72pt0l1YJuPMdb2BA3",
           "position": {
-            "i": "xD22IlRWsvXkZa29CezHb",
+            "i": "ixo72pt0l1YJuPMdb2BA3",
             "x": null,
             "y": null,
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 5, "lg": 5, "md": 5, "sm": 5, "xs": 5 }
-        },
-        {
-          "componentId": "sxMCLetpjGe7LesHn_ARm",
-          "componentType": "10001",
-          "id": "sxMCLetpjGe7LesHn_ARm",
-          "position": {
-            "i": "sxMCLetpjGe7LesHn_ARm",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 1, "xs": 1 }
+          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
         }
       ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -15258,11 +15565,38 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "xD22IlRWsvXkZa29CezHb",
+    "id": "ixo72pt0l1YJuPMdb2BA3",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "componentId": "WAfC7AkFV95sTv0DEJjKK",
+          "componentType": "10001",
+          "id": "WAfC7AkFV95sTv0DEJjKK",
+          "position": {
+            "i": "WAfC7AkFV95sTv0DEJjKK",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        },
+        {
+          "componentId": "hT14twwRJ6lpHK58WWATQ",
+          "componentType": "10001",
+          "id": "hT14twwRJ6lpHK58WWATQ",
+          "position": {
+            "i": "hT14twwRJ6lpHK58WWATQ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -15290,7 +15624,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "sxMCLetpjGe7LesHn_ARm",
+    "id": "WAfC7AkFV95sTv0DEJjKK",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -15303,7 +15637,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "_hlGouDOkT1IbFJD1ODXG",
+          "componentId": "dbvudiGn1mKqSoJXQobrq",
           "componentType": "20006",
           "order": 1
         }
@@ -15335,13 +15669,14 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "_hlGouDOkT1IbFJD1ODXG",
+    "id": "dbvudiGn1mKqSoJXQobrq",
     "status": "ACTIVE",
     "attributes": {
+      "label": "saVe As dRaft",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": true,
+      "fullWidth": false,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -15352,11 +15687,101 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "navigateButton" }],
-      "asset": null,
-      "iconname": "IoReturnUpForward",
-      "iconName": "IoReturnUpForward",
-      "buttonIconPosition": "start"
+      "cssClassNames": [{ "cssClassName": "cardButtonSecondary" }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+        "triggerName": "save as draft for sole proprietor",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-0-8-1-0-0-0-0-0",
+    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "hT14twwRJ6lpHK58WWATQ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "YzeOrGktIZ7c5ROCzDY_q",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "YzeOrGktIZ7c5ROCzDY_q",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "save to nExt ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": false,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardButton" }]
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -15379,7 +15804,7 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-0-0-0-0-0-0-8-2-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
