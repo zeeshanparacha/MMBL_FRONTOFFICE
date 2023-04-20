@@ -40,7 +40,8 @@
             { "type": 1, "name": "Form", "key": "token", "value": "captcha" }
           ],
           "baseURL": "641aedb2676c823a449fd597",
-          "storeType": 3
+          "storeType": 3,
+          "triggerGenericErrorTrigger": true
         },
         "responseHandler": [
           {
@@ -53,8 +54,8 @@
       }
     }
   ],
-  "updatedAt": "4/19/2023",
-  "createdAt": "4/19/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

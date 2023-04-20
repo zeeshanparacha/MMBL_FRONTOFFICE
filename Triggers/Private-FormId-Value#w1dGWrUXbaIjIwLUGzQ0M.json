@@ -1,6 +1,8 @@
 {
   "id": "r0GaABrlfnK5UEs8ZMhaW",
+  "_id": "w1dGWrUXbaIjIwLUGzQ0M",
   "name": "Private FormId Value",
+  "old_name": "Private FormId Value",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,6 +11,7 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
@@ -16,14 +19,15 @@
           "sourceBindingKey": "private.data.result.formId",
           "sourceStoreType": 2,
           "destinationStoreType": 2,
+          "logic": { "var": "private.data.result.formId" },
+          "changeValueConditonally": true,
           "targettedType": "value"
         }
       }
     }
   ],
-  "_id": "w1dGWrUXbaIjIwLUGzQ0M",
-  "updatedAt": "4/12/2023",
-  "createdAt": "4/12/2023",
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

@@ -422,23 +422,22 @@
         },
         "responseHandler": [
           {
-            "httpStatus": 200,
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Open Success Modal",
-            "triggerId": "ciCkbWjxsNUlCoImahdDT"
-          },
-          {
             "triggerName": "Partnership FormId Value",
             "triggerId": "25PMv7UFp0tsa1y2MZUB1",
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "ciCkbWjxsNUlCoImahdDT"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

@@ -2,7 +2,7 @@
   "id": "SldWXcp_3f2rE1Tg4ZgiJ",
   "_id": "CAtcmBzH8yBpKQctZAubA",
   "name": "Map docId from zakatExemptionDocResponse to zakatExemptionDocId",
-  "old_name": "Map docId from declarationDocResponse to declarationDocId",
+  "old_name": "Map docId from zakatExemptionDocResponse to zakatExemptionDocId",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -19,13 +19,14 @@
           "sourceBindingKey": "zakatExemptionDocResponse.docId",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
+          "changeValueConditonally": false,
           "targettedType": "value"
         }
       }
     }
   ],
-  "updatedAt": "4/18/2023",
-  "createdAt": "4/18/2023",
-  "createdBy": "talha2",
-  "updatedBy": "talha2"
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

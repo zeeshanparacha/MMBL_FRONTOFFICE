@@ -1696,12 +1696,28 @@
                         "component": { "type": "20031" }
                       },
                       {
+                        "id": "sjo5KorsTz6KITUBVhFja",
+                        "name": "Open Success Modal",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "id": "xHnoyY8naUD24rEm8AP93",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "WrxU2pgycngpm9jPKUlCi",
+                            "id": "LZSOhoxxu7BvbMwwq2nW3",
                             "gridProps": [
                               {
                                 "id": "YJofD6KIHyZNdRq29_XES",
@@ -1790,7 +1806,7 @@
                             }
                           }
                         ],
-                        "path": "0-0-0-0-2",
+                        "path": "0-0-0-0-3",
                         "events": [],
                         "attributes": {
                           "gridProps": [],
@@ -1918,7 +1934,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "ajk",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "4/20/2023",
     "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2020,6 +2036,18 @@
             "xs": 12
           },
           "componentId": "UvRKcwTcvKK8d_kU80rbt",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
           "componentType": "20031",
           "order": 1
         },
@@ -3542,6 +3570,22 @@
     "type": "20031",
     "attributes": {
       "widgetId": "I1yGTlAZoOYhde7jNfmw3",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "Q8B5irzPhCEQ9AxZRnSzt",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },

@@ -1647,22 +1647,6 @@
                                 "readOnly": true
                               },
                               {
-                                "id": "sjo5KorsTz6KITUBVhFja",
-                                "name": "Open Success Modal",
-                                "type": "20031",
-                                "attributes": {
-                                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" }
-                              },
-                              {
                                 "type": "10001",
                                 "name": "Grid layout",
                                 "id": "F_e4BCAH6gNujp8UJFKwz",
@@ -1779,6 +1763,14 @@
                                                       "selectedObjectBindingKey": "selectedObject",
                                                       "editableForm": false
                                                     },
+                                                    "type": "2",
+                                                    "name": "On click"
+                                                  },
+                                                  {
+                                                    "triggerId": "C9VAY5AImRfafff65",
+                                                    "triggerName": "Clear validations",
+                                                    "serviceType": "14",
+                                                    "attributes": {},
                                                     "type": "2",
                                                     "name": "On click"
                                                   }
@@ -3223,9 +3215,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "gDB8C925WfIbJ77jk-AgX",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3387,18 +3379,6 @@
             "sm": 12,
             "xs": 12
           }
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "sjo5KorsTz6KITUBVhFja",
-          "componentType": "20031",
-          "order": 1
         },
         {
           "componentId": "F_e4BCAH6gNujp8UJFKwz",
@@ -4871,22 +4851,6 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "sjo5KorsTz6KITUBVhFja",
-    "name": "Open Success Modal",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "screenId": "gDB8C925WfIbJ77jk-AgX",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
     "id": "F_e4BCAH6gNujp8UJFKwz",
     "name": "Grid layout",
     "type": "10001",
@@ -5043,6 +5007,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "C9VAY5AImRfafff65",
+        "triggerName": "Clear validations",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
       }
     ],
     "path": "0-0-0-0-0-0-3-0-0-0-0",

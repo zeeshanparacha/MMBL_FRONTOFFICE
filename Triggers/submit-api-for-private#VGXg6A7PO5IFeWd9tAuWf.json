@@ -48,6 +48,13 @@
         },
         "responseHandler": [
           {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Swap Private Doc to Login Screen",
+            "triggerId": "-n89_xqmkeoUWr9ODJ_GO"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
@@ -56,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

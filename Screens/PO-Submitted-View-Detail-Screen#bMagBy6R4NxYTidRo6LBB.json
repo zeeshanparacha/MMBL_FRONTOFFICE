@@ -3843,7 +3843,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "G3z30LF7Qt_SelubTDv9G",
+                                            "id": "6KF96ObwXjI31inuPfUBS",
                                             "gridProps": [
                                               {
                                                 "id": "uFPG4hRmQz1SJdjCLgxr4",
@@ -4305,12 +4305,11 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-1-0-0-0-3-0-1-0"
+                                            }
                                           },
                                           {
                                             "type": "column",
-                                            "id": "xqfVJqfs1MM-NqHLriFfy",
+                                            "id": "qEpsQPtRfqp_VzwKcNa2W",
                                             "gridProps": [
                                               {
                                                 "id": "Eae82VKsxyQTvke2wVK1B",
@@ -4772,12 +4771,11 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-1-0-0-0-3-0-1-1"
+                                            }
                                           },
                                           {
                                             "type": "column",
-                                            "id": "K0K5JD49d-egqjaALRGsk",
+                                            "id": "KHAqjPBqyNiPW2bLDHWJR",
                                             "gridProps": [
                                               {
                                                 "id": "NKCeD_5RLGTTNIye7PWee",
@@ -5239,8 +5237,7 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-1-0-0-0-3-0-1-2"
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -5272,7 +5269,7 @@
                                             "logic": {
                                               "==": [
                                                 {
-                                                  "var": "currentScreen.selectedObject.payload.selfRepresentative"
+                                                  "var": "currentScreen.selectedObject.selfRepresentative"
                                                 },
                                                 true
                                               ]
@@ -5694,9 +5691,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "bMagBy6R4NxYTidRo6LBB",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/18/2023",
-    "createdAt": "4/18/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9150,9 +9147,7 @@
       "hideCondition": {
         "logic": {
           "==": [
-            {
-              "var": "currentScreen.selectedObject.payload.selfRepresentative"
-            },
+            { "var": "currentScreen.selectedObject.selfRepresentative" },
             true
           ]
         }

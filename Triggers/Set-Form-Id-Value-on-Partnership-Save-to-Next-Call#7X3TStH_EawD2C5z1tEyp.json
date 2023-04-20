@@ -1,6 +1,8 @@
 {
   "id": "VCjCH6B6Cx3xYPxDBDjKG",
+  "_id": "7X3TStH_EawD2C5z1tEyp",
   "name": "Set Form Id Value on Partnership Save to Next Call",
+  "old_name": "Set Form Id Value on Partnership Save to Next Call",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,6 +11,7 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
@@ -16,15 +19,15 @@
           "sourceBindingKey": "partnershipResponse.data.result.formId",
           "sourceStoreType": 2,
           "destinationStoreType": 2,
-          "changeValueConditonally": false,
+          "logic": { "var": "partnershipResponse.data.result.formId" },
+          "changeValueConditonally": true,
           "targettedType": "value"
         }
       }
     }
   ],
-  "_id": "7X3TStH_EawD2C5z1tEyp",
-  "updatedAt": "4/15/2023",
-  "createdAt": "4/15/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/20/2023",
+  "createdAt": "4/20/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }
