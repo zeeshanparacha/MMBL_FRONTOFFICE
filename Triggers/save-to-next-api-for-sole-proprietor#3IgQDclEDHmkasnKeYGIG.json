@@ -293,6 +293,12 @@
             {
               "type": 1,
               "name": "Form",
+              "key": "soleProprietor.declarationDocId",
+              "value": "declarationDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietor.fatcaDocId",
               "value": "fatcaDocId"
             },
@@ -324,13 +330,19 @@
             "logic": { "==": [{ "var": "status" }, 1] },
             "triggerName": "Clear validations",
             "triggerId": "C9VAY5AImRfafff65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "map formId from save2next sole prop",
+            "triggerId": "AGvRA0et2y3z1GthGmhup"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "talha",
+  "updatedBy": "talha"
 }
