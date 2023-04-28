@@ -73,12 +73,17 @@
               "value": "niftCode"
             },
             { "type": 1, "name": "Form", "key": "cnic", "value": "cnic" },
-            { "type": 1, "name": "Form", "key": "leaves", "value": "leaves" },
             {
-              "type": 4,
-              "name": "Static",
-              "key": "accountStatus",
-              "value": "Active"
+              "type": 1,
+              "name": "Form",
+              "key": "leaves",
+              "value": "leaves.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountTitle",
+              "value": "account.accountTitle"
             }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
@@ -107,8 +112,8 @@
       }
     }
   ],
-  "updatedAt": "4/8/2023",
-  "createdAt": "4/8/2023",
+  "updatedAt": "4/28/2023",
+  "createdAt": "4/28/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

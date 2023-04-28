@@ -320,8 +320,8 @@
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
           },
           {
-            "triggerName": "pricing model to document upload for sole properietor",
-            "triggerId": "e-Mw5OqX4A63HzPubiQAq",
+            "triggerName": "Swap Sole Prop widget 2 to Document Sole Prop",
+            "triggerId": "sYe_bzazXGmPpBQf2u9wf",
             "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 1] }
           },
@@ -343,6 +343,6 @@
   ],
   "updatedAt": "4/26/2023",
   "createdAt": "4/26/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

@@ -47,7 +47,7 @@
           "name": "PO-CDR Screen"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
@@ -58,11 +58,11 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "Nm4HmtduDckc3GNAv1POn",
+            "id": "MGz9zzH0RfYTWz2HFux3O",
             "gridProps": [
               {
                 "id": "a_qCSah9kKsglE9Zk1Zgf",
@@ -120,7 +120,7 @@
                         "name": "Label",
                         "component": { "content": "Label", "type": "20002" },
                         "attributes": {
-                          "label": "Create PO-CDR Request",
+                          "label": "Create Banker's Cheque Request",
                           "variant": "body1",
                           "name": "Label",
                           "mandatory": false,
@@ -579,7 +579,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-1-0-0-0-1-0"
                                   }
                                 ],
                                 "layoutProperties": {
@@ -887,7 +888,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -910,7 +911,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -929,21 +940,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "HAfaNSDuIp_PxWadJqMlW",
-                                                                            "triggerName": "Add Salary Payments in grid",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "11"
-                                                                          },
-                                                                          {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -954,7 +958,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -977,7 +981,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -996,21 +1010,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "HAfaNSDuIp_PxWadJqMlW",
-                                                                            "triggerName": "Add Salary Payments in grid",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "11"
-                                                                          },
-                                                                          {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1351,7 +1358,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -1374,7 +1381,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -1393,14 +1410,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1411,7 +1428,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -1434,7 +1451,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -1453,14 +1480,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1801,7 +1828,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -1824,7 +1851,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -1843,14 +1880,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1861,7 +1898,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -1884,7 +1921,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -1903,14 +1950,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2292,7 +2339,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -2315,7 +2362,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -2334,14 +2391,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2352,7 +2409,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -2375,7 +2432,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -2394,14 +2461,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2653,10 +2720,10 @@
                                                                     "errorMsg": "This Field is Required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "aowI_R84gy4UX-nezA23g",
+                                                                        "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -2679,7 +2746,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -2698,14 +2775,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2713,10 +2790,10 @@
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       },
                                                                       {
-                                                                        "id": "waBU6vS7rg9E4nqEZ3OWy",
+                                                                        "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -2739,7 +2816,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -2758,14 +2845,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3036,7 +3123,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Branch Name",
+                                                                  "label": "Near by Branch",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -3120,7 +3207,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -3143,7 +3230,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -3162,14 +3259,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3180,7 +3277,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -3203,7 +3300,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -3222,14 +3329,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3635,7 +3742,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "100",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -3667,7 +3774,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -3690,7 +3797,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -3709,14 +3826,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3727,7 +3844,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -3750,7 +3867,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -3769,14 +3896,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -3934,7 +4061,8 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    }
+                                    },
+                                    "path": "0-0-1-0-0-0-2-0"
                                   }
                                 ],
                                 "readOnly": true
@@ -4576,7 +4704,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -4599,7 +4727,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -4618,14 +4756,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -4636,7 +4774,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -4659,7 +4797,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -4678,14 +4826,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -4767,7 +4915,8 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            }
+                                            },
+                                            "path": "0-0-1-0-0-0-4-0-1-0"
                                           },
                                           {
                                             "type": "column",
@@ -5035,7 +5184,7 @@
                                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "CREate",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -5058,7 +5207,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -5077,14 +5236,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                                                                            "triggerName": "PO Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -5095,7 +5254,7 @@
                                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
-                                                                          "label": "Create",
+                                                                          "label": "creATE",
                                                                           "variant": "contained",
                                                                           "name": "Button",
                                                                           "label-locale-key": "",
@@ -5118,7 +5277,17 @@
                                                                             {
                                                                               "cssClassName": "CardButton"
                                                                             }
-                                                                          ]
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
                                                                         },
                                                                         "name": "Button",
                                                                         "icon": "FaBimobject",
@@ -5137,14 +5306,14 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                                                                            "triggerName": "Clear Form Data",
+                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                                                                            "triggerName": "CDR Request API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
-                                                                            "serviceType": "14"
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
                                                                         "screenId": "_1S06CemwqYARc4So1SE1",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -5226,7 +5395,8 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            }
+                                            },
+                                            "path": "0-0-1-0-0-0-4-0-1-1"
                                           },
                                           {
                                             "type": "column",
@@ -5350,7 +5520,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "City",
+                                                                  "label": "Collecting Branch",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -5571,7 +5741,8 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            }
+                                            },
+                                            "path": "0-0-1-0-0-0-4-0-1-2"
                                           }
                                         ],
                                         "allowedContainers": [
@@ -5663,7 +5834,8 @@
                                     "xs": 12
                                   }
                                 },
-                                "component": { "type": "20031" }
+                                "component": { "type": "20031" },
+                                "path": "0-0-1-0-0-0-5"
                               },
                               {
                                 "id": "sjo5KorsTz6KITUBVhFja",
@@ -5671,6 +5843,420 @@
                                 "type": "20031",
                                 "attributes": {
                                   "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" },
+                                "path": "0-0-1-0-0-0-6"
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "BioeBr3Al04oEf_GpDyGd",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "N4X4O-wMz4xQmxxip--N-",
+                                    "gridProps": [
+                                      {
+                                        "type": "10001",
+                                        "id": "5N0Zj41NHXh-joBkaoRe7",
+                                        "gridProps": [
+                                          {
+                                            "type": "column",
+                                            "id": "gGhysnrOnfCM45L4EyrhK",
+                                            "gridProps": [
+                                              {
+                                                "type": "10001",
+                                                "id": "pfevYq8sH9jXY20QQt76p",
+                                                "gridProps": [
+                                                  {
+                                                    "type": "column",
+                                                    "id": "ROp1K9PkyR-jI6SKX-2VT",
+                                                    "gridProps": [
+                                                      {
+                                                        "type": "10001",
+                                                        "id": "DjPYM4-lXUnLhLmu619mG",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "0JCYIWcJFffQMSLw9ccdM",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "cLJwEE1ePQsf9SXvuDS7s",
+                                                                "type": "20013",
+                                                                "name": "Checkbox",
+                                                                "component": {
+                                                                  "content": "Checkbox",
+                                                                  "type": "20013"
+                                                                },
+                                                                "attributes": {
+                                                                  "label": "I agree to the ",
+                                                                  "name": "Check Box",
+                                                                  "layoutProperties": {
+                                                                    "checkbox": {
+                                                                      "//": "Use this class to style checkbox component."
+                                                                    },
+                                                                    "formControlLabel": {
+                                                                      "//": "Use this class to style checkbox label.",
+                                                                      "width": "135px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style checkbox element.",
+                                                                      "width": "50px"
+                                                                    },
+                                                                    "mainContainer": "formControlLabel",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "stateName": "termConditions",
+                                                                  "value": "true"
+                                                                },
+                                                                "events": [],
+                                                                "path": "0-0-1-0-0-0-7-0-0-0-0-0-0-0-0",
+                                                                "version": "1.0.0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
+                                                          }
+                                                        ],
+                                                        "path": "0-0-1-0-0-0-7-0-0-0-0-0-0",
+                                                        "events": [],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "spacing": 0,
+                                                              "width": "135px"
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout",
+                                                          "cssClassNames": []
+                                                        },
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "name": "Grid layout",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
+                                                      },
+                                                      {
+                                                        "id": "fNzRsgIJFQFnU7xzUe8FV",
+                                                        "type": "20034",
+                                                        "name": "mobilinkbank.com/terms-and-conditions",
+                                                        "component": {
+                                                          "content": "Web view",
+                                                          "type": "20034"
+                                                        },
+                                                        "attributes": {
+                                                          "htmlToRender": "<a href=\"https://mobilinkbank.com/terms-and-conditions\" target=\"_blank\">Terms & Conditions </a>",
+                                                          "searchInState": "",
+                                                          "name": "web view",
+                                                          "layoutProperties": {
+                                                            "htmlWidget": {
+                                                              "//": "Use this class to style html widget component.",
+                                                              "url": "",
+                                                              "marginLeft": "-5px",
+                                                              "width": "160px"
+                                                            },
+                                                            "mainContainer": "htmlWidget",
+                                                            "xl": 12,
+                                                            "lg": 12,
+                                                            "md": 12,
+                                                            "sm": 12,
+                                                            "xs": 12
+                                                          },
+                                                          "contentType": "Static"
+                                                        },
+                                                        "events": [],
+                                                        "path": "0-0-1-0-0-0-7-0-0-0-0-0-1",
+                                                        "version": "1.0.0"
+                                                      },
+                                                      {
+                                                        "id": "L_FlE9pAtyT-N9gr2djP_",
+                                                        "status": "ACTIVE",
+                                                        "name": "Label",
+                                                        "attributes": {
+                                                          "label": "of Mobilink Microfinance Bank.",
+                                                          "variant": "body1",
+                                                          "name": "Label",
+                                                          "mandatory": false,
+                                                          "layoutProperties": {
+                                                            "label": {
+                                                              "//": "Use this class to style label component.",
+                                                              "width": "257px",
+                                                              "marginRight": "50px"
+                                                            },
+                                                            "mainContainer": "label",
+                                                            "xl": 12,
+                                                            "lg": 12,
+                                                            "md": 12,
+                                                            "sm": 12,
+                                                            "xs": 12
+                                                          }
+                                                        },
+                                                        "icon": "FaFont",
+                                                        "group": "Form",
+                                                        "type": "20002",
+                                                        "updatedAt": "23-Aug-2021",
+                                                        "createdAt": "23-Aug-2021",
+                                                        "order": 15,
+                                                        "version": "1.0.0",
+                                                        "isLatest": true,
+                                                        "projectType": "web",
+                                                        "component": {
+                                                          "content": "Label",
+                                                          "type": "20002"
+                                                        },
+                                                        "events": [],
+                                                        "path": "0-0-1-0-0-0-7-0-0-0-0-0-2"
+                                                      }
+                                                    ],
+                                                    "layoutProperties": {
+                                                      "xl": 12,
+                                                      "lg": 12,
+                                                      "md": 12,
+                                                      "sm": 12,
+                                                      "xs": 12
+                                                    }
+                                                  }
+                                                ],
+                                                "path": "0-0-1-0-0-0-7-0-0-0-0",
+                                                "events": [],
+                                                "attributes": {
+                                                  "gridProps": [],
+                                                  "label": "Header",
+                                                  "layoutProperties": {
+                                                    "gridLayout": {
+                                                      "//": "Use this class to style grid layout component.",
+                                                      "padding": 0,
+                                                      "spacing": 0,
+                                                      "width": "562px"
+                                                    },
+                                                    "mainContainer": "gridLayout"
+                                                  },
+                                                  "layoutProps": {
+                                                    "direction": "row",
+                                                    "justifyContent": "flex-start",
+                                                    "alignItems": "flex-start"
+                                                  },
+                                                  "direction": "row",
+                                                  "name": "Grid layout",
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "styleTnC"
+                                                    }
+                                                  ]
+                                                },
+                                                "component": {
+                                                  "type": "10001",
+                                                  "content": "Grid layout"
+                                                },
+                                                "allowedContainers": [
+                                                  "10001",
+                                                  "20030",
+                                                  "noLayout",
+                                                  "20010",
+                                                  "widget"
+                                                ],
+                                                "name": "Grid layout",
+                                                "dimensions": {
+                                                  "rows": 1,
+                                                  "columns": 1,
+                                                  "colSize0xs": 12,
+                                                  "colSize0sm": 12,
+                                                  "colSize0md": 12,
+                                                  "colSize0lg": 12,
+                                                  "colSize0xl": 12
+                                                },
+                                                "readOnly": true
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 4,
+                                              "lg": 4,
+                                              "md": 4,
+                                              "sm": 4,
+                                              "xs": 4
+                                            }
+                                          },
+                                          {
+                                            "type": "column",
+                                            "id": "GLPpiFX4YbLPXWzSo8Kqm",
+                                            "gridProps": [],
+                                            "layoutProperties": {
+                                              "xl": 8,
+                                              "lg": 8,
+                                              "md": 8,
+                                              "sm": 8,
+                                              "xs": 8
+                                            }
+                                          }
+                                        ],
+                                        "path": "0-0-1-0-0-0-7-0-0",
+                                        "events": [],
+                                        "attributes": {
+                                          "gridProps": [],
+                                          "label": "Header",
+                                          "layoutProperties": {
+                                            "gridLayout": {
+                                              "//": "Use this class to style grid layout component.",
+                                              "padding": "0px",
+                                              "spacing": 0
+                                            },
+                                            "mainContainer": "gridLayout"
+                                          },
+                                          "layoutProps": {
+                                            "direction": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "flex-start"
+                                          },
+                                          "direction": "row",
+                                          "name": "Grid layout"
+                                        },
+                                        "component": {
+                                          "type": "10001",
+                                          "content": "Grid layout"
+                                        },
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 2,
+                                          "colSize0xs": 4,
+                                          "colSize0sm": 4,
+                                          "colSize0md": 4,
+                                          "colSize0lg": 4,
+                                          "colSize0xl": 4,
+                                          "colSize1xs": 8,
+                                          "colSize1sm": 8,
+                                          "colSize1md": 8,
+                                          "colSize1lg": 8,
+                                          "colSize1xl": 8
+                                        },
+                                        "readOnly": true
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "0px",
+                                      "paddingLeft": "20px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-1-0-0-0-7",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": true
+                              },
+                              {
+                                "id": "0Q03QGGkL_EV0D95ERGRs",
+                                "name": "Open PO Disclaimer Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "TtzrA94SXBPZgH_Ofhcbf",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
+                                "id": "72Vdga6fmXI1Aqq4FOw0H",
+                                "name": "Open CDR Disclaimer Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "-NQUv3FpJ_MmAOSWVGbWf",
                                   "layoutProperties": {
                                     "xl": 12,
                                     "lg": 12,
@@ -5688,7 +6274,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "x070sNTb0bIjgcLJcVYcV",
+                                    "id": "c4KuRjxd_f1gRerNGY4dq",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -5706,7 +6292,7 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-1-0-0-0-5-0-0-0"
+                                            "path": "0-0-1-0-0-0-8-0-0-0"
                                           }
                                         ],
                                         "allowedContainers": [
@@ -5740,7 +6326,7 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-1-0-0-0-5-0-0"
+                                        "path": "0-0-1-0-0-0-8-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -5753,7 +6339,7 @@
                                   },
                                   {
                                     "type": "column",
-                                    "id": "YT41WSbvNXn8Y3EBPKvYZ",
+                                    "id": "WnwLpL-h-SGPrfuemLLf5",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -5772,10 +6358,28 @@
                                                     "id": "rqUp4rWGes5qoO2rMj74Z",
                                                     "gridProps": [
                                                       {
+                                                        "id": "0Q03QGGkL_EV0D95ERGRs",
+                                                        "type": "20031",
+                                                        "triggerName": "Open PO Disclaimer Modal",
+                                                        "attributes": {
+                                                          "widgetId": "TtzrA94SXBPZgH_Ofhcbf",
+                                                          "layoutProperties": {
+                                                            "xl": 12,
+                                                            "lg": 12,
+                                                            "md": 12,
+                                                            "sm": 12,
+                                                            "xs": 12
+                                                          }
+                                                        },
+                                                        "component": {
+                                                          "type": "20031"
+                                                        }
+                                                      },
+                                                      {
                                                         "id": "waBU6vS7rg9E4nqEZ3OWy",
                                                         "status": "ACTIVE",
                                                         "attributes": {
-                                                          "label": "Create",
+                                                          "label": "CREate",
                                                           "variant": "contained",
                                                           "name": "Button",
                                                           "label-locale-key": "",
@@ -5798,7 +6402,17 @@
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
-                                                          ]
+                                                          ],
+                                                          "disableCondition": {
+                                                            "logic": {
+                                                              "!=": [
+                                                                {
+                                                                  "var": "currentScreen.form.termConditions"
+                                                                },
+                                                                "true"
+                                                              ]
+                                                            }
+                                                          }
                                                         },
                                                         "name": "Button",
                                                         "icon": "FaBimobject",
@@ -5817,119 +6431,20 @@
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
-                                                            "triggerName": "PO Request API",
-                                                            "serviceType": "8",
+                                                            "triggerId": "tBg7IIEkJ9LyY7smUHpuP",
+                                                            "triggerName": "Open PO Disclaimer Modal",
+                                                            "serviceType": "9",
                                                             "attributes": {
-                                                              "loaderWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "messageWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "responseStateKey": "response",
-                                                              "url": "/offline-requests/po/maker-request",
-                                                              "checksum": true,
-                                                              "encryption": true,
-                                                              "isDeviceDetails": true,
-                                                              "loginTrigger": false,
-                                                              "formData": false,
-                                                              "logoutTrigger": false,
-                                                              "headers": {
-                                                                "Content-Type": "application/json",
-                                                                "Accept": "application/json",
-                                                                "channel_key": "001",
-                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                "locale": "en-ltr"
-                                                              },
-                                                              "requestBody": [
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "amount",
-                                                                  "value": "amount"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryCnicOrNtn",
-                                                                  "value": "beneficiaryCnicOrNtn"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryContactNo",
-                                                                  "value": "beneficiaryContactNo"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryName",
-                                                                  "value": "beneficiaryName"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "branchId",
-                                                                  "value": "branch.id"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "branchName",
-                                                                  "value": "branch.name"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "fromAccountId",
-                                                                  "value": "account.id"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "fromAccountNumber",
-                                                                  "value": "account.accountNumber"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeCity",
-                                                                  "value": "branch.name"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeCnic",
-                                                                  "value": "otherRepresentativeCnic"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeName",
-                                                                  "value": "otherRepresentativeName"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "purpose",
-                                                                  "value": "purpose"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "selfRepresentative",
-                                                                  "value": "selfRepresentative"
-                                                                }
-                                                              ],
-                                                              "baseURL": "631b0ff6d005932c10ce3bbe",
-                                                              "storeType": 2
+                                                              "widgetId": "TtzrA94SXBPZgH_Ofhcbf",
+                                                              "content": "",
+                                                              "type": "",
+                                                              "modalId": "0Q03QGGkL_EV0D95ERGRs"
                                                             },
-                                                            "type": "2",
-                                                            "name": "On click"
+                                                            "type": "4",
+                                                            "name": "On Submit"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-7-1-0-0-0-0-0"
+                                                        "path": "0-0-1-0-0-0-10-1-0-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -5938,10 +6453,11 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    }
+                                                    },
+                                                    "path": "0-0-1-0-0-0-8-1-0-0-0-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-5-1-0-0-0",
+                                                "path": "0-0-1-0-0-0-8-1-0-0-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -6004,10 +6520,28 @@
                                                     "id": "kCh3bYnO6cyaI6cvrHqpX",
                                                     "gridProps": [
                                                       {
+                                                        "id": "72Vdga6fmXI1Aqq4FOw0H",
+                                                        "type": "20031",
+                                                        "triggerName": "Open CDR Disclaimer Modal",
+                                                        "attributes": {
+                                                          "widgetId": "-NQUv3FpJ_MmAOSWVGbWf",
+                                                          "layoutProperties": {
+                                                            "xl": 12,
+                                                            "lg": 12,
+                                                            "md": 12,
+                                                            "sm": 12,
+                                                            "xs": 12
+                                                          }
+                                                        },
+                                                        "component": {
+                                                          "type": "20031"
+                                                        }
+                                                      },
+                                                      {
                                                         "id": "aowI_R84gy4UX-nezA23g",
                                                         "status": "ACTIVE",
                                                         "attributes": {
-                                                          "label": "Create",
+                                                          "label": "creATE",
                                                           "variant": "contained",
                                                           "name": "Button",
                                                           "label-locale-key": "",
@@ -6030,7 +6564,17 @@
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
-                                                          ]
+                                                          ],
+                                                          "disableCondition": {
+                                                            "logic": {
+                                                              "!=": [
+                                                                {
+                                                                  "var": "currentScreen.form.termConditions"
+                                                                },
+                                                                "true"
+                                                              ]
+                                                            }
+                                                          }
                                                         },
                                                         "name": "Button",
                                                         "icon": "FaBimobject",
@@ -6049,119 +6593,20 @@
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
-                                                            "triggerName": "CDR Request API",
-                                                            "serviceType": "8",
+                                                            "triggerId": "4iLHHgdasGPehcRBFo_VG",
+                                                            "triggerName": "Open CDR Disclaimer Modal",
+                                                            "serviceType": "9",
                                                             "attributes": {
-                                                              "loaderWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "messageWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "responseStateKey": "response",
-                                                              "url": "/offline-requests/po/maker-request",
-                                                              "checksum": true,
-                                                              "encryption": true,
-                                                              "isDeviceDetails": true,
-                                                              "loginTrigger": false,
-                                                              "formData": false,
-                                                              "logoutTrigger": false,
-                                                              "headers": {
-                                                                "Content-Type": "application/json",
-                                                                "Accept": "application/json",
-                                                                "channel_key": "001",
-                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                "locale": "en-ltr"
-                                                              },
-                                                              "requestBody": [
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "amount",
-                                                                  "value": "amount"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryCnicOrNtn",
-                                                                  "value": "beneficiaryCnicOrNtn"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryContactNo",
-                                                                  "value": "beneficiaryContactNo"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "beneficiaryName",
-                                                                  "value": "beneficiaryName"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "branchId",
-                                                                  "value": "branch.id"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "branchName",
-                                                                  "value": "branch.name"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "fromAccountId",
-                                                                  "value": "account.id"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "fromAccountNumber",
-                                                                  "value": "account.accountNumber"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeCity",
-                                                                  "value": "otherRepresentativeCity"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeCnic",
-                                                                  "value": "otherRepresentativeCnic"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "otherRepresentativeName",
-                                                                  "value": "otherRepresentativeName"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "purpose",
-                                                                  "value": "purpose"
-                                                                },
-                                                                {
-                                                                  "type": 1,
-                                                                  "name": "Form",
-                                                                  "key": "selfRepresentative",
-                                                                  "value": "selfRepresentative"
-                                                                }
-                                                              ],
-                                                              "baseURL": "631b0ff6d005932c10ce3bbe",
-                                                              "storeType": 2
+                                                              "widgetId": "-NQUv3FpJ_MmAOSWVGbWf",
+                                                              "content": "",
+                                                              "type": "",
+                                                              "modalId": "72Vdga6fmXI1Aqq4FOw0H"
                                                             },
                                                             "type": "4",
                                                             "name": "On Submit"
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-5-1-0-0-1-0-0"
+                                                        "path": "0-0-1-0-0-0-10-1-0-0-1-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -6170,10 +6615,11 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    }
+                                                    },
+                                                    "path": "0-0-1-0-0-0-8-1-0-0-1-0"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-5-1-0-0-1",
+                                                "path": "0-0-1-0-0-0-8-1-0-0-1",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -6235,10 +6681,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-1-0-0-0-5-1-0-0"
+                                            "path": "0-0-1-0-0-0-8-1-0-0"
                                           }
                                         ],
-                                        "path": "0-0-1-0-0-0-5-1-0",
+                                        "path": "0-0-1-0-0-0-8-1-0",
                                         "events": [],
                                         "attributes": {
                                           "gridProps": [],
@@ -6283,7 +6729,7 @@
                                   },
                                   {
                                     "type": "column",
-                                    "id": "bQvKGbmt5p_0gT1A_Nbw6",
+                                    "id": "agGKKMc2BXrVjOMPnOYEC",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -6346,7 +6792,7 @@
                                                     "name": "On click"
                                                   }
                                                 ],
-                                                "path": "0-0-1-0-0-0-5-2-0-0-0"
+                                                "path": "0-0-1-0-0-0-8-2-0-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -6356,10 +6802,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-1-0-0-0-5-2-0-0"
+                                            "path": "0-0-1-0-0-0-8-2-0-0"
                                           }
                                         ],
-                                        "path": "0-0-1-0-0-0-5-2-0",
+                                        "path": "0-0-1-0-0-0-8-2-0",
                                         "events": [],
                                         "attributes": {
                                           "gridProps": [],
@@ -6435,7 +6881,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "0-0-1-0-0-0-7",
+                                "path": "0-0-1-0-0-0-10",
                                 "dimensions": {
                                   "rows": 1,
                                   "columns": 3,
@@ -6535,11 +6981,20 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "events": [],
@@ -6550,8 +7005,8 @@
     "gitBranchName": "master",
     "_id": "_1S06CemwqYARc4So1SE1",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "updatedAt": "4/28/2023",
+    "createdAt": "4/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6677,7 +7132,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Create PO-CDR Request",
+      "label": "Create Banker's Cheque Request",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -6884,6 +7339,49 @@
             "xs": 12
           },
           "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "componentId": "BioeBr3Al04oEf_GpDyGd",
+          "componentType": "10001",
+          "id": "BioeBr3Al04oEf_GpDyGd",
+          "position": {
+            "i": "BioeBr3Al04oEf_GpDyGd",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "0Q03QGGkL_EV0D95ERGRs",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "72Vdga6fmXI1Aqq4FOw0H",
           "componentType": "20031",
           "order": 1
         },
@@ -7590,7 +8088,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -7607,7 +8105,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -7623,21 +8126,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "HAfaNSDuIp_PxWadJqMlW",
-                "triggerName": "Add Salary Payments in grid",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "11"
-              },
-              {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -7648,7 +8144,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -7665,7 +8161,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -7681,21 +8182,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "HAfaNSDuIp_PxWadJqMlW",
-                "triggerName": "Add Salary Payments in grid",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "11"
-              },
-              {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -7968,7 +8462,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -7985,7 +8479,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8001,14 +8500,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8019,7 +8518,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -8036,7 +8535,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8052,14 +8556,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8332,7 +8836,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -8349,7 +8853,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8365,14 +8874,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8383,7 +8892,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -8400,7 +8909,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8416,14 +8930,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8777,7 +9291,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -8794,7 +9308,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8810,14 +9329,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8828,7 +9347,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -8845,7 +9364,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -8861,14 +9385,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9123,10 +9647,10 @@
         "errorMsg": "This Field is Required",
         "bindButton": [
           {
-            "id": "aowI_R84gy4UX-nezA23g",
+            "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -9143,7 +9667,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -9159,14 +9688,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9174,10 +9703,10 @@
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           },
           {
-            "id": "waBU6vS7rg9E4nqEZ3OWy",
+            "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -9194,7 +9723,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -9210,14 +9744,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9402,7 +9936,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Branch Name",
+      "label": "Near by Branch",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -9507,7 +10041,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -9524,7 +10058,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -9540,14 +10079,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9558,7 +10097,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -9575,7 +10114,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -9591,14 +10135,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9920,7 +10464,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "100",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9950,7 +10494,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -9967,7 +10511,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -9983,14 +10532,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10001,7 +10550,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -10018,7 +10567,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -10034,14 +10588,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10692,7 +11246,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -10709,7 +11263,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -10725,14 +11284,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10743,7 +11302,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -10760,7 +11319,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -10776,14 +11340,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -11056,7 +11620,7 @@
             "id": "waBU6vS7rg9E4nqEZ3OWy",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "CREate",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -11073,7 +11637,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -11089,14 +11658,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
+                "triggerName": "PO Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-0-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -11107,7 +11676,7 @@
             "id": "aowI_R84gy4UX-nezA23g",
             "status": "ACTIVE",
             "attributes": {
-              "label": "Create",
+              "label": "creATE",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -11124,7 +11693,12 @@
                 "sm": 12,
                 "xs": 12
               },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -11140,14 +11714,14 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "C9VAY5AImRfVpeNy7pz65",
-                "triggerName": "Clear Form Data",
+                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
+                "triggerName": "CDR Request API",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "14"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
             "screenId": "_1S06CemwqYARc4So1SE1",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -11301,7 +11875,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "City",
+      "label": "Collecting Branch",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -11451,6 +12025,7 @@
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
+    "path": "0-0-1-0-0-0-5",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11464,6 +12039,374 @@
     "type": "20031",
     "attributes": {
       "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "path": "0-0-1-0-0-0-6",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "BioeBr3Al04oEf_GpDyGd",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "5N0Zj41NHXh-joBkaoRe7",
+          "componentType": "10001",
+          "id": "5N0Zj41NHXh-joBkaoRe7",
+          "position": {
+            "i": "5N0Zj41NHXh-joBkaoRe7",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "paddingLeft": "20px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "5N0Zj41NHXh-joBkaoRe7",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "pfevYq8sH9jXY20QQt76p",
+          "componentType": "10001",
+          "id": "pfevYq8sH9jXY20QQt76p",
+          "position": {
+            "i": "pfevYq8sH9jXY20QQt76p",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "pfevYq8sH9jXY20QQt76p",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "DjPYM4-lXUnLhLmu619mG",
+          "componentType": "10001",
+          "id": "DjPYM4-lXUnLhLmu619mG",
+          "position": {
+            "i": "DjPYM4-lXUnLhLmu619mG",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "fNzRsgIJFQFnU7xzUe8FV",
+          "componentType": "20034",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "L_FlE9pAtyT-N9gr2djP_",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": 0,
+          "spacing": 0,
+          "width": "562px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "cssClassNames": [{ "cssClassName": "styleTnC" }]
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "DjPYM4-lXUnLhLmu619mG",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "cLJwEE1ePQsf9SXvuDS7s",
+          "componentType": "20013",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "width": "135px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "cssClassNames": []
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "cLJwEE1ePQsf9SXvuDS7s",
+    "type": "20013",
+    "name": "Checkbox",
+    "component": { "content": "Checkbox", "type": "20013" },
+    "attributes": {
+      "label": "I agree to the ",
+      "name": "Check Box",
+      "layoutProperties": {
+        "checkbox": { "//": "Use this class to style checkbox component." },
+        "formControlLabel": {
+          "//": "Use this class to style checkbox label.",
+          "width": "135px"
+        },
+        "inputProps": {
+          "//": "Use this class to style checkbox element.",
+          "width": "50px"
+        },
+        "mainContainer": "formControlLabel",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "stateName": "termConditions",
+      "value": "true"
+    },
+    "events": [],
+    "path": "0-0-1-0-0-0-7-0-0-0-0-0-0-0-0",
+    "version": "1.0.0",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fNzRsgIJFQFnU7xzUe8FV",
+    "type": "20034",
+    "name": "mobilinkbank.com/terms-and-conditions",
+    "component": { "content": "Web view", "type": "20034" },
+    "attributes": {
+      "htmlToRender": "<a href=\"https://mobilinkbank.com/terms-and-conditions\" target=\"_blank\">Terms & Conditions </a>",
+      "searchInState": "",
+      "name": "web view",
+      "layoutProperties": {
+        "htmlWidget": {
+          "//": "Use this class to style html widget component.",
+          "url": "",
+          "marginLeft": "-5px",
+          "width": "160px"
+        },
+        "mainContainer": "htmlWidget",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "contentType": "Static"
+    },
+    "events": [],
+    "path": "0-0-1-0-0-0-7-0-0-0-0-0-1",
+    "version": "1.0.0",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "L_FlE9pAtyT-N9gr2djP_",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "of Mobilink Microfinance Bank.",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "width": "257px",
+          "marginRight": "50px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-1-0-0-0-7-0-0-0-0-0-2",
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0Q03QGGkL_EV0D95ERGRs",
+    "type": "20031",
+    "triggerName": "Open PO Disclaimer Modal",
+    "attributes": {
+      "widgetId": "TtzrA94SXBPZgH_Ofhcbf",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "_1S06CemwqYARc4So1SE1",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "72Vdga6fmXI1Aqq4FOw0H",
+    "type": "20031",
+    "triggerName": "Open CDR Disclaimer Modal",
+    "attributes": {
+      "widgetId": "-NQUv3FpJ_MmAOSWVGbWf",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
@@ -11664,6 +12607,18 @@
             "sm": 12,
             "xs": 12
           },
+          "componentId": "0Q03QGGkL_EV0D95ERGRs",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
           "componentId": "waBU6vS7rg9E4nqEZ3OWy",
           "componentType": "20006",
           "order": 1
@@ -11702,7 +12657,7 @@
     "id": "waBU6vS7rg9E4nqEZ3OWy",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Create",
+      "label": "CREate",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -11717,7 +12672,12 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": {
+          "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -11733,14 +12693,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
-        "triggerName": "PO Request API",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "8"
+        "triggerId": "tBg7IIEkJ9LyY7smUHpuP",
+        "triggerName": "Open PO Disclaimer Modal",
+        "name": "On Submit",
+        "type": "4",
+        "serviceType": "9"
       }
     ],
-    "path": "0-0-1-0-0-0-7-1-0-0-0-0-0",
+    "path": "0-0-1-0-0-0-10-1-0-0-0-0-0",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11753,6 +12713,18 @@
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "72Vdga6fmXI1Aqq4FOw0H",
+          "componentType": "20031",
+          "order": 1
+        },
         {
           "layoutProperties": {
             "xl": 12,
@@ -11799,7 +12771,7 @@
     "id": "aowI_R84gy4UX-nezA23g",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Create",
+      "label": "creATE",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -11814,7 +12786,12 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": {
+          "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -11830,14 +12807,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "mfL5n4YbhK3Ucea47pQEt",
-        "triggerName": "CDR Request API",
+        "triggerId": "4iLHHgdasGPehcRBFo_VG",
+        "triggerName": "Open CDR Disclaimer Modal",
         "name": "On Submit",
         "type": "4",
-        "serviceType": "8"
+        "serviceType": "9"
       }
     ],
-    "path": "0-0-1-0-0-0-5-1-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-10-1-0-0-1-0-0",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11931,7 +12908,7 @@
         "serviceType": "14"
       }
     ],
-    "path": "0-0-1-0-0-0-5-2-0-0-0",
+    "path": "0-0-1-0-0-0-8-2-0-0-0",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

@@ -50,8 +50,8 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Swap Private Doc to Login Screen",
-            "triggerId": "-n89_xqmkeoUWr9ODJ_GO"
+            "triggerName": "swap pricing model to Login Screen_",
+            "triggerId": "fJCdhU7q3XYHvO4xWj_bo"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -63,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/20/2023",
-  "createdAt": "4/20/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

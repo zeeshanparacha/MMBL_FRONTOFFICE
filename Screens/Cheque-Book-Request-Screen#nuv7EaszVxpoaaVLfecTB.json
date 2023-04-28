@@ -2459,11 +2459,137 @@
                                                         }
                                                       },
                                                       {
-                                                        "id": "LrEKw_RpJVv9weD_Plt7W",
-                                                        "status": "ACTIVE",
-                                                        "_id": "610134a1d1f5e860b1e8c751",
-                                                        "name": "Grid layout",
-                                                        "icon": "FaGripHorizontal",
+                                                        "type": "10001",
+                                                        "id": "zDxpQLcZ3xqnMXwZ3vn1N",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "N4qJ5sI9nCZ6mplyLBz6s",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "96yH4gffthWgOcQXBbAuS",
+                                                                "status": "ACTIVE",
+                                                                "name": "Drop down",
+                                                                "icon": "FaCaretSquareDown",
+                                                                "group": "Form",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "attributes": {
+                                                                  "name": "Drop down",
+                                                                  "stateName": "leaves",
+                                                                  "allValues": true,
+                                                                  "dataSource": "chequeBookResponse",
+                                                                  "dataKey": "value",
+                                                                  "dataValue": "displayName",
+                                                                  "mandatory": true,
+                                                                  "validate": {
+                                                                    "required": false,
+                                                                    "errorMsg": "This Field is Required"
+                                                                  },
+                                                                  "layoutProperties": {
+                                                                    "autocomplete": {
+                                                                      "//": "Use this class to style autocomplete component in dropdown."
+                                                                    },
+                                                                    "textField": {
+                                                                      "//": "Use this class to style textField component in dropdown.",
+                                                                      "font-size": "14px",
+                                                                      "font-weight": "normal",
+                                                                      "color": "#333",
+                                                                      "background-color": "#fff",
+                                                                      "border": "1px solid #e5e5e5",
+                                                                      "box-shadow": "none",
+                                                                      "border-radius": "4px",
+                                                                      "width": "97.5%",
+                                                                      "padding": "0 7px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style dropdown element."
+                                                                    },
+                                                                    "mainContainer": "autocomplete",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "dropdownOptions": [],
+                                                                  "variant": "standard",
+                                                                  "disableUnderline": true,
+                                                                  "storeType": 2,
+                                                                  "placeholder": "Select",
+                                                                  "cssClassNames": [
+                                                                    {
+                                                                      "cssClassName": "card_dropdown"
+                                                                    }
+                                                                  ],
+                                                                  "selectedDataType": 0
+                                                                },
+                                                                "type": "20003",
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "YJ8Gjh9oFWc_QZVI5qE4o",
+                                                                    "triggerName": "Cheque Book Leaves API",
+                                                                    "serviceType": "8",
+                                                                    "attributes": {
+                                                                      "loaderWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "messageWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "responseStateKey": "chequeBookResponse",
+                                                                      "responseReturnValue": "data.result.chequeBookLeaves",
+                                                                      "url": "/lookup/values",
+                                                                      "checksum": true,
+                                                                      "encryption": true,
+                                                                      "isDeviceDetails": true,
+                                                                      "loginTrigger": false,
+                                                                      "formData": false,
+                                                                      "logoutTrigger": false,
+                                                                      "headers": {
+                                                                        "Content-Type": "application/json",
+                                                                        "Accept": "application/json",
+                                                                        "channel_key": "001",
+                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                        "locale": "en-ltr"
+                                                                      },
+                                                                      "requestBody": [
+                                                                        {
+                                                                          "type": 4,
+                                                                          "name": "Static",
+                                                                          "key": "lookupType",
+                                                                          "value": "chequeBookLeaves"
+                                                                        }
+                                                                      ],
+                                                                      "baseURL": "63241bff025fdb65c86b2846",
+                                                                      "storeType": 2
+                                                                    },
+                                                                    "type": "1",
+                                                                    "name": "On initialization"
+                                                                  }
+                                                                ],
+                                                                "order": 10,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Drop down",
+                                                                  "type": "20003"
+                                                                },
+                                                                "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
+                                                          }
+                                                        ],
+                                                        "path": "0-0-1-0-0-0-4-0-0-0-1-0-0-0-0-0-1-2-0-0-1",
+                                                        "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
                                                           "label": "Header",
@@ -2481,18 +2607,12 @@
                                                             "alignItems": "flex-start"
                                                           },
                                                           "direction": "row",
-                                                          "name": "Card Textfield"
+                                                          "name": "Card Drop Down Selection  widget"
                                                         },
-                                                        "group": "Layout",
-                                                        "type": "10001",
-                                                        "updatedAt": "23-Sep-2021",
-                                                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
-                                                        "createdAt": "24-Aug-2021",
-                                                        "events": [],
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
                                                         "allowedContainers": [
                                                           "10001",
                                                           "20030",
@@ -2500,157 +2620,7 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "component": {
-                                                          "content": "Grid layout",
-                                                          "type": "10001"
-                                                        },
-                                                        "path": "0-0-1-0-0-0-1-0-1-2-0-0-1",
-                                                        "gridProps": [
-                                                          {
-                                                            "type": "column",
-                                                            "id": "XvJEHKpNx9yWXf9P6yw6L",
-                                                            "gridProps": [
-                                                              {
-                                                                "id": "t5rrDbQn-upyZ4la5KX9M",
-                                                                "status": "ACTIVE",
-                                                                "name": "Text Box",
-                                                                "attributes": {
-                                                                  "label": "",
-                                                                  "name": "Text box",
-                                                                  "label-locale-key": "",
-                                                                  "maxLength": 20,
-                                                                  "type": "number",
-                                                                  "variant": "standard",
-                                                                  "value": "",
-                                                                  "readOnly": false,
-                                                                  "tooltip": "",
-                                                                  "font-family": "Verdana",
-                                                                  "mandatory": true,
-                                                                  "tooltipState": "",
-                                                                  "layoutProperties": {
-                                                                    "textField": {
-                                                                      "//": "Use this class to style text field component."
-                                                                    },
-                                                                    "inputProps": {
-                                                                      "//": "Use this class to style  text field element.",
-                                                                      "paddingLeft": "15px"
-                                                                    },
-                                                                    "mainContainer": "textField",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  },
-                                                                  "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This field is required",
-                                                                    "bindButton": [
-                                                                      {
-                                                                        "id": "x3yq5DDUof7KByPjI4WeQ",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "submit",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ]
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "g6yTVytIN5YT8KAO2qY0_",
-                                                                            "triggerName": "Request new cheque book API",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "0-0-1-0-0-0-1-0-5-1-0-0-0",
-                                                                        "screenId": "NHpo8se7to9ze-aCJA42v",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f4845e476fc83100e3a899",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      }
-                                                                    ]
-                                                                  },
-                                                                  "placeholder": "",
-                                                                  "disableUnderline": true,
-                                                                  "cssClassNames": [
-                                                                    {
-                                                                      "cssClassName": "emptyTextField"
-                                                                    }
-                                                                  ],
-                                                                  "stateName": "leaves"
-                                                                },
-                                                                "icon": "FaWindowMinimize",
-                                                                "group": "Form",
-                                                                "type": "20004",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 20,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Text Box",
-                                                                  "type": "20004"
-                                                                },
-                                                                "events": [],
-                                                                "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0-0"
-                                                              }
-                                                            ],
-                                                            "layoutProperties": {
-                                                              "xl": 12,
-                                                              "lg": 12,
-                                                              "md": 12,
-                                                              "sm": 12,
-                                                              "xs": 12
-                                                            },
-                                                            "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0"
-                                                          }
-                                                        ],
-                                                        "layoutProperties": {
-                                                          "lg": 12,
-                                                          "md": 12,
-                                                          "sm": 12,
-                                                          "xs": 12
-                                                        },
+                                                        "name": "Card Drop Down Selection ",
                                                         "dimensions": {
                                                           "rows": 1,
                                                           "columns": 1,
@@ -4087,9 +4057,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nuv7EaszVxpoaaVLfecTB",
-    "createdBy": "areeb",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "4/28/2023",
+    "createdAt": "4/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6401,11 +6371,11 @@
           }
         },
         {
-          "componentId": "LrEKw_RpJVv9weD_Plt7W",
+          "componentId": "zDxpQLcZ3xqnMXwZ3vn1N",
           "componentType": "10001",
-          "id": "LrEKw_RpJVv9weD_Plt7W",
+          "id": "zDxpQLcZ3xqnMXwZ3vn1N",
           "position": {
-            "i": "LrEKw_RpJVv9weD_Plt7W",
+            "i": "zDxpQLcZ3xqnMXwZ3vn1N",
             "x": null,
             "y": null,
             "w": null,
@@ -6533,8 +6503,8 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "LrEKw_RpJVv9weD_Plt7W",
-    "name": "Grid layout",
+    "id": "zDxpQLcZ3xqnMXwZ3vn1N",
+    "name": "Card Drop Down Selection ",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -6546,8 +6516,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "t5rrDbQn-upyZ4la5KX9M",
-          "componentType": "20004",
+          "componentId": "96yH4gffthWgOcQXBbAuS",
+          "componentType": "20003",
           "order": 1
         }
       ],
@@ -6566,7 +6536,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Card Textfield"
+      "name": "Card Drop Down Selection  widget"
     },
     "layout": null,
     "events": [],
@@ -6578,109 +6548,69 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "t5rrDbQn-upyZ4la5KX9M",
+    "id": "96yH4gffthWgOcQXBbAuS",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
     "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": 20,
-      "type": "number",
-      "variant": "standard",
-      "value": "",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
+      "name": "Drop down",
+      "stateName": "leaves",
+      "allValues": true,
+      "dataSource": "chequeBookResponse",
+      "dataKey": "value",
+      "dataValue": "displayName",
       "mandatory": true,
-      "tooltipState": "",
+      "validate": { "required": false, "errorMsg": "This Field is Required" },
       "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "15px"
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
         },
-        "mainContainer": "textField",
+        "textField": {
+          "//": "Use this class to style textField component in dropdown.",
+          "font-size": "14px",
+          "font-weight": "normal",
+          "color": "#333",
+          "background-color": "#fff",
+          "border": "1px solid #e5e5e5",
+          "box-shadow": "none",
+          "border-radius": "4px",
+          "width": "97.5%",
+          "padding": "0 7px"
+        },
+        "inputProps": { "//": "Use this class to style dropdown element." },
+        "mainContainer": "autocomplete",
         "xl": 12,
         "lg": 12,
         "md": 12,
         "sm": 12,
         "xs": 12
       },
-      "validate": {
-        "required": false,
-        "errorMsg": "This field is required",
-        "bindButton": [
-          {
-            "id": "x3yq5DDUof7KByPjI4WeQ",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "submit",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "g6yTVytIN5YT8KAO2qY0_",
-                "triggerName": "Request new cheque book API",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "0-0-1-0-0-0-1-0-5-1-0-0-0",
-            "screenId": "NHpo8se7to9ze-aCJA42v",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
-      },
-      "placeholder": "",
+      "dropdownOptions": [],
+      "variant": "standard",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "leaves"
+      "storeType": 2,
+      "placeholder": "Select",
+      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "selectedDataType": 0
     },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
+    "type": "20003",
+    "events": [
+      {
+        "triggerId": "YJ8Gjh9oFWc_QZVI5qE4o",
+        "triggerName": "Cheque Book Leaves API",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "8"
+      }
+    ],
+    "order": 10,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
-    "events": [],
+    "component": { "content": "Drop down", "type": "20003" },
     "path": "0-0-1-0-0-0-1-0-1-2-0-0-1-0-0",
     "screenId": "nuv7EaszVxpoaaVLfecTB",
     "subType": "component",

@@ -50,8 +50,8 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "swap sole doc to login",
-            "triggerId": "BDpunYaM6NLWTCCtq9LUW"
+            "triggerName": "swap pricing model to Login Screen_",
+            "triggerId": "fJCdhU7q3XYHvO4xWj_bo"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -63,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/19/2023",
-  "createdAt": "4/19/2023",
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

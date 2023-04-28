@@ -1009,7 +1009,7 @@
                                   "stateName": "captcha",
                                   "imageSrc": "captchaImage",
                                   "validate": {
-                                    "required": true,
+                                    "required": false,
                                     "errorMsg": "Captcha is required.",
                                     "bindButton": [
                                       {
@@ -1654,9 +1654,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "XpTQjwGIj-lDVw1vunUcm",
-    "createdBy": "areeb",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/28/2023",
+    "createdAt": "4/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2698,7 +2698,7 @@
       "stateName": "captcha",
       "imageSrc": "captchaImage",
       "validate": {
-        "required": true,
+        "required": false,
         "errorMsg": "Captcha is required.",
         "bindButton": [
           {
@@ -2762,11 +2762,11 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Google recaptcha v2", "type": "20048" },
     "events": [],
     "path": "0-0-0-0-3-0-0",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

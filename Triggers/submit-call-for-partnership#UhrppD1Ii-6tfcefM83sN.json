@@ -50,8 +50,8 @@
           {
             "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Swap Partnership to Login Screen",
-            "triggerId": "VdpkDm4rLqan1SeXq56Ts"
+            "triggerName": "swap pricing model to Login Screen_",
+            "triggerId": "fJCdhU7q3XYHvO4xWj_bo"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -63,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/19/2023",
-  "createdAt": "4/19/2023",
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

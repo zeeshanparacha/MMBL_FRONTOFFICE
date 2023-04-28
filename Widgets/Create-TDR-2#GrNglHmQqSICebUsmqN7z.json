@@ -388,7 +388,7 @@
                                                         "status": "ACTIVE",
                                                         "name": "Label",
                                                         "attributes": {
-                                                          "label": "TDR Type",
+                                                          "label": "Rollover Type",
                                                           "variant": "body1",
                                                           "name": "Label",
                                                           "mandatory": false,
@@ -1103,7 +1103,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "RljuFWzLb-p8w4MVgl7QX",
+                                                            "id": "1_KohoenYePZKWRcNvfet",
                                                             "gridProps": [
                                                               {
                                                                 "id": "0UsdgM8MmJrKeWDtCkpmw",
@@ -1160,7 +1160,7 @@
                                                           },
                                                           {
                                                             "type": "column",
-                                                            "id": "BKIHBhskUIGcdb3JCpSwi",
+                                                            "id": "9Newf0UsnUdM2nu4mEmLR",
                                                             "gridProps": [
                                                               {
                                                                 "id": "__-U9VfFFgTBZyxEZiURR",
@@ -1218,7 +1218,7 @@
                                                           },
                                                           {
                                                             "type": "column",
-                                                            "id": "jaxBeWNWgLaekH8gfbJIM",
+                                                            "id": "3daUG7Ifs9kcQcAD3d-U0",
                                                             "gridProps": [
                                                               {
                                                                 "id": "TPMNikdqo1oQmi8QwUFdS",
@@ -1311,7 +1311,9 @@
                                                           "storeType": 2,
                                                           "cssClassNames": [],
                                                           "cssClass": "red",
-                                                          "columns": "4"
+                                                          "columns": "4",
+                                                          "selectedColor": "#da0006",
+                                                          "bindingKey": "ProductID"
                                                         },
                                                         "events": [],
                                                         "component": {
@@ -1321,7 +1323,7 @@
                                                         "path": "0-0-0-0-0-0-1-0-0-1-0-0-2",
                                                         "dimensions": {
                                                           "rows": 1,
-                                                          "columns": 4,
+                                                          "columns": 3,
                                                           "colSize0xs": 3,
                                                           "colSize0sm": 3,
                                                           "colSize0md": 7,
@@ -1336,12 +1338,7 @@
                                                           "colSize2sm": 3,
                                                           "colSize2md": 2,
                                                           "colSize2lg": 3,
-                                                          "colSize2xl": 3,
-                                                          "colSize3xs": 3,
-                                                          "colSize3sm": 3,
-                                                          "colSize3md": 1,
-                                                          "colSize3lg": 3,
-                                                          "colSize3xl": 3
+                                                          "colSize2xl": 3
                                                         },
                                                         "readOnly": false
                                                       }
@@ -2135,9 +2132,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GrNglHmQqSICebUsmqN7z",
-    "createdBy": "muzzamil",
-    "updatedAt": "4/19/2023",
-    "createdAt": "4/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/27/2023",
+    "createdAt": "4/27/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2766,7 +2763,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "TDR Type",
+      "label": "Rollover Type",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -3431,7 +3428,9 @@
       "storeType": 2,
       "cssClassNames": [],
       "cssClass": "red",
-      "columns": "4"
+      "columns": "4",
+      "selectedColor": "#da0006",
+      "bindingKey": "ProductID"
     },
     "layout": null,
     "events": [],

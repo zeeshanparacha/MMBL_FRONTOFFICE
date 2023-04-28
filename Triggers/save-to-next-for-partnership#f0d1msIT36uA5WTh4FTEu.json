@@ -423,8 +423,8 @@
         "responseHandler": [
           {
             "httpStatus": 200,
-            "triggerName": "save to next for partnership document upload",
-            "triggerId": "a4kKUeuGKHVQK_o9iuRxA",
+            "triggerName": "Swap Partnership widget 3 to Document For Partnership",
+            "triggerId": "BZ3CnHKd8wcs1tXVYu86v",
             "logic": { "==": [{ "var": "status" }, 1] }
           },
           {
@@ -443,8 +443,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }
