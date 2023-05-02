@@ -38,13 +38,6 @@
             { "key": "productId" },
             { "key": "pricingModelId" },
             {
-              "key": "signatories",
-              "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories"
-              }
-            },
-            {
               "key": "items",
               "changeValueConditonally": true,
               "logic": {
@@ -244,7 +237,6 @@
                 "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocId"
               }
             },
-
             {
               "key": "businessMailingAddress",
               "changeValueConditonally": true,
@@ -314,6 +306,69 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocName"
               }
+            },
+            {
+              "key": "areYouPoliticallyInvolved",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.areYouPoliticallyInvolved"
+              }
+            },
+            {
+              "key": "customerBirthPlace",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerBirthPlace"
+              }
+            },
+            {
+              "key": "customerCity",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerCity"
+              }
+            },
+            {
+              "key": "customerCountry",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerCountry"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "customerDOB",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerDOB"
+              }
+            },
+            {
+              "key": "customerLegalId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerLegalId"
+              }
+            },
+            {
+              "key": "customerName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerName"
+              }
+            },
+            {
+              "key": "customerNationality",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.customerNationality"
+              }
+            },
+            {
+              "key": "cusDocId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories.ntnDocId"
+              }
             }
           ],
           "targettedType": "object"
@@ -321,8 +376,8 @@
       }
     }
   ],
-  "updatedAt": "4/11/2023",
-  "createdAt": "4/11/2023",
-  "createdBy": "talha",
-  "updatedBy": "talha"
+  "updatedAt": "5/1/2023",
+  "createdAt": "5/1/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

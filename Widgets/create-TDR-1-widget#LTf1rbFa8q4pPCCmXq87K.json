@@ -830,6 +830,49 @@
                                                         },
                                                         "events": [],
                                                         "path": "0-0-0-0-0-0-0-1-0-0-1-0-0"
+                                                      },
+                                                      {
+                                                        "id": "KtSykpQZoIgNx1SBdqaW1",
+                                                        "status": "ACTIVE",
+                                                        "name": "Label",
+                                                        "attributes": {
+                                                          "label": "TDR request amount  should be 5,000 & above",
+                                                          "variant": "body1",
+                                                          "name": "Label",
+                                                          "mandatory": false,
+                                                          "layoutProperties": {
+                                                            "label": {
+                                                              "//": "Use this class to style label component.",
+                                                              "textAlign": "right"
+                                                            },
+                                                            "mainContainer": "label",
+                                                            "xl": 12,
+                                                            "lg": 12,
+                                                            "md": 12,
+                                                            "sm": 12,
+                                                            "xs": 12
+                                                          },
+                                                          "cssClassNames": [
+                                                            {
+                                                              "cssClassName": "beneError"
+                                                            }
+                                                          ]
+                                                        },
+                                                        "icon": "FaFont",
+                                                        "group": "Form",
+                                                        "type": "20002",
+                                                        "updatedAt": "23-Aug-2021",
+                                                        "createdAt": "23-Aug-2021",
+                                                        "order": 15,
+                                                        "version": "1.0.0",
+                                                        "isLatest": true,
+                                                        "projectType": "web",
+                                                        "component": {
+                                                          "content": "Label",
+                                                          "type": "20002"
+                                                        },
+                                                        "events": [],
+                                                        "path": "0-0-0-0-0-0-0-1-0-0-1-0-1"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -2295,9 +2338,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "LTf1rbFa8q4pPCCmXq87K",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/18/2023",
-    "createdAt": "4/18/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3057,6 +3100,18 @@
           "componentId": "RI_KtbEpZnYnOyaD9XNb3",
           "componentType": "20040",
           "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "KtSykpQZoIgNx1SBdqaW1",
+          "componentType": "20002",
+          "order": 1
         }
       ],
       "label": "Header",
@@ -3195,10 +3250,51 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Amount", "type": "20040" },
     "events": [],
     "path": "0-0-0-0-0-0-0-1-0-0-1-0-0",
+    "screenId": "LTf1rbFa8q4pPCCmXq87K",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KtSykpQZoIgNx1SBdqaW1",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "TDR request amount  should be 5,000 & above",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "textAlign": "right"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "beneError" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-0-1-0-0-1-0-1",
     "screenId": "LTf1rbFa8q4pPCCmXq87K",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
@@ -4227,7 +4323,6 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
@@ -4240,6 +4335,7 @@
     ],
     "path": "0-0-0-0-1-0-0-2-0-0-0",
     "screenId": "LTf1rbFa8q4pPCCmXq87K",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

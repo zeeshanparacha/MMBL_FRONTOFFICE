@@ -856,7 +856,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -3728,215 +3728,116 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "U6a4GK3eYCgx5jeegQLkv",
+                                                        "id": "x7ghdJ18JLCZc7gczMQFd",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "xsb2gJQDGNdmsT0BDdeU9",
+                                                            "id": "yZJwkUhCXMOrTjTxIQZ3Z",
                                                             "gridProps": [
                                                               {
-                                                                "id": "ngsNhC3yOrF_ks7KDwKAk",
+                                                                "id": "x7sqNkyH2Ri6-g8YhxHK8",
                                                                 "status": "ACTIVE",
-                                                                "name": "Text Box",
+                                                                "name": "Drop down",
+                                                                "icon": "FaCaretSquareDown",
+                                                                "group": "Form",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
                                                                 "attributes": {
-                                                                  "label": "",
-                                                                  "name": "Text box",
-                                                                  "label-locale-key": "",
-                                                                  "maxLength": "100",
-                                                                  "type": "text",
-                                                                  "variant": "standard",
-                                                                  "value": "",
-                                                                  "readOnly": false,
-                                                                  "tooltip": "",
-                                                                  "font-family": "Verdana",
+                                                                  "name": "Drop down",
+                                                                  "stateName": "purpose",
+                                                                  "allValues": true,
+                                                                  "dataSource": "responses",
+                                                                  "dataKey": "id",
+                                                                  "dataValue": "name",
                                                                   "mandatory": true,
-                                                                  "tooltipState": "",
+                                                                  "validate": {
+                                                                    "required": false,
+                                                                    "errorMsg": "This Field is Required"
+                                                                  },
                                                                   "layoutProperties": {
+                                                                    "autocomplete": {
+                                                                      "//": "Use this class to style autocomplete component in dropdown."
+                                                                    },
                                                                     "textField": {
-                                                                      "//": "Use this class to style text field component."
+                                                                      "//": "Use this class to style textField component in dropdown.",
+                                                                      "font-size": "14px",
+                                                                      "font-weight": "normal",
+                                                                      "color": "#333",
+                                                                      "background-color": "#fff",
+                                                                      "border": "1px solid #e5e5e5",
+                                                                      "box-shadow": "none",
+                                                                      "border-radius": "4px",
+                                                                      "width": "97.5%",
+                                                                      "padding": "0 7px"
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element.",
-                                                                      "paddingLeft": "15px"
+                                                                      "//": "Use this class to style dropdown element."
                                                                     },
-                                                                    "mainContainer": "textField",
+                                                                    "mainContainer": "autocomplete",
                                                                     "xl": 12,
                                                                     "lg": 12,
                                                                     "md": 12,
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "validate": {
-                                                                    "required": true,
-                                                                    "errorMsg": "This field is required",
-                                                                    "bindButton": [
-                                                                      {
-                                                                        "id": "waBU6vS7rg9E4nqEZ3OWy",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "CREate",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ],
-                                                                          "disableCondition": {
-                                                                            "logic": {
-                                                                              "!=": [
-                                                                                {
-                                                                                  "var": "currentScreen.form.termConditions"
-                                                                                },
-                                                                                "true"
-                                                                              ]
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
-                                                                            "triggerName": "PO Request API",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
-                                                                        "screenId": "_1S06CemwqYARc4So1SE1",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f4845e476fc83100e3a899",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      },
-                                                                      {
-                                                                        "id": "aowI_R84gy4UX-nezA23g",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "creATE",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ],
-                                                                          "disableCondition": {
-                                                                            "logic": {
-                                                                              "!=": [
-                                                                                {
-                                                                                  "var": "currentScreen.form.termConditions"
-                                                                                },
-                                                                                "true"
-                                                                              ]
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "mfL5n4YbhK3Ucea47pQEt",
-                                                                            "triggerName": "CDR Request API",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
-                                                                        "screenId": "_1S06CemwqYARc4So1SE1",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f4845e476fc83100e3a899",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      }
-                                                                    ]
-                                                                  },
-                                                                  "placeholder": "",
+                                                                  "dropdownOptions": [],
+                                                                  "variant": "standard",
                                                                   "disableUnderline": true,
+                                                                  "storeType": 2,
+                                                                  "placeholder": "Select",
                                                                   "cssClassNames": [
                                                                     {
-                                                                      "cssClassName": "emptyTextField"
+                                                                      "cssClassName": "card_dropdown"
                                                                     }
                                                                   ],
-                                                                  "stateName": "purpose"
+                                                                  "selectedDataType": 0
                                                                 },
-                                                                "icon": "FaWindowMinimize",
-                                                                "group": "Form",
-                                                                "type": "20004",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 20,
+                                                                "type": "20003",
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
+                                                                    "triggerName": "Purpose Of Payment List",
+                                                                    "serviceType": "8",
+                                                                    "attributes": {
+                                                                      "loaderWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "messageWidgetIds": [
+                                                                        906070
+                                                                      ],
+                                                                      "responseStateKey": "responses",
+                                                                      "responseReturnValue": "data.purposeOfPaymentList",
+                                                                      "url": "/purpose-of-payment/list",
+                                                                      "checksum": true,
+                                                                      "encryption": true,
+                                                                      "isDeviceDetails": true,
+                                                                      "loginTrigger": false,
+                                                                      "formData": false,
+                                                                      "logoutTrigger": false,
+                                                                      "headers": {
+                                                                        "Content-Type": "application/json",
+                                                                        "Accept": "application/json",
+                                                                        "channel_key": "001",
+                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                        "locale": "en-ltr"
+                                                                      },
+                                                                      "requestBody": [],
+                                                                      "baseURL": "631b0ff6d005932c10ce3bbe",
+                                                                      "storeType": 2
+                                                                    },
+                                                                    "type": "1",
+                                                                    "name": "On initialization"
+                                                                  }
+                                                                ],
+                                                                "order": 10,
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
                                                                 "projectType": "web",
                                                                 "component": {
-                                                                  "content": "Text Box",
-                                                                  "type": "20004"
+                                                                  "content": "Drop down",
+                                                                  "type": "20003"
                                                                 },
-                                                                "events": [],
-                                                                "path": "0-0-1-0-0-0-2-0-2-0-0-0-1-0-0"
+                                                                "path": "0-0-1-0-0-0-2-0-2-0-0-0-2-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -3945,11 +3846,10 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "0-0-1-0-0-0-2-0-2-0-0-0-1-0"
+                                                            }
                                                           }
                                                         ],
-                                                        "path": "0-0-1-0-0-0-2-0-2-0-0-0-1",
+                                                        "path": "0-0-1-0-0-0-4-0-0-0-1-0-0-0-0-0-1-2-0-0-1",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -3968,7 +3868,7 @@
                                                             "alignItems": "flex-start"
                                                           },
                                                           "direction": "row",
-                                                          "name": "Grid layout"
+                                                          "name": "Card Drop Down Selection  widget"
                                                         },
                                                         "component": {
                                                           "type": "10001",
@@ -3981,7 +3881,17 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "name": "Grid layout"
+                                                        "name": "Card Drop Down Selection ",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -4672,7 +4582,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -7004,9 +6914,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_1S06CemwqYARc4So1SE1",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8058,7 +7968,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10279,11 +10189,11 @@
           }
         },
         {
-          "componentId": "U6a4GK3eYCgx5jeegQLkv",
+          "componentId": "x7ghdJ18JLCZc7gczMQFd",
           "componentType": "10001",
-          "id": "U6a4GK3eYCgx5jeegQLkv",
+          "id": "x7ghdJ18JLCZc7gczMQFd",
           "position": {
-            "i": "U6a4GK3eYCgx5jeegQLkv",
+            "i": "x7ghdJ18JLCZc7gczMQFd",
             "x": null,
             "y": null,
             "w": null,
@@ -10412,8 +10322,8 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "U6a4GK3eYCgx5jeegQLkv",
-    "name": "Grid layout",
+    "id": "x7ghdJ18JLCZc7gczMQFd",
+    "name": "Card Drop Down Selection ",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -10425,8 +10335,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "ngsNhC3yOrF_ks7KDwKAk",
-          "componentType": "20004",
+          "componentId": "x7sqNkyH2Ri6-g8YhxHK8",
+          "componentType": "20003",
           "order": 1
         }
       ],
@@ -10445,7 +10355,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Card Drop Down Selection  widget"
     },
     "layout": null,
     "events": [],
@@ -10457,171 +10367,70 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "ngsNhC3yOrF_ks7KDwKAk",
+    "id": "x7sqNkyH2Ri6-g8YhxHK8",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
     "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": "100",
-      "type": "text",
-      "variant": "standard",
-      "value": "",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
+      "name": "Drop down",
+      "stateName": "purpose",
+      "allValues": true,
+      "dataSource": "responses",
+      "dataKey": "id",
+      "dataValue": "name",
       "mandatory": true,
-      "tooltipState": "",
+      "validate": { "required": false, "errorMsg": "This Field is Required" },
       "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "15px"
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
         },
-        "mainContainer": "textField",
+        "textField": {
+          "//": "Use this class to style textField component in dropdown.",
+          "font-size": "14px",
+          "font-weight": "normal",
+          "color": "#333",
+          "background-color": "#fff",
+          "border": "1px solid #e5e5e5",
+          "box-shadow": "none",
+          "border-radius": "4px",
+          "width": "97.5%",
+          "padding": "0 7px"
+        },
+        "inputProps": { "//": "Use this class to style dropdown element." },
+        "mainContainer": "autocomplete",
         "xl": 12,
         "lg": 12,
         "md": 12,
         "sm": 12,
         "xs": 12
       },
-      "validate": {
-        "required": true,
-        "errorMsg": "This field is required",
-        "bindButton": [
-          {
-            "id": "waBU6vS7rg9E4nqEZ3OWy",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "CREate",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "disableCondition": {
-                "logic": {
-                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
-                }
-              }
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "I1wr-GPcIOkyVd5t_VAiq",
-                "triggerName": "PO Request API",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "0-0-1-0-0-0-8-1-0-0-0-0-0",
-            "screenId": "_1S06CemwqYARc4So1SE1",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          },
-          {
-            "id": "aowI_R84gy4UX-nezA23g",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "creATE",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "disableCondition": {
-                "logic": {
-                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
-                }
-              }
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "mfL5n4YbhK3Ucea47pQEt",
-                "triggerName": "CDR Request API",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "0-0-1-0-0-0-8-1-0-0-1-0-0",
-            "screenId": "_1S06CemwqYARc4So1SE1",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
-      },
-      "placeholder": "",
+      "dropdownOptions": [],
+      "variant": "standard",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "purpose"
+      "storeType": 2,
+      "placeholder": "Select",
+      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "selectedDataType": 0
     },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
+    "type": "20003",
+    "events": [
+      {
+        "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
+        "triggerName": "Purpose Of Payment List",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "8"
+      }
+    ],
+    "order": 10,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
-    "events": [],
-    "path": "0-0-1-0-0-0-2-0-2-0-0-0-1-0-0",
+    "component": { "content": "Drop down", "type": "20003" },
+    "path": "0-0-1-0-0-0-2-0-2-0-0-0-2-0-0",
     "screenId": "_1S06CemwqYARc4So1SE1",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11216,7 +11025,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",

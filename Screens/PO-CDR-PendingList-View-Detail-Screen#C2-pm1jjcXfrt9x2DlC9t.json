@@ -589,7 +589,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -2446,7 +2446,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -2460,7 +2460,8 @@
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element."
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -2779,7 +2780,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -2793,7 +2794,8 @@
                                                                       "//": "Use this class to style text field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element."
+                                                                      "//": "Use this class to style  text field element.",
+                                                                      "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
                                                                     "xl": 12,
@@ -3135,7 +3137,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -4093,7 +4095,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -5027,7 +5029,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": 20,
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -6523,9 +6525,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "C2-pm1jjcXfrt9x2DlC9t",
-    "createdBy": "ajk",
-    "updatedAt": "4/27/2023",
-    "createdAt": "4/27/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7349,7 +7351,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -8903,7 +8905,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -8914,7 +8916,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -9158,7 +9163,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -9169,7 +9174,10 @@
       "tooltipState": "",
       "layoutProperties": {
         "textField": { "//": "Use this class to style text field component." },
-        "inputProps": { "//": "Use this class to style  text field element." },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "15px"
+        },
         "mainContainer": "textField",
         "xl": 12,
         "lg": 12,
@@ -9461,7 +9469,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10220,7 +10228,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -10950,7 +10958,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",

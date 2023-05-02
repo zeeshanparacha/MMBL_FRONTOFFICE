@@ -2527,42 +2527,114 @@
                                                                 "type": "20003",
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "YJ8Gjh9oFWc_QZVI5qE4o",
-                                                                    "triggerName": "Cheque Book Leaves API",
-                                                                    "serviceType": "8",
+                                                                    "triggerId": "oJWqbEmb_xmiKkJFZySxM",
+                                                                    "triggerName": "Cheque Book API Chain Trig",
+                                                                    "serviceType": "2",
                                                                     "attributes": {
-                                                                      "loaderWidgetIds": [
-                                                                        906070
-                                                                      ],
-                                                                      "messageWidgetIds": [
-                                                                        906070
-                                                                      ],
-                                                                      "responseStateKey": "chequeBookResponse",
-                                                                      "responseReturnValue": "data.result.chequeBookLeaves",
-                                                                      "url": "/lookup/values",
-                                                                      "checksum": true,
-                                                                      "encryption": true,
-                                                                      "isDeviceDetails": true,
-                                                                      "loginTrigger": false,
-                                                                      "formData": false,
-                                                                      "logoutTrigger": false,
-                                                                      "headers": {
-                                                                        "Content-Type": "application/json",
-                                                                        "Accept": "application/json",
-                                                                        "channel_key": "001",
-                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                        "locale": "en-ltr"
-                                                                      },
-                                                                      "requestBody": [
+                                                                      "delay": "",
+                                                                      "triggers": [
                                                                         {
-                                                                          "type": 4,
-                                                                          "name": "Static",
-                                                                          "key": "lookupType",
-                                                                          "value": "chequeBookLeaves"
+                                                                          "id": "k_hcSwZtbTJsPQXZFmdBz",
+                                                                          "name": "Static ChequeBook Key Trig",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "11",
+                                                                              "command": {
+                                                                                "type": "6",
+                                                                                "attributes": {
+                                                                                  "storeType": "",
+                                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                                  "dataType": "value",
+                                                                                  "destinationBindingKey": "chequeBookKey",
+                                                                                  "sourceBindingKey": "form",
+                                                                                  "sourceStoreType": 2,
+                                                                                  "destinationStoreType": 2,
+                                                                                  "logic": {
+                                                                                    "if": [
+                                                                                      true,
+                                                                                      [
+                                                                                        "chequeBookLeaves"
+                                                                                      ],
+                                                                                      [
+                                                                                        "chequeBookLeaves"
+                                                                                      ]
+                                                                                    ]
+                                                                                  },
+                                                                                  "changeValueConditonally": true,
+                                                                                  "targettedType": "value"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "_id": "SHjTvkpLPHhw2q2pzKva-",
+                                                                          "updatedAt": "5/2/2023",
+                                                                          "createdAt": "5/2/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
+                                                                        },
+                                                                        {
+                                                                          "id": "YJ8Gjh9oFWc_QZVI5qE4o",
+                                                                          "_id": "U7A29wLKjKl3Ol5zLX2AS",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "name": "Cheque Book Leaves API",
+                                                                          "old_name": "Cheque Book Leaves API",
+                                                                          "status": "ACTIVE",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "8",
+                                                                              "command": {
+                                                                                "type": "1",
+                                                                                "attributes": {
+                                                                                  "loaderWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "messageWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "responseStateKey": "chequeBookResponse",
+                                                                                  "responseReturnValue": "data.result.chequeBookLeaves",
+                                                                                  "url": "/lookup/values",
+                                                                                  "checksum": true,
+                                                                                  "encryption": true,
+                                                                                  "isDeviceDetails": true,
+                                                                                  "loginTrigger": false,
+                                                                                  "formData": false,
+                                                                                  "logoutTrigger": false,
+                                                                                  "headers": {
+                                                                                    "Content-Type": "application/json",
+                                                                                    "Accept": "application/json",
+                                                                                    "channel_key": "001",
+                                                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                    "locale": "en-ltr"
+                                                                                  },
+                                                                                  "requestBody": [
+                                                                                    {
+                                                                                      "type": 4,
+                                                                                      "name": "Static",
+                                                                                      "key": "lookupType",
+                                                                                      "value": "chequeBookLeaves"
+                                                                                    }
+                                                                                  ],
+                                                                                  "baseURL": "6322eb25967b3c4df8e47be2",
+                                                                                  "storeType": 2
+                                                                                },
+                                                                                "responseHandler": []
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "updatedAt": "5/2/2023",
+                                                                          "createdAt": "5/2/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
                                                                         }
                                                                       ],
-                                                                      "baseURL": "63241bff025fdb65c86b2846",
-                                                                      "storeType": 2
+                                                                      "triggerIds": [
+                                                                        "k_hcSwZtbTJsPQXZFmdBz",
+                                                                        "YJ8Gjh9oFWc_QZVI5qE4o"
+                                                                      ]
                                                                     },
                                                                     "type": "1",
                                                                     "name": "On initialization"
@@ -4058,8 +4130,8 @@
     "gitBranchName": "master",
     "_id": "nuv7EaszVxpoaaVLfecTB",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6599,11 +6671,11 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "YJ8Gjh9oFWc_QZVI5qE4o",
-        "triggerName": "Cheque Book Leaves API",
+        "triggerId": "oJWqbEmb_xmiKkJFZySxM",
+        "triggerName": "Cheque Book API Chain Trig",
         "name": "On initialization",
         "type": "1",
-        "serviceType": "8"
+        "serviceType": "2"
       }
     ],
     "order": 10,
