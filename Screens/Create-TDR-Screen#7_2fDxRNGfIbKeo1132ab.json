@@ -65,12 +65,28 @@
             "id": "2ElU0kkDi53I8omKCxmcW",
             "gridProps": [
               {
+                "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                "name": "Show Error Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "id": "9hN3oFlCNZvUfNQlN2HnI",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "Spsimx95YEvuJ3E6Dd__r",
+                    "id": "Pr9c5Dxf6cN_hgVOHSRwH",
                     "gridProps": [
                       {
                         "id": "Uwe3MRtayvcPi_BGHo80_",
@@ -112,12 +128,11 @@
                       "md": 10,
                       "sm": 4,
                       "xs": 4
-                    },
-                    "path": "0-0-0-0"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "uVTbiLQtmpd7QJrxIrZ7T",
+                    "id": "qS5xwszxh6RIZyUD8HW7o",
                     "gridProps": [],
                     "layoutProperties": {
                       "xl": 1,
@@ -125,12 +140,11 @@
                       "md": 1,
                       "sm": 4,
                       "xs": 4
-                    },
-                    "path": "0-0-0-1"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "vTjWcGqQe6s4S5pfVZOdq",
+                    "id": "f_3J4DkAmjzHZh8AqaFuR",
                     "gridProps": [],
                     "layoutProperties": {
                       "xl": 1,
@@ -138,11 +152,10 @@
                       "md": 1,
                       "sm": 4,
                       "xs": 4
-                    },
-                    "path": "0-0-0-2"
+                    }
                   }
                 ],
-                "path": "0-0-0",
+                "path": "0-0-1",
                 "events": [],
                 "attributes": {
                   "gridProps": [],
@@ -172,7 +185,27 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 3,
+                  "colSize0xs": 4,
+                  "colSize0sm": 4,
+                  "colSize0md": 10,
+                  "colSize0lg": 10,
+                  "colSize0xl": 10,
+                  "colSize1xs": 4,
+                  "colSize1sm": 4,
+                  "colSize1md": 1,
+                  "colSize1lg": 1,
+                  "colSize1xl": 1,
+                  "colSize2xs": 4,
+                  "colSize2sm": 4,
+                  "colSize2md": 1,
+                  "colSize2lg": 1,
+                  "colSize2xl": 1
+                },
+                "readOnly": true
               },
               {
                 "type": "10001",
@@ -2680,9 +2713,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "7_2fDxRNGfIbKeo1132ab",
-    "createdBy": "ajk",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2691,6 +2724,18 @@
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        },
         {
           "componentId": "9hN3oFlCNZvUfNQlN2HnI",
           "componentType": "10001",
@@ -2751,6 +2796,22 @@
     "events": [],
     "subType": "component",
     "screenId": "7_2fDxRNGfIbKeo1132ab",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-ILXb_OcmXs_8OQtk6Kb",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "7_2fDxRNGfIbKeo1132ab",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
@@ -4003,11 +4064,11 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-1",
     "screenId": "7_2fDxRNGfIbKeo1132ab",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

@@ -1,7 +1,7 @@
 [
   {
-    "id": "bkMldbOK186usdb9G0SuZ",
-    "name": "SOLE PROPRITER WIDGET TWO",
+    "id": "726Owk8P-PX4Crh-KDl4F",
+    "name": "Grid layout widget",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -44,7 +44,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "SOLE PROPRITER WIDGET TWO"
         },
         "group": "Layout",
         "type": "10001",
@@ -52,6 +52,23 @@
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
         "events": [
+          {
+            "triggerId": "GFoe0cJ7PKs9jcViWwde6",
+            "triggerName": "Move values of signatories in sole",
+            "serviceType": "11",
+            "attributes": {
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "",
+              "destinationBindingKey": "sole",
+              "sourceBindingKey": "signatories",
+              "sourceStoreType": 1,
+              "destinationStoreType": 2,
+              "targettedType": "object"
+            },
+            "type": "1",
+            "name": "On initialization"
+          },
           {
             "triggerId": "cgTG0ynreQ2tHcgb47qnp",
             "triggerName": "Dropdown data for sole prop",
@@ -164,7 +181,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "iqeuyetBtsQGsTLBkug7i",
+            "id": "qrBsLJhqjCLy3vV54okUg",
             "gridProps": [
               {
                 "type": "10001",
@@ -385,17 +402,26 @@
                                                     "errorMsg": "This field is required",
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -407,39 +433,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -712,17 +723,26 @@
                                                     "isCalendar": true,
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -734,39 +754,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1068,17 +1073,26 @@
                                                     "errorMsg": "This field is required",
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -1090,39 +1104,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1480,17 +1479,26 @@
                                                     "errorMsg": "This field is required",
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -1502,39 +1510,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -1832,17 +1825,26 @@
                                                     "errorMsg": "This field is required",
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -1854,39 +1856,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2184,17 +2171,26 @@
                                                     "errorMsg": "This field is required",
                                                     "bindButton": [
                                                       {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
+                                                        "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                        "type": "20006",
+                                                        "name": "Buttons",
+                                                        "component": {
+                                                          "content": "Button",
+                                                          "type": "20006"
+                                                        },
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "sAvE TO neXT",
                                                           "variant": "contained",
-                                                          "name": "Button",
+                                                          "name": "Buttons",
                                                           "label-locale-key": "",
-                                                          "fullWidth": true,
+                                                          "fullWidth": false,
                                                           "layoutProperties": {
                                                             "button": {
-                                                              "//": "Use this class to style button component."
+                                                              "//": "Use this class to style button component.",
+                                                              "color": "#fff !important",
+                                                              "background": "#DA0006 !important",
+                                                              "float": "right",
+                                                              "margin": "10px 0px 0px 0px"
                                                             },
                                                             "inputProps": {
                                                               "//": "Use this class to style button element."
@@ -2206,39 +2202,24 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "asset": null,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
+                                                          "disableCondition": {}
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
+                                                            "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                            "triggerName": "save to next api for sole proprietor",
                                                             "name": "On Submit",
                                                             "type": "4",
-                                                            "serviceType": "2"
+                                                            "serviceType": "8"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                        "path": "0-0-1-2-0-1-0-0-0",
+                                                        "version": "1.0.0",
                                                         "screenId": "bkMldbOK186usdb9G0SuZ",
                                                         "subType": "component",
                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -2568,17 +2549,26 @@
                                                             "errorMsg": "This Field is Required",
                                                             "bindButton": [
                                                               {
-                                                                "id": "Dm-voav-qBE2M67bAagxl",
-                                                                "status": "ACTIVE",
+                                                                "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                                "type": "20006",
+                                                                "name": "Buttons",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
                                                                 "attributes": {
-                                                                  "label": "aDD",
+                                                                  "label": "sAvE TO neXT",
                                                                   "variant": "contained",
-                                                                  "name": "Button",
+                                                                  "name": "Buttons",
                                                                   "label-locale-key": "",
-                                                                  "fullWidth": true,
+                                                                  "fullWidth": false,
                                                                   "layoutProperties": {
                                                                     "button": {
-                                                                      "//": "Use this class to style button component."
+                                                                      "//": "Use this class to style button component.",
+                                                                      "color": "#fff !important",
+                                                                      "background": "#DA0006 !important",
+                                                                      "float": "right",
+                                                                      "margin": "10px 0px 0px 0px"
                                                                     },
                                                                     "inputProps": {
                                                                       "//": "Use this class to style button element."
@@ -2590,39 +2580,24 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "asset": null,
                                                                   "cssClassNames": [
                                                                     {
                                                                       "cssClassName": "CardButton"
                                                                     }
                                                                   ],
-                                                                  "buttonIconPosition": "start"
-                                                                },
-                                                                "name": "Button",
-                                                                "icon": "FaBimobject",
-                                                                "group": "Form",
-                                                                "type": "20006",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 1,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Button",
-                                                                  "type": "20006"
+                                                                  "disableCondition": {}
                                                                 },
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                                    "triggerName": "Add Sole Information Data",
+                                                                    "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                                    "triggerName": "save to next api for sole proprietor",
                                                                     "name": "On Submit",
                                                                     "type": "4",
-                                                                    "serviceType": "2"
+                                                                    "serviceType": "8"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                                "path": "0-0-1-2-0-1-0-0-0",
+                                                                "version": "1.0.0",
                                                                 "screenId": "bkMldbOK186usdb9G0SuZ",
                                                                 "subType": "component",
                                                                 "projectId": "63f4845e476fc83100e3a899",
@@ -2999,17 +2974,26 @@
                                                             "errorMsg": "This field is required",
                                                             "bindButton": [
                                                               {
-                                                                "id": "Dm-voav-qBE2M67bAagxl",
-                                                                "status": "ACTIVE",
+                                                                "id": "3g_7SBbX7Ls2McuUuw2xG",
+                                                                "type": "20006",
+                                                                "name": "Buttons",
+                                                                "component": {
+                                                                  "content": "Button",
+                                                                  "type": "20006"
+                                                                },
                                                                 "attributes": {
-                                                                  "label": "aDD",
+                                                                  "label": "sAvE TO neXT",
                                                                   "variant": "contained",
-                                                                  "name": "Button",
+                                                                  "name": "Buttons",
                                                                   "label-locale-key": "",
-                                                                  "fullWidth": true,
+                                                                  "fullWidth": false,
                                                                   "layoutProperties": {
                                                                     "button": {
-                                                                      "//": "Use this class to style button component."
+                                                                      "//": "Use this class to style button component.",
+                                                                      "color": "#fff !important",
+                                                                      "background": "#DA0006 !important",
+                                                                      "float": "right",
+                                                                      "margin": "10px 0px 0px 0px"
                                                                     },
                                                                     "inputProps": {
                                                                       "//": "Use this class to style button element."
@@ -3021,39 +3005,24 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "asset": null,
                                                                   "cssClassNames": [
                                                                     {
                                                                       "cssClassName": "CardButton"
                                                                     }
                                                                   ],
-                                                                  "buttonIconPosition": "start"
-                                                                },
-                                                                "name": "Button",
-                                                                "icon": "FaBimobject",
-                                                                "group": "Form",
-                                                                "type": "20006",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 1,
-                                                                "version": "1.0.0",
-                                                                "isLatest": true,
-                                                                "projectType": "web",
-                                                                "component": {
-                                                                  "content": "Button",
-                                                                  "type": "20006"
+                                                                  "disableCondition": {}
                                                                 },
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                                    "triggerName": "Add Sole Information Data",
+                                                                    "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                                                                    "triggerName": "save to next api for sole proprietor",
                                                                     "name": "On Submit",
                                                                     "type": "4",
-                                                                    "serviceType": "2"
+                                                                    "serviceType": "8"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+                                                                "path": "0-0-1-2-0-1-0-0-0",
+                                                                "version": "1.0.0",
                                                                 "screenId": "bkMldbOK186usdb9G0SuZ",
                                                                 "subType": "component",
                                                                 "projectId": "63f4845e476fc83100e3a899",
@@ -3250,12 +3219,11 @@
                             "gridProps": [
                               {
                                 "type": "10001",
-                                "name": "Grid layout",
-                                "id": "xc9yi6QVo_L2RAPdtoTgI",
+                                "id": "18jE8wcxKJYR_TSY7GsVH",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "1KY3rZfZtVmb0qpjqmA1A",
+                                    "id": "C6Q4Lb6IWLKkRHfg2jI9I",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -3354,236 +3322,6 @@
                                       },
                                       {
                                         "type": "10001",
-                                        "id": "KzC-FyZ1YSSMaKiGvRLn2",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "_GQQQy5b8MQU5JuJ7Bux-",
-                                            "gridProps": [
-                                              {
-                                                "id": "gK8-zT_MAuVEE2nvVKNNe",
-                                                "type": "20035",
-                                                "name": "File Upload",
-                                                "component": {
-                                                  "content": "File upload",
-                                                  "type": "20035"
-                                                },
-                                                "attributes": {
-                                                  "label": "Customer Legal Id Doc",
-                                                  "stateName": "file",
-                                                  "accept": "image/*",
-                                                  "maxSize": "4096",
-                                                  "minSize": "10",
-                                                  "validate": {
-                                                    "errorMsg": "File Required",
-                                                    "required": true,
-                                                    "bindButton": [
-                                                      {
-                                                        "id": "Dm-voav-qBE2M67bAagxl",
-                                                        "status": "ACTIVE",
-                                                        "attributes": {
-                                                          "label": "aDD",
-                                                          "variant": "contained",
-                                                          "name": "Button",
-                                                          "label-locale-key": "",
-                                                          "fullWidth": true,
-                                                          "layoutProperties": {
-                                                            "button": {
-                                                              "//": "Use this class to style button component."
-                                                            },
-                                                            "inputProps": {
-                                                              "//": "Use this class to style button element."
-                                                            },
-                                                            "mainContainer": "button",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
-                                                          },
-                                                          "asset": null,
-                                                          "cssClassNames": [
-                                                            {
-                                                              "cssClassName": "CardButton"
-                                                            }
-                                                          ],
-                                                          "buttonIconPosition": "start"
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
-                                                        },
-                                                        "events": [
-                                                          {
-                                                            "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                                                            "triggerName": "Add Sole Information Data",
-                                                            "name": "On Submit",
-                                                            "type": "4",
-                                                            "serviceType": "2"
-                                                          }
-                                                        ],
-                                                        "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
-                                                        "screenId": "bkMldbOK186usdb9G0SuZ",
-                                                        "subType": "component",
-                                                        "projectId": "63f4845e476fc83100e3a899",
-                                                        "gitBranchName": "master",
-                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                      }
-                                                    ]
-                                                  },
-                                                  "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
-                                                  "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-                                                  "name": "File Upload",
-                                                  "layoutProperties": {
-                                                    "container": {
-                                                      "boxSizing": "border-box",
-                                                      "width": "100%",
-                                                      "height": "auto"
-                                                    },
-                                                    "button": {
-                                                      "borderRadius": "2px",
-                                                      "padding": "12px",
-                                                      "fontWeight": "200",
-                                                      "fontSize": "12px"
-                                                    },
-                                                    "loader": {
-                                                      "marginTop": "20px",
-                                                      "height": "10px",
-                                                      "borderRadius": "20px"
-                                                    },
-                                                    "mainContainer": "container",
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "mandatory": true,
-                                                  "showDeleteIcon": true,
-                                                  "fileUploadTrigger": "JLVXnyvH_LI3F4BXTbFLX",
-                                                  "fileDeleteTrigger": "Tbc8y4yH5KLlx88IDtlcf",
-                                                  "cssClassNames": [
-                                                    {
-                                                      "cssClassName": "CardButton"
-                                                    }
-                                                  ],
-                                                  "fileType": "pdf"
-                                                },
-                                                "events": [],
-                                                "path": "0-0-0-0-4-2-0-0-1-0-0",
-                                                "version": "2.0.0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-0-0-4-2-0-0-1-0"
-                                          }
-                                        ],
-                                        "path": "0-0-0-0-4-2-0-0-1",
-                                        "events": [],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout",
-                                          "hideComponent": false
-                                        },
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        },
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "name": "Grid layout"
-                                      }
-                                    ],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-4-2-0-0"
-                                  }
-                                ],
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "Grid layout"
-                                },
-                                "events": [],
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "path": "0-0-0-0-4-2-0"
-                              },
-                              {
-                                "type": "10001",
-                                "id": "18jE8wcxKJYR_TSY7GsVH",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "y4kzBG0zxQBIJJyb0xlqI",
-                                    "gridProps": [
-                                      {
-                                        "type": "10001",
                                         "id": "TlmWTx6CZD3bFB1_SXvAL",
                                         "gridProps": [
                                           {
@@ -3636,7 +3374,7 @@
                                                   "content": "Grid layout",
                                                   "type": "10001"
                                                 },
-                                                "path": "0-0-0-0-4-2-1-0-0-0-0",
+                                                "path": "0-0-0-0-4-2-0-0-1-0-0",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
@@ -3783,7 +3521,7 @@
                                                           "type": "20035"
                                                         },
                                                         "events": [],
-                                                        "path": "0-0-0-0-4-2-1-0-0-0-0-0-0"
+                                                        "path": "0-0-0-0-4-2-0-0-1-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -3793,7 +3531,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "0-0-0-0-4-2-1-0-0-0-0-0"
+                                                    "path": "0-0-0-0-4-2-0-0-1-0-0-0"
                                                   }
                                                 ],
                                                 "layoutProperties": {
@@ -3923,7 +3661,7 @@
                                                                     "name": "On click"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-4-2-1-0-0-0-1-0-0-0-0"
+                                                                "path": "0-0-0-0-4-2-0-0-1-0-1-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -3933,10 +3671,10 @@
                                                               "sm": 12,
                                                               "xs": 12
                                                             },
-                                                            "path": "0-0-0-0-4-2-1-0-0-0-1-0-0-0"
+                                                            "path": "0-0-0-0-4-2-0-0-1-0-1-0-0-0"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-4-2-1-0-0-0-1-0-0",
+                                                        "path": "0-0-0-0-4-2-0-0-1-0-1-0-0",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -3978,7 +3716,7 @@
                                                       "sm": 6,
                                                       "xs": 6
                                                     },
-                                                    "path": "0-0-0-0-4-2-1-0-0-0-1-0"
+                                                    "path": "0-0-0-0-4-2-0-0-1-0-1-0"
                                                   },
                                                   {
                                                     "type": "column",
@@ -4084,7 +3822,7 @@
                                                                     "name": "On click"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-0-0-4-2-1-0-0-0-1-1-0-0-0"
+                                                                "path": "0-0-0-0-4-2-0-0-1-0-1-1-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -4094,10 +3832,10 @@
                                                               "sm": 12,
                                                               "xs": 12
                                                             },
-                                                            "path": "0-0-0-0-4-2-1-0-0-0-1-1-0-0"
+                                                            "path": "0-0-0-0-4-2-0-0-1-0-1-1-0-0"
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-4-2-1-0-0-0-1-1-0",
+                                                        "path": "0-0-0-0-4-2-0-0-1-0-1-1-0",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -4139,7 +3877,7 @@
                                                       "sm": 6,
                                                       "xs": 6
                                                     },
-                                                    "path": "0-0-0-0-4-2-1-0-0-0-1-1"
+                                                    "path": "0-0-0-0-4-2-0-0-1-0-1-1"
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -4189,7 +3927,7 @@
                                                   "type": "10001",
                                                   "content": "Grid layout"
                                                 },
-                                                "path": "0-0-0-0-4-2-1-0-0-0-1",
+                                                "path": "0-0-0-0-4-2-0-0-1-0-1",
                                                 "dimensions": {
                                                   "rows": 1,
                                                   "columns": 2,
@@ -4214,10 +3952,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "0-0-0-0-4-2-1-0-0-0"
+                                            "path": "0-0-0-0-4-2-0-0-1-0"
                                           }
                                         ],
-                                        "path": "0-0-0-0-4-2-1-0-0",
+                                        "path": "0-0-0-0-4-2-0-0-1",
                                         "events": [
                                           {
                                             "triggerId": "AWyl3wOZThpvu-zv1zjIV",
@@ -4295,10 +4033,10 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "0-0-0-0-4-2-1-0"
+                                    "path": "0-0-0-0-4-2-0-0"
                                   }
                                 ],
-                                "path": "0-0-0-0-4-2-1",
+                                "path": "0-0-0-0-4-2-0",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -4318,7 +4056,7 @@
                                   },
                                   "direction": "row",
                                   "name": "Grid layout",
-                                  "hideComponent": true
+                                  "hideComponent": false
                                 },
                                 "component": {
                                   "type": "10001",
@@ -4546,7 +4284,7 @@
                                                         "id": "Dm-voav-qBE2M67bAagxl",
                                                         "status": "ACTIVE",
                                                         "attributes": {
-                                                          "label": "aDD",
+                                                          "label": "add",
                                                           "variant": "contained",
                                                           "name": "Button",
                                                           "label-locale-key": "",
@@ -5196,8 +4934,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-5-0"
+                            }
                           }
                         ],
                         "path": "0-0-0-0-5",
@@ -5608,8 +5345,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-0-0-6-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -6890,6 +6626,12 @@
                                                           "value": "smsotp"
                                                         },
                                                         {
+                                                          "type": 3,
+                                                          "name": "Current session",
+                                                          "key": "validateOtpUuid",
+                                                          "value": "response.data.result.uuid"
+                                                        },
+                                                        {
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "soleProprietor.signatories",
@@ -6898,14 +6640,14 @@
                                                         {
                                                           "type": 2,
                                                           "name": "Current screen",
-                                                          "key": "validateOtpUuid",
-                                                          "value": "uuid"
+                                                          "key": "id",
+                                                          "value": "formId"
                                                         },
                                                         {
                                                           "type": 2,
                                                           "name": "Current screen",
-                                                          "key": "id",
-                                                          "value": "formId"
+                                                          "key": "validateOtpUuid",
+                                                          "value": "uuid"
                                                         },
                                                         {
                                                           "type": 1,
@@ -6948,13 +6690,67 @@
                                                           "name": "Form",
                                                           "key": "soleProprietor.crsDocId",
                                                           "value": "crsDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.areYouPoliticallyInvolved",
+                                                          "value": "areYouPoliticallyInvolved.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerBirthPlace",
+                                                          "value": "customerBirthPlace"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerCity",
+                                                          "value": "customerCity"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerCountry",
+                                                          "value": "customerCountry"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerDOB",
+                                                          "value": "customerDOB"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerLegalId",
+                                                          "value": "customerLegalId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerName",
+                                                          "value": "customerName"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.customerNationality",
+                                                          "value": "customerNationality"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "soleProprietor.signatories.ntnDocId",
+                                                          "value": "cusDocId"
                                                         }
                                                       ],
                                                       "baseURL": "641aedb2676c823a449fd597",
                                                       "storeType": 2
                                                     },
-                                                    "type": "2",
-                                                    "name": "On click"
+                                                    "type": "4",
+                                                    "name": "On Submit"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-7-2-0-1-0-0-0",
@@ -7199,12 +6995,12 @@
     ],
     "events": [],
     "subType": "widget",
-    "screenId": "bkMldbOK186usdb9G0SuZ",
+    "screenId": "726Owk8P-PX4Crh-KDl4F",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "bkMldbOK186usdb9G0SuZ",
-    "createdBy": "ajk",
+    "_id": "726Owk8P-PX4Crh-KDl4F",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "5/3/2023",
     "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7250,10 +7046,16 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "SOLE PROPRITER WIDGET TWO"
     },
     "layout": null,
     "events": [
+      {
+        "triggerId": "GFoe0cJ7PKs9jcViWwde6",
+        "triggerName": "Move values of signatories in sole",
+        "name": "On initialization",
+        "type": "1"
+      },
       {
         "triggerId": "cgTG0ynreQ2tHcgb47qnp",
         "triggerName": "Dropdown data for sole prop",
@@ -7804,16 +7606,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -7824,32 +7634,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8104,16 +7902,24 @@
         "isCalendar": true,
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -8124,32 +7930,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8419,16 +8213,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -8439,32 +8241,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -8804,16 +8594,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -8824,32 +8622,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9117,16 +8903,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9137,32 +8931,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9430,16 +9212,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9450,32 +9240,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -9533,19 +9311,6 @@
           "id": "en3yDZ7XK8kEaL7d-4Dck",
           "position": {
             "i": "en3yDZ7XK8kEaL7d-4Dck",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
-          "componentId": "xc9yi6QVo_L2RAPdtoTgI",
-          "componentType": "10001",
-          "id": "xc9yi6QVo_L2RAPdtoTgI",
-          "position": {
-            "i": "xc9yi6QVo_L2RAPdtoTgI",
             "x": null,
             "y": null,
             "w": null,
@@ -9866,16 +9631,24 @@
         "errorMsg": "This Field is Required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -9886,32 +9659,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10245,16 +10006,24 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
+            "id": "3g_7SBbX7Ls2McuUuw2xG",
+            "type": "20006",
+            "name": "Buttons",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
-              "label": "aDD",
+              "label": "sAvE TO neXT",
               "variant": "contained",
-              "name": "Button",
+              "name": "Buttons",
               "label-locale-key": "",
-              "fullWidth": true,
+              "fullWidth": false,
               "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#fff !important",
+                  "background": "#DA0006 !important",
+                  "float": "right",
+                  "margin": "10px 0px 0px 0px"
+                },
                 "inputProps": {
                   "//": "Use this class to style button element."
                 },
@@ -10265,32 +10034,20 @@
                 "sm": 12,
                 "xs": 12
               },
-              "asset": null,
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
+              "disableCondition": {}
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
+                "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
+                "triggerName": "save to next api for sole proprietor",
                 "name": "On Submit",
                 "type": "4",
-                "serviceType": "2"
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
+            "path": "0-0-1-2-0-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "bkMldbOK186usdb9G0SuZ",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -10324,7 +10081,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "xc9yi6QVo_L2RAPdtoTgI",
+    "id": "18jE8wcxKJYR_TSY7GsVH",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -10349,11 +10106,11 @@
           }
         },
         {
-          "componentId": "KzC-FyZ1YSSMaKiGvRLn2",
+          "componentId": "TlmWTx6CZD3bFB1_SXvAL",
           "componentType": "10001",
-          "id": "KzC-FyZ1YSSMaKiGvRLn2",
+          "id": "TlmWTx6CZD3bFB1_SXvAL",
           "position": {
-            "i": "KzC-FyZ1YSSMaKiGvRLn2",
+            "i": "TlmWTx6CZD3bFB1_SXvAL",
             "x": null,
             "y": null,
             "w": null,
@@ -10383,7 +10140,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideComponent": false
     },
     "layout": null,
     "events": [],
@@ -10474,218 +10232,6 @@
     "screenId": "bkMldbOK186usdb9G0SuZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "KzC-FyZ1YSSMaKiGvRLn2",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "gK8-zT_MAuVEE2nvVKNNe",
-          "componentType": "20035",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout",
-      "hideComponent": false
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "bkMldbOK186usdb9G0SuZ",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "gK8-zT_MAuVEE2nvVKNNe",
-    "type": "20035",
-    "name": "File Upload",
-    "component": { "content": "File upload", "type": "20035" },
-    "attributes": {
-      "label": "Customer Legal Id Doc",
-      "stateName": "file",
-      "accept": "image/*",
-      "maxSize": "4096",
-      "minSize": "10",
-      "validate": {
-        "errorMsg": "File Required",
-        "required": true,
-        "bindButton": [
-          {
-            "id": "Dm-voav-qBE2M67bAagxl",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "aDD",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "asset": null,
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "buttonIconPosition": "start"
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "Ud6oZZnAedYXXI25_y13T",
-                "triggerName": "Add Sole Information Data",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "2"
-              }
-            ],
-            "path": "0-0-0-0-5-0-0-2-0-0-0-0-0",
-            "screenId": "bkMldbOK186usdb9G0SuZ",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
-      },
-      "fileUploadUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/uploadAttachment",
-      "fileDeleteUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/prelogin/v1/deleteAttachment",
-      "name": "File Upload",
-      "layoutProperties": {
-        "container": {
-          "boxSizing": "border-box",
-          "width": "100%",
-          "height": "auto"
-        },
-        "button": {
-          "borderRadius": "2px",
-          "padding": "12px",
-          "fontWeight": "200",
-          "fontSize": "12px"
-        },
-        "loader": {
-          "marginTop": "20px",
-          "height": "10px",
-          "borderRadius": "20px"
-        },
-        "mainContainer": "container",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "mandatory": true,
-      "showDeleteIcon": true,
-      "fileUploadTrigger": "JLVXnyvH_LI3F4BXTbFLX",
-      "fileDeleteTrigger": "Tbc8y4yH5KLlx88IDtlcf",
-      "cssClassNames": [{ "cssClassName": "CardButton" }],
-      "fileType": "pdf"
-    },
-    "events": [],
-    "path": "0-0-0-0-4-2-0-0-1-0-0",
-    "version": "2.0.0",
-    "screenId": "bkMldbOK186usdb9G0SuZ",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "18jE8wcxKJYR_TSY7GsVH",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "TlmWTx6CZD3bFB1_SXvAL",
-          "componentType": "10001",
-          "id": "TlmWTx6CZD3bFB1_SXvAL",
-          "position": {
-            "i": "TlmWTx6CZD3bFB1_SXvAL",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout",
-      "hideComponent": true
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "bkMldbOK186usdb9G0SuZ",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10932,7 +10478,7 @@
     "projectType": "web",
     "component": { "content": "File upload", "type": "20035" },
     "events": [],
-    "path": "0-0-0-0-4-2-1-0-0-0-0-0-0",
+    "path": "0-0-0-0-4-2-0-0-1-0-0-0-0",
     "screenId": "bkMldbOK186usdb9G0SuZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11094,7 +10640,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "0-0-0-0-4-2-1-0-0-0-1-0-0-0-0",
+    "path": "0-0-0-0-4-2-0-0-1-0-1-0-0-0-0",
     "screenId": "bkMldbOK186usdb9G0SuZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11188,7 +10734,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "0-0-0-0-4-2-1-0-0-0-1-1-0-0-0",
+    "path": "0-0-0-0-4-2-0-0-1-0-1-1-0-0-0",
     "screenId": "bkMldbOK186usdb9G0SuZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -11494,7 +11040,7 @@
     "id": "Dm-voav-qBE2M67bAagxl",
     "status": "ACTIVE",
     "attributes": {
-      "label": "aDD",
+      "label": "add",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -12432,8 +11978,8 @@
       {
         "triggerId": "Lcv6SQi7PbeWWzHMk9CD3",
         "triggerName": "save to next api for sole proprietor",
-        "name": "On click",
-        "type": "2",
+        "name": "On Submit",
+        "type": "4",
         "serviceType": "8"
       }
     ],

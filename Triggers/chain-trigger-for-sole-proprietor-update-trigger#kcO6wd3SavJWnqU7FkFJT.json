@@ -83,13 +83,6 @@
                         { "key": "productId" },
                         { "key": "pricingModelId" },
                         {
-                          "key": "signatories",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.response.data.result.formRequest.data.signatories"
-                          }
-                        },
-                        {
                           "key": "items",
                           "changeValueConditonally": true,
                           "logic": {
@@ -358,6 +351,13 @@
                           "logic": {
                             "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.crsDocName"
                           }
+                        },
+                        {
+                          "key": "signatories",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories"
+                          }
                         }
                       ],
                       "targettedType": "object"
@@ -365,14 +365,16 @@
                   }
                 }
               ],
-              "updatedAt": "4/11/2023",
-              "createdAt": "4/11/2023",
-              "createdBy": "talha",
-              "updatedBy": "talha"
+              "updatedAt": "5/3/2023",
+              "createdAt": "5/3/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
             },
             {
               "id": "KP0FdSPNcGby4vi3MQqBz",
+              "_id": "g0IOoKKiaIxdiPfPNckY1",
               "name": "map designation in form 2",
+              "old_name": "map designation in form 2",
               "projectId": "63f4845e476fc83100e3a899",
               "gitBranchName": "master",
               "services": [
@@ -381,6 +383,7 @@
                   "command": {
                     "type": "6",
                     "attributes": {
+                      "requestBody": [],
                       "storeType": "",
                       "selectedObjectBindingKey": "selectedObject",
                       "dataType": "",
@@ -393,7 +396,7 @@
                           "key": "value",
                           "changeValueConditonally": true,
                           "logic": {
-                            "var": "response.data.result.formRequest.data.designation"
+                            "var": "currentScreen.response.data.result.formRequest.data.designation"
                           }
                         }
                       ],
@@ -402,11 +405,10 @@
                   }
                 }
               ],
-              "_id": "g0IOoKKiaIxdiPfPNckY1",
-              "updatedAt": "4/11/2023",
-              "createdAt": "4/11/2023",
-              "createdBy": "talha",
-              "updatedBy": "talha"
+              "updatedAt": "4/12/2023",
+              "createdAt": "4/12/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
             },
             {
               "id": "xaa54_7kqowMYmkssTsLS",
@@ -496,8 +498,10 @@
               "updatedBy": "ahmerjavedkhan"
             },
             {
-              "id": "bkOhjiR4Y7IPHtwmVvndB",
-              "name": "Manipulate Key To Object areYouPoliticallyInvolved For Sole Proprietor",
+              "id": "GFoe0cJ7PKs9jcViWwde6",
+              "_id": "DcOrGOHE255lrxZz4w6Ci",
+              "name": "Move values of signatories in sole",
+              "old_name": "Move values of signatories in sole",
               "projectId": "63f4845e476fc83100e3a899",
               "gitBranchName": "master",
               "services": [
@@ -506,39 +510,23 @@
                   "command": {
                     "type": "6",
                     "attributes": {
+                      "requestBody": [],
                       "storeType": "",
                       "selectedObjectBindingKey": "selectedObject",
-                      "dataType": "",
-                      "destinationBindingKey": "areYouPoliticallyInvolved",
-                      "sourceBindingKey": "form.areYouPoliticallyInvolved",
-                      "sourceStoreType": 2,
-                      "destinationStoreType": 1,
-                      "filterList": [
-                        {
-                          "key": "value",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.form.areYouPoliticallyInvolved"
-                          }
-                        },
-                        {
-                          "key": "displayName",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.form.areYouPoliticallyInvolved"
-                          }
-                        }
-                      ],
-                      "targettedType": "object"
+                      "dataType": "value",
+                      "destinationBindingKey": "sole",
+                      "sourceBindingKey": "signatories",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 2,
+                      "targettedType": "value"
                     }
                   }
                 }
               ],
-              "_id": "VuqRAkV3nkUqWXw3S59Jw",
-              "updatedAt": "5/1/2023",
-              "createdAt": "5/1/2023",
-              "createdBy": "ajk",
-              "updatedBy": "ajk"
+              "updatedAt": "4/11/2023",
+              "createdAt": "4/11/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
             }
           ],
           "triggerIds": [
@@ -547,14 +535,14 @@
             "KP0FdSPNcGby4vi3MQqBz",
             "xaa54_7kqowMYmkssTsLS",
             "s6Otby_tXIcvEz7FSr7x0",
-            "bkOhjiR4Y7IPHtwmVvndB"
+            "GFoe0cJ7PKs9jcViWwde6"
           ]
         }
       }
     }
   ],
-  "updatedAt": "5/1/2023",
-  "createdAt": "5/1/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

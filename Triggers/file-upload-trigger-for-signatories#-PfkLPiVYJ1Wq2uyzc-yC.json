@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "cusDocResponse",
+          "responseStateKey": "uploadFileResponse",
           "url": "/doc-mgmt/upload-files",
           "checksum": true,
           "encryption": true,
@@ -47,25 +47,12 @@
           "baseURL": "641aedb2676c823a449fd597",
           "storeType": 2
         },
-        "responseHandler": [
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "Map docId from cusDocResponse to cusDocId",
-            "triggerId": "Kir3OK-TL5sEhb3ix3quo"
-          },
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "set showCusDocUpload false",
-            "triggerId": "gwan5WuriWNiDpSOBWZsk"
-          }
-        ]
+        "responseHandler": []
       }
     }
   ],
-  "updatedAt": "5/1/2023",
-  "createdAt": "5/1/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

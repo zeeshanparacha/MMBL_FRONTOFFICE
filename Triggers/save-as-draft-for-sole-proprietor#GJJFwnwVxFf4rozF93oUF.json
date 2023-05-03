@@ -245,6 +245,12 @@
             {
               "type": 2,
               "name": "Current screen",
+              "key": "soleProprietor.signatories",
+              "value": "sole"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
               "key": "validateOtpUuid",
               "value": "uuid"
             },
@@ -295,60 +301,6 @@
               "name": "Form",
               "key": "soleProprietor.crsDocId",
               "value": "crsDocId"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.areYouPoliticallyInvolved",
-              "value": "areYouPoliticallyInvolved.value"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerBirthPlace",
-              "value": "customerBirthPlace"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerCity",
-              "value": "customerCity"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerCountry",
-              "value": "customerCountry"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerDOB",
-              "value": "customerDOB"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerLegalId",
-              "value": "customerLegalId"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerName",
-              "value": "customerName"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.customerNationality",
-              "value": "customerNationality"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "soleProprietor.signatories.ntnDocId",
-              "value": "cusDocId"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -371,8 +323,8 @@
       }
     }
   ],
-  "updatedAt": "5/1/2023",
-  "createdAt": "5/1/2023",
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "bookTDR",
+          "responseStateKey": "response",
           "responseReturnValue": "data",
           "url": "/tdr/book",
           "checksum": true,
@@ -69,9 +69,9 @@
           },
           {
             "logic": { "==": [{ "var": "status" }, 0] },
-            "httpStatus": 400,
-            "triggerName": "Show 400 Error Modal",
-            "triggerId": "yEpyxKhV3vRb3sVC7JVoX"
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -83,8 +83,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "muzzamil",
-  "updatedBy": "muzzamil"
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

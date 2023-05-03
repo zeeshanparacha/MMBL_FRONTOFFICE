@@ -31,7 +31,12 @@
             "locale": "en-ltr"
           },
           "requestBody": [
-            { "type": 1, "name": "Form", "key": "docId", "value": "cusDocId" },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "docId",
+              "value": "uploadFileResponse.data.result.docId"
+            },
             {
               "type": 2,
               "name": "Current screen",
@@ -42,25 +47,12 @@
           "baseURL": "641aedb2676c823a449fd597",
           "storeType": 2
         },
-        "responseHandler": [
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "set showCusDocUpload true",
-            "triggerId": "GN_WJQ51heiAKHjgUVWEP"
-          },
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "clear cusDocResponse",
-            "triggerId": "oQPpbKzMy4m3b3OqDuszc"
-          }
-        ]
+        "responseHandler": []
       }
     }
   ],
-  "updatedAt": "5/1/2023",
-  "createdAt": "5/1/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/3/2023",
+  "createdAt": "5/3/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

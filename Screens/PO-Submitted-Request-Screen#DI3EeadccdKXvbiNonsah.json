@@ -25,7 +25,7 @@
         "id": "fNYHO4_k0ljS0fk9544Zs",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "PO Submitted Request Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -559,16 +559,16 @@
                                                           },
                                                           "dropdownOptions": [
                                                             {
-                                                              "code": "COMPLETED",
-                                                              "name": "COMPLETED"
-                                                            },
-                                                            {
                                                               "code": "PENDING",
                                                               "name": "PENDING"
                                                             },
                                                             {
+                                                              "code": "COMPLETED",
+                                                              "name": "APPROVED"
+                                                            },
+                                                            {
                                                               "code": "DECLINED",
-                                                              "name": "DECLINED"
+                                                              "name": "REJECTED"
                                                             }
                                                           ],
                                                           "variant": "standard",
@@ -3248,14 +3248,14 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "DI3EeadccdKXvbiNonsah",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/30/2023",
-    "createdAt": "3/30/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "fNYHO4_k0ljS0fk9544Zs",
-    "name": "Grid layout",
+    "name": "PO Submitted Request Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4007,9 +4007,9 @@
         "xs": 12
       },
       "dropdownOptions": [
-        { "code": "COMPLETED", "name": "COMPLETED" },
         { "code": "PENDING", "name": "PENDING" },
-        { "code": "DECLINED", "name": "DECLINED" }
+        { "code": "COMPLETED", "name": "APPROVED" },
+        { "code": "DECLINED", "name": "REJECTED" }
       ],
       "variant": "standard",
       "disableUnderline": true,

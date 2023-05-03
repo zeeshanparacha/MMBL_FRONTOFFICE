@@ -25,7 +25,7 @@
         "id": "mEzLC5ZT4i2BHbL4yumqD",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "CDR Submitted Request Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -562,16 +562,16 @@
                                                           },
                                                           "dropdownOptions": [
                                                             {
-                                                              "code": "COMPLETED",
-                                                              "name": "COMPLETED"
-                                                            },
-                                                            {
                                                               "code": "PENDING",
                                                               "name": "PENDING"
                                                             },
                                                             {
+                                                              "code": "COMPLETED",
+                                                              "name": "APPROVED"
+                                                            },
+                                                            {
                                                               "code": "DECLINED",
-                                                              "name": "DECLINED"
+                                                              "name": "REJECTED"
                                                             }
                                                           ],
                                                           "variant": "standard",
@@ -3247,13 +3247,13 @@
     "gitBranchName": "master",
     "_id": "DTduOZRqks5R0jJPnUtna",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/30/2023",
-    "createdAt": "3/30/2023",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "mEzLC5ZT4i2BHbL4yumqD",
-    "name": "Grid layout",
+    "name": "CDR Submitted Request Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4005,9 +4005,9 @@
         "xs": 12
       },
       "dropdownOptions": [
-        { "code": "COMPLETED", "name": "COMPLETED" },
         { "code": "PENDING", "name": "PENDING" },
-        { "code": "DECLINED", "name": "DECLINED" }
+        { "code": "COMPLETED", "name": "APPROVED" },
+        { "code": "DECLINED", "name": "REJECTED" }
       ],
       "variant": "standard",
       "disableUnderline": true,
