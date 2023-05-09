@@ -2361,7 +2361,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "BC3hPD_I36pbMPdKQuyHk",
+                    "id": "ab2GTLcIQUrI67oGwvPi-",
                     "gridProps": [
                       {
                         "id": "7YpPI2179vSzVBSDeDHCD",
@@ -2627,7 +2627,7 @@
                         {
                           "var": "currentScreen.selectedObject.transactionType"
                         },
-                        "Collection"
+                        "collection"
                       ]
                     }
                   }
@@ -3070,9 +3070,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "SatY5J7twQ6JpBvz8Y_gK",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/9/2023",
+    "createdAt": "5/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5360,7 +5360,7 @@
         "logic": {
           "!=": [
             { "var": "currentScreen.selectedObject.transactionType" },
-            "Collection"
+            "collection"
           ]
         }
       }

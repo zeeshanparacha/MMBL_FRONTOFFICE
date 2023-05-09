@@ -1050,7 +1050,7 @@
                                                                                                     "required": true,
                                                                                                     "errorMsg": "This field is required"
                                                                                                   },
-                                                                                                  "placeholder": "",
+                                                                                                  "placeholder": "minimum amount Rs. 5,000",
                                                                                                   "disableUnderline": true,
                                                                                                   "cssClassNames": [
                                                                                                     {
@@ -1073,7 +1073,7 @@
                                                                                                   "type": "20040"
                                                                                                 },
                                                                                                 "events": [],
-                                                                                                "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-0"
+                                                                                                "path": "0-0-2-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-0"
                                                                                               },
                                                                                               {
                                                                                                 "id": "FETDl2L0L-TmfztBuTO-V",
@@ -2714,8 +2714,8 @@
     "gitBranchName": "master",
     "_id": "7_2fDxRNGfIbKeo1132ab",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/3/2023",
-    "createdAt": "5/3/2023",
+    "updatedAt": "5/4/2023",
+    "createdAt": "5/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4009,7 +4009,7 @@
         "xs": 12
       },
       "validate": { "required": true, "errorMsg": "This field is required" },
-      "placeholder": "",
+      "placeholder": "minimum amount Rs. 5,000",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }]
     },
@@ -4025,7 +4025,7 @@
     "projectType": "web",
     "component": { "content": "Amount", "type": "20040" },
     "events": [],
-    "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-0",
+    "path": "0-0-2-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0-0-1-0-0",
     "screenId": "7_2fDxRNGfIbKeo1132ab",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

@@ -806,7 +806,7 @@
                                                               }
                                                             ]
                                                           },
-                                                          "placeholder": "",
+                                                          "placeholder": "minimum amount Rs. 5,000",
                                                           "disableUnderline": true,
                                                           "cssClassNames": [
                                                             {
@@ -2339,8 +2339,8 @@
     "gitBranchName": "master",
     "_id": "LTf1rbFa8q4pPCCmXq87K",
     "createdBy": "ajk",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "updatedAt": "5/4/2023",
+    "createdAt": "5/4/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3236,7 +3236,7 @@
           }
         ]
       },
-      "placeholder": "",
+      "placeholder": "minimum amount Rs. 5,000",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }]
     },
@@ -3291,11 +3291,11 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-0-0-0-0-0-1-0-0-1-0-1",
     "screenId": "LTf1rbFa8q4pPCCmXq87K",
+    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

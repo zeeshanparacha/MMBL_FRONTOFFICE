@@ -8966,7 +8966,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "TgPb7gZrVyxSmB_OBkItl",
+                                                            "id": "5zjw6d4P0x84JqmWqDXB0",
                                                             "gridProps": [
                                                               {
                                                                 "type": "10001",
@@ -9767,8 +9767,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "0-0-0-0-0-0-1-0-1-0-2-1-0-0"
+                                                            }
                                                           }
                                                         ],
                                                         "path": "0-0-0-0-0-0-1-0-1-0-2-1-0",
@@ -9797,7 +9796,7 @@
                                                                 {
                                                                   "var": "currentScreen.form.zakatExemption.code"
                                                                 },
-                                                                "yes"
+                                                                "Yes"
                                                               ]
                                                             }
                                                           }
@@ -9813,7 +9812,17 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "name": "file upload document"
+                                                        "name": "file upload document",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -9835,7 +9844,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "eqgZp8VFL-ePBD5-2fcWb",
+                                                            "id": "83r3KTFmf0bDmirgAtTuE",
                                                             "gridProps": [
                                                               {
                                                                 "type": "10001",
@@ -10633,8 +10642,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "0-0-0-0-0-0-1-0-1-0-2-2-0-0"
+                                                            }
                                                           }
                                                         ],
                                                         "path": "0-0-0-0-0-0-1-0-1-0-2-2-0",
@@ -10663,7 +10671,7 @@
                                                                 {
                                                                   "var": "currentScreen.form.taxExemption.code"
                                                                 },
-                                                                "yes"
+                                                                "Yes"
                                                               ]
                                                             }
                                                           }
@@ -10679,7 +10687,17 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "name": "file upload document"
+                                                        "name": "file upload document",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -11443,8 +11461,8 @@
     "gitBranchName": "master",
     "_id": "aJMwLIPGF8doLrLEwZE-e",
     "createdBy": "ajk",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "updatedAt": "5/9/2023",
+    "createdAt": "5/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -17801,7 +17819,7 @@
       "name": "file upload document",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.form.zakatExemption.code" }, "yes"]
+          "!=": [{ "var": "currentScreen.form.zakatExemption.code" }, "Yes"]
         }
       }
     },
@@ -18369,7 +18387,7 @@
       "name": "file upload document",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.form.taxExemption.code" }, "yes"]
+          "!=": [{ "var": "currentScreen.form.taxExemption.code" }, "Yes"]
         }
       }
     },

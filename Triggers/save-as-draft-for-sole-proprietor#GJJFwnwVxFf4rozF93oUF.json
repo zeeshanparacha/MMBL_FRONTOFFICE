@@ -301,6 +301,96 @@
               "name": "Form",
               "key": "soleProprietor.crsDocId",
               "value": "crsDocId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.accountCategory",
+              "value": "accountCategory.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedMonthlyIncome",
+              "value": "expectedMonthlyIncome.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfCreditAmount",
+              "value": "expectedNoOfCreditAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfCreditTransactions",
+              "value": "expectedNoOfCreditTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfDebitAmount",
+              "value": "expectedNoOfDebitAmount.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.expectedNoOfDebitTransactions",
+              "value": "expectedNoOfDebitTransactions.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.modeOfTransaction",
+              "value": "modeOfTransaction"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.nationality",
+              "value": "nationalityOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.residence",
+              "value": "residenceOfPartnership.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.occupation",
+              "value": "occupationOfCorporate.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.taxExemption",
+              "value": "taxExemption.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.zakatExemption",
+              "value": "zakatExemption.code"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "soleProprietor.branch",
+              "value": "branchNameOfBank.value"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.legalDocName",
+              "value": "legalDocName.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "soleProprietor.otherPurpose",
+              "value": "otherPurpose"
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
@@ -323,8 +413,8 @@
       }
     }
   ],
-  "updatedAt": "5/3/2023",
-  "createdAt": "5/3/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

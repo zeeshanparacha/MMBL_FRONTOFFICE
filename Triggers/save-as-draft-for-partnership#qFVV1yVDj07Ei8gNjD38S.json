@@ -40,7 +40,7 @@
               "type": 1,
               "name": "Form",
               "key": "partnership.branchNameOfBank",
-              "value": "branchNameOfBank"
+              "value": "branchNameOfBank.value"
             },
             {
               "type": 1,
@@ -93,8 +93,14 @@
             {
               "type": 1,
               "name": "Form",
-              "key": "partnership.dateAndPlaceOfIncorporation",
-              "value": "dateAndPlaceOfIncorporation"
+              "key": "partnership.placeOfIncorporation",
+              "value": "placeOfIncorporation"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.dateOfIncorporation",
+              "value": "dateOfIncorporation"
             },
             {
               "type": 1,
@@ -118,7 +124,7 @@
               "type": 1,
               "name": "Form",
               "key": "partnership.branchNameOfBank",
-              "value": "branchNameOfBank"
+              "value": "branchNameOfBank.value"
             },
             {
               "type": 1,
@@ -166,7 +172,7 @@
               "type": 1,
               "name": "Form",
               "key": "partnership.modeOfTransaction",
-              "value": "modeOfTransaction.value"
+              "value": "modeOfTransaction"
             },
             {
               "type": 1,
@@ -436,8 +442,8 @@
       }
     }
   ],
-  "updatedAt": "4/20/2023",
-  "createdAt": "4/20/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/9/2023",
+  "createdAt": "5/9/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

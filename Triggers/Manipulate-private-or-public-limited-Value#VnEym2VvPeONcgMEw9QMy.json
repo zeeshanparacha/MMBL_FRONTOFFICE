@@ -126,13 +126,6 @@
               }
             },
             {
-              "key": "dateAndPlaceOfIncorporation",
-              "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.dateAndPlaceOfIncorporation"
-              }
-            },
-            {
               "key": "ntnNumber",
               "changeValueConditonally": true,
               "logic": {
@@ -426,6 +419,20 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.declarationOfChangesDocId"
               }
+            },
+            {
+              "key": "dateOfIncorporation",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.dateOfIncorporation"
+              }
+            },
+            {
+              "key": "placeOfIncorporation",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.placeOfIncorporation"
+              }
             }
           ],
           "targettedType": "object"
@@ -433,8 +440,8 @@
       }
     }
   ],
-  "updatedAt": "4/16/2023",
-  "createdAt": "4/16/2023",
+  "updatedAt": "5/9/2023",
+  "createdAt": "5/9/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

@@ -1,0 +1,43 @@
+{
+  "id": "J5dlcXw_D3IV1rjMQ4_K-",
+  "_id": "IBCnAqBejBnLulgpNYD7A",
+  "name": "Manipulate Key To Object bankOfBranchName",
+  "old_name": "Manipulate Key To Object bankOfBranchName",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "branchNameOfBank",
+          "sourceBindingKey": "form.branchNameOfBank",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "value",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.branchNameOfBank" }
+            },
+            {
+              "key": "displayName",
+              "changeValueConditonally": true,
+              "logic": { "var": "currentScreen.form.branchNameOfBank" }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

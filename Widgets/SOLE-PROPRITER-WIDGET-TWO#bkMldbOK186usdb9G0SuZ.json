@@ -44,7 +44,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "SOLE PROPRITER WIDGET TWO"
         },
         "group": "Layout",
         "type": "10001",
@@ -356,8 +356,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -704,7 +704,7 @@
                                                   "name": "Calendar",
                                                   "label": "",
                                                   "stateName": "customerDOB",
-                                                  "format": "dd/MM/yyyy",
+                                                  "format": "yyyy/MM/dd",
                                                   "variant": "standard",
                                                   "validate": {
                                                     "required": true,
@@ -1039,8 +1039,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1451,8 +1451,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1803,8 +1803,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -2155,8 +2155,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -2971,7 +2971,7 @@
                                                           "name": "Text box",
                                                           "label-locale-key": "",
                                                           "maxLength": 20,
-                                                          "type": "number",
+                                                          "type": "text",
                                                           "variant": "standard",
                                                           "value": "",
                                                           "readOnly": false,
@@ -4571,7 +4571,18 @@
                                                               "cssClassName": "CardButton"
                                                             }
                                                           ],
-                                                          "buttonIconPosition": "start"
+                                                          "buttonIconPosition": "start",
+                                                          "disableCondition": {
+                                                            "logic": {
+                                                              "if": [
+                                                                {
+                                                                  "var": "currentScreen.sole"
+                                                                },
+                                                                true,
+                                                                false
+                                                              ]
+                                                            }
+                                                          }
                                                         },
                                                         "name": "Button",
                                                         "icon": "FaBimobject",
@@ -7205,8 +7216,8 @@
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
     "createdBy": "ajk",
-    "updatedAt": "5/3/2023",
-    "createdAt": "5/3/2023",
+    "updatedAt": "5/8/2023",
+    "createdAt": "5/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7250,7 +7261,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "SOLE PROPRITER WIDGET TWO"
     },
     "layout": null,
     "events": [
@@ -7777,8 +7788,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -8096,7 +8107,7 @@
       "name": "Calendar",
       "label": "",
       "stateName": "customerDOB",
-      "format": "dd/MM/yyyy",
+      "format": "yyyy/MM/dd",
       "variant": "standard",
       "validate": {
         "required": true,
@@ -8392,8 +8403,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -8777,8 +8788,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -9090,8 +9101,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -9403,8 +9414,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -10219,7 +10230,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": 20,
-      "type": "number",
+      "type": "text",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11511,7 +11522,10 @@
       },
       "asset": null,
       "cssClassNames": [{ "cssClassName": "CardButton" }],
-      "buttonIconPosition": "start"
+      "buttonIconPosition": "start",
+      "disableCondition": {
+        "logic": { "if": [{ "var": "currentScreen.sole" }, true, false] }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",

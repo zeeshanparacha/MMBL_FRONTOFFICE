@@ -1,8 +1,6 @@
 {
-  "id": "8yn9R8loC5uQLlAVqMBzu",
-  "_id": "ZEy25n_j-Y8updo_s05WH",
-  "name": "Manipulate Key To Object tax Exemption Private",
-  "old_name": "Manipulate Key To Object tax Exemption Private",
+  "id": "uVN2ZUOwbW2VY5poeM0XJ",
+  "name": "Manipulate Key To Object legalDocName",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -11,21 +9,23 @@
       "command": {
         "type": "6",
         "attributes": {
-          "requestBody": [],
-          "destinationBindingKey": "taxExemption",
-          "sourceBindingKey": "form.taxExemption",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "legalDocName",
+          "sourceBindingKey": "form.legalDocName",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "filterList": [
             {
               "key": "code",
               "changeValueConditonally": true,
-              "logic": { "var": "currentScreen.form.taxExemption" }
+              "logic": { "var": "currentScreen.form.legalDocName" }
             },
             {
               "key": "name",
               "changeValueConditonally": true,
-              "logic": { "var": "currentScreen.form.taxExemption" }
+              "logic": { "var": "currentScreen.form.legalDocName" }
             }
           ],
           "targettedType": "object"
@@ -33,8 +33,9 @@
       }
     }
   ],
-  "updatedAt": "5/9/2023",
-  "createdAt": "5/9/2023",
+  "_id": "kDx5-zK7CcAl49Msbz6_y",
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

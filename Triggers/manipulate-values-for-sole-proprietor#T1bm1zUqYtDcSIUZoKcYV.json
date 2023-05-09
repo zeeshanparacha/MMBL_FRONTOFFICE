@@ -313,6 +313,111 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.signatories"
               }
+            },
+            {
+              "key": "branchNameOfBank",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.branch"
+              }
+            },
+            {
+              "key": "nationalityOfPartnership",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.nationality"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.residence"
+              },
+              "key": "residenceOfPartnership"
+            },
+            {
+              "key": "legalDocName",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.legalDocName"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.modeOfTransaction"
+              },
+              "key": "modeOfTransaction"
+            },
+            {
+              "key": "otherPurpose",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.otherPurpose"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "occupationOfCorporate",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.occupation"
+              }
+            },
+            {
+              "key": "expectedMonthlyIncome",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.expectedMonthlyIncome"
+              }
+            },
+            {
+              "key": "expectedNoOfDebitTransactions",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.expectedNoOfDebitTransactions"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.expectedNoOfCreditTransactions"
+              },
+              "key": "expectedNoOfCreditTransactions"
+            },
+            {
+              "key": "expectedNoOfDebitAmount",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.expectedNoOfDebitAmount"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.expectedNoOfCreditAmount"
+              },
+              "key": "expectedNoOfCreditAmount"
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.accountCategory"
+              },
+              "key": "accountCategory"
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "taxExemption",
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.taxExemption"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatExemption"
+              },
+              "key": "zakatExemption"
             }
           ],
           "targettedType": "object"
@@ -320,8 +425,8 @@
       }
     }
   ],
-  "updatedAt": "5/3/2023",
-  "createdAt": "5/3/2023",
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

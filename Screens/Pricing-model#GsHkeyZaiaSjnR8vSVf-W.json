@@ -1345,20 +1345,6 @@
                                         },
                                         "events": [
                                           {
-                                            "triggerId": "EAQTCCRbDvv2JATNl0ybb",
-                                            "triggerName": "sole proprietor grid flow manager to radio foam widget",
-                                            "serviceType": "1",
-                                            "attributes": {
-                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                              "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
-                                              "gridRadioValue": "Grid",
-                                              "selectedObjectBindingKey": "selectedObject",
-                                              "editableForm": false
-                                            },
-                                            "type": "3",
-                                            "name": "On change"
-                                          },
-                                          {
                                             "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
                                             "triggerName": "Set Pricing Value Chain Trig",
                                             "serviceType": "2",
@@ -1506,6 +1492,74 @@
                                             },
                                             "type": "2",
                                             "name": "On click"
+                                          },
+                                          {
+                                            "triggerId": "TLxnz2ZxBTE29Hs8fZHCP",
+                                            "triggerName": "sole proprietor grid flow manager to radio foam widget chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "createdBy": "system",
+                                                  "updatedBy": "system",
+                                                  "_id": "642c6ac388cea78205824593",
+                                                  "id": "C9VAY5AImRfafff65",
+                                                  "name": "Clear validations",
+                                                  "projectType": "web",
+                                                  "services": [
+                                                    {
+                                                      "_id": "61dd1cc511bed557b4cb0c89",
+                                                      "type": "14",
+                                                      "command": {
+                                                        "responseHandler": [],
+                                                        "returns": [],
+                                                        "_id": "61dd1cc511bed557b4cb0c99",
+                                                        "attributes": {},
+                                                        "type": "4"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "createdAt": "11-Jan-2022",
+                                                  "updatedAt": "11-Jan-2022",
+                                                  "__v": 0,
+                                                  "canRead": true
+                                                },
+                                                {
+                                                  "id": "EAQTCCRbDvv2JATNl0ybb",
+                                                  "_id": "VFStswTqS8nk7PMF84ZE5",
+                                                  "name": "sole proprietor grid flow manager to radio foam widget",
+                                                  "old_name": "sole proprietor grid flow manager to radio foam widget",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "1",
+                                                      "command": {
+                                                        "type": "2",
+                                                        "attributes": {
+                                                          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                                          "nextWidgetId": "vqkLpFWgh7_8rzXIUCfiG",
+                                                          "gridRadioValue": "Grid",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "editableForm": false
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "updatedAt": "3/30/2023",
+                                                  "createdAt": "3/30/2023",
+                                                  "createdBy": "zeeshan",
+                                                  "updatedBy": "zeeshan"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "C9VAY5AImRfafff65",
+                                                "EAQTCCRbDvv2JATNl0ybb"
+                                              ]
+                                            },
+                                            "type": "3",
+                                            "name": "On change"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -1515,7 +1569,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-3-0-0-0-0"
+                                        "path": "0-0-0-0-4-0-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1573,20 +1627,6 @@
                                         },
                                         "events": [
                                           {
-                                            "triggerId": "NKZt3lkO8aR6u-bZGLczV",
-                                            "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
-                                            "serviceType": "1",
-                                            "attributes": {
-                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                              "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
-                                              "gridRadioValue": "Grid",
-                                              "selectedObjectBindingKey": "selectedObject",
-                                              "editableForm": false
-                                            },
-                                            "type": "3",
-                                            "name": "On change"
-                                          },
-                                          {
                                             "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
                                             "triggerName": "Set Pricing Value Chain Trig",
                                             "serviceType": "2",
@@ -1734,6 +1774,73 @@
                                             },
                                             "type": "2",
                                             "name": "On click"
+                                          },
+                                          {
+                                            "triggerId": "FPE2zdPgCoSDAjcSn0eC5",
+                                            "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE Chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "createdBy": "system",
+                                                  "updatedBy": "system",
+                                                  "_id": "642c6ac388cea78205824593",
+                                                  "id": "C9VAY5AImRfafff65",
+                                                  "name": "Clear validations",
+                                                  "projectType": "web",
+                                                  "services": [
+                                                    {
+                                                      "_id": "61dd1cc511bed557b4cb0c89",
+                                                      "type": "14",
+                                                      "command": {
+                                                        "responseHandler": [],
+                                                        "returns": [],
+                                                        "_id": "61dd1cc511bed557b4cb0c99",
+                                                        "attributes": {},
+                                                        "type": "4"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "createdAt": "11-Jan-2022",
+                                                  "updatedAt": "11-Jan-2022",
+                                                  "__v": 0,
+                                                  "canRead": true
+                                                },
+                                                {
+                                                  "id": "NKZt3lkO8aR6u-bZGLczV",
+                                                  "name": "SWAP TO PARTNERSHIP WIDGET ONE",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "1",
+                                                      "command": {
+                                                        "type": "2",
+                                                        "attributes": {
+                                                          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                                          "nextWidgetId": "iMTfa-8k_Ze9dhK1jxZ0y",
+                                                          "gridRadioValue": "Grid",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "editableForm": false
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "1Y9q4VOm7u3Ax52qxTUz6",
+                                                  "updatedAt": "4/5/2023",
+                                                  "createdAt": "4/5/2023",
+                                                  "createdBy": "zeeshan",
+                                                  "updatedBy": "zeeshan"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "C9VAY5AImRfafff65",
+                                                "NKZt3lkO8aR6u-bZGLczV"
+                                              ]
+                                            },
+                                            "type": "3",
+                                            "name": "On change"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -1743,7 +1850,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-3-0-0-1-0"
+                                        "path": "0-0-0-0-4-0-0-1-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1801,20 +1908,6 @@
                                         },
                                         "events": [
                                           {
-                                            "triggerId": "eUzVr2BZubDt1_rpcAoH_",
-                                            "triggerName": "swap corporate grid flow manager private widget widget",
-                                            "serviceType": "1",
-                                            "attributes": {
-                                              "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
-                                              "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
-                                              "gridRadioValue": "Grid",
-                                              "selectedObjectBindingKey": "selectedObject",
-                                              "editableForm": false
-                                            },
-                                            "type": "3",
-                                            "name": "On change"
-                                          },
-                                          {
                                             "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
                                             "triggerName": "Set Pricing Value Chain Trig",
                                             "serviceType": "2",
@@ -1962,6 +2055,73 @@
                                             },
                                             "type": "2",
                                             "name": "On click"
+                                          },
+                                          {
+                                            "triggerId": "_4fb3eKxuEV9iPYVmOSjs",
+                                            "triggerName": "swap corporate grid flow manager private widget widget chain Trig",
+                                            "serviceType": "2",
+                                            "attributes": {
+                                              "delay": "",
+                                              "triggers": [
+                                                {
+                                                  "createdBy": "system",
+                                                  "updatedBy": "system",
+                                                  "_id": "642c6ac388cea78205824593",
+                                                  "id": "C9VAY5AImRfafff65",
+                                                  "name": "Clear validations",
+                                                  "projectType": "web",
+                                                  "services": [
+                                                    {
+                                                      "_id": "61dd1cc511bed557b4cb0c89",
+                                                      "type": "14",
+                                                      "command": {
+                                                        "responseHandler": [],
+                                                        "returns": [],
+                                                        "_id": "61dd1cc511bed557b4cb0c99",
+                                                        "attributes": {},
+                                                        "type": "4"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "createdAt": "11-Jan-2022",
+                                                  "updatedAt": "11-Jan-2022",
+                                                  "__v": 0,
+                                                  "canRead": true
+                                                },
+                                                {
+                                                  "id": "eUzVr2BZubDt1_rpcAoH_",
+                                                  "name": "swap corporate grid flow manager private widget widget",
+                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                  "gitBranchName": "master",
+                                                  "services": [
+                                                    {
+                                                      "type": "1",
+                                                      "command": {
+                                                        "type": "2",
+                                                        "attributes": {
+                                                          "fromWidgetId": "WCeABm6zH4B9WH0XPbDss",
+                                                          "nextWidgetId": "EN2wlN_Uk0HPlP_Os3P9Y",
+                                                          "gridRadioValue": "Grid",
+                                                          "selectedObjectBindingKey": "selectedObject",
+                                                          "editableForm": false
+                                                        }
+                                                      }
+                                                    }
+                                                  ],
+                                                  "_id": "qpUtC66DOmkp9CYh7SyR8",
+                                                  "updatedAt": "3/28/2023",
+                                                  "createdAt": "3/28/2023",
+                                                  "createdBy": "areeb",
+                                                  "updatedBy": "areeb"
+                                                }
+                                              ],
+                                              "triggerIds": [
+                                                "C9VAY5AImRfafff65",
+                                                "eUzVr2BZubDt1_rpcAoH_"
+                                              ]
+                                            },
+                                            "type": "3",
+                                            "name": "On change"
                                           }
                                         ],
                                         "version": "1.0.0",
@@ -1971,7 +2131,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-3-0-0-2-0"
+                                        "path": "0-0-0-0-4-0-0-2-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3301,8 +3461,8 @@
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
     "createdBy": "ajk",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "updatedAt": "5/8/2023",
+    "createdAt": "5/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4594,17 +4754,17 @@
     },
     "events": [
       {
-        "triggerId": "EAQTCCRbDvv2JATNl0ybb",
-        "triggerName": "sole proprietor grid flow manager to radio foam widget",
-        "name": "On change",
-        "type": "3",
-        "serviceType": "1"
-      },
-      {
         "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
         "triggerName": "Set Pricing Value Chain Trig",
         "name": "On click",
         "type": "2",
+        "serviceType": "2"
+      },
+      {
+        "triggerId": "TLxnz2ZxBTE29Hs8fZHCP",
+        "triggerName": "sole proprietor grid flow manager to radio foam widget chain Trig",
+        "name": "On change",
+        "type": "3",
         "serviceType": "2"
       }
     ],
@@ -4612,7 +4772,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-3-0-0-0-0",
+    "path": "0-0-0-0-4-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -4656,17 +4816,17 @@
     },
     "events": [
       {
-        "triggerId": "NKZt3lkO8aR6u-bZGLczV",
-        "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE",
-        "name": "On change",
-        "type": "3",
-        "serviceType": "1"
-      },
-      {
         "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
         "triggerName": "Set Pricing Value Chain Trig",
         "name": "On click",
         "type": "2",
+        "serviceType": "2"
+      },
+      {
+        "triggerId": "FPE2zdPgCoSDAjcSn0eC5",
+        "triggerName": "SWAP TO PARTNERSHIP WIDGET ONE Chain Trig",
+        "name": "On change",
+        "type": "3",
         "serviceType": "2"
       }
     ],
@@ -4674,7 +4834,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-3-0-0-1-0",
+    "path": "0-0-0-0-4-0-0-1-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -4718,17 +4878,17 @@
     },
     "events": [
       {
-        "triggerId": "eUzVr2BZubDt1_rpcAoH_",
-        "triggerName": "swap corporate grid flow manager private widget widget",
-        "name": "On change",
-        "type": "3",
-        "serviceType": "1"
-      },
-      {
         "triggerId": "Qlp7Fsw4l9qV0HMbq25pO",
         "triggerName": "Set Pricing Value Chain Trig",
         "name": "On click",
         "type": "2",
+        "serviceType": "2"
+      },
+      {
+        "triggerId": "_4fb3eKxuEV9iPYVmOSjs",
+        "triggerName": "swap corporate grid flow manager private widget widget chain Trig",
+        "name": "On change",
+        "type": "3",
         "serviceType": "2"
       }
     ],
@@ -4736,7 +4896,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-3-0-0-2-0",
+    "path": "0-0-0-0-4-0-0-2-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

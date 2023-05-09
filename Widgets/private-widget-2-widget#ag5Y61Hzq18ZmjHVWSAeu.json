@@ -938,7 +938,7 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": "11",
+                                                  "maxLength": "12",
                                                   "type": "number",
                                                   "variant": "standard",
                                                   "value": "",
@@ -1611,344 +1611,7 @@
                           {
                             "type": "column",
                             "id": "c5nBKE8_IUvOKW3mNEElJ",
-                            "gridProps": [
-                              {
-                                "type": "10001",
-                                "id": "mhdqa52B3yyjsWC6vIGid",
-                                "gridProps": [
-                                  {
-                                    "type": "column",
-                                    "id": "buEJkzYjiNnta_rvw-PP9",
-                                    "gridProps": [
-                                      {
-                                        "type": "10001",
-                                        "id": "3zGTpxwAPFGOmy_--LzWN",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "Qn1cbzgLSspUW3Lgh00yO",
-                                            "gridProps": [
-                                              {
-                                                "id": "7UdBCWBHMJUgIPBaKCy7K",
-                                                "status": "ACTIVE",
-                                                "name": "Label",
-                                                "attributes": {
-                                                  "label": "Nature of Business Activity",
-                                                  "variant": "body1",
-                                                  "name": "Label",
-                                                  "mandatory": false,
-                                                  "layoutProperties": {
-                                                    "label": {
-                                                      "//": "Use this class to style label component."
-                                                    },
-                                                    "mainContainer": "label",
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "cssClassNames": [
-                                                    {
-                                                      "cssClassName": "textLabel"
-                                                    }
-                                                  ]
-                                                },
-                                                "icon": "FaFont",
-                                                "group": "Form",
-                                                "type": "20002",
-                                                "updatedAt": "23-Aug-2021",
-                                                "createdAt": "23-Aug-2021",
-                                                "order": 15,
-                                                "version": "1.0.0",
-                                                "isLatest": true,
-                                                "projectType": "web",
-                                                "component": {
-                                                  "content": "Label",
-                                                  "type": "20002"
-                                                },
-                                                "events": [],
-                                                "path": "0-0-0-0-2-1-0-0-0-0-0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-0-0-2-1-0-0-0-0"
-                                          }
-                                        ],
-                                        "path": "0-0-0-0-2-1-0-0-0",
-                                        "events": [],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        },
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "name": "Grid layout"
-                                      },
-                                      {
-                                        "type": "10001",
-                                        "id": "hpXfGPE3S83opY46SXIWG",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "E-RXWwoBrXsOnPhGnC9wH",
-                                            "gridProps": [
-                                              {
-                                                "id": "v2OPDFGXMM64M6HyUETF9",
-                                                "status": "ACTIVE",
-                                                "name": "Text Box",
-                                                "attributes": {
-                                                  "label": "",
-                                                  "name": "Text box",
-                                                  "label-locale-key": "",
-                                                  "maxLength": "100",
-                                                  "type": "text",
-                                                  "variant": "standard",
-                                                  "value": "",
-                                                  "readOnly": false,
-                                                  "tooltip": "",
-                                                  "font-family": "Verdana",
-                                                  "mandatory": true,
-                                                  "tooltipState": "",
-                                                  "layoutProperties": {
-                                                    "textField": {
-                                                      "//": "Use this class to style text field component."
-                                                    },
-                                                    "inputProps": {
-                                                      "//": "Use this class to style  text field element.",
-                                                      "paddingLeft": "15px"
-                                                    },
-                                                    "mainContainer": "textField",
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "validate": {
-                                                    "required": true,
-                                                    "errorMsg": "This field is required",
-                                                    "bindButton": [
-                                                      {
-                                                        "id": "Pt0hAYs58LUm_Yek1HRnW",
-                                                        "status": "ACTIVE",
-                                                        "attributes": {
-                                                          "label": "sAVE to next",
-                                                          "variant": "contained",
-                                                          "name": "Button",
-                                                          "label-locale-key": "",
-                                                          "fullWidth": false,
-                                                          "layoutProperties": {
-                                                            "button": {
-                                                              "//": "Use this class to style button component."
-                                                            },
-                                                            "inputProps": {
-                                                              "//": "Use this class to style button element."
-                                                            },
-                                                            "mainContainer": "button",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
-                                                          },
-                                                          "cssClassNames": [
-                                                            {
-                                                              "cssClassName": "CardButton"
-                                                            }
-                                                          ]
-                                                        },
-                                                        "name": "Button",
-                                                        "icon": "FaBimobject",
-                                                        "group": "Form",
-                                                        "type": "20006",
-                                                        "Documentation": "<div>components 12344</div>",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 1,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Button",
-                                                          "type": "20006"
-                                                        },
-                                                        "events": [
-                                                          {
-                                                            "triggerId": "LJrCMIqBnW3R7vFC6Famn",
-                                                            "triggerName": "private widget 2 to widget 3 flow manager",
-                                                            "name": "On Submit",
-                                                            "type": "4",
-                                                            "serviceType": "1"
-                                                          }
-                                                        ],
-                                                        "path": "0-0-0-0-3-2-0-1-0-0-0",
-                                                        "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-                                                        "subType": "component",
-                                                        "projectId": "63f4845e476fc83100e3a899",
-                                                        "gitBranchName": "master",
-                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                      }
-                                                    ]
-                                                  },
-                                                  "placeholder": "",
-                                                  "disableUnderline": true,
-                                                  "cssClassNames": [
-                                                    {
-                                                      "cssClassName": "textbox"
-                                                    }
-                                                  ],
-                                                  "stateName": "natureOfBusinessActivity2"
-                                                },
-                                                "icon": "FaWindowMinimize",
-                                                "group": "Form",
-                                                "type": "20004",
-                                                "Documentation": "<div>components 12344</div>",
-                                                "updatedAt": "23-Aug-2021",
-                                                "createdAt": "23-Aug-2021",
-                                                "order": 20,
-                                                "version": "1.0.0",
-                                                "isLatest": true,
-                                                "projectType": "web",
-                                                "component": {
-                                                  "content": "Text Box",
-                                                  "type": "20004"
-                                                },
-                                                "events": [],
-                                                "path": "0-0-0-0-2-1-0-0-1-0-0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-0-0-2-1-0-0-1-0"
-                                          }
-                                        ],
-                                        "path": "0-0-0-0-2-1-0-0-1",
-                                        "events": [],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        },
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "name": "Grid layout"
-                                      }
-                                    ],
-                                    "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
-                                    },
-                                    "path": "0-0-0-0-2-1-0-0"
-                                  }
-                                ],
-                                "path": "0-0-0-0-2-1-0",
-                                "events": [],
-                                "attributes": {
-                                  "gridProps": [],
-                                  "label": "Header",
-                                  "layoutProperties": {
-                                    "gridLayout": {
-                                      "//": "Use this class to style grid layout component.",
-                                      "padding": "5px",
-                                      "spacing": 0
-                                    },
-                                    "mainContainer": "gridLayout"
-                                  },
-                                  "layoutProps": {
-                                    "direction": "row",
-                                    "justifyContent": "flex-start",
-                                    "alignItems": "flex-start"
-                                  },
-                                  "direction": "row",
-                                  "name": "city and country ",
-                                  "hideComponent": true
-                                },
-                                "component": {
-                                  "type": "10001",
-                                  "content": "Grid layout"
-                                },
-                                "allowedContainers": [
-                                  "10001",
-                                  "20030",
-                                  "noLayout",
-                                  "20010",
-                                  "widget"
-                                ],
-                                "name": "city and country ",
-                                "dimensions": {
-                                  "rows": 1,
-                                  "columns": 1,
-                                  "colSize0xs": 12,
-                                  "colSize0sm": 12,
-                                  "colSize0md": 12,
-                                  "colSize0lg": 12,
-                                  "colSize0xl": 12
-                                },
-                                "readOnly": true
-                              }
-                            ],
+                            "gridProps": [],
                             "layoutProperties": {
                               "xl": 4,
                               "lg": 4,
@@ -2881,6 +2544,466 @@
                                                     },
                                                     "type": "4",
                                                     "name": "On Submit"
+                                                  },
+                                                  {
+                                                    "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
+                                                    "triggerName": "save as draft for private foam",
+                                                    "serviceType": "8",
+                                                    "attributes": {
+                                                      "loaderWidgetIds": [
+                                                        906070
+                                                      ],
+                                                      "messageWidgetIds": [
+                                                        906070
+                                                      ],
+                                                      "responseStateKey": "private",
+                                                      "url": "/pre-corp-reg/save-details",
+                                                      "checksum": true,
+                                                      "encryption": true,
+                                                      "isDeviceDetails": true,
+                                                      "loginTrigger": false,
+                                                      "formData": false,
+                                                      "logoutTrigger": false,
+                                                      "headers": {
+                                                        "Content-Type": "application/json",
+                                                        "Accept": "application/json",
+                                                        "channel_key": "001",
+                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                        "locale": "en-ltr"
+                                                      },
+                                                      "requestBody": [
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.averageSalaryAmount",
+                                                          "value": "averageSalaryAmount"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.branchNameOfBank",
+                                                          "value": "branchNameOfBank"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.city",
+                                                          "value": "city"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyEmailId",
+                                                          "value": "companyEmailId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyFaxNumber",
+                                                          "value": "companyFaxNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyMailingAddress",
+                                                          "value": "companyMailingAddress"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyNameAsPerRegistration",
+                                                          "value": "companyNameAsPerRegistration"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyTelephoneNumber",
+                                                          "value": "companyTelephoneNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.companyTelephoneNumber",
+                                                          "value": "companyTelephoneNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.contactNumber",
+                                                          "value": "contactNumber1"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.dateAndPlaceOfIncorporation",
+                                                          "value": "dateAndPlaceOfIncorporation"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.country",
+                                                          "value": "country2"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
+                                                          "value": "frequencyOfSalaryDisbursement"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.accountCategory",
+                                                          "value": "accountCategory.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.branchNameOfBank",
+                                                          "value": "branchNameOfBank"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.emailAddress",
+                                                          "value": "emailAddress2"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.expectedMonthlyIncome",
+                                                          "value": "expectedMonthlyIncome.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.expectedNoOfCreditAmount",
+                                                          "value": "expectedNoOfCreditAmount.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.expectedNoOfCreditTransactions",
+                                                          "value": "expectedNoOfCreditTransactions.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.expectedNoOfDebitAmount",
+                                                          "value": "expectedNoOfDebitAmount.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.expectedNoOfDebitTransactions",
+                                                          "value": "expectedNoOfDebitTransactions.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.frequencyOfSalaryDisbursement",
+                                                          "value": "frequencyOfSalaryDisbursement"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.modeOfTransaction",
+                                                          "value": "modeOfTransaction.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.nationalityOfPartnership",
+                                                          "value": "nationalityOfPartnership.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.natureOfBusinessActivity",
+                                                          "value": "natureOfBusinessActivity1"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnDateOfExpiry",
+                                                          "value": "ntnDateOfExpiry"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnDateOfIssuance",
+                                                          "value": "ntnDateOfIssuance"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnNumber",
+                                                          "value": "ntnNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnIssuingAuthority",
+                                                          "value": "ntnIssuingAuthority"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnNumber",
+                                                          "value": "ntnNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.numberOfEmployees",
+                                                          "value": "numberOfEmployees"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.occupationOfCorporate",
+                                                          "value": "occupationOfCorporate.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.pocName",
+                                                          "value": "pocName"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.referral",
+                                                          "value": "referral"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.residenceOfPartnership",
+                                                          "value": "residenceOfPartnership.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.taxExemption",
+                                                          "value": "taxExemption.code"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.zakatExemption",
+                                                          "value": "zakatExemption.code"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.boardOfResolutionDocId",
+                                                          "value": "boardOfResolutionDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.memorandumOfAssociationDocId",
+                                                          "value": "memorandumOfAssociationDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.certificateOfIncorporationDocId",
+                                                          "value": "certificateOfIncorporationDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.certificateOfCommencementDocId",
+                                                          "value": "certificateOfCommencementDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.formADocId",
+                                                          "value": "formADocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.czDocId",
+                                                          "value": "czDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.zakatExemptionDocId",
+                                                          "value": "zakatExemptionDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.taxExemptionDocId",
+                                                          "value": "taxExemptionDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.ntnDocId",
+                                                          "value": "ntnDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.fatcaDocId",
+                                                          "value": "fatcaDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.crsDocId",
+                                                          "value": "crsDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.declarationOfChangesDocId",
+                                                          "value": "declarationOfChangesDocId"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "companyAddress",
+                                                          "value": "companyAddress"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "companyName",
+                                                          "value": "companyName"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "designation",
+                                                          "value": "designation.value"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "email",
+                                                          "value": "email"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "emailOtp",
+                                                          "value": "emailotp"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "fullName",
+                                                          "value": "fullName"
+                                                        },
+                                                        {
+                                                          "type": 4,
+                                                          "name": "Static",
+                                                          "key": "isSavingInDraft",
+                                                          "value": true
+                                                        },
+                                                        {
+                                                          "type": 4,
+                                                          "name": "Static",
+                                                          "key": "isSoleProprietor",
+                                                          "value": false
+                                                        },
+                                                        {
+                                                          "type": 4,
+                                                          "name": "Static",
+                                                          "key": "isPartnership",
+                                                          "value": false
+                                                        },
+                                                        {
+                                                          "type": 4,
+                                                          "name": "Static",
+                                                          "key": "isPrivateOrPublic",
+                                                          "value": true
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "mobileNumber",
+                                                          "value": "mobileNumber"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "pricingModelId",
+                                                          "value": "items"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "productId",
+                                                          "value": "products.id"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "smsOtp",
+                                                          "value": "smsotp"
+                                                        },
+                                                        {
+                                                          "type": 2,
+                                                          "name": "Current screen",
+                                                          "key": "validateOtpUuid",
+                                                          "value": "uuid"
+                                                        },
+                                                        {
+                                                          "type": 2,
+                                                          "name": "Current screen",
+                                                          "key": "id",
+                                                          "value": "formId"
+                                                        },
+                                                        {
+                                                          "type": 2,
+                                                          "name": "Current screen",
+                                                          "key": "privateorPublicLimited.directorInformation",
+                                                          "value": "directorInformation"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.authorizedPersonalDetails.contactNumber",
+                                                          "value": "contactNumber2"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.authorizedPersonalDetails.fullName",
+                                                          "value": "fullName2"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.authorizedPersonalDetails.officeEmail",
+                                                          "value": "officeEmail"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.authorizedPersonalDetails.natureOfBusinessActivity",
+                                                          "value": "natureOfBusinessActivity2"
+                                                        },
+                                                        {
+                                                          "type": 1,
+                                                          "name": "Form",
+                                                          "key": "privateorPublicLimited.authorizedPersonalDetails.title",
+                                                          "value": "title"
+                                                        }
+                                                      ],
+                                                      "baseURL": "641aedb2676c823a449fd597",
+                                                      "storeType": 2
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-3-2-0-1-0-0-0"
@@ -3429,9 +3552,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "ag5Y61Hzq18ZmjHVWSAeu",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/9/2023",
+    "createdAt": "5/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4549,7 +4672,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "11",
+      "maxLength": "12",
       "type": "number",
       "variant": "standard",
       "value": "",
@@ -4664,19 +4787,6 @@
           "id": "n4O7MS5eJVYlB8xNjx9eN",
           "position": {
             "i": "n4O7MS5eJVYlB8xNjx9eN",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
-          "componentId": "mhdqa52B3yyjsWC6vIGid",
-          "componentType": "10001",
-          "id": "mhdqa52B3yyjsWC6vIGid",
-          "position": {
-            "i": "mhdqa52B3yyjsWC6vIGid",
             "x": null,
             "y": null,
             "w": null,
@@ -5018,317 +5128,6 @@
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
     "path": "0-0-0-0-2-0-0-0-1-0-0",
-    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "mhdqa52B3yyjsWC6vIGid",
-    "name": "city and country ",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "3zGTpxwAPFGOmy_--LzWN",
-          "componentType": "10001",
-          "id": "3zGTpxwAPFGOmy_--LzWN",
-          "position": {
-            "i": "3zGTpxwAPFGOmy_--LzWN",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
-          "componentId": "hpXfGPE3S83opY46SXIWG",
-          "componentType": "10001",
-          "id": "hpXfGPE3S83opY46SXIWG",
-          "position": {
-            "i": "hpXfGPE3S83opY46SXIWG",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "city and country ",
-      "hideComponent": true
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "3zGTpxwAPFGOmy_--LzWN",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "7UdBCWBHMJUgIPBaKCy7K",
-          "componentType": "20002",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "7UdBCWBHMJUgIPBaKCy7K",
-    "status": "ACTIVE",
-    "name": "Label",
-    "attributes": {
-      "label": "Nature of Business Activity",
-      "variant": "body1",
-      "name": "Label",
-      "mandatory": false,
-      "layoutProperties": {
-        "label": { "//": "Use this class to style label component." },
-        "mainContainer": "label",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "cssClassNames": [{ "cssClassName": "textLabel" }]
-    },
-    "icon": "FaFont",
-    "group": "Form",
-    "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 15,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Label", "type": "20002" },
-    "events": [],
-    "path": "0-0-0-0-2-1-0-0-0-0-0",
-    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "hpXfGPE3S83opY46SXIWG",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "v2OPDFGXMM64M6HyUETF9",
-          "componentType": "20004",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "v2OPDFGXMM64M6HyUETF9",
-    "status": "ACTIVE",
-    "name": "Text Box",
-    "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": "100",
-      "type": "text",
-      "variant": "standard",
-      "value": "",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
-      "mandatory": true,
-      "tooltipState": "",
-      "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "15px"
-        },
-        "mainContainer": "textField",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "validate": {
-        "required": true,
-        "errorMsg": "This field is required",
-        "bindButton": [
-          {
-            "id": "Pt0hAYs58LUm_Yek1HRnW",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "sAVE to next",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": false,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }]
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "LJrCMIqBnW3R7vFC6Famn",
-                "triggerName": "private widget 2 to widget 3 flow manager",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "1"
-              }
-            ],
-            "path": "0-0-0-0-3-2-0-1-0-0-0",
-            "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
-            "subType": "component",
-            "projectId": "63f4845e476fc83100e3a899",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
-      },
-      "placeholder": "",
-      "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "textbox" }],
-      "stateName": "natureOfBusinessActivity2"
-    },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
-    "events": [],
-    "path": "0-0-0-0-2-1-0-0-1-0-0",
     "screenId": "ag5Y61Hzq18ZmjHVWSAeu",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5769,6 +5568,13 @@
         "name": "On Submit",
         "type": "4",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
+        "triggerName": "save as draft for private foam",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
       }
     ],
     "path": "0-0-0-0-3-2-0-1-0-0-0",

@@ -37,7 +37,13 @@
               "key": "mobileNumber",
               "value": "mobileNumber"
             },
-            { "type": 1, "name": "Form", "key": "token", "value": "captcha" }
+            { "type": 1, "name": "Form", "key": "token", "value": "captcha" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "companyName"
+            }
           ],
           "baseURL": "641aedb2676c823a449fd597",
           "storeType": 3,
@@ -54,8 +60,8 @@
       }
     }
   ],
-  "updatedAt": "4/20/2023",
-  "createdAt": "4/20/2023",
+  "updatedAt": "5/8/2023",
+  "createdAt": "5/8/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }
