@@ -459,7 +459,7 @@
                                                   "label": "CNIC/Passport No",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -810,7 +810,7 @@
                                                   "label": "Designation",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -1220,7 +1220,7 @@
                                                   "label": "Contact No",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -1571,7 +1571,7 @@
                                                   "label": "Email Address",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -1924,7 +1924,7 @@
                                                   "label": "Nationality",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -2314,7 +2314,7 @@
                                                   "label": "Partner/director Date Of Birth",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -2671,7 +2671,7 @@
                                                   "label": "City",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -3022,7 +3022,7 @@
                                                   "label": "Country",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -3402,7 +3402,7 @@
                                                   "label": "Are you Political member",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -4113,7 +4113,7 @@
                                                   "label": "Partner/director Place Of Birth",
                                                   "variant": "body1",
                                                   "name": "Label",
-                                                  "mandatory": false,
+                                                  "mandatory": true,
                                                   "layoutProperties": {
                                                     "label": {
                                                       "//": "Use this class to style label component."
@@ -8438,8 +8438,8 @@
     "gitBranchName": "master",
     "_id": "4YEZ9WMiuQNq7aEJ00cpn",
     "createdBy": "ajk",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9241,7 +9241,7 @@
       "label": "CNIC/Passport No",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -9555,7 +9555,7 @@
       "label": "Designation",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -9941,7 +9941,7 @@
       "label": "Contact No",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -10255,7 +10255,7 @@
       "label": "Email Address",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -10571,7 +10571,7 @@
       "label": "Nationality",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -10957,7 +10957,7 @@
       "label": "Partner/director Date Of Birth",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -11260,7 +11260,7 @@
       "label": "City",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -11574,7 +11574,7 @@
       "label": "Country",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -11960,7 +11960,7 @@
       "label": "Are you Political member",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -12591,7 +12591,7 @@
       "label": "Partner/director Place Of Birth",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",

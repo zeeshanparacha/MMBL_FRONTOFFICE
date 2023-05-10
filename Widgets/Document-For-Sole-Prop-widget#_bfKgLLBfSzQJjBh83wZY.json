@@ -244,6 +244,101 @@
                                       {
                                         "type": "10001",
                                         "name": "Grid layout",
+                                        "id": "qigrrX_eOU0TXMf-iyRvV",
+                                        "gridProps": [
+                                          {
+                                            "type": "column",
+                                            "id": "BtiqJKtGCTPykTijoUdNH",
+                                            "gridProps": [
+                                              {
+                                                "id": "KLCsPTs4gmQ6v75eH59Tx",
+                                                "status": "ACTIVE",
+                                                "name": "Label",
+                                                "attributes": {
+                                                  "label": "All Document Should be Uploaded in PDF Format",
+                                                  "variant": "h6",
+                                                  "name": "Label",
+                                                  "mandatory": false,
+                                                  "layoutProperties": {
+                                                    "label": {
+                                                      "//": "Use this class to style label component.",
+                                                      "paddingLeft": "20px"
+                                                    },
+                                                    "mainContainer": "label",
+                                                    "xl": 12,
+                                                    "lg": 12,
+                                                    "md": 12,
+                                                    "sm": 12,
+                                                    "xs": 12
+                                                  },
+                                                  "prefix": "DISCLAIMER:",
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "uploadDisclaimer"
+                                                    }
+                                                  ]
+                                                },
+                                                "icon": "FaFont",
+                                                "group": "Form",
+                                                "type": "20002",
+                                                "updatedAt": "23-Aug-2021",
+                                                "createdAt": "23-Aug-2021",
+                                                "order": 15,
+                                                "version": "1.0.0",
+                                                "isLatest": true,
+                                                "projectType": "web",
+                                                "component": {
+                                                  "content": "Label",
+                                                  "type": "20002"
+                                                },
+                                                "events": [],
+                                                "path": "0-0-0-0-0-0-1-0-0-0-0"
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 12,
+                                              "lg": 12,
+                                              "md": 12,
+                                              "sm": 12,
+                                              "xs": 12
+                                            }
+                                          }
+                                        ],
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "attributes": {
+                                          "gridProps": [],
+                                          "label": "Header",
+                                          "layoutProperties": {
+                                            "gridLayout": {
+                                              "//": "Use this class to style grid layout component.",
+                                              "padding": "5px",
+                                              "spacing": 0
+                                            },
+                                            "mainContainer": "gridLayout"
+                                          },
+                                          "layoutProps": {
+                                            "direction": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "flex-start"
+                                          },
+                                          "direction": "row",
+                                          "name": "Grid layout"
+                                        },
+                                        "events": [],
+                                        "component": {
+                                          "type": "10001",
+                                          "content": "Grid layout"
+                                        }
+                                      },
+                                      {
+                                        "type": "10001",
+                                        "name": "Grid layout",
                                         "id": "yXxYwL-mT7q8XkLJQYVhz",
                                         "gridProps": [
                                           {
@@ -6992,8 +7087,8 @@
     "gitBranchName": "master",
     "_id": "_bfKgLLBfSzQJjBh83wZY",
     "createdBy": "ajk",
-    "updatedAt": "5/8/2023",
-    "createdAt": "5/8/2023",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7254,6 +7349,25 @@
     "attributes": {
       "gridProps": [
         {
+          "componentId": "qigrrX_eOU0TXMf-iyRvV",
+          "componentType": "10001",
+          "id": "qigrrX_eOU0TXMf-iyRvV",
+          "position": {
+            "i": "qigrrX_eOU0TXMf-iyRvV",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
           "componentId": "yXxYwL-mT7q8XkLJQYVhz",
           "componentType": "10001",
           "id": "yXxYwL-mT7q8XkLJQYVhz",
@@ -7353,6 +7467,93 @@
     "screenId": "_bfKgLLBfSzQJjBh83wZY",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "qigrrX_eOU0TXMf-iyRvV",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "KLCsPTs4gmQ6v75eH59Tx",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "_bfKgLLBfSzQJjBh83wZY",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KLCsPTs4gmQ6v75eH59Tx",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "All Document Should be Uploaded in PDF Format",
+      "variant": "h6",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "paddingLeft": "20px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "prefix": "DISCLAIMER:",
+      "cssClassNames": [{ "cssClassName": "uploadDisclaimer" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-1-0-0-0-0",
+    "screenId": "_bfKgLLBfSzQJjBh83wZY",
+    "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

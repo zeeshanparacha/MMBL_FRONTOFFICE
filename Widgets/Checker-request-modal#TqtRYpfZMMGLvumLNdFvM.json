@@ -5887,7 +5887,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "m7NRB04Zmd_CPdqXX3iZH",
+                                    "id": "ivnby7uQJDqX9ptfWrPkj",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -8437,7 +8437,7 @@
                                         {
                                           "var": "currentScreen.selectedObject.transactionType"
                                         },
-                                        "Collection"
+                                        "collection"
                                       ]
                                     }
                                   },
@@ -8728,8 +8728,8 @@
     "gitBranchName": "master",
     "_id": "TqtRYpfZMMGLvumLNdFvM",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -14056,7 +14056,7 @@
         "logic": {
           "!=": [
             { "var": "currentScreen.selectedObject.transactionType" },
-            "Collection"
+            "collection"
           ]
         }
       },

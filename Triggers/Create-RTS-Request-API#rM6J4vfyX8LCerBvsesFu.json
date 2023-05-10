@@ -103,7 +103,8 @@
               "name": "Form",
               "key": "toBranchCode",
               "value": "toBranchCode"
-            }
+            },
+            { "type": 1, "name": "Form", "key": "cnic", "value": "cnic" }
           ],
           "baseURL": "631b0ff6d005932c10ce3bbe",
           "storeType": 2
@@ -125,8 +126,8 @@
       }
     }
   ],
-  "updatedAt": "5/2/2023",
-  "createdAt": "5/2/2023",
+  "updatedAt": "5/10/2023",
+  "createdAt": "5/10/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

@@ -503,7 +503,7 @@
                                                           "label": "Official Email",
                                                           "variant": "body1",
                                                           "name": "Label",
-                                                          "mandatory": false,
+                                                          "mandatory": true,
                                                           "layoutProperties": {
                                                             "label": {
                                                               "//": "Use this class to style label component."
@@ -853,7 +853,7 @@
                                                           "label": "Contact No",
                                                           "variant": "body1",
                                                           "name": "Label",
-                                                          "mandatory": false,
+                                                          "mandatory": true,
                                                           "layoutProperties": {
                                                             "label": {
                                                               "//": "Use this class to style label component."
@@ -1242,7 +1242,7 @@
                                                           "label": "Title",
                                                           "variant": "body1",
                                                           "name": "Label",
-                                                          "mandatory": false,
+                                                          "mandatory": true,
                                                           "layoutProperties": {
                                                             "label": {
                                                               "//": "Use this class to style label component."
@@ -3645,9 +3645,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "gDB8C925WfIbJ77jk-AgX",
-    "createdBy": "ajk",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4423,7 +4423,7 @@
       "label": "Official Email",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -4734,7 +4734,7 @@
       "label": "Contact No",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
@@ -5094,7 +5094,7 @@
       "label": "Title",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": { "//": "Use this class to style label component." },
         "mainContainer": "label",
