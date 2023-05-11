@@ -58,15 +58,15 @@
           {
             "httpStatus": 200,
             "logic": { "==": [{ "var": "data.result.isValidated" }, true] },
-            "triggerName": "coprorate account opening otp to product selection screen",
-            "triggerId": "HkyIfTyxsavo2pSOk6BU8"
+            "triggerName": "coprorate account opening otp to product selection screen Chain Trig",
+            "triggerId": "hBVPunqtHSjuZV9L1KY2_"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/9/2023",
-  "createdAt": "4/9/2023",
+  "updatedAt": "5/12/2023",
+  "createdAt": "5/12/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

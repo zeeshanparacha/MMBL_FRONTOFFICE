@@ -188,7 +188,7 @@
                                   "type": "20002"
                                 },
                                 "attributes": {
-                                  "label": "Pricing Model",
+                                  "label": "Product Model",
                                   "variant": "h3",
                                   "name": "Label",
                                   "mandatory": false,
@@ -963,7 +963,7 @@
                                                 "status": "ACTIVE",
                                                 "name": "Label",
                                                 "attributes": {
-                                                  "label": "Pricing",
+                                                  "label": "Product Features",
                                                   "variant": "body1",
                                                   "name": "Label",
                                                   "mandatory": false,
@@ -998,7 +998,7 @@
                                                   "type": "20002"
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-2-1-0-0-0-0-0"
+                                                "path": "0-0-0-0-3-1-0-0-0-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -1121,7 +1121,7 @@
                                                   "content": "Drop down",
                                                   "type": "20003"
                                                 },
-                                                "path": "0-0-0-0-2-1-0-0-1-0-0"
+                                                "path": "0-0-0-0-3-1-0-0-1-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -1298,7 +1298,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "HopvaYPdLfe-BB2GYX0PT",
+                                    "id": "_nH-v6H08Cgs5NKuVhjMk",
                                     "gridProps": [
                                       {
                                         "id": "3AMcCUuHOQ96JYjvVRikr",
@@ -1578,12 +1578,11 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-0-0-3-0-0-0"
+                                    }
                                   },
                                   {
                                     "type": "column",
-                                    "id": "kLOqqi7vLdASWm4LBov9n",
+                                    "id": "Nhyz7eJSa8pdatHEPGbD0",
                                     "gridProps": [
                                       {
                                         "id": "_3eXh0RT7Y7w8sZWLEnA_",
@@ -1859,12 +1858,11 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-0-0-3-0-0-1"
+                                    }
                                   },
                                   {
                                     "type": "column",
-                                    "id": "QjtUGiE5D193Zuv0dd6Kw",
+                                    "id": "XOYdeWVbv_BFVazGZUD21",
                                     "gridProps": [
                                       {
                                         "id": "qVEj-g0HgZVckcFa6XnHD",
@@ -2140,12 +2138,31 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-0-0-3-0-0-2"
+                                    }
                                   }
                                 ],
-                                "path": "0-0-0-0-3-0-0",
-                                "events": [],
+                                "path": "0-0-0-0-4-0-0",
+                                "events": [
+                                  {
+                                    "triggerId": "GN_WJQ51heiAKHjgUVWEP",
+                                    "triggerName": "set showCusDocUpload true",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "value",
+                                      "destinationBindingKey": "showCusDocUpload",
+                                      "sourceBindingKey": "form",
+                                      "sourceStoreType": 2,
+                                      "destinationStoreType": 2,
+                                      "logic": { "if": [true, true, true] },
+                                      "changeValueConditonally": true,
+                                      "targettedType": "value"
+                                    },
+                                    "type": "1",
+                                    "name": "On initialization"
+                                  }
+                                ],
                                 "attributes": {
                                   "gridProps": [],
                                   "label": "Header",
@@ -2163,7 +2180,23 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout"
+                                  "name": "Grid layout",
+                                  "hideCondition": {
+                                    "logic": {
+                                      "if": [
+                                        {
+                                          "==": [
+                                            {
+                                              "var": "currentScreen.showCusDocUpload"
+                                            },
+                                            false
+                                          ]
+                                        },
+                                        true,
+                                        false
+                                      ]
+                                    }
+                                  }
                                 },
                                 "component": {
                                   "type": "10001",
@@ -2176,7 +2209,27 @@
                                   "20010",
                                   "widget"
                                 ],
-                                "name": "Grid layout"
+                                "name": "Grid layout",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 3,
+                                  "colSize0xs": 4,
+                                  "colSize0sm": 4,
+                                  "colSize0md": 4,
+                                  "colSize0lg": 4,
+                                  "colSize0xl": 4,
+                                  "colSize1xs": 4,
+                                  "colSize1sm": 4,
+                                  "colSize1md": 4,
+                                  "colSize1lg": 4,
+                                  "colSize1xl": 4,
+                                  "colSize2xs": 4,
+                                  "colSize2sm": 4,
+                                  "colSize2md": 4,
+                                  "colSize2lg": 4,
+                                  "colSize2xl": 4
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -2333,7 +2386,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricing1",
-                                          "value": "sole"
+                                          "value": "sole",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -2343,7 +2397,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-4-0-0-0-0"
+                                        "path": "0-0-0-0-5-0-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2397,7 +2451,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricing1",
-                                          "value": "partnership"
+                                          "value": "partnership",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -2407,7 +2462,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-4-0-0-1-0"
+                                        "path": "0-0-0-0-5-0-0-1-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2688,7 +2743,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricing2",
-                                          "value": "sole"
+                                          "value": "sole",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -2698,7 +2754,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-5-0-0-0-0"
+                                        "path": "0-0-0-0-6-0-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2831,7 +2887,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricing2",
-                                          "value": "private"
+                                          "value": "private",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -2841,7 +2898,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-5-0-0-2-0"
+                                        "path": "0-0-0-0-6-0-0-2-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3122,7 +3179,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricingSole",
-                                          "value": "partnership"
+                                          "value": "partnership",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -3132,7 +3190,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-6-0-0-1-0"
+                                        "path": "0-0-0-0-7-0-0-1-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3186,7 +3244,8 @@
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "pricingSole",
-                                          "value": "private"
+                                          "value": "private",
+                                          "disableCondition": { "logic": true }
                                         },
                                         "events": [],
                                         "version": "1.0.0",
@@ -3196,7 +3255,7 @@
                                           "content": "Radio",
                                           "type": "20007"
                                         },
-                                        "path": "0-0-0-0-6-0-0-2-0"
+                                        "path": "0-0-0-0-7-0-0-2-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3460,9 +3519,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "ajk",
-    "updatedAt": "5/8/2023",
-    "createdAt": "5/8/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/12/2023",
+    "createdAt": "5/12/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3805,7 +3864,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Pricing Model",
+      "label": "Product Model",
       "variant": "h3",
       "name": "Label",
       "mandatory": false,
@@ -4466,7 +4525,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Pricing",
+      "label": "Product Features",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -4492,7 +4551,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-2-1-0-0-0-0-0",
+    "path": "0-0-0-0-3-1-0-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -4602,7 +4661,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-2-1-0-0-1-0-0",
+    "path": "0-0-0-0-3-1-0-0-1-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -4703,10 +4762,26 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            { "==": [{ "var": "currentScreen.showCusDocUpload" }, false] },
+            true,
+            false
+          ]
+        }
+      }
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "GN_WJQ51heiAKHjgUVWEP",
+        "triggerName": "set showCusDocUpload true",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5043,14 +5118,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricing1",
-      "value": "sole"
+      "value": "sole",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-4-0-0-0-0",
+    "path": "0-0-0-0-5-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5090,14 +5166,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricing1",
-      "value": "partnership"
+      "value": "partnership",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-4-0-0-1-0",
+    "path": "0-0-0-0-5-0-0-1-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5299,14 +5376,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricing2",
-      "value": "sole"
+      "value": "sole",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-5-0-0-0-0",
+    "path": "0-0-0-0-6-0-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5401,14 +5479,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricing2",
-      "value": "private"
+      "value": "private",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-5-0-0-2-0",
+    "path": "0-0-0-0-6-0-0-2-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5610,14 +5689,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricingSole",
-      "value": "partnership"
+      "value": "partnership",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-6-0-0-1-0",
+    "path": "0-0-0-0-7-0-0-1-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -5657,14 +5737,15 @@
       "name": "Radio",
       "searchInState": false,
       "stateName": "pricingSole",
-      "value": "private"
+      "value": "private",
+      "disableCondition": { "logic": true }
     },
     "events": [],
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-6-0-0-2-0",
+    "path": "0-0-0-0-7-0-0-2-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

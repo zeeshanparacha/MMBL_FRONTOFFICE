@@ -1,0 +1,177 @@
+{
+  "_id": "5iBEza7keIwINzc8yorN3",
+  "id": "hBVPunqtHSjuZV9L1KY2_",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "coprorate account opening otp to product selection screen Chain Trig",
+  "old_name": "coprorate account opening otp to product selection screen Chain Trig",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "HkyIfTyxsavo2pSOk6BU8",
+              "_id": "qyconIIBvW-YxRJa-USii",
+              "name": "coprorate account opening otp to product selection screen",
+              "old_name": "coprorate account opening otp to product selection screen",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "d8PJUngQ349Ixuz4dKa4r",
+                      "nextWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+                      "gridRadioValue": "Screen",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "3/31/2023",
+              "createdAt": "3/31/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "uno3abE9ji9PJ94qyfM4R",
+              "name": "Set Hardcoded Product value",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "products",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 1,
+                      "logic": { "if": [true, 1, 1] },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "JgNqGRsUozIWwhaNRwQsm",
+              "updatedAt": "5/11/2023",
+              "createdAt": "5/11/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "xaa54_7kqowMYmkssTsLS",
+              "_id": "CbACQ6GwT0gfL6CwbMCKZ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "pricing model trigger",
+              "old_name": "pricing model trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pricingModel",
+                      "responseReturnValue": "data.products",
+                      "url": "/products/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "3/30/2023",
+              "createdAt": "3/30/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "s6Otby_tXIcvEz7FSr7x0",
+              "name": "Find Product of pricing modal",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "9",
+                    "attributes": {
+                      "stateName": "a",
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "products",
+                      "sourceBindingKey": "pricingModel",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "logic": {
+                        "if": [
+                          {
+                            "==": [
+                              { "var": "currentScreen.form.products" },
+                              { "var": "id" }
+                            ]
+                          },
+                          true,
+                          false
+                        ]
+                      },
+                      "targetValue": "c"
+                    }
+                  }
+                }
+              ],
+              "_id": "tz6msL0Sm3G5KG77pLU_G",
+              "updatedAt": "4/10/2023",
+              "createdAt": "4/10/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": [
+            "HkyIfTyxsavo2pSOk6BU8",
+            "uno3abE9ji9PJ94qyfM4R",
+            "xaa54_7kqowMYmkssTsLS",
+            "s6Otby_tXIcvEz7FSr7x0"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

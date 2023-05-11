@@ -6266,6 +6266,27 @@
                                                     },
                                                     "type": "2",
                                                     "name": "On click"
+                                                  },
+                                                  {
+                                                    "triggerId": "GN_WJQ51heiAKHjgUVWEP",
+                                                    "triggerName": "set showCusDocUpload true",
+                                                    "serviceType": "11",
+                                                    "attributes": {
+                                                      "storeType": "",
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "dataType": "value",
+                                                      "destinationBindingKey": "showCusDocUpload",
+                                                      "sourceBindingKey": "form",
+                                                      "sourceStoreType": 2,
+                                                      "destinationStoreType": 2,
+                                                      "logic": {
+                                                        "if": [true, true, true]
+                                                      },
+                                                      "changeValueConditonally": true,
+                                                      "targettedType": "value"
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-8-0-0-0-0-0-0"
@@ -7633,8 +7654,8 @@
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
     "createdBy": "ajk",
-    "updatedAt": "5/11/2023",
-    "createdAt": "5/11/2023",
+    "updatedAt": "5/12/2023",
+    "createdAt": "5/12/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12828,6 +12849,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "2"
+      },
+      {
+        "triggerId": "GN_WJQ51heiAKHjgUVWEP",
+        "triggerName": "set showCusDocUpload true",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
       }
     ],
     "path": "0-0-0-0-8-0-0-0-0-0-0",
