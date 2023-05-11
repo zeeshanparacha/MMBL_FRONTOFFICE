@@ -418,6 +418,13 @@
                 "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.zakatExemption"
               },
               "key": "zakatExemption"
+            },
+            {
+              "key": "operatingInstructions",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.soleProprietor.operatingInstructions"
+              }
             }
           ],
           "targettedType": "object"
@@ -425,8 +432,8 @@
       }
     }
   ],
-  "updatedAt": "5/8/2023",
-  "createdAt": "5/8/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

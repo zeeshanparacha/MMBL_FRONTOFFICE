@@ -433,6 +433,20 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.placeOfIncorporation"
               }
+            },
+            {
+              "key": "operatingInstructions",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.operatingInstructions"
+              }
+            },
+            {
+              "key": "accountPurpose",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountPurpose"
+              }
             }
           ],
           "targettedType": "object"
@@ -440,8 +454,8 @@
       }
     }
   ],
-  "updatedAt": "5/9/2023",
-  "createdAt": "5/9/2023",
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

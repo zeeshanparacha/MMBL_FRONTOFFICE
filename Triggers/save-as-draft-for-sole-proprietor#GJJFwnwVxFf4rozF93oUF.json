@@ -311,6 +311,12 @@
             {
               "type": 1,
               "name": "Form",
+              "key": "soleProprietor.operatingInstructions",
+              "value": "operatingInstructions"
+            },
+            {
+              "type": 1,
+              "name": "Form",
               "key": "soleProprietor.expectedMonthlyIncome",
               "value": "expectedMonthlyIncome.value"
             },
@@ -413,8 +419,8 @@
       }
     }
   ],
-  "updatedAt": "5/8/2023",
-  "createdAt": "5/8/2023",
+  "updatedAt": "5/10/2023",
+  "createdAt": "5/10/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }

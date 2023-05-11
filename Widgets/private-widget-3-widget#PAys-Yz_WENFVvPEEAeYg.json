@@ -298,7 +298,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "text",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -411,7 +411,7 @@
                                                   "type": "20004"
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-2-0-0-0-1-0-0"
+                                                "path": "0-0-0-0-1-0-0-0-1-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -998,7 +998,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "text",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1085,7 +1085,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                    "regexErrorMsg": "accept alphabet only"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -1111,7 +1113,7 @@
                                                   "type": "20004"
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-2-2-0-0-1-0-0"
+                                                "path": "0-0-0-0-1-2-0-0-1-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -1757,7 +1759,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "text",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -1872,7 +1874,7 @@
                                                   "type": "20004"
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-3-1-0-0-1-0-0"
+                                                "path": "0-0-0-0-2-1-0-0-1-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -2109,7 +2111,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "alphabet",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -2196,7 +2198,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                    "regexErrorMsg": "accept alphabet only"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -2827,7 +2831,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "alphabet",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -2914,7 +2918,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                    "regexErrorMsg": "accept alphabet only"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -3177,7 +3183,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "alphabet",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -3264,7 +3270,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                    "regexErrorMsg": "accept alphabet only"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -3944,8 +3952,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": "100",
-                                                  "type": "text",
+                                                  "maxLength": "250",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -4295,7 +4303,7 @@
                                                   "name": "Text box",
                                                   "label-locale-key": "",
                                                   "maxLength": "100",
-                                                  "type": "text",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -4382,7 +4390,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                    "regexErrorMsg": "accept alphabet only"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -4408,7 +4418,7 @@
                                                   "type": "20004"
                                                 },
                                                 "events": [],
-                                                "path": "0-0-0-0-5-2-0-0-1-0-0"
+                                                "path": "0-0-0-0-4-2-0-0-1-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -7086,8 +7096,8 @@
     "gitBranchName": "master",
     "_id": "PAys-Yz_WENFVvPEEAeYg",
     "createdBy": "ajk",
-    "updatedAt": "5/10/2023",
-    "createdAt": "5/10/2023",
+    "updatedAt": "5/11/2023",
+    "createdAt": "5/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7698,7 +7708,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "text",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -7793,7 +7803,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-2-0-0-0-1-0-0",
+    "path": "0-0-0-0-1-0-0-0-1-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -8320,7 +8330,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "text",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -8396,7 +8406,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -8415,7 +8427,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-2-2-0-0-1-0-0",
+    "path": "0-0-0-0-1-2-0-0-1-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -9014,7 +9026,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "text",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -9111,7 +9123,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-3-1-0-0-1-0-0",
+    "path": "0-0-0-0-2-1-0-0-1-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -9327,7 +9339,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "alphabet",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -9403,7 +9415,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -10010,7 +10024,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "alphabet",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -10086,7 +10100,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -10321,7 +10337,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "alphabet",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -10397,7 +10413,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -11027,8 +11045,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "100",
-      "type": "text",
+      "maxLength": "250",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11339,7 +11357,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "100",
-      "type": "text",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11415,7 +11433,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -11434,7 +11454,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-5-2-0-0-1-0-0",
+    "path": "0-0-0-0-4-2-0-0-1-0-0",
     "screenId": "PAys-Yz_WENFVvPEEAeYg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

@@ -2675,7 +2675,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "CNIC",
+                                                                  "label": "CNIC (without dash)",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -2868,9 +2868,11 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regex": "/^(?=[0-9]*$)(?:.{13})$/",
+                                                                    "regexErrorMsg": "only accept 13 digits for CNIC without dashes"
                                                                   },
-                                                                  "placeholder": "Enter cnic ( without space)",
+                                                                  "placeholder": " ",
                                                                   "disableUnderline": true,
                                                                   "cssClassNames": [
                                                                     {
@@ -4771,13 +4773,85 @@
                                                                   "name": "Drop down",
                                                                   "stateName": "purpose",
                                                                   "allValues": true,
-                                                                  "dataSource": "responses",
-                                                                  "dataKey": "id",
-                                                                  "dataValue": "name",
+                                                                  "dataSource": "lookupValueResponse.RtgsPurposeOfPayment",
+                                                                  "dataKey": "value",
+                                                                  "dataValue": "displayName",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "LGVBQQs_p09VE_F9LLEZq",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREate",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "TrcDYCLCTCUa7xjIkx5hE",
+                                                                            "triggerName": "Open RTGS Disclaimer Modal",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-1-0-0-0-9-1-0-0-1",
+                                                                        "screenId": "kXkGzpWEMjfVJ9wS08OoY",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f4845e476fc83100e3a899",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -4820,35 +4894,113 @@
                                                                 "type": "20003",
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
-                                                                    "triggerName": "Purpose Of Payment List",
-                                                                    "serviceType": "8",
+                                                                    "triggerId": "_fHTCqZQ2po6uF-laq7gK",
+                                                                    "triggerName": "RTGS Purpose Of Payment chain Trig",
+                                                                    "serviceType": "2",
                                                                     "attributes": {
-                                                                      "loaderWidgetIds": [
-                                                                        906070
+                                                                      "delay": "",
+                                                                      "triggers": [
+                                                                        {
+                                                                          "id": "uj1gWktdPZpy9ybVL1mnj",
+                                                                          "name": "Statically set lookUpKeyResponse for RTGS",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "11",
+                                                                              "command": {
+                                                                                "type": "6",
+                                                                                "attributes": {
+                                                                                  "storeType": "",
+                                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                                  "dataType": "value",
+                                                                                  "destinationBindingKey": "lookUpKeyResponse",
+                                                                                  "sourceBindingKey": "form",
+                                                                                  "sourceStoreType": 2,
+                                                                                  "destinationStoreType": 2,
+                                                                                  "logic": {
+                                                                                    "if": [
+                                                                                      true,
+                                                                                      [
+                                                                                        "politicalMember"
+                                                                                      ],
+                                                                                      [
+                                                                                        "politicalMember"
+                                                                                      ]
+                                                                                    ]
+                                                                                  },
+                                                                                  "changeValueConditonally": true,
+                                                                                  "targettedType": "value"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "_id": "VcA-7nwjz5wPBaFz9UAYC",
+                                                                          "updatedAt": "5/11/2023",
+                                                                          "createdAt": "5/11/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
+                                                                        },
+                                                                        {
+                                                                          "id": "JNTp_1IB_TjwCNvpI3XP9",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "name": "RTGS Purpose Of Payment",
+                                                                          "status": "ACTIVE",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "8",
+                                                                              "command": {
+                                                                                "type": "1",
+                                                                                "attributes": {
+                                                                                  "loaderWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "messageWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "responseStateKey": "rtgsResponse",
+                                                                                  "responseReturnValue": "data.result",
+                                                                                  "url": "/lookup/values",
+                                                                                  "checksum": true,
+                                                                                  "encryption": true,
+                                                                                  "isDeviceDetails": true,
+                                                                                  "loginTrigger": false,
+                                                                                  "formData": false,
+                                                                                  "logoutTrigger": false,
+                                                                                  "headers": {
+                                                                                    "Content-Type": "application/json",
+                                                                                    "Accept": "application/json",
+                                                                                    "channel_key": "001",
+                                                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                    "locale": "en-ltr"
+                                                                                  },
+                                                                                  "requestBody": [
+                                                                                    {
+                                                                                      "type": 2,
+                                                                                      "name": "Current screen",
+                                                                                      "key": "lookupType",
+                                                                                      "value": "lookUpKeyResponse"
+                                                                                    }
+                                                                                  ],
+                                                                                  "baseURL": "6322eb25967b3c4df8e47be2",
+                                                                                  "storeType": 2
+                                                                                },
+                                                                                "responseHandler": []
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "_id": "khpX-dg6Rrmlt6llgPSet",
+                                                                          "updatedAt": "5/11/2023",
+                                                                          "createdAt": "5/11/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
+                                                                        }
                                                                       ],
-                                                                      "messageWidgetIds": [
-                                                                        906070
-                                                                      ],
-                                                                      "responseStateKey": "responses",
-                                                                      "responseReturnValue": "data.purposeOfPaymentList",
-                                                                      "url": "/purpose-of-payment/list",
-                                                                      "checksum": true,
-                                                                      "encryption": true,
-                                                                      "isDeviceDetails": true,
-                                                                      "loginTrigger": false,
-                                                                      "formData": false,
-                                                                      "logoutTrigger": false,
-                                                                      "headers": {
-                                                                        "Content-Type": "application/json",
-                                                                        "Accept": "application/json",
-                                                                        "channel_key": "001",
-                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                        "locale": "en-ltr"
-                                                                      },
-                                                                      "requestBody": [],
-                                                                      "baseURL": "631b0ff6d005932c10ce3bbe",
-                                                                      "storeType": 2
+                                                                      "triggerIds": [
+                                                                        "uj1gWktdPZpy9ybVL1mnj",
+                                                                        "JNTp_1IB_TjwCNvpI3XP9"
+                                                                      ]
                                                                     },
                                                                     "type": "1",
                                                                     "name": "On initialization"
@@ -6023,8 +6175,8 @@
     "gitBranchName": "master",
     "_id": "kXkGzpWEMjfVJ9wS08OoY",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/10/2023",
-    "createdAt": "5/10/2023",
+    "updatedAt": "5/11/2023",
+    "createdAt": "5/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8740,7 +8892,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "CNIC",
+      "label": "CNIC (without dash)",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -8911,9 +9063,11 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(?=[0-9]*$)(?:.{13})$/",
+        "regexErrorMsg": "only accept 13 digits for CNIC without dashes"
       },
-      "placeholder": "Enter cnic ( without space)",
+      "placeholder": " ",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
       "stateName": "cnic"
@@ -10633,11 +10787,72 @@
       "name": "Drop down",
       "stateName": "purpose",
       "allValues": true,
-      "dataSource": "responses",
-      "dataKey": "id",
-      "dataValue": "name",
+      "dataSource": "lookupValueResponse.RtgsPurposeOfPayment",
+      "dataKey": "value",
+      "dataValue": "displayName",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": [
+          {
+            "id": "LGVBQQs_p09VE_F9LLEZq",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREate",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "TrcDYCLCTCUa7xjIkx5hE",
+                "triggerName": "Open RTGS Disclaimer Modal",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
+              }
+            ],
+            "path": "0-0-1-0-0-0-9-1-0-0-1",
+            "screenId": "kXkGzpWEMjfVJ9wS08OoY",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
@@ -10673,11 +10888,11 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
-        "triggerName": "Purpose Of Payment List",
+        "triggerId": "_fHTCqZQ2po6uF-laq7gK",
+        "triggerName": "RTGS Purpose Of Payment chain Trig",
         "name": "On initialization",
         "type": "1",
-        "serviceType": "8"
+        "serviceType": "2"
       }
     ],
     "order": 10,

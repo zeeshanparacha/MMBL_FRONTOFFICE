@@ -1,0 +1,121 @@
+{
+  "id": "wMnrRF3m1iT_9BSQYYGKe",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "PO-CDR Purpose of payment chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "_DaAoq6Q-Eiruex8jyW5S",
+              "name": "Statically set lookUpKeyResponse for PO-CDR",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "logic": {
+                        "if": [
+                          true,
+                          ["BankersChequeCdrPurposeOfPayment"],
+                          ["BankersChequeCdrPurposeOfPayment"]
+                        ]
+                      },
+                      "changeValueConditonally": true,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "xH0I60AE1vLXZkOMy1NUX",
+              "updatedAt": "5/11/2023",
+              "createdAt": "5/11/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "YJ8Gjh9oFWc_QZVI5qE4o",
+              "_id": "U7A29wLKjKl3Ol5zLX2AS",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Secured LookUp Values API",
+              "old_name": "Secured LookUp Values API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "lookupValueResponse",
+                      "responseReturnValue": "data.result",
+                      "url": "/lookup/values",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "lookupType",
+                          "value": "chequeBookKey"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "lookupType",
+                          "value": "lookUpKeyResponse"
+                        }
+                      ],
+                      "baseURL": "6322eb25967b3c4df8e47be2",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "5/11/2023",
+              "createdAt": "5/11/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["_DaAoq6Q-Eiruex8jyW5S", "YJ8Gjh9oFWc_QZVI5qE4o"]
+        }
+      }
+    }
+  ],
+  "_id": "VXEk4Itx1D2HjzC5z5ZZ9",
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

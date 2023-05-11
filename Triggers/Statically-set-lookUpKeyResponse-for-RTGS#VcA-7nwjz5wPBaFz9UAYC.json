@@ -1,0 +1,35 @@
+{
+  "id": "uj1gWktdPZpy9ybVL1mnj",
+  "_id": "VcA-7nwjz5wPBaFz9UAYC",
+  "name": "Statically set lookUpKeyResponse for RTGS",
+  "old_name": "Statically set lookUpKeyResponse for RTGS",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "lookUpKeyResponse",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [true, ["RtgsPurposeOfPayment"], ["RtgsPurposeOfPayment"]]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

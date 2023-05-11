@@ -63,6 +63,18 @@
             {
               "type": 1,
               "name": "Form",
+              "key": "partnership.operatingInstructions",
+              "value": "operatingInstructions"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "partnership.accountPurpose",
+              "value": "accountPurpose"
+            },
+            {
+              "type": 1,
+              "name": "Form",
               "key": "partnership.companyMailingAddress",
               "value": "companyMailingAddress"
             },
@@ -443,8 +455,8 @@
       }
     }
   ],
-  "updatedAt": "5/9/2023",
-  "createdAt": "5/9/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

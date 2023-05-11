@@ -3,8 +3,8 @@
   "_id": "U7A29wLKjKl3Ol5zLX2AS",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
-  "name": "Cheque Book Leaves API",
-  "old_name": "Cheque Book Leaves API",
+  "name": "Secured LookUp Values API",
+  "old_name": "Secured LookUp Values API",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,8 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "chequeBookResponse",
-          "responseReturnValue": "data.result.chequeBookLeaves",
+          "responseStateKey": "lookupValueResponse",
+          "responseReturnValue": "data.result",
           "url": "/lookup/values",
           "checksum": true,
           "encryption": true,
@@ -36,6 +36,12 @@
               "name": "Current screen",
               "key": "lookupType",
               "value": "chequeBookKey"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "lookupType",
+              "value": "lookUpKeyResponse"
             }
           ],
           "baseURL": "6322eb25967b3c4df8e47be2",
@@ -45,8 +51,8 @@
       }
     }
   ],
-  "updatedAt": "5/2/2023",
-  "createdAt": "5/2/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/11/2023",
+  "createdAt": "5/11/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

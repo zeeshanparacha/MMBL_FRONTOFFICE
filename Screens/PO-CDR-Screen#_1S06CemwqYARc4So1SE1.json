@@ -120,7 +120,7 @@
                         "name": "Label",
                         "component": { "content": "Label", "type": "20002" },
                         "attributes": {
-                          "label": "Create Banker's Cheque Request",
+                          "label": "Create Request",
                           "variant": "body1",
                           "name": "Label",
                           "mandatory": false,
@@ -307,7 +307,7 @@
                                             "errorMsg": "This Field is required"
                                           },
                                           "checked": true,
-                                          "label": "PO",
+                                          "label": "Banker's Cheque",
                                           "name": "Radio",
                                           "searchInState": false,
                                           "stateName": "value",
@@ -471,32 +471,7 @@
                                   },
                                   "direction": "row",
                                   "name": "Grid layout",
-                                  "hideCondition": {
-                                    "logic": {
-                                      "or": [
-                                        {
-                                          "if": [
-                                            {
-                                              "!=": [
-                                                {
-                                                  "var": "currentScreen.form.value"
-                                                },
-                                                "po"
-                                              ]
-                                            },
-                                            {
-                                              "!=": [
-                                                {
-                                                  "var": "currentScreen.form.value"
-                                                },
-                                                "cdr"
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  }
+                                  "hideCondition": {}
                                 },
                                 "group": "Layout",
                                 "type": "10001",
@@ -523,14 +498,14 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "F87WYlehl8Ghs42uIlKo0",
+                                    "id": "-zMdNPHEMjwWMZnqzcPrj",
                                     "gridProps": [
                                       {
                                         "id": "rEePT7f1RiFSwIQdq1ADW",
                                         "status": "ACTIVE",
                                         "name": "Label",
                                         "attributes": {
-                                          "label": "Applicant Account Details",
+                                          "label": "Request Details",
                                           "variant": "body1",
                                           "name": "Label",
                                           "mandatory": false,
@@ -579,8 +554,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-1-0-0-0-1-0"
+                                    }
                                   }
                                 ],
                                 "layoutProperties": {
@@ -1684,7 +1658,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Beneficiary CNIC/NTN",
+                                                                  "label": "Beneficiary NTN/CNIC (without dash)",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -1964,7 +1938,9 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes",
+                                                                    "regex": "/^(?=[0-9]*$)(?:.{6}|.{13})$/"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -4140,13 +4116,155 @@
                                                                   "name": "Drop down",
                                                                   "stateName": "purpose",
                                                                   "allValues": true,
-                                                                  "dataSource": "responses",
-                                                                  "dataKey": "id",
-                                                                  "dataValue": "name",
+                                                                  "dataSource": "lookupValueResponse.BankersChequeCdrPurposeOfPayment",
+                                                                  "dataKey": "value",
+                                                                  "dataValue": "displayName",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "waBU6vS7rg9E4nqEZ3OWy",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREate",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "tBg7IIEkJ9LyY7smUHpuP",
+                                                                            "triggerName": "Open PO Disclaimer Modal",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-1-0-0-0-10-1-0-0-0-0-1",
+                                                                        "screenId": "_1S06CemwqYARc4So1SE1",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f4845e476fc83100e3a899",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      },
+                                                                      {
+                                                                        "id": "aowI_R84gy4UX-nezA23g",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "creATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "!=": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.termConditions"
+                                                                                },
+                                                                                "true"
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "4iLHHgdasGPehcRBFo_VG",
+                                                                            "triggerName": "Open CDR Disclaimer Modal",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-1-0-0-0-10-1-0-0-1-0-1",
+                                                                        "screenId": "_1S06CemwqYARc4So1SE1",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f4845e476fc83100e3a899",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -4189,35 +4307,119 @@
                                                                 "type": "20003",
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
-                                                                    "triggerName": "Purpose Of Payment List",
-                                                                    "serviceType": "8",
+                                                                    "triggerId": "wMnrRF3m1iT_9BSQYYGKe",
+                                                                    "triggerName": "PO-CDR Purpose of payment chain Trig",
+                                                                    "serviceType": "2",
                                                                     "attributes": {
-                                                                      "loaderWidgetIds": [
-                                                                        906070
+                                                                      "delay": "",
+                                                                      "triggers": [
+                                                                        {
+                                                                          "id": "_DaAoq6Q-Eiruex8jyW5S",
+                                                                          "name": "Statically set lookUpKeyResponse for PO-CDR",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "11",
+                                                                              "command": {
+                                                                                "type": "6",
+                                                                                "attributes": {
+                                                                                  "storeType": "",
+                                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                                  "dataType": "value",
+                                                                                  "sourceBindingKey": "form",
+                                                                                  "sourceStoreType": 2,
+                                                                                  "destinationStoreType": 2,
+                                                                                  "logic": {
+                                                                                    "if": [
+                                                                                      true,
+                                                                                      [
+                                                                                        "BankersChequeCdrPurposeOfPayment"
+                                                                                      ],
+                                                                                      [
+                                                                                        "BankersChequeCdrPurposeOfPayment"
+                                                                                      ]
+                                                                                    ]
+                                                                                  },
+                                                                                  "changeValueConditonally": true,
+                                                                                  "targettedType": "value"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "_id": "xH0I60AE1vLXZkOMy1NUX",
+                                                                          "updatedAt": "5/11/2023",
+                                                                          "createdAt": "5/11/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
+                                                                        },
+                                                                        {
+                                                                          "id": "YJ8Gjh9oFWc_QZVI5qE4o",
+                                                                          "_id": "U7A29wLKjKl3Ol5zLX2AS",
+                                                                          "projectId": "63f4845e476fc83100e3a899",
+                                                                          "gitBranchName": "master",
+                                                                          "name": "Secured LookUp Values API",
+                                                                          "old_name": "Secured LookUp Values API",
+                                                                          "status": "ACTIVE",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "8",
+                                                                              "command": {
+                                                                                "type": "1",
+                                                                                "attributes": {
+                                                                                  "loaderWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "messageWidgetIds": [
+                                                                                    906070
+                                                                                  ],
+                                                                                  "responseStateKey": "lookupValueResponse",
+                                                                                  "responseReturnValue": "data.result",
+                                                                                  "url": "/lookup/values",
+                                                                                  "checksum": true,
+                                                                                  "encryption": true,
+                                                                                  "isDeviceDetails": true,
+                                                                                  "loginTrigger": false,
+                                                                                  "formData": false,
+                                                                                  "logoutTrigger": false,
+                                                                                  "headers": {
+                                                                                    "Content-Type": "application/json",
+                                                                                    "Accept": "application/json",
+                                                                                    "channel_key": "001",
+                                                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                    "locale": "en-ltr"
+                                                                                  },
+                                                                                  "requestBody": [
+                                                                                    {
+                                                                                      "type": 2,
+                                                                                      "name": "Current screen",
+                                                                                      "key": "lookupType",
+                                                                                      "value": "chequeBookKey"
+                                                                                    },
+                                                                                    {
+                                                                                      "type": 2,
+                                                                                      "name": "Current screen",
+                                                                                      "key": "lookupType",
+                                                                                      "value": "lookUpKeyResponse"
+                                                                                    }
+                                                                                  ],
+                                                                                  "baseURL": "6322eb25967b3c4df8e47be2",
+                                                                                  "storeType": 2
+                                                                                },
+                                                                                "responseHandler": []
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "updatedAt": "5/11/2023",
+                                                                          "createdAt": "5/11/2023",
+                                                                          "createdBy": "ahmerjavedkhan",
+                                                                          "updatedBy": "ahmerjavedkhan"
+                                                                        }
                                                                       ],
-                                                                      "messageWidgetIds": [
-                                                                        906070
-                                                                      ],
-                                                                      "responseStateKey": "responses",
-                                                                      "responseReturnValue": "data.purposeOfPaymentList",
-                                                                      "url": "/purpose-of-payment/list",
-                                                                      "checksum": true,
-                                                                      "encryption": true,
-                                                                      "isDeviceDetails": true,
-                                                                      "loginTrigger": false,
-                                                                      "formData": false,
-                                                                      "logoutTrigger": false,
-                                                                      "headers": {
-                                                                        "Content-Type": "application/json",
-                                                                        "Accept": "application/json",
-                                                                        "channel_key": "001",
-                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                        "locale": "en-ltr"
-                                                                      },
-                                                                      "requestBody": [],
-                                                                      "baseURL": "631b0ff6d005932c10ce3bbe",
-                                                                      "storeType": 2
+                                                                      "triggerIds": [
+                                                                        "_DaAoq6Q-Eiruex8jyW5S",
+                                                                        "YJ8Gjh9oFWc_QZVI5qE4o"
+                                                                      ]
                                                                     },
                                                                     "type": "1",
                                                                     "name": "On initialization"
@@ -5365,7 +5567,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "CNIC",
+                                                                  "label": "CNIC (without dash)",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -5645,7 +5847,9 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regex": "/^(?=[0-9]*$)(?:.{13})$/",
+                                                                    "regexErrorMsg": "only accept 13 digits for CNIC without dashes"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -7342,9 +7546,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_1S06CemwqYARc4So1SE1",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/10/2023",
-    "createdAt": "5/10/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/11/2023",
+    "createdAt": "5/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7470,7 +7674,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Create Banker's Cheque Request",
+      "label": "Create Request",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -7845,7 +8049,7 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": true,
-      "label": "PO",
+      "label": "Banker's Cheque",
       "name": "Radio",
       "searchInState": false,
       "stateName": "value",
@@ -7945,18 +8149,7 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "hideCondition": {
-        "logic": {
-          "or": [
-            {
-              "if": [
-                { "!=": [{ "var": "currentScreen.form.value" }, "po"] },
-                { "!=": [{ "var": "currentScreen.form.value" }, "cdr"] }
-              ]
-            }
-          ]
-        }
-      }
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -7972,7 +8165,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Applicant Account Details",
+      "label": "Request Details",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -9055,7 +9248,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Beneficiary CNIC/NTN",
+      "label": "Beneficiary NTN/CNIC (without dash)",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -9282,7 +9475,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes",
+        "regex": "/^(?=[0-9]*$)(?:.{6}|.{13})$/"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -11193,11 +11388,128 @@
       "name": "Drop down",
       "stateName": "purpose",
       "allValues": true,
-      "dataSource": "responses",
-      "dataKey": "id",
-      "dataValue": "name",
+      "dataSource": "lookupValueResponse.BankersChequeCdrPurposeOfPayment",
+      "dataKey": "value",
+      "dataValue": "displayName",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": [
+          {
+            "id": "waBU6vS7rg9E4nqEZ3OWy",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREate",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "tBg7IIEkJ9LyY7smUHpuP",
+                "triggerName": "Open PO Disclaimer Modal",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
+              }
+            ],
+            "path": "0-0-1-0-0-0-10-1-0-0-0-0-1",
+            "screenId": "_1S06CemwqYARc4So1SE1",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          },
+          {
+            "id": "aowI_R84gy4UX-nezA23g",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "creATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "disableCondition": {
+                "logic": {
+                  "!=": [{ "var": "currentScreen.form.termConditions" }, "true"]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "4iLHHgdasGPehcRBFo_VG",
+                "triggerName": "Open CDR Disclaimer Modal",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
+              }
+            ],
+            "path": "0-0-1-0-0-0-10-1-0-0-1-0-1",
+            "screenId": "_1S06CemwqYARc4So1SE1",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
@@ -11233,11 +11545,11 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "Yye5yAKeiJJmuhbS9XmIi",
-        "triggerName": "Purpose Of Payment List",
+        "triggerId": "wMnrRF3m1iT_9BSQYYGKe",
+        "triggerName": "PO-CDR Purpose of payment chain Trig",
         "name": "On initialization",
         "type": "1",
-        "serviceType": "8"
+        "serviceType": "2"
       }
     ],
     "order": 10,
@@ -12125,7 +12437,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "CNIC",
+      "label": "CNIC (without dash)",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -12352,7 +12664,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(?=[0-9]*$)(?:.{13})$/",
+        "regexErrorMsg": "only accept 13 digits for CNIC without dashes"
       },
       "placeholder": "",
       "disableUnderline": true,
