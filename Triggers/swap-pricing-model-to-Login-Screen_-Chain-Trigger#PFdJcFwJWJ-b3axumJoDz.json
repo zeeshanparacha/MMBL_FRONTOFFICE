@@ -1,0 +1,110 @@
+{
+  "_id": "PFdJcFwJWJ-b3axumJoDz",
+  "id": "oTgAVTt6kKIxj4geQJr8w",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "swap pricing model to Login Screen_ Chain Trigger",
+  "old_name": "swap pricing model to Login Screen_ Chain Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "fJCdhU7q3XYHvO4xWj_bo",
+              "name": "swap pricing model to Login Screen_",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "GsHkeyZaiaSjnR8vSVf-W",
+                      "nextWidgetId": "Q8B5irzPhCEQ9AxZRnSzt",
+                      "gridRadioValue": "Screen",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "_id": "-bLJBH9pMzf9c_ivXRBRx",
+              "updatedAt": "4/19/2023",
+              "createdAt": "4/19/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan",
+              "_id": "63358d4ab4151657381d6f5d",
+              "id": "ciCkbWjxsNUlCoImahdDT",
+              "gitBranchName": "master",
+              "name": "Open Success Modal",
+              "projectId": "63f4845e476fc83100e3a899",
+              "services": [
+                {
+                  "_id": "6335af07b4151657381e0e6a",
+                  "type": "9",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6335af07b4151657381e0e6b",
+                    "attributes": {
+                      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                      "modalId": "sjo5KorsTz6KITUBVhFja"
+                    },
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "29-Sep-2022",
+              "updatedAt": "29-Sep-2022",
+              "__v": 1
+            },
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "6343f94c2c8a751b189f2e33",
+              "id": "C9VAY5AImRfafaf65",
+              "name": "Refresh page",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "3"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            }
+          ],
+          "triggerIds": [
+            "fJCdhU7q3XYHvO4xWj_bo",
+            "ciCkbWjxsNUlCoImahdDT",
+            "C9VAY5AImRfafaf65"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/12/2023",
+  "createdAt": "5/12/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

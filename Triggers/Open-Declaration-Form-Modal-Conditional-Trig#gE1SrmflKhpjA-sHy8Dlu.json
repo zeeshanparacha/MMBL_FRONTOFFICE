@@ -1,0 +1,55 @@
+{
+  "_id": "gE1SrmflKhpjA-sHy8Dlu",
+  "id": "GaH24CdqqkLXOXBqfPERb",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Open Declaration Form Modal Conditional Trig",
+  "old_name": "Open Declaration Form Modal Conditional Trig",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "13",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggers": [
+            {
+              "logic": {
+                "if": [
+                  {
+                    "!=": [
+                      { "var": "currentScreen.form.termConditions" },
+                      "true"
+                    ]
+                  },
+                  false,
+                  true
+                ]
+              },
+              "triggerName": "Open Declaration Form Modal",
+              "triggerId": "RThoMGc6VCKRBlRKiVHEE",
+              "services": [
+                {
+                  "type": "9",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "widgetId": "9n95tK-toORP6-EfRr85h",
+                      "content": "",
+                      "type": "",
+                      "modalId": "ZnkP_5lA-oKJWPz3CSnpA"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/12/2023",
+  "createdAt": "5/12/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

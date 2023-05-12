@@ -1290,7 +1290,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "LIH4p-E0o_aMsc39NFcS4",
+                            "id": "29BVSRgkYYlObs3gpGbzJ",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2238,12 +2238,11 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-3-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "bvnlw_WRr2oI8kZYASRg4",
+                            "id": "znxFrspS04foThiH8fAGQ",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 3,
@@ -2251,12 +2250,11 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            },
-                            "path": "0-0-0-0-3-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "ffjHXE_zMAD3yuldzvdTs",
+                            "id": "0LdZ5J3Leb5Qau9_Z2onM",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 3,
@@ -2264,8 +2262,7 @@
                               "md": 3,
                               "sm": 3,
                               "xs": 3
-                            },
-                            "path": "0-0-0-0-3-2"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -2297,7 +2294,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.response.data.result.isValidated"
+                                  "var": "currentScreen.otpResponse.data.result.isValidated"
                                 },
                                 true
                               ]
@@ -2309,7 +2306,7 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-3",
+                        "path": "0-0-0-0-4",
                         "dimensions": {
                           "rows": 1,
                           "columns": 3,
@@ -3519,7 +3516,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
-    "createdBy": "ahmerjavedkhan",
+    "createdBy": "ajk",
     "updatedAt": "5/12/2023",
     "createdAt": "5/12/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -4707,7 +4704,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.response.data.result.isValidated" },
+            { "var": "currentScreen.otpResponse.data.result.isValidated" },
             true
           ]
         }

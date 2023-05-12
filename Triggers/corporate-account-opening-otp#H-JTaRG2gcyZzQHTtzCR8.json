@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "response",
+          "responseStateKey": "otpResponse",
           "url": "/pre-corp-reg/validate-otp",
           "checksum": true,
           "encryption": true,
@@ -52,7 +52,8 @@
             }
           ],
           "baseURL": "641aedb2676c823a449fd597",
-          "storeType": 2
+          "storeType": 2,
+          "triggerGenericErrorTrigger": true
         },
         "responseHandler": [
           {
