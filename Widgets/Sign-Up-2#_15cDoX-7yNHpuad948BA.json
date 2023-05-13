@@ -774,7 +774,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "4po6RdqkS1eK2K-Ezgn5Y",
+                            "id": "jCvhUr_D9tKndQfOYUD6B",
                             "gridProps": [
                               {
                                 "id": "CLn71_tUIR6n_bmQ0fRJy",
@@ -822,12 +822,11 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-4-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "WgRTauIovO42AZiZ9k7fn",
+                            "id": "w3jHcxoYhd5rFtf9Sd_7e",
                             "gridProps": [],
                             "layoutProperties": {
                               "xl": 6,
@@ -835,8 +834,7 @@
                               "md": 6,
                               "sm": 6,
                               "xs": 6
-                            },
-                            "path": "0-0-0-0-4-1"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -863,14 +861,30 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "Grid layout",
+                          "hideComponent": true
                         },
                         "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-4"
+                        "path": "0-0-0-0-4",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 6,
+                          "colSize0sm": 6,
+                          "colSize0md": 6,
+                          "colSize0lg": 6,
+                          "colSize0xl": 6,
+                          "colSize1xs": 6,
+                          "colSize1sm": 6,
+                          "colSize1md": 6,
+                          "colSize1lg": 6,
+                          "colSize1xl": 6
+                        },
+                        "readOnly": true
                       },
                       {
                         "type": "10001",
@@ -929,7 +943,8 @@
                                                 1
                                               ]
                                             }
-                                          }
+                                          },
+                                          "onEnterKey": true
                                         },
                                         "events": [
                                           {
@@ -1268,9 +1283,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_15cDoX-7yNHpuad948BA",
-    "createdBy": "ajk",
-    "updatedAt": "5/8/2023",
-    "createdAt": "5/8/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/13/2023",
+    "createdAt": "5/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2089,7 +2104,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideComponent": true
     },
     "layout": null,
     "events": [],
@@ -2266,7 +2282,8 @@
       },
       "disableCondition": {
         "logic": { "==": [{ "var": "currentScreen.otpResponse.status" }, 1] }
-      }
+      },
+      "onEnterKey": true
     },
     "events": [
       {

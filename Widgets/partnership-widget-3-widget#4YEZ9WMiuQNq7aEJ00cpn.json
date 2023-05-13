@@ -994,9 +994,7 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ],
-                                                    "regex": "/^[A-Za-z\\s]*$/",
-                                                    "regexErrorMsg": "accept alphabet only"
+                                                    ]
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -1406,7 +1404,9 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ]
+                                                    ],
+                                                    "regex": "/^(?=[0-9]*$)(?:.{11}|.{12})$/",
+                                                    "regexErrorMsg": "only accept 11 or 12 digit contact number"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -1759,7 +1759,7 @@
                                                       }
                                                     ],
                                                     "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-                                                    "regexErrorMsg": "invalid email"
+                                                    "regexErrorMsg": "invalid email format"
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -4216,8 +4216,8 @@
                                                   "label": "",
                                                   "name": "Text box",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
-                                                  "type": "text",
+                                                  "maxLength": "200",
+                                                  "type": "uppercase",
                                                   "variant": "standard",
                                                   "value": "",
                                                   "readOnly": false,
@@ -4305,9 +4305,7 @@
                                                         "gitBranchName": "master",
                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                       }
-                                                    ],
-                                                    "regex": "/^[A-Za-z\\s]*$/",
-                                                    "regexErrorMsg": "accept alphabet only"
+                                                    ]
                                                   },
                                                   "placeholder": "",
                                                   "disableUnderline": true,
@@ -7028,6 +7026,20 @@
                                                     },
                                                     "type": "2",
                                                     "name": "On click"
+                                                  },
+                                                  {
+                                                    "triggerId": "qibAM9iBWXsLZ8pnHdG_J",
+                                                    "triggerName": "Clear partnership_message BindingKey",
+                                                    "serviceType": "11",
+                                                    "attributes": {
+                                                      "stateName": "partnership.message",
+                                                      "storeType": 2,
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "dataType": "",
+                                                      "sourceBindingKey": ""
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-7-2-0-1-0-0-0"
@@ -8447,9 +8459,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "4YEZ9WMiuQNq7aEJ00cpn",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/11/2023",
-    "createdAt": "5/11/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/13/2023",
+    "createdAt": "5/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9728,9 +9740,7 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ],
-        "regex": "/^[A-Za-z\\s]*$/",
-        "regexErrorMsg": "accept alphabet only"
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -10116,7 +10126,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(?=[0-9]*$)(?:.{11}|.{12})$/",
+        "regexErrorMsg": "only accept 11 or 12 digit contact number"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -10432,7 +10444,7 @@
           }
         ],
         "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-        "regexErrorMsg": "invalid email"
+        "regexErrorMsg": "invalid email format"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -12692,8 +12704,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
+      "maxLength": "200",
+      "type": "uppercase",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -12772,9 +12784,7 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ],
-        "regex": "/^[A-Za-z\\s]*$/",
-        "regexErrorMsg": "accept alphabet only"
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -13824,6 +13834,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "qibAM9iBWXsLZ8pnHdG_J",
+        "triggerName": "Clear partnership_message BindingKey",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
       }
     ],
     "path": "0-0-0-0-7-2-0-1-0-0-0",

@@ -7404,6 +7404,20 @@
                                                     },
                                                     "type": "2",
                                                     "name": "On click"
+                                                  },
+                                                  {
+                                                    "triggerId": "N-aaevstBb62O2S18sSvF",
+                                                    "triggerName": "Clear soleProprietor_message BindingKey",
+                                                    "serviceType": "11",
+                                                    "attributes": {
+                                                      "stateName": "soleProprietor.message",
+                                                      "storeType": 2,
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "dataType": "",
+                                                      "sourceBindingKey": ""
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-0-0-8-2-0-1-0-0-0",
@@ -7654,8 +7668,8 @@
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
     "createdBy": "ajk",
-    "updatedAt": "5/12/2023",
-    "createdAt": "5/12/2023",
+    "updatedAt": "5/13/2023",
+    "createdAt": "5/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -13230,6 +13244,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "N-aaevstBb62O2S18sSvF",
+        "triggerName": "Clear soleProprietor_message BindingKey",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
       }
     ],
     "path": "0-0-0-0-8-2-0-1-0-0-0",

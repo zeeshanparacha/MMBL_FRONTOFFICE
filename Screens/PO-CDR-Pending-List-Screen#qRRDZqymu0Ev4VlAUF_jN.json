@@ -120,7 +120,7 @@
                         "name": "Label",
                         "component": { "content": "Label", "type": "20002" },
                         "attributes": {
-                          "label": "PO-CDR Pending List",
+                          "label": "Banker's Cheque/CDR Pending List",
                           "variant": "body1",
                           "name": "Label",
                           "mandatory": false,
@@ -756,9 +756,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "qRRDZqymu0Ev4VlAUF_jN",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/18/2023",
-    "createdAt": "4/18/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/13/2023",
+    "createdAt": "5/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -896,7 +896,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "PO-CDR Pending List",
+      "label": "Banker's Cheque/CDR Pending List",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,

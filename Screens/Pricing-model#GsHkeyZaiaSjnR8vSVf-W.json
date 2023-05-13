@@ -357,6 +357,14 @@
                                             },
                                             "type": "2",
                                             "name": "On click"
+                                          },
+                                          {
+                                            "triggerId": "C9VAY5AImRfafaf65",
+                                            "triggerName": "Refresh page",
+                                            "serviceType": "14",
+                                            "attributes": {},
+                                            "type": "2",
+                                            "name": "On click"
                                           }
                                         ],
                                         "path": "0-0-0-0-0-2-0-0-0"
@@ -473,22 +481,6 @@
                         "readOnly": true
                       },
                       {
-                        "id": "sjo5KorsTz6KITUBVhFja",
-                        "name": "Open Success Modal",
-                        "type": "20031",
-                        "attributes": {
-                          "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-                          "layoutProperties": {
-                            "xl": 12,
-                            "lg": 12,
-                            "md": 12,
-                            "sm": 12,
-                            "xs": 12
-                          }
-                        },
-                        "component": { "type": "20031" }
-                      },
-                      {
                         "type": "10001",
                         "name": "Grid layout",
                         "id": "xjZekKkoFUPEW0yQ3UrfG",
@@ -601,13 +593,29 @@
                         "readOnly": false
                       },
                       {
+                        "id": "jpUbltzN7HI2pvmcL1lGv",
+                        "name": "Open CDOB Success Modal",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "bNfh52ZLKO_61crHmR32k",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "name": "Grid layout",
                         "id": "I6QYdOXip-oJ1mb3U7StT",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "XoIyFoSP-wKQkIqstWJEI",
+                            "id": "zXvPXerc8CVk-wKmFXwDE",
                             "gridProps": [
                               {
                                 "id": "rsU-h6_OBIZlg-LasdyW8",
@@ -929,17 +937,16 @@
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 6,
-                              "lg": 6,
-                              "md": 6,
-                              "sm": 6,
-                              "xs": 6
-                            },
-                            "path": "0-0-0-0-2-0"
+                              "xl": 4,
+                              "lg": 4,
+                              "md": 4,
+                              "sm": 4,
+                              "xs": 4
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "afdgSTXGMcWN0sput_HuF",
+                            "id": "4WzOPZNwFqB6TAZn5x-xr",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1224,13 +1231,12 @@
                               }
                             ],
                             "layoutProperties": {
-                              "xl": 6,
-                              "lg": 6,
-                              "md": 6,
-                              "sm": 6,
-                              "xs": 6
-                            },
-                            "path": "0-0-0-0-2-1"
+                              "xl": 8,
+                              "lg": 8,
+                              "md": 8,
+                              "sm": 8,
+                              "xs": 8
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -1266,20 +1272,20 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-0-0-2",
+                        "path": "0-0-0-0-3",
                         "dimensions": {
                           "rows": 1,
                           "columns": 2,
-                          "colSize0xs": 6,
-                          "colSize0sm": 6,
-                          "colSize0md": 6,
-                          "colSize0lg": 6,
-                          "colSize0xl": 6,
-                          "colSize1xs": 6,
-                          "colSize1sm": 6,
-                          "colSize1md": 6,
-                          "colSize1lg": 6,
-                          "colSize1xl": 6
+                          "colSize0xs": 4,
+                          "colSize0sm": 4,
+                          "colSize0md": 4,
+                          "colSize0lg": 4,
+                          "colSize0xl": 4,
+                          "colSize1xs": 8,
+                          "colSize1sm": 8,
+                          "colSize1md": 8,
+                          "colSize1lg": 8,
+                          "colSize1xl": 8
                         },
                         "readOnly": true
                       },
@@ -3517,8 +3523,8 @@
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
     "createdBy": "ajk",
-    "updatedAt": "5/12/2023",
-    "createdAt": "5/12/2023",
+    "updatedAt": "5/13/2023",
+    "createdAt": "5/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3612,18 +3618,6 @@
           }
         },
         {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "sjo5KorsTz6KITUBVhFja",
-          "componentType": "20031",
-          "order": 1
-        },
-        {
           "componentId": "xjZekKkoFUPEW0yQ3UrfG",
           "componentType": "10001",
           "id": "xjZekKkoFUPEW0yQ3UrfG",
@@ -3641,6 +3635,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "jpUbltzN7HI2pvmcL1lGv",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "I6QYdOXip-oJ1mb3U7StT",
@@ -4010,28 +4016,19 @@
         "name": "On click",
         "type": "2",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "C9VAY5AImRfafaf65",
+        "triggerName": "Refresh page",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
       }
     ],
     "path": "0-0-0-0-0-2-0-0-0",
     "screenId": "GsHkeyZaiaSjnR8vSVf-W",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "sjo5KorsTz6KITUBVhFja",
-    "name": "Open Success Modal",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -4068,6 +4065,22 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "jpUbltzN7HI2pvmcL1lGv",
+    "name": "Open CDOB Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "bNfh52ZLKO_61crHmR32k",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "GsHkeyZaiaSjnR8vSVf-W",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "I6QYdOXip-oJ1mb3U7StT",
     "name": "Grid layout",
     "type": "10001",
@@ -4084,7 +4097,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
           "componentId": "fTUPXtvLovzd97azIaRgC",
@@ -4097,7 +4110,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
         }
       ],
       "label": "Header",

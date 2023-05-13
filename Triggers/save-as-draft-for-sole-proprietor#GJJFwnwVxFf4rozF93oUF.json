@@ -406,8 +406,8 @@
           {
             "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Open Success Modal",
-            "triggerId": "ciCkbWjxsNUlCoImahdDT"
+            "triggerName": "Open CDOB Success Modal",
+            "triggerId": "lY-IKySc2bSjviqatGI-6"
           },
           {
             "httpStatus": 200,
@@ -419,8 +419,8 @@
       }
     }
   ],
-  "updatedAt": "5/10/2023",
-  "createdAt": "5/10/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/13/2023",
+  "createdAt": "5/13/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

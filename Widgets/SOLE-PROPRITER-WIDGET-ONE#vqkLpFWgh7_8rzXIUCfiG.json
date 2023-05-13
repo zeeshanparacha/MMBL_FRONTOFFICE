@@ -719,7 +719,9 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                                    "regexErrorMsg": "accept alphabet only"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -1058,7 +1060,9 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regex": "/^[A-Za-z\\s]*$/",
+                                                                    "regexErrorMsg": "accept alphabet only"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -1370,7 +1374,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": "100",
+                                                                  "maxLength": "250",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -1460,7 +1464,7 @@
                                                                       }
                                                                     ],
                                                                     "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-                                                                    "regexErrorMsg": "Invalid Email"
+                                                                    "regexErrorMsg": "invalid email format"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -2428,7 +2432,7 @@
                                                                   "label": "",
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
-                                                                  "maxLength": "100",
+                                                                  "maxLength": "200",
                                                                   "type": "text",
                                                                   "variant": "standard",
                                                                   "value": "",
@@ -4513,26 +4517,26 @@
                                             "gridProps": [
                                               {
                                                 "type": "10001",
-                                                "id": "m6vyej1e291hmPT9iQbSV",
+                                                "id": "5msLkGf2Z1-d4D_3zC1IY",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "qLmoU2YcwIs1VmU6AQwdo",
+                                                    "id": "6NcJ_v9-5TChWMt-Bah_v",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
-                                                        "id": "G42Ul1ywjlplp_rMAV5mf",
+                                                        "id": "UeWDSaGzDXr5YTLLChoDx",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "TY6EbgvC1NeqzjJwdxhB6",
+                                                            "id": "Kluru1Anwtdd8_z78fv_Z",
                                                             "gridProps": [
                                                               {
-                                                                "id": "fBkQhKQPAxdZ7qmIWlv4w",
+                                                                "id": "kMUMxgOH6nnA9QsqD8SrD",
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Mode of transaction",
+                                                                  "label": "Account Category",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -4616,14 +4620,14 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "_KA559bOTlYrXmle_ylxI",
+                                                        "id": "6b2405qlg-juBScr-a7Sm",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "-dft5HQqVyyvECdTOebva",
+                                                            "id": "DRalY05Iq665OuOaGv9vr",
                                                             "gridProps": [
                                                               {
-                                                                "id": "8brgyxYXni6podC7trJ8O",
+                                                                "id": "U6xr7WEBD9Wx9m3UX42Q9",
                                                                 "status": "ACTIVE",
                                                                 "name": "Drop down",
                                                                 "icon": "FaCaretSquareDown",
@@ -4632,9 +4636,9 @@
                                                                 "createdAt": "23-Aug-2021",
                                                                 "attributes": {
                                                                   "name": "Drop down",
-                                                                  "stateName": "modeOfTransaction",
+                                                                  "stateName": "accountCategory",
                                                                   "allValues": true,
-                                                                  "dataSource": "lookUpValueResponse.modeOfTransaction",
+                                                                  "dataSource": "lookUpValueResponse.accountCategory",
                                                                   "dataKey": "value",
                                                                   "dataValue": "displayName",
                                                                   "mandatory": true,
@@ -4746,8 +4750,7 @@
                                                                       "cssClassName": "dropdownWidth"
                                                                     }
                                                                   ],
-                                                                  "selectedDataType": 0,
-                                                                  "multiSelect": true
+                                                                  "selectedDataType": 0
                                                                 },
                                                                 "type": "20003",
                                                                 "events": [],
@@ -4898,7 +4901,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Other Purpose",
+                                                                  "label": "Account Purpose",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": false,
@@ -5021,8 +5024,84 @@
                                                                     "xs": 12
                                                                   },
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This field is required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This field is required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "YzeOrGktIZ7c5ROCzDY_q",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "save to nExt ",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": false,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
+                                                                            "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "1"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "gwan5WuriWNiDpSOBWZsk",
+                                                                            "triggerName": "set showCusDocUpload false",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "11"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                                                                            "triggerName": "save as draft for sole proprietor",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+                                                                        "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f4845e476fc83100e3a899",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -6721,26 +6800,26 @@
                                             "gridProps": [
                                               {
                                                 "type": "10001",
-                                                "id": "5msLkGf2Z1-d4D_3zC1IY",
+                                                "id": "gByLQUhN1h71UIkBGtjLX",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "6NcJ_v9-5TChWMt-Bah_v",
+                                                    "id": "yOvszHLnxX0KxpyRs0fef",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
-                                                        "id": "UeWDSaGzDXr5YTLLChoDx",
+                                                        "id": "kleLolqd-2q8KGwA8BIVD",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "Kluru1Anwtdd8_z78fv_Z",
+                                                            "id": "7Ff9Odrk_5YQP62qfnNy-",
                                                             "gridProps": [
                                                               {
-                                                                "id": "kMUMxgOH6nnA9QsqD8SrD",
+                                                                "id": "8fU0tZk3xCzizpMe2jIR2",
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Account Category",
+                                                                  "label": "Average Salary Amount",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -6824,31 +6903,58 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "6b2405qlg-juBScr-a7Sm",
+                                                        "id": "Wj3zY01J__naRX2Obkjmc",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "DRalY05Iq665OuOaGv9vr",
+                                                            "id": "KTzWUYbVurHV8HXHxRMND",
                                                             "gridProps": [
                                                               {
-                                                                "id": "U6xr7WEBD9Wx9m3UX42Q9",
+                                                                "id": "li9fgJY2RTcuxFrJa3Ii8",
                                                                 "status": "ACTIVE",
-                                                                "name": "Drop down",
-                                                                "icon": "FaCaretSquareDown",
-                                                                "group": "Form",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
+                                                                "name": "Amount",
                                                                 "attributes": {
-                                                                  "name": "Drop down",
-                                                                  "stateName": "accountCategory",
-                                                                  "allValues": true,
-                                                                  "dataSource": "lookUpValueResponse.accountCategory",
-                                                                  "dataKey": "value",
-                                                                  "dataValue": "displayName",
+                                                                  "multicurrency": false,
+                                                                  "stateName": "averageSalaryAmount",
+                                                                  "name": "Amount",
+                                                                  "label-locale-key": "",
+                                                                  "maxLength": "10",
+                                                                  "variant": "standard",
+                                                                  "value": "100",
+                                                                  "readOnly": false,
+                                                                  "tooltip": "",
+                                                                  "font-family": "Verdana",
                                                                   "mandatory": true,
+                                                                  "tooltipState": "",
+                                                                  "fromCurrency": "PKR",
+                                                                  "fromCurrencyState": "",
+                                                                  "toCurrency": "USD",
+                                                                  "toCurrencyState": "",
+                                                                  "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
+                                                                  "layoutProperties": {
+                                                                    "textField": {
+                                                                      "//": "Use this class to style text field component."
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style text field element.",
+                                                                      "paddingLeft": "15px"
+                                                                    },
+                                                                    "amountInWordsLabel": {
+                                                                      "//": "Use this class to style amount in words label."
+                                                                    },
+                                                                    "amountInWords": {
+                                                                      "//": "Use this class to style amount in words."
+                                                                    },
+                                                                    "mainContainer": "textField",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "This Field is Required",
+                                                                    "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
                                                                         "id": "YzeOrGktIZ7c5ROCzDY_q",
@@ -6901,16 +7007,9 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "1"
-                                                                          },
-                                                                          {
-                                                                            "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
-                                                                            "triggerName": "save as draft for sole proprietor",
-                                                                            "name": "On click",
-                                                                            "type": "2",
-                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -6919,53 +7018,29 @@
                                                                       }
                                                                     ]
                                                                   },
-                                                                  "layoutProperties": {
-                                                                    "autocomplete": {
-                                                                      "//": "Use this class to style autocomplete component in dropdown."
-                                                                    },
-                                                                    "textField": {
-                                                                      "//": "Use this class to style textField component in dropdown.",
-                                                                      "font-size": "14px",
-                                                                      "font-weight": "normal",
-                                                                      "color": "#333",
-                                                                      "background-color": "#fff",
-                                                                      "border": "1px solid #e5e5e5",
-                                                                      "box-shadow": "none",
-                                                                      "border-radius": "4px"
-                                                                    },
-                                                                    "inputProps": {
-                                                                      "//": "Use this class to style dropdown element.",
-                                                                      "paddingLeft": "8px"
-                                                                    },
-                                                                    "mainContainer": "autocomplete",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  },
-                                                                  "dropdownOptions": [],
-                                                                  "variant": "standard",
+                                                                  "placeholder": "",
                                                                   "disableUnderline": true,
-                                                                  "storeType": 2,
-                                                                  "placeholder": "Select",
                                                                   "cssClassNames": [
                                                                     {
-                                                                      "cssClassName": "dropdownWidth"
+                                                                      "cssClassName": "textbox"
                                                                     }
-                                                                  ],
-                                                                  "selectedDataType": 0
+                                                                  ]
                                                                 },
-                                                                "type": "20003",
-                                                                "events": [],
-                                                                "order": 10,
+                                                                "icon": "FaDollarSign",
+                                                                "group": "Form",
+                                                                "type": "20040",
+                                                                "Documentation": "<div>components 12344</div>",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 20,
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
                                                                 "projectType": "web",
                                                                 "component": {
-                                                                  "content": "Drop down",
-                                                                  "type": "20003"
+                                                                  "content": "Amount",
+                                                                  "type": "20040"
                                                                 },
+                                                                "events": [],
                                                                 "path": "0-0-0-0-0-0-0-0-7-0-0-0-1-0-0"
                                                               }
                                                             ],
@@ -7011,17 +7086,7 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "name": "Card Drop Down Selection ",
-                                                        "dimensions": {
-                                                          "rows": 1,
-                                                          "columns": 1,
-                                                          "colSize0xs": 12,
-                                                          "colSize0sm": 12,
-                                                          "colSize0md": 12,
-                                                          "colSize0lg": 12,
-                                                          "colSize0xl": 12
-                                                        },
-                                                        "readOnly": true
+                                                        "name": "Grid layout"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -7067,17 +7132,7 @@
                                                   "20010",
                                                   "widget"
                                                 ],
-                                                "name": "Expected # of credit tranx",
-                                                "dimensions": {
-                                                  "rows": 1,
-                                                  "columns": 1,
-                                                  "colSize0xs": 12,
-                                                  "colSize0sm": 12,
-                                                  "colSize0md": 12,
-                                                  "colSize0lg": 12,
-                                                  "colSize0xl": 12
-                                                },
-                                                "readOnly": true
+                                                "name": "Grid layout"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -7903,26 +7958,26 @@
                                             "gridProps": [
                                               {
                                                 "type": "10001",
-                                                "id": "gByLQUhN1h71UIkBGtjLX",
+                                                "id": "m6vyej1e291hmPT9iQbSV",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "yOvszHLnxX0KxpyRs0fef",
+                                                    "id": "qLmoU2YcwIs1VmU6AQwdo",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
-                                                        "id": "kleLolqd-2q8KGwA8BIVD",
+                                                        "id": "G42Ul1ywjlplp_rMAV5mf",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "7Ff9Odrk_5YQP62qfnNy-",
+                                                            "id": "TY6EbgvC1NeqzjJwdxhB6",
                                                             "gridProps": [
                                                               {
-                                                                "id": "8fU0tZk3xCzizpMe2jIR2",
+                                                                "id": "fBkQhKQPAxdZ7qmIWlv4w",
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Average Salary Amount",
+                                                                  "label": "Mode of transaction",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -8006,58 +8061,31 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "Wj3zY01J__naRX2Obkjmc",
+                                                        "id": "_KA559bOTlYrXmle_ylxI",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "KTzWUYbVurHV8HXHxRMND",
+                                                            "id": "-dft5HQqVyyvECdTOebva",
                                                             "gridProps": [
                                                               {
-                                                                "id": "li9fgJY2RTcuxFrJa3Ii8",
+                                                                "id": "8brgyxYXni6podC7trJ8O",
                                                                 "status": "ACTIVE",
-                                                                "name": "Amount",
+                                                                "name": "Drop down",
+                                                                "icon": "FaCaretSquareDown",
+                                                                "group": "Form",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
                                                                 "attributes": {
-                                                                  "multicurrency": false,
-                                                                  "stateName": "averageSalaryAmount",
-                                                                  "name": "Amount",
-                                                                  "label-locale-key": "",
-                                                                  "maxLength": "10",
-                                                                  "variant": "standard",
-                                                                  "value": "100",
-                                                                  "readOnly": false,
-                                                                  "tooltip": "",
-                                                                  "font-family": "Verdana",
+                                                                  "name": "Drop down",
+                                                                  "stateName": "modeOfTransaction",
+                                                                  "allValues": true,
+                                                                  "dataSource": "lookUpValueResponse.modeOfTransaction",
+                                                                  "dataKey": "value",
+                                                                  "dataValue": "displayName",
                                                                   "mandatory": true,
-                                                                  "tooltipState": "",
-                                                                  "fromCurrency": "PKR",
-                                                                  "fromCurrencyState": "",
-                                                                  "toCurrency": "USD",
-                                                                  "toCurrencyState": "",
-                                                                  "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
-                                                                  "layoutProperties": {
-                                                                    "textField": {
-                                                                      "//": "Use this class to style text field component."
-                                                                    },
-                                                                    "inputProps": {
-                                                                      "//": "Use this class to style text field element.",
-                                                                      "paddingLeft": "15px"
-                                                                    },
-                                                                    "amountInWordsLabel": {
-                                                                      "//": "Use this class to style amount in words label."
-                                                                    },
-                                                                    "amountInWords": {
-                                                                      "//": "Use this class to style amount in words."
-                                                                    },
-                                                                    "mainContainer": "textField",
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "This field is required",
+                                                                    "errorMsg": "This Field is Required",
                                                                     "bindButton": [
                                                                       {
                                                                         "id": "YzeOrGktIZ7c5ROCzDY_q",
@@ -8110,9 +8138,16 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "1"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                                                                            "triggerName": "save as draft for sole proprietor",
+                                                                            "name": "On click",
+                                                                            "type": "2",
+                                                                            "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
                                                                         "screenId": "vqkLpFWgh7_8rzXIUCfiG",
                                                                         "subType": "component",
                                                                         "projectId": "63f4845e476fc83100e3a899",
@@ -8121,29 +8156,54 @@
                                                                       }
                                                                     ]
                                                                   },
-                                                                  "placeholder": "",
+                                                                  "layoutProperties": {
+                                                                    "autocomplete": {
+                                                                      "//": "Use this class to style autocomplete component in dropdown."
+                                                                    },
+                                                                    "textField": {
+                                                                      "//": "Use this class to style textField component in dropdown.",
+                                                                      "font-size": "14px",
+                                                                      "font-weight": "normal",
+                                                                      "color": "#333",
+                                                                      "background-color": "#fff",
+                                                                      "border": "1px solid #e5e5e5",
+                                                                      "box-shadow": "none",
+                                                                      "border-radius": "4px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style dropdown element.",
+                                                                      "paddingLeft": "8px"
+                                                                    },
+                                                                    "mainContainer": "autocomplete",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "dropdownOptions": [],
+                                                                  "variant": "standard",
                                                                   "disableUnderline": true,
+                                                                  "storeType": 2,
+                                                                  "placeholder": "Select",
                                                                   "cssClassNames": [
                                                                     {
-                                                                      "cssClassName": "textbox"
+                                                                      "cssClassName": "dropdownWidth"
                                                                     }
-                                                                  ]
+                                                                  ],
+                                                                  "selectedDataType": 0,
+                                                                  "multiSelect": true
                                                                 },
-                                                                "icon": "FaDollarSign",
-                                                                "group": "Form",
-                                                                "type": "20040",
-                                                                "Documentation": "<div>components 12344</div>",
-                                                                "updatedAt": "23-Aug-2021",
-                                                                "createdAt": "23-Aug-2021",
-                                                                "order": 20,
+                                                                "type": "20003",
+                                                                "events": [],
+                                                                "order": 10,
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
                                                                 "projectType": "web",
                                                                 "component": {
-                                                                  "content": "Amount",
-                                                                  "type": "20040"
+                                                                  "content": "Drop down",
+                                                                  "type": "20003"
                                                                 },
-                                                                "events": [],
                                                                 "path": "0-0-0-0-0-0-0-0-8-0-0-0-1-0-0"
                                                               }
                                                             ],
@@ -8189,7 +8249,17 @@
                                                           "20010",
                                                           "widget"
                                                         ],
-                                                        "name": "Grid layout"
+                                                        "name": "Card Drop Down Selection ",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -9545,7 +9615,7 @@
                                                                       }
                                                                     ],
                                                                     "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-                                                                    "regexErrorMsg": "invalid email"
+                                                                    "regexErrorMsg": "invalid email format"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -11124,23 +11194,6 @@
                                         "name": "Grid layout"
                                       },
                                       {
-                                        "id": "sjo5KorsTz6KITUBVhFja",
-                                        "name": "Open Success Modal",
-                                        "type": "20031",
-                                        "attributes": {
-                                          "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-                                          "layoutProperties": {
-                                            "xl": 12,
-                                            "lg": 12,
-                                            "md": 12,
-                                            "sm": 12,
-                                            "xs": 12
-                                          }
-                                        },
-                                        "component": { "type": "20031" },
-                                        "path": "0-0-0-0-0-0-0-0-11"
-                                      },
-                                      {
                                         "type": "10001",
                                         "id": "kkNUmJ203ye3Gnb3i_CWC",
                                         "gridProps": [
@@ -12290,7 +12343,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "bj8t3psAPbyUScY5aYOKn",
+                                            "id": "ftirj-evzRuMNdbcM9mT8",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -12624,12 +12677,11 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-13-0"
+                                            }
                                           },
                                           {
                                             "type": "column",
-                                            "id": "lp9ODz4yKKmHLjr6zFJGn",
+                                            "id": "CvDGKU5OoDdPUuReLkYIz",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -12887,8 +12939,6 @@
                                                                   ],
                                                                   "disableUnderline": true,
                                                                   "calenderIconPosition": "start",
-                                                                  "minDateSource": "ntnDateOfIssuance",
-                                                                  "minDateStoreType": 1,
                                                                   "maxDateSource": "ntnDateOfExpiry",
                                                                   "maxDateStoreType": 1
                                                                 },
@@ -12974,12 +13024,11 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-13-1"
+                                            }
                                           },
                                           {
                                             "type": "column",
-                                            "id": "EVufstNyARX8fh2qoSPb1",
+                                            "id": "SdIXh_z6wzeV4uws-Mhqb",
                                             "gridProps": [
                                               {
                                                 "type": "10001",
@@ -13249,7 +13298,6 @@
                                                                   "calenderIconPosition": "start",
                                                                   "minDateSource": "ntnDateOfIssuance",
                                                                   "minDateStoreType": 1,
-                                                                  "maxDateSource": "ntnDateOfExpiry",
                                                                   "maxDateStoreType": 1
                                                                 },
                                                                 "version": "1.0.0",
@@ -13334,8 +13382,7 @@
                                               "md": 4,
                                               "sm": 4,
                                               "xs": 4
-                                            },
-                                            "path": "0-0-0-0-0-0-0-0-13-2"
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -13362,14 +13409,37 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "cssClassNames": [
+                                            { "cssClassName": "pagetitleBox" }
+                                          ]
                                         },
                                         "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-0-0-0-0-13"
+                                        "path": "0-0-0-0-0-0-0-0-12",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 3,
+                                          "colSize0xs": 4,
+                                          "colSize0sm": 4,
+                                          "colSize0md": 4,
+                                          "colSize0lg": 4,
+                                          "colSize0xl": 4,
+                                          "colSize1xs": 4,
+                                          "colSize1sm": 4,
+                                          "colSize1md": 4,
+                                          "colSize1lg": 4,
+                                          "colSize1xl": 4,
+                                          "colSize2xs": 4,
+                                          "colSize2sm": 4,
+                                          "colSize2md": 4,
+                                          "colSize2lg": 4,
+                                          "colSize2xl": 4
+                                        },
+                                        "readOnly": true
                                       },
                                       {
                                         "type": "10001",
@@ -14777,8 +14847,8 @@
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/12/2023",
-    "createdAt": "5/12/2023",
+    "updatedAt": "5/14/2023",
+    "createdAt": "5/14/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -15154,18 +15224,6 @@
             "sm": 12,
             "xs": 12
           }
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "sjo5KorsTz6KITUBVhFja",
-          "componentType": "20031",
-          "order": 1
         },
         {
           "componentId": "kkNUmJ203ye3Gnb3i_CWC",
@@ -15965,7 +16023,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -16276,7 +16336,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -16582,7 +16644,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "100",
+      "maxLength": "250",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -16661,7 +16723,7 @@
           }
         ],
         "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-        "regexErrorMsg": "Invalid Email"
+        "regexErrorMsg": "invalid email format"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -17586,7 +17648,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "100",
+      "maxLength": "200",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -19376,11 +19438,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "m6vyej1e291hmPT9iQbSV",
+          "componentId": "5msLkGf2Z1-d4D_3zC1IY",
           "componentType": "10001",
-          "id": "m6vyej1e291hmPT9iQbSV",
+          "id": "5msLkGf2Z1-d4D_3zC1IY",
           "position": {
-            "i": "m6vyej1e291hmPT9iQbSV",
+            "i": "5msLkGf2Z1-d4D_3zC1IY",
             "x": null,
             "y": null,
             "w": null,
@@ -19443,17 +19505,17 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "m6vyej1e291hmPT9iQbSV",
+    "id": "5msLkGf2Z1-d4D_3zC1IY",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "G42Ul1ywjlplp_rMAV5mf",
+          "componentId": "UeWDSaGzDXr5YTLLChoDx",
           "componentType": "10001",
-          "id": "G42Ul1ywjlplp_rMAV5mf",
+          "id": "UeWDSaGzDXr5YTLLChoDx",
           "position": {
-            "i": "G42Ul1ywjlplp_rMAV5mf",
+            "i": "UeWDSaGzDXr5YTLLChoDx",
             "x": null,
             "y": null,
             "w": null,
@@ -19468,11 +19530,11 @@
           }
         },
         {
-          "componentId": "_KA559bOTlYrXmle_ylxI",
+          "componentId": "6b2405qlg-juBScr-a7Sm",
           "componentType": "10001",
-          "id": "_KA559bOTlYrXmle_ylxI",
+          "id": "6b2405qlg-juBScr-a7Sm",
           "position": {
-            "i": "_KA559bOTlYrXmle_ylxI",
+            "i": "6b2405qlg-juBScr-a7Sm",
             "x": null,
             "y": null,
             "w": null,
@@ -19515,7 +19577,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "G42Ul1ywjlplp_rMAV5mf",
+    "id": "UeWDSaGzDXr5YTLLChoDx",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -19528,7 +19590,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "fBkQhKQPAxdZ7qmIWlv4w",
+          "componentId": "kMUMxgOH6nnA9QsqD8SrD",
           "componentType": "20002",
           "order": 1
         }
@@ -19560,11 +19622,11 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "fBkQhKQPAxdZ7qmIWlv4w",
+    "id": "kMUMxgOH6nnA9QsqD8SrD",
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Mode of transaction",
+      "label": "Account Category",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -19598,7 +19660,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "_KA559bOTlYrXmle_ylxI",
+    "id": "6b2405qlg-juBScr-a7Sm",
     "name": "Card Drop Down Selection ",
     "type": "10001",
     "attributes": {
@@ -19611,7 +19673,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "8brgyxYXni6podC7trJ8O",
+          "componentId": "U6xr7WEBD9Wx9m3UX42Q9",
           "componentType": "20003",
           "order": 1
         }
@@ -19643,7 +19705,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "8brgyxYXni6podC7trJ8O",
+    "id": "U6xr7WEBD9Wx9m3UX42Q9",
     "status": "ACTIVE",
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
@@ -19652,9 +19714,9 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "modeOfTransaction",
+      "stateName": "accountCategory",
       "allValues": true,
-      "dataSource": "lookUpValueResponse.modeOfTransaction",
+      "dataSource": "lookUpValueResponse.accountCategory",
       "dataKey": "value",
       "dataValue": "displayName",
       "mandatory": true,
@@ -19753,8 +19815,7 @@
       "storeType": 2,
       "placeholder": "Select",
       "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
-      "selectedDataType": 0,
-      "multiSelect": true
+      "selectedDataType": 0
     },
     "type": "20003",
     "events": [],
@@ -19891,7 +19952,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Other Purpose",
+      "label": "Account Purpose",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -19999,7 +20060,77 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This field is required",
+        "bindButton": [
+          {
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "save to nExt ",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": false,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }]
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
+                "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "1"
+              },
+              {
+                "triggerId": "gwan5WuriWNiDpSOBWZsk",
+                "triggerName": "set showCusDocUpload false",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "11"
+              },
+              {
+                "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                "triggerName": "save as draft for sole proprietor",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+            "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "textbox" }],
@@ -21412,11 +21543,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "5msLkGf2Z1-d4D_3zC1IY",
+          "componentId": "gByLQUhN1h71UIkBGtjLX",
           "componentType": "10001",
-          "id": "5msLkGf2Z1-d4D_3zC1IY",
+          "id": "gByLQUhN1h71UIkBGtjLX",
           "position": {
-            "i": "5msLkGf2Z1-d4D_3zC1IY",
+            "i": "gByLQUhN1h71UIkBGtjLX",
             "x": null,
             "y": null,
             "w": null,
@@ -21478,17 +21609,17 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "5msLkGf2Z1-d4D_3zC1IY",
-    "name": "Expected # of credit tranx",
+    "id": "gByLQUhN1h71UIkBGtjLX",
+    "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "UeWDSaGzDXr5YTLLChoDx",
+          "componentId": "kleLolqd-2q8KGwA8BIVD",
           "componentType": "10001",
-          "id": "UeWDSaGzDXr5YTLLChoDx",
+          "id": "kleLolqd-2q8KGwA8BIVD",
           "position": {
-            "i": "UeWDSaGzDXr5YTLLChoDx",
+            "i": "kleLolqd-2q8KGwA8BIVD",
             "x": null,
             "y": null,
             "w": null,
@@ -21503,11 +21634,11 @@
           }
         },
         {
-          "componentId": "6b2405qlg-juBScr-a7Sm",
+          "componentId": "Wj3zY01J__naRX2Obkjmc",
           "componentType": "10001",
-          "id": "6b2405qlg-juBScr-a7Sm",
+          "id": "Wj3zY01J__naRX2Obkjmc",
           "position": {
-            "i": "6b2405qlg-juBScr-a7Sm",
+            "i": "Wj3zY01J__naRX2Obkjmc",
             "x": null,
             "y": null,
             "w": null,
@@ -21550,7 +21681,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "UeWDSaGzDXr5YTLLChoDx",
+    "id": "kleLolqd-2q8KGwA8BIVD",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -21563,7 +21694,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "kMUMxgOH6nnA9QsqD8SrD",
+          "componentId": "8fU0tZk3xCzizpMe2jIR2",
           "componentType": "20002",
           "order": 1
         }
@@ -21595,11 +21726,11 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "kMUMxgOH6nnA9QsqD8SrD",
+    "id": "8fU0tZk3xCzizpMe2jIR2",
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Account Category",
+      "label": "Average Salary Amount",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -21633,8 +21764,8 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "6b2405qlg-juBScr-a7Sm",
-    "name": "Card Drop Down Selection ",
+    "id": "Wj3zY01J__naRX2Obkjmc",
+    "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -21646,8 +21777,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "U6xr7WEBD9Wx9m3UX42Q9",
-          "componentType": "20003",
+          "componentId": "li9fgJY2RTcuxFrJa3Ii8",
+          "componentType": "20040",
           "order": 1
         }
       ],
@@ -21678,24 +21809,47 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "U6xr7WEBD9Wx9m3UX42Q9",
+    "id": "li9fgJY2RTcuxFrJa3Ii8",
     "status": "ACTIVE",
-    "name": "Drop down",
-    "icon": "FaCaretSquareDown",
-    "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "name": "Amount",
     "attributes": {
-      "name": "Drop down",
-      "stateName": "accountCategory",
-      "allValues": true,
-      "dataSource": "lookUpValueResponse.accountCategory",
-      "dataKey": "value",
-      "dataValue": "displayName",
+      "multicurrency": false,
+      "stateName": "averageSalaryAmount",
+      "name": "Amount",
+      "label-locale-key": "",
+      "maxLength": "10",
+      "variant": "standard",
+      "value": "100",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
       "mandatory": true,
+      "tooltipState": "",
+      "fromCurrency": "PKR",
+      "fromCurrencyState": "",
+      "toCurrency": "USD",
+      "toCurrencyState": "",
+      "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": {
+          "//": "Use this class to style text field element.",
+          "paddingLeft": "15px"
+        },
+        "amountInWordsLabel": {
+          "//": "Use this class to style amount in words label."
+        },
+        "amountInWords": { "//": "Use this class to style amount in words." },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
       "validate": {
         "required": true,
-        "errorMsg": "This Field is Required",
+        "errorMsg": "This field is required",
         "bindButton": [
           {
             "id": "YzeOrGktIZ7c5ROCzDY_q",
@@ -21739,16 +21893,9 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "1"
-              },
-              {
-                "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
-                "triggerName": "save as draft for sole proprietor",
-                "name": "On click",
-                "type": "2",
-                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -21757,46 +21904,22 @@
           }
         ]
       },
-      "layoutProperties": {
-        "autocomplete": {
-          "//": "Use this class to style autocomplete component in dropdown."
-        },
-        "textField": {
-          "//": "Use this class to style textField component in dropdown.",
-          "font-size": "14px",
-          "font-weight": "normal",
-          "color": "#333",
-          "background-color": "#fff",
-          "border": "1px solid #e5e5e5",
-          "box-shadow": "none",
-          "border-radius": "4px"
-        },
-        "inputProps": {
-          "//": "Use this class to style dropdown element.",
-          "paddingLeft": "8px"
-        },
-        "mainContainer": "autocomplete",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "dropdownOptions": [],
-      "variant": "standard",
+      "placeholder": "",
       "disableUnderline": true,
-      "storeType": 2,
-      "placeholder": "Select",
-      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
-      "selectedDataType": 0
+      "cssClassNames": [{ "cssClassName": "textbox" }]
     },
-    "type": "20003",
-    "events": [],
-    "order": 10,
+    "icon": "FaDollarSign",
+    "group": "Form",
+    "type": "20040",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Drop down", "type": "20003" },
+    "component": { "content": "Amount", "type": "20040" },
+    "events": [],
     "path": "0-0-0-0-0-0-0-0-7-0-0-0-1-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
@@ -22473,11 +22596,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "gByLQUhN1h71UIkBGtjLX",
+          "componentId": "m6vyej1e291hmPT9iQbSV",
           "componentType": "10001",
-          "id": "gByLQUhN1h71UIkBGtjLX",
+          "id": "m6vyej1e291hmPT9iQbSV",
           "position": {
-            "i": "gByLQUhN1h71UIkBGtjLX",
+            "i": "m6vyej1e291hmPT9iQbSV",
             "x": null,
             "y": null,
             "w": null,
@@ -22540,17 +22663,17 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "gByLQUhN1h71UIkBGtjLX",
+    "id": "m6vyej1e291hmPT9iQbSV",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "kleLolqd-2q8KGwA8BIVD",
+          "componentId": "G42Ul1ywjlplp_rMAV5mf",
           "componentType": "10001",
-          "id": "kleLolqd-2q8KGwA8BIVD",
+          "id": "G42Ul1ywjlplp_rMAV5mf",
           "position": {
-            "i": "kleLolqd-2q8KGwA8BIVD",
+            "i": "G42Ul1ywjlplp_rMAV5mf",
             "x": null,
             "y": null,
             "w": null,
@@ -22565,11 +22688,11 @@
           }
         },
         {
-          "componentId": "Wj3zY01J__naRX2Obkjmc",
+          "componentId": "_KA559bOTlYrXmle_ylxI",
           "componentType": "10001",
-          "id": "Wj3zY01J__naRX2Obkjmc",
+          "id": "_KA559bOTlYrXmle_ylxI",
           "position": {
-            "i": "Wj3zY01J__naRX2Obkjmc",
+            "i": "_KA559bOTlYrXmle_ylxI",
             "x": null,
             "y": null,
             "w": null,
@@ -22612,7 +22735,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "kleLolqd-2q8KGwA8BIVD",
+    "id": "G42Ul1ywjlplp_rMAV5mf",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -22625,7 +22748,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "8fU0tZk3xCzizpMe2jIR2",
+          "componentId": "fBkQhKQPAxdZ7qmIWlv4w",
           "componentType": "20002",
           "order": 1
         }
@@ -22657,11 +22780,11 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "8fU0tZk3xCzizpMe2jIR2",
+    "id": "fBkQhKQPAxdZ7qmIWlv4w",
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Average Salary Amount",
+      "label": "Mode of transaction",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -22695,8 +22818,8 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Wj3zY01J__naRX2Obkjmc",
-    "name": "Grid layout",
+    "id": "_KA559bOTlYrXmle_ylxI",
+    "name": "Card Drop Down Selection ",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -22708,8 +22831,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "li9fgJY2RTcuxFrJa3Ii8",
-          "componentType": "20040",
+          "componentId": "8brgyxYXni6podC7trJ8O",
+          "componentType": "20003",
           "order": 1
         }
       ],
@@ -22740,47 +22863,24 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "li9fgJY2RTcuxFrJa3Ii8",
+    "id": "8brgyxYXni6podC7trJ8O",
     "status": "ACTIVE",
-    "name": "Amount",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
     "attributes": {
-      "multicurrency": false,
-      "stateName": "averageSalaryAmount",
-      "name": "Amount",
-      "label-locale-key": "",
-      "maxLength": "10",
-      "variant": "standard",
-      "value": "100",
-      "readOnly": false,
-      "tooltip": "",
-      "font-family": "Verdana",
+      "name": "Drop down",
+      "stateName": "modeOfTransaction",
+      "allValues": true,
+      "dataSource": "lookUpValueResponse.modeOfTransaction",
+      "dataKey": "value",
+      "dataValue": "displayName",
       "mandatory": true,
-      "tooltipState": "",
-      "fromCurrency": "PKR",
-      "fromCurrencyState": "",
-      "toCurrency": "USD",
-      "toCurrencyState": "",
-      "conversionUrl": "http://ambitdigital1.avanzasolutions.com:8196/api/payment/v1/getConvertedAmount",
-      "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
-        "inputProps": {
-          "//": "Use this class to style text field element.",
-          "paddingLeft": "15px"
-        },
-        "amountInWordsLabel": {
-          "//": "Use this class to style amount in words label."
-        },
-        "amountInWords": { "//": "Use this class to style amount in words." },
-        "mainContainer": "textField",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
       "validate": {
         "required": true,
-        "errorMsg": "This field is required",
+        "errorMsg": "This Field is Required",
         "bindButton": [
           {
             "id": "YzeOrGktIZ7c5ROCzDY_q",
@@ -22824,9 +22924,16 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "1"
+              },
+              {
+                "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                "triggerName": "save as draft for sole proprietor",
+                "name": "On click",
+                "type": "2",
+                "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-0-0-0-0-8-1-0-1-0-0-0",
+            "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
             "screenId": "vqkLpFWgh7_8rzXIUCfiG",
             "subType": "component",
             "projectId": "63f4845e476fc83100e3a899",
@@ -22835,22 +22942,47 @@
           }
         ]
       },
-      "placeholder": "",
+      "layoutProperties": {
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
+        },
+        "textField": {
+          "//": "Use this class to style textField component in dropdown.",
+          "font-size": "14px",
+          "font-weight": "normal",
+          "color": "#333",
+          "background-color": "#fff",
+          "border": "1px solid #e5e5e5",
+          "box-shadow": "none",
+          "border-radius": "4px"
+        },
+        "inputProps": {
+          "//": "Use this class to style dropdown element.",
+          "paddingLeft": "8px"
+        },
+        "mainContainer": "autocomplete",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "dropdownOptions": [],
+      "variant": "standard",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "textbox" }]
+      "storeType": 2,
+      "placeholder": "Select",
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
+      "selectedDataType": 0,
+      "multiSelect": true
     },
-    "icon": "FaDollarSign",
-    "group": "Form",
-    "type": "20040",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 20,
+    "type": "20003",
+    "events": [],
+    "order": 10,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Amount", "type": "20040" },
-    "events": [],
+    "component": { "content": "Drop down", "type": "20003" },
     "path": "0-0-0-0-0-0-0-0-8-0-0-0-1-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
@@ -24150,7 +24282,7 @@
           }
         ],
         "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-        "regexErrorMsg": "invalid email"
+        "regexErrorMsg": "invalid email format"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -25499,23 +25631,6 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "sjo5KorsTz6KITUBVhFja",
-    "name": "Open Success Modal",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "path": "0-0-0-0-0-0-0-0-11",
-    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
     "id": "kkNUmJ203ye3Gnb3i_CWC",
     "name": "Grid layout",
     "type": "10001",
@@ -26595,7 +26710,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
     },
     "layout": null,
     "events": [],
@@ -27202,8 +27318,6 @@
       "cssClassNames": [{ "cssClassName": "textbox" }],
       "disableUnderline": true,
       "calenderIconPosition": "start",
-      "minDateSource": "ntnDateOfIssuance",
-      "minDateStoreType": 1,
       "maxDateSource": "ntnDateOfExpiry",
       "maxDateStoreType": 1
     },
@@ -27508,7 +27622,6 @@
       "calenderIconPosition": "start",
       "minDateSource": "ntnDateOfIssuance",
       "minDateStoreType": 1,
-      "maxDateSource": "ntnDateOfExpiry",
       "maxDateStoreType": 1
     },
     "version": "1.0.0",

@@ -266,13 +266,6 @@
               }
             },
             {
-              "key": "taxExemption",
-              "changeValueConditonally": true,
-              "logic": {
-                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemption"
-              }
-            },
-            {
               "key": "zakatExemption",
               "changeValueConditonally": true,
               "logic": {
@@ -447,6 +440,13 @@
               "logic": {
                 "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.accountPurpose"
               }
+            },
+            {
+              "key": "taxExemption",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.response.data.result.formRequest.data.privateorPublicLimited.taxExemption"
+              }
             }
           ],
           "targettedType": "object"
@@ -454,8 +454,8 @@
       }
     }
   ],
-  "updatedAt": "5/11/2023",
-  "createdAt": "5/11/2023",
+  "updatedAt": "5/13/2023",
+  "createdAt": "5/13/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

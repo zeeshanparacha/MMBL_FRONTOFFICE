@@ -450,13 +450,19 @@
             "httpStatus": 200,
             "triggerName": "Set Form Id Value on Partnership Save to Next Call",
             "triggerId": "VCjCH6B6Cx3xYPxDBDjKG"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open CDOB Success Modal",
+            "triggerId": "lY-IKySc2bSjviqatGI-6"
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/11/2023",
-  "createdAt": "5/11/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/13/2023",
+  "createdAt": "5/13/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

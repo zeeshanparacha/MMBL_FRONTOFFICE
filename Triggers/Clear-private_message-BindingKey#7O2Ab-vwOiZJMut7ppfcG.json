@@ -1,0 +1,26 @@
+{
+  "id": "K2X9PFq1OxT3XkxkMjOmn",
+  "name": "Clear private_message BindingKey",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "private.message",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "7O2Ab-vwOiZJMut7ppfcG",
+  "updatedAt": "5/13/2023",
+  "createdAt": "5/13/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

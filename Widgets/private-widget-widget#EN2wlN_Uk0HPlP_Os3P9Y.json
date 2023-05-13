@@ -1073,7 +1073,9 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^[A-Za-z\\s]*$/",
+                                                                            "regexErrorMsg": "accept alphabet only"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -1498,7 +1500,7 @@
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
                                                                             ],
-                                                                            "regexErrorMsg": "invalid email"
+                                                                            "regexErrorMsg": "invalid email format"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -4067,9 +4069,7 @@
                                                                           "disableUnderline": true,
                                                                           "calenderIconPosition": "start",
                                                                           "maxDateSource": "ntnDateOfExpiry",
-                                                                          "maxDateStoreType": 1,
-                                                                          "minDateSource": "ntnDateOfIssuance",
-                                                                          "minDateStoreType": 1
+                                                                          "maxDateStoreType": 1
                                                                         },
                                                                         "version": "1.0.0",
                                                                         "isLatest": true,
@@ -4427,9 +4427,7 @@
                                                                           "disableUnderline": true,
                                                                           "calenderIconPosition": "start",
                                                                           "minDateSource": "ntnDateOfIssuance",
-                                                                          "minDateStoreType": 1,
-                                                                          "maxDateSource": "ntnDateOfExpiry",
-                                                                          "maxDateStoreType": 1
+                                                                          "minDateStoreType": 1
                                                                         },
                                                                         "version": "1.0.0",
                                                                         "isLatest": true,
@@ -5454,6 +5452,20 @@
                                                                                     "name": "On Submit",
                                                                                     "type": "4",
                                                                                     "serviceType": "1"
+                                                                                  },
+                                                                                  {
+                                                                                    "triggerId": "gwan5WuriWNiDpSOBWZsk",
+                                                                                    "triggerName": "set showCusDocUpload false",
+                                                                                    "name": "On Submit",
+                                                                                    "type": "4",
+                                                                                    "serviceType": "11"
+                                                                                  },
+                                                                                  {
+                                                                                    "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
+                                                                                    "triggerName": "save as draft for private foam",
+                                                                                    "name": "On Submit",
+                                                                                    "type": "4",
+                                                                                    "serviceType": "8"
                                                                                   }
                                                                                 ],
                                                                                 "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-1-0-0-0",
@@ -8127,7 +8139,9 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^[A-Za-z\\s]*$/",
+                                                                            "regexErrorMsg": "accept alphabet only"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -8485,7 +8499,7 @@
                                                                             },
                                                                             {
                                                                               "code": "No",
-                                                                              "name": " No"
+                                                                              "name": "No"
                                                                             }
                                                                           ],
                                                                           "variant": "standard",
@@ -11806,7 +11820,9 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+                                                                            "regexErrorMsg": "invalid email format"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -12146,7 +12162,9 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^(?=[0-9]*$)(?:.{11}|.{12})$/",
+                                                                            "regexErrorMsg": "only accept 11 or 12 digit contact number"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -12316,7 +12334,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "SEfe_FQjdcTNGVH0jjUQ4",
+                                                    "id": "iXxBPvmNZ9KM56XLLquQy",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
@@ -12667,12 +12685,11 @@
                                                       "md": 4,
                                                       "sm": 4,
                                                       "xs": 4
-                                                    },
-                                                    "path": "0-0-0-0-0-0-0-0-1-0-11-0"
+                                                    }
                                                   },
                                                   {
                                                     "type": "column",
-                                                    "id": "5zAFvmPnNl5zear8gtI54",
+                                                    "id": "KouxoSfJZ9DPeN8NugZLe",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
@@ -13007,12 +13024,11 @@
                                                       "md": 4,
                                                       "sm": 4,
                                                       "xs": 4
-                                                    },
-                                                    "path": "0-0-0-0-0-0-0-0-1-0-11-1"
+                                                    }
                                                   },
                                                   {
                                                     "type": "column",
-                                                    "id": "OA7h76DPJfaTBlGXeBWgN",
+                                                    "id": "gb_S9_QzX5JtBdl6rhwz_",
                                                     "gridProps": [
                                                       {
                                                         "type": "10001",
@@ -13353,8 +13369,7 @@
                                                       "md": 4,
                                                       "sm": 4,
                                                       "xs": 4
-                                                    },
-                                                    "path": "0-0-0-0-0-0-0-0-1-0-11-2"
+                                                    }
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -13382,7 +13397,12 @@
                                                   },
                                                   "direction": "row",
                                                   "name": "Grid layout",
-                                                  "hideComponent": false
+                                                  "hideComponent": false,
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "pagetitleBox"
+                                                    }
+                                                  ]
                                                 },
                                                 "events": [],
                                                 "component": {
@@ -15318,9 +15338,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "EN2wlN_Uk0HPlP_Os3P9Y",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/12/2023",
-    "createdAt": "5/12/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/14/2023",
+    "createdAt": "5/14/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -16865,7 +16885,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -17250,7 +17272,7 @@
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
         ],
-        "regexErrorMsg": "invalid email"
+        "regexErrorMsg": "invalid email format"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -19579,9 +19601,7 @@
       "disableUnderline": true,
       "calenderIconPosition": "start",
       "maxDateSource": "ntnDateOfExpiry",
-      "maxDateStoreType": 1,
-      "minDateSource": "ntnDateOfIssuance",
-      "minDateStoreType": 1
+      "maxDateStoreType": 1
     },
     "version": "1.0.0",
     "isLatest": true,
@@ -19883,9 +19903,7 @@
       "disableUnderline": true,
       "calenderIconPosition": "start",
       "minDateSource": "ntnDateOfIssuance",
-      "minDateStoreType": 1,
-      "maxDateSource": "ntnDateOfExpiry",
-      "maxDateStoreType": 1
+      "minDateStoreType": 1
     },
     "version": "1.0.0",
     "isLatest": true,
@@ -20874,6 +20892,20 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "1"
+              },
+              {
+                "triggerId": "gwan5WuriWNiDpSOBWZsk",
+                "triggerName": "set showCusDocUpload false",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "11"
+              },
+              {
+                "triggerId": "eV9mExfCmHT5YxS4Y1A5Y",
+                "triggerName": "save as draft for private foam",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
               }
             ],
             "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-1-0-0-0",
@@ -23355,7 +23387,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^[A-Za-z\\s]*$/",
+        "regexErrorMsg": "accept alphabet only"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -23681,7 +23715,7 @@
       },
       "dropdownOptions": [
         { "code": "Yes", "name": "Yes" },
-        { "code": "No", "name": " No" }
+        { "code": "No", "name": "No" }
       ],
       "variant": "standard",
       "disableUnderline": true,
@@ -26730,7 +26764,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
+        "regexErrorMsg": "invalid email format"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -27041,7 +27077,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^(?=[0-9]*$)(?:.{11}|.{12})$/",
+        "regexErrorMsg": "only accept 11 or 12 digit contact number"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -27129,7 +27167,8 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "hideComponent": false
+      "hideComponent": false,
+      "cssClassNames": [{ "cssClassName": "pagetitleBox" }]
     },
     "layout": null,
     "events": [],
