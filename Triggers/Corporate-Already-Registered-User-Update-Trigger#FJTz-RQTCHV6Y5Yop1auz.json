@@ -1242,6 +1242,100 @@
               "createdAt": "5/8/2023",
               "createdBy": "ahmerjavedkhan",
               "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "q1cTxYHzjBRQ8bic6FPCY",
+              "_id": "dFG0AswlzQ8DzAF4v6jQD",
+              "name": "Manipulate Key To Object accountPurpose",
+              "old_name": "Manipulate Key To Object accountPurpose",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "accountPurpose",
+                      "sourceBindingKey": "form.accountPurpose",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountPurpose"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountPurpose"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/17/2023",
+              "createdAt": "5/17/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "EO4WXaNeonF_0h9j7AVN7",
+              "_id": "d99N1LOyF99UK4tvhFilU",
+              "name": "Manipulate Key To Object operatingInstructions",
+              "old_name": "Manipulate Key To Object operatingInstructions",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "operatingInstructions",
+                      "sourceBindingKey": "form.operatingInstructions",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.operatingInstructions"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.operatingInstructions"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/17/2023",
+              "createdAt": "5/17/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
             }
           ],
           "triggerIds": [
@@ -1263,14 +1357,16 @@
             "q5FIJCF7aJtscduJAseL8",
             "KP0FdSPNcGby4vi3MQqBz",
             "s6Otby_tXIcvEz7FSr7x0",
-            "J5dlcXw_D3IV1rjMQ4_K-"
+            "J5dlcXw_D3IV1rjMQ4_K-",
+            "q1cTxYHzjBRQ8bic6FPCY",
+            "EO4WXaNeonF_0h9j7AVN7"
           ]
         }
       }
     }
   ],
-  "updatedAt": "5/9/2023",
-  "createdAt": "5/9/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

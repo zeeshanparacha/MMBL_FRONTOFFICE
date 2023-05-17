@@ -2385,7 +2385,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "11",
-                                                                  "type": "number",
+                                                                  "type": "number_only",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -2771,7 +2771,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "13",
-                                                                  "type": "number",
+                                                                  "type": "number_only",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -5256,24 +5256,6 @@
                                                                 }
                                                               },
                                                               {
-                                                                "id": "ZnkP_5lA-oKJWPz3CSnpA",
-                                                                "type": "20031",
-                                                                "name": "Open Declaration Form Modal Conditional Trig",
-                                                                "attributes": {
-                                                                  "widgetId": "9n95tK-toORP6-EfRr85h",
-                                                                  "layoutProperties": {
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  }
-                                                                },
-                                                                "component": {
-                                                                  "type": "20031"
-                                                                }
-                                                              },
-                                                              {
                                                                 "id": "WF32GMPE4iR4-xMGY5hpD",
                                                                 "type": "20013",
                                                                 "name": "Checkbox",
@@ -6222,9 +6204,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "kXkGzpWEMjfVJ9wS08OoY",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/12/2023",
-    "createdAt": "5/12/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8601,7 +8583,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "11",
-      "type": "number",
+      "type": "number_only",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -9030,7 +9012,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "13",
-      "type": "number",
+      "type": "number_only",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -11193,7 +11175,7 @@
   {
     "id": "ZnkP_5lA-oKJWPz3CSnpA",
     "type": "20031",
-    "name": "Open Declaration Form Modal Conditional Trig",
+    "triggerName": "Open Declaration Form Modal",
     "attributes": {
       "widgetId": "9n95tK-toORP6-EfRr85h",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }

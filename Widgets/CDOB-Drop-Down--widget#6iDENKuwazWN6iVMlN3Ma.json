@@ -1,0 +1,386 @@
+[
+  {
+    "id": "6iDENKuwazWN6iVMlN3Ma",
+    "name": "CDOB Drop Down  widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "p-FM_h1h0uHFQZSR8i9qq",
+          "componentType": "10001",
+          "id": "p-FM_h1h0uHFQZSR8i9qq",
+          "position": {
+            "i": "p-FM_h1h0uHFQZSR8i9qq",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "p-FM_h1h0uHFQZSR8i9qq",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "XoSmbBukPD5OVYW22rl_H",
+            "gridProps": [
+              {
+                "id": "elXmjCPlZss_Z_IliU4Wt",
+                "status": "ACTIVE",
+                "name": "Drop down",
+                "icon": "FaCaretSquareDown",
+                "group": "Form",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "attributes": {
+                  "name": "Drop down",
+                  "stateName": "expectedNoOfCreditTransactions",
+                  "allValues": true,
+                  "dataSource": "lookUpValueResponse.expectedNoOfCreditTransaction",
+                  "dataKey": "value",
+                  "dataValue": "displayName",
+                  "mandatory": true,
+                  "validate": {
+                    "required": true,
+                    "errorMsg": "This Field is Required",
+                    "bindButton": [
+                      {
+                        "id": "YzeOrGktIZ7c5ROCzDY_q",
+                        "status": "ACTIVE",
+                        "attributes": {
+                          "label": "save to nExt ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": false,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "cssClassNames": [{ "cssClassName": "CardButton" }]
+                        },
+                        "name": "Button",
+                        "icon": "FaBimobject",
+                        "group": "Form",
+                        "type": "20006",
+                        "Documentation": "<div>components 12344</div>",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 1,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Button", "type": "20006" },
+                        "events": [
+                          {
+                            "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
+                            "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
+                            "name": "On Submit",
+                            "type": "4",
+                            "serviceType": "1"
+                          },
+                          {
+                            "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                            "triggerName": "save as draft for sole proprietor",
+                            "name": "On click",
+                            "type": "2",
+                            "serviceType": "8"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+                        "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+                        "subType": "component",
+                        "projectId": "63f4845e476fc83100e3a899",
+                        "gitBranchName": "master",
+                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                      }
+                    ]
+                  },
+                  "layoutProperties": {
+                    "autocomplete": {
+                      "//": "Use this class to style autocomplete component in dropdown."
+                    },
+                    "textField": {
+                      "//": "Use this class to style textField component in dropdown.",
+                      "font-size": "14px",
+                      "font-weight": "normal",
+                      "color": "#333",
+                      "background-color": "#fff",
+                      "border": "1px solid #e5e5e5",
+                      "box-shadow": "none",
+                      "border-radius": "4px"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style dropdown element.",
+                      "paddingLeft": "8px"
+                    },
+                    "mainContainer": "autocomplete",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "dropdownOptions": [],
+                  "variant": "standard",
+                  "disableUnderline": true,
+                  "storeType": 2,
+                  "placeholder": "Select",
+                  "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
+                  "selectedDataType": 0
+                },
+                "type": "20003",
+                "events": [],
+                "order": 10,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Drop down", "type": "20003" },
+                "path": "0-0-0-0-0-0-0-0-6-0-0-0-1-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-0-0-0-0-0-0-6-0-0-0-1",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "CDOB Drop Down ",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "6iDENKuwazWN6iVMlN3Ma",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "6iDENKuwazWN6iVMlN3Ma",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "p-FM_h1h0uHFQZSR8i9qq",
+    "name": "CDOB Drop Down ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "elXmjCPlZss_Z_IliU4Wt",
+          "componentType": "20003",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "elXmjCPlZss_Z_IliU4Wt",
+    "status": "ACTIVE",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "attributes": {
+      "name": "Drop down",
+      "stateName": "expectedNoOfCreditTransactions",
+      "allValues": true,
+      "dataSource": "lookUpValueResponse.expectedNoOfCreditTransaction",
+      "dataKey": "value",
+      "dataValue": "displayName",
+      "mandatory": true,
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": [
+          {
+            "id": "YzeOrGktIZ7c5ROCzDY_q",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "save to nExt ",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": false,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }]
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "FHgnRkrCyUeI3OLMUJXHR",
+                "triggerName": "SOLE PROPRITER WIDGET ONE TO WIDGET TWO",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "1"
+              },
+              {
+                "triggerId": "_34f1bgVZ7pZ-VOkUy7XV",
+                "triggerName": "save as draft for sole proprietor",
+                "name": "On click",
+                "type": "2",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0-0",
+            "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+            "subType": "component",
+            "projectId": "63f4845e476fc83100e3a899",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
+      "layoutProperties": {
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
+        },
+        "textField": {
+          "//": "Use this class to style textField component in dropdown.",
+          "font-size": "14px",
+          "font-weight": "normal",
+          "color": "#333",
+          "background-color": "#fff",
+          "border": "1px solid #e5e5e5",
+          "box-shadow": "none",
+          "border-radius": "4px"
+        },
+        "inputProps": {
+          "//": "Use this class to style dropdown element.",
+          "paddingLeft": "8px"
+        },
+        "mainContainer": "autocomplete",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "dropdownOptions": [],
+      "variant": "standard",
+      "disableUnderline": true,
+      "storeType": 2,
+      "placeholder": "Select",
+      "cssClassNames": [{ "cssClassName": "dropdownWidth" }],
+      "selectedDataType": 0
+    },
+    "type": "20003",
+    "events": [],
+    "order": 10,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Drop down", "type": "20003" },
+    "path": "0-0-0-0-0-0-0-0-6-0-0-0-1-0-0",
+    "screenId": "vqkLpFWgh7_8rzXIUCfiG",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

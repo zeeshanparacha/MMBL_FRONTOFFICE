@@ -31,10 +31,10 @@
           },
           "requestBody": [
             {
-              "type": 1,
-              "name": "Form",
+              "type": 2,
+              "name": "Current screen",
               "key": "document",
-              "value": "cusDocId"
+              "value": "selectedObject.ntnDocId"
             },
             {
               "type": 2,
@@ -50,8 +50,8 @@
       }
     }
   ],
-  "updatedAt": "5/1/2023",
-  "createdAt": "5/1/2023",
+  "updatedAt": "5/15/2023",
+  "createdAt": "5/15/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

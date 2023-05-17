@@ -5926,7 +5926,7 @@
                                           "variant": "contained",
                                           "name": "Button",
                                           "label-locale-key": "",
-                                          "fullWidth": false,
+                                          "fullWidth": true,
                                           "layoutProperties": {
                                             "button": {
                                               "//": "Use this class to style button component."
@@ -6441,7 +6441,18 @@
                                           },
                                           "cssClassNames": [
                                             { "cssClassName": "CardButton" }
-                                          ]
+                                          ],
+                                          "disableCondition": {
+                                            "logic": {
+                                              "if": [
+                                                {
+                                                  "var": "currentScreen.directorInformation"
+                                                },
+                                                false,
+                                                true
+                                              ]
+                                            }
+                                          }
                                         },
                                         "name": "Button",
                                         "icon": "FaBimobject",
@@ -7108,8 +7119,8 @@
     "gitBranchName": "master",
     "_id": "PAys-Yz_WENFVvPEEAeYg",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12318,7 +12329,7 @@
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -12423,7 +12434,12 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": {
+          "if": [{ "var": "currentScreen.directorInformation" }, false, true]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",

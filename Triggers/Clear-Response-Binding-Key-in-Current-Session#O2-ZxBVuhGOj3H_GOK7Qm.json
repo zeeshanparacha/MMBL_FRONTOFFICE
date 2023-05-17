@@ -1,0 +1,26 @@
+{
+  "id": "ThU36w4Xp254FOc9oFsRX",
+  "name": "Clear Response Binding Key in Current Session",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "response",
+          "storeType": 3,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "_id": "O2-ZxBVuhGOj3H_GOK7Qm",
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

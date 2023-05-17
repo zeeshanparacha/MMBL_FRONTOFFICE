@@ -5940,7 +5940,7 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
+                                              "padding": "5px",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -5978,7 +5978,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "YVcVhcw5vs8at0PPprAN9",
+                                            "id": "cbyR-hBvfqICsau2InpZT",
                                             "gridProps": [
                                               {
                                                 "id": "g5WjUTZEwxYzC73f7ZsOQ",
@@ -5988,7 +5988,7 @@
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
-                                                  "fullWidth": false,
+                                                  "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
                                                       "//": "Use this class to style button component."
@@ -6465,8 +6465,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-7-2-0-0-0-0"
+                                            }
                                           }
                                         ],
                                         "layoutProperties": {
@@ -6512,7 +6511,7 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
+                                              "padding": "5px",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -6550,7 +6549,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "JTFbYkRF_2pWDmO8WpRG5",
+                                            "id": "f8NiEU7ZJsltxLUeCzrLe",
                                             "gridProps": [
                                               {
                                                 "id": "Vj3I1Wa8l3uR93tK8Mlhr",
@@ -6560,7 +6559,7 @@
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
-                                                  "fullWidth": false,
+                                                  "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
                                                       "//": "Use this class to style button component."
@@ -6579,7 +6578,18 @@
                                                     {
                                                       "cssClassName": "CardButton"
                                                     }
-                                                  ]
+                                                  ],
+                                                  "disableCondition": {
+                                                    "logic": {
+                                                      "if": [
+                                                        {
+                                                          "var": "currentScreen.directorInformation"
+                                                        },
+                                                        false,
+                                                        true
+                                                      ]
+                                                    }
+                                                  }
                                                 },
                                                 "name": "Button",
                                                 "icon": "FaBimobject",
@@ -7051,8 +7061,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-7-2-0-1-0-0"
+                                            }
                                           }
                                         ],
                                         "layoutProperties": {
@@ -8460,8 +8469,8 @@
     "gitBranchName": "master",
     "_id": "4YEZ9WMiuQNq7aEJ00cpn",
     "createdBy": "ajk",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -13678,7 +13687,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -13708,7 +13717,7 @@
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -13772,7 +13781,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -13802,7 +13811,7 @@
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -13813,7 +13822,12 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": {
+          "if": [{ "var": "currentScreen.directorInformation" }, false, true]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",

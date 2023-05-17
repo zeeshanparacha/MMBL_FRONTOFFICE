@@ -806,13 +806,13 @@
                                                               }
                                                             ]
                                                           },
-                                                          "placeholder": "minimum amount Rs. 5,000",
                                                           "disableUnderline": true,
                                                           "cssClassNames": [
                                                             {
                                                               "cssClassName": "emptyTextField"
                                                             }
-                                                          ]
+                                                          ],
+                                                          "disableCondition": {}
                                                         },
                                                         "icon": "FaDollarSign",
                                                         "group": "Form",
@@ -1919,7 +1919,17 @@
                                                     {
                                                       "cssClassName": "CardButton"
                                                     }
-                                                  ]
+                                                  ],
+                                                  "disableCondition": {
+                                                    "logic": {
+                                                      "<": [
+                                                        {
+                                                          "var": "currentScreen.form.amount"
+                                                        },
+                                                        5000
+                                                      ]
+                                                    }
+                                                  }
                                                 },
                                                 "name": "Button",
                                                 "icon": "FaBimobject",
@@ -2338,9 +2348,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "LTf1rbFa8q4pPCCmXq87K",
-    "createdBy": "ajk",
-    "updatedAt": "5/4/2023",
-    "createdAt": "5/4/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3236,9 +3246,9 @@
           }
         ]
       },
-      "placeholder": "minimum amount Rs. 5,000",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
+      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "disableCondition": {}
     },
     "icon": "FaDollarSign",
     "group": "Form",
@@ -4215,7 +4225,10 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": { "<": [{ "var": "currentScreen.form.amount" }, 5000] }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",

@@ -1130,6 +1130,96 @@
               "createdAt": "4/14/2023",
               "createdBy": "ahmerjavedkhan",
               "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "EO4WXaNeonF_0h9j7AVN7",
+              "_id": "d99N1LOyF99UK4tvhFilU",
+              "name": "Manipulate Key To Object operatingInstructions",
+              "old_name": "Manipulate Key To Object operatingInstructions",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "operatingInstructions",
+                      "sourceBindingKey": "form.operatingInstructions",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.operatingInstructions"
+                          }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.operatingInstructions"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/17/2023",
+              "createdAt": "5/17/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "DMVZHRzCavVYc--T2lnPt",
+              "_id": "bNgVHsAyrUsq5o_BYe8wA",
+              "name": "Manipulate Key To Object otherPurpose",
+              "old_name": "Manipulate Key To Object mode Of Transaction Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "otherPurpose",
+                      "sourceBindingKey": "form.otherPurpose",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": { "var": "currentScreen.form.otherPurpose" }
+                        },
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": { "var": "currentScreen.form.otherPurpose" }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/17/2023",
+              "createdAt": "5/17/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
             }
           ],
           "triggerIds": [
@@ -1151,14 +1241,16 @@
             "EddDdTFFZBe4lDSk1tAHX",
             "uVN2ZUOwbW2VY5poeM0XJ",
             "J5dlcXw_D3IV1rjMQ4_K-",
-            "rIPTYEDjCF9YrS7DbPyhl"
+            "rIPTYEDjCF9YrS7DbPyhl",
+            "EO4WXaNeonF_0h9j7AVN7",
+            "DMVZHRzCavVYc--T2lnPt"
           ]
         }
       }
     }
   ],
-  "updatedAt": "5/8/2023",
-  "createdAt": "5/8/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

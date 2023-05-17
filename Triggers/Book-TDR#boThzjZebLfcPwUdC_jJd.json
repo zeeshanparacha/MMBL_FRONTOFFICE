@@ -15,7 +15,6 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "responseReturnValue": "data",
           "url": "/tdr/book",
           "checksum": true,
           "encryption": true,
@@ -78,13 +77,19 @@
             "httpStatus": 200,
             "triggerName": "Clear Form Data",
             "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Swap TDR 3 To TDR 1",
+            "triggerId": "h8LYbbCmQi-sez4SSG3Zn"
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/3/2023",
-  "createdAt": "5/3/2023",
+  "updatedAt": "5/15/2023",
+  "createdAt": "5/15/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

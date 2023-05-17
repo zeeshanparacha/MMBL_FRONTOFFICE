@@ -1,0 +1,38 @@
+{
+  "id": "kGb6Ys-xwy25KvGgNOKjR",
+  "name": "disable send Already Corporate otp btn",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "sendAlCorpOtp",
+          "sourceBindingKey": "sendAlCorpOtp",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "status",
+              "changeValueConditonally": true,
+              "logic": { "if": [false, "send", ""] }
+            }
+          ],
+          "logic": false,
+          "changeValueConditonally": false,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "wDsNdbt44m_KMJQrl1KXz",
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

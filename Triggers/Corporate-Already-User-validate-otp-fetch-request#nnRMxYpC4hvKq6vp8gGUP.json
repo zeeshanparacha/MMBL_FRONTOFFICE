@@ -63,49 +63,32 @@
         "responseHandler": [
           {
             "logic": {
-              "==": [
-                { "var": "data.result.formRequest.data.isPrivateOrPublic" },
-                true
-              ]
+              "==": [{ "var": "data.result.formRequest.isSubmitted" }, false]
             },
             "httpStatus": 200,
-            "triggerName": "Corporate Already Registered User Update Trigger",
-            "triggerId": "qg3hF73-dWuwUxZv2Y_zO"
-          },
-          {
-            "logic": {
-              "==": [
-                { "var": "data.result.formRequest.data.isSoleProprietor" },
-                true
-              ]
-            },
-            "httpStatus": 200,
-            "triggerName": "chain trigger for sole proprietor update trigger",
-            "triggerId": "L1jbwOc_gF8qi_KpZGQNe"
-          },
-          {
-            "logic": {
-              "==": [
-                { "var": "data.result.formRequest.data.isPartnership" },
-                true
-              ]
-            },
-            "httpStatus": 200,
-            "triggerName": "Partnership Pricing Module chain Trigger",
-            "triggerId": "re04mpZvsn25LOFk7YnH5"
+            "triggerName": "Corporate Already Registered Conditional Trigger",
+            "triggerId": "H263yiHZ9cRAddgVUiJYi"
           },
           {
             "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 0] },
             "triggerName": "Show Error Modal",
             "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
+          },
+          {
+            "logic": {
+              "==": [{ "var": "data.result.formRequest.isSubmitted" }, true]
+            },
+            "httpStatus": 200,
+            "triggerName": "show corporate user sub request modal ",
+            "triggerId": "h9-syLFAKhU2J0ZEs7FOr"
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/7/2023",
-  "createdAt": "5/7/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

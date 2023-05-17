@@ -1,0 +1,56 @@
+{
+  "_id": "gYo9CokT79m8fMxP10N_y",
+  "id": "LZRONm-zpy17dxzeyq_Lx",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Enable corporate otp btn after delay",
+  "old_name": "Enable corporate otp btn after delay",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "delay": "120000",
+          "triggers": [
+            {
+              "id": "V83ctmeiTgqxCIF1LLguI",
+              "name": "enable Corp otp button",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "object",
+                      "destinationBindingKey": "sendCorpOtp",
+                      "sourceBindingKey": "sendCorpOtp",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 1,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "l1ChA8KUx4mXYdNkB7lRN",
+              "updatedAt": "5/16/2023",
+              "createdAt": "5/16/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["V83ctmeiTgqxCIF1LLguI"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/16/2023",
+  "createdAt": "5/16/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

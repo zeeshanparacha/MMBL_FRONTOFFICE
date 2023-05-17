@@ -1403,23 +1403,6 @@
                                 "readOnly": true
                               },
                               {
-                                "id": "sjo5KorsTz6KITUBVhFja",
-                                "name": "Open Success Modal",
-                                "type": "20031",
-                                "attributes": {
-                                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" },
-                                "path": "0-0-0-0-0-0-3"
-                              },
-                              {
                                 "id": "VOovwst-diDGI9XrKxA4a",
                                 "name": "Open TDR Disclaimer Modal",
                                 "type": "20031",
@@ -1951,8 +1934,8 @@
     "gitBranchName": "master",
     "_id": "UMARmP5BCUroEKPEB35O0",
     "createdBy": "ajk",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2121,18 +2104,6 @@
             "sm": 12,
             "xs": 12
           }
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "sjo5KorsTz6KITUBVhFja",
-          "componentType": "20031",
-          "order": 1
         },
         {
           "layoutProperties": {
@@ -3385,23 +3356,6 @@
     "screenId": "UMARmP5BCUroEKPEB35O0",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "sjo5KorsTz6KITUBVhFja",
-    "name": "Open Success Modal",
-    "type": "20031",
-    "attributes": {
-      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "path": "0-0-0-0-0-0-3",
-    "screenId": "UMARmP5BCUroEKPEB35O0",
-    "subType": "component",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

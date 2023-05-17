@@ -5928,6 +5928,113 @@
                                               "cssValues": [""]
                                             },
                                             {
+                                              "type": "text",
+                                              "typeTemp": {
+                                                "name": "Text",
+                                                "type": "text"
+                                              },
+                                              "field": "customerLegalId",
+                                              "headerName": "Customer Legal Id",
+                                              "conditional": {
+                                                "bindingKey": ""
+                                              },
+                                              "values": [""],
+                                              "cssConditional": {
+                                                "bindingKey": "",
+                                                "cssClassNames": []
+                                              },
+                                              "cssValues": [""]
+                                            },
+                                            {
+                                              "typeTemp": {
+                                                "name": "Icon Button",
+                                                "type": "iconButton"
+                                              },
+                                              "headerName": "Customer Legal Doc",
+                                              "field": "",
+                                              "rowId": "id",
+                                              "iconButtons": [
+                                                {
+                                                  "label": "Download",
+                                                  "trigger": {
+                                                    "id": "rY8bSOKEQ6Aoct_nq2Ijy",
+                                                    "_id": "-XrNB5vuMuWiM5hQs_So2",
+                                                    "projectId": "63f4845e476fc83100e3a899",
+                                                    "gitBranchName": "master",
+                                                    "name": "Download Signatories Document",
+                                                    "old_name": "Download Signatories Document",
+                                                    "status": "ACTIVE",
+                                                    "services": [
+                                                      {
+                                                        "type": "8",
+                                                        "command": {
+                                                          "type": "2",
+                                                          "attributes": {
+                                                            "loaderWidgetIds": [
+                                                              906070
+                                                            ],
+                                                            "messageWidgetIds": [
+                                                              906070
+                                                            ],
+                                                            "responseStateKey": "downloadCusDoc",
+                                                            "url": "/doc-mgmt/download-files",
+                                                            "checksum": true,
+                                                            "encryption": true,
+                                                            "isDeviceDetails": true,
+                                                            "loginTrigger": false,
+                                                            "formData": false,
+                                                            "logoutTrigger": false,
+                                                            "headers": {
+                                                              "Content-Type": "application/json",
+                                                              "Accept": "application/json",
+                                                              "channel_key": "001",
+                                                              "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                              "locale": "en-ltr"
+                                                            },
+                                                            "requestBody": [
+                                                              {
+                                                                "type": 2,
+                                                                "name": "Current screen",
+                                                                "key": "document",
+                                                                "value": "selectedObject.ntnDocId"
+                                                              },
+                                                              {
+                                                                "type": 2,
+                                                                "name": "Current screen",
+                                                                "key": "uuid",
+                                                                "value": "uuid"
+                                                              }
+                                                            ],
+                                                            "baseURL": "641aedb2676c823a449fd597",
+                                                            "storeType": 2
+                                                          },
+                                                          "responseHandler": []
+                                                        }
+                                                      }
+                                                    ],
+                                                    "updatedAt": "5/15/2023",
+                                                    "createdAt": "5/15/2023",
+                                                    "createdBy": "ahmerjavedkhan",
+                                                    "updatedBy": "ahmerjavedkhan"
+                                                  },
+                                                  "selectedObjectBindingKey": "selectedObject",
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "viewDetailsButton"
+                                                    }
+                                                  ],
+                                                  "triggerId": "rY8bSOKEQ6Aoct_nq2Ijy",
+                                                  "conditional": {},
+                                                  "values": [],
+                                                  "disableConditional": {},
+                                                  "disableValues": [],
+                                                  "cssConditional": {},
+                                                  "cssValues": []
+                                                }
+                                              ],
+                                              "type": "iconButton"
+                                            },
+                                            {
                                               "typeTemp": {
                                                 "name": "Icon Button",
                                                 "type": "iconButton"
@@ -6644,7 +6751,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "PsD6jiFXJHv7zX2ORhTOj",
+                                            "id": "y7Re7NCz3VMZ6ToIO93fg",
                                             "gridProps": [
                                               {
                                                 "id": "dXcVvpGtx4P_mjnvA6dvh",
@@ -6659,7 +6766,7 @@
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
-                                                  "fullWidth": false,
+                                                  "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
                                                       "//": "Use this class to style button component.",
@@ -6978,8 +7085,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-8-2-0-0-0-0"
+                                            }
                                           }
                                         ],
                                         "path": "0-0-0-0-8-2-0-0-0",
@@ -6990,7 +7096,7 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
+                                              "padding": "5px",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -7047,7 +7153,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "1alqd6Wnct6yTbQO3-CdM",
+                                            "id": "Qw2S925EyQRRuNkJ_pL8i",
                                             "gridProps": [
                                               {
                                                 "id": "3g_7SBbX7Ls2McuUuw2xG",
@@ -7062,7 +7168,7 @@
                                                   "variant": "contained",
                                                   "name": "Buttons",
                                                   "label-locale-key": "",
-                                                  "fullWidth": false,
+                                                  "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
                                                       "//": "Use this class to style button component.",
@@ -7086,7 +7192,17 @@
                                                       "cssClassName": "CardButton"
                                                     }
                                                   ],
-                                                  "disableCondition": {}
+                                                  "disableCondition": {
+                                                    "logic": {
+                                                      "if": [
+                                                        {
+                                                          "var": "currentScreen.sole"
+                                                        },
+                                                        false,
+                                                        true
+                                                      ]
+                                                    }
+                                                  }
                                                 },
                                                 "events": [
                                                   {
@@ -7430,8 +7546,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-8-2-0-1-0-0"
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -7447,7 +7562,7 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
+                                              "padding": "5px",
                                               "spacing": 0
                                             },
                                             "mainContainer": "gridLayout"
@@ -7667,9 +7782,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
-    "createdBy": "ajk",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12574,6 +12689,94 @@
           "cssValues": [""]
         },
         {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "customerLegalId",
+          "headerName": "Customer Legal Id",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Customer Legal Doc",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "Download",
+              "trigger": {
+                "id": "rY8bSOKEQ6Aoct_nq2Ijy",
+                "_id": "-XrNB5vuMuWiM5hQs_So2",
+                "projectId": "63f4845e476fc83100e3a899",
+                "gitBranchName": "master",
+                "name": "Download Signatories Document",
+                "old_name": "Download Signatories Document",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "8",
+                    "command": {
+                      "type": "2",
+                      "attributes": {
+                        "loaderWidgetIds": [906070],
+                        "messageWidgetIds": [906070],
+                        "responseStateKey": "downloadCusDoc",
+                        "url": "/doc-mgmt/download-files",
+                        "checksum": true,
+                        "encryption": true,
+                        "isDeviceDetails": true,
+                        "loginTrigger": false,
+                        "formData": false,
+                        "logoutTrigger": false,
+                        "headers": {
+                          "Content-Type": "application/json",
+                          "Accept": "application/json",
+                          "channel_key": "001",
+                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                          "locale": "en-ltr"
+                        },
+                        "requestBody": [
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "document",
+                            "value": "selectedObject.ntnDocId"
+                          },
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "uuid",
+                            "value": "uuid"
+                          }
+                        ],
+                        "baseURL": "641aedb2676c823a449fd597",
+                        "storeType": 2
+                      },
+                      "responseHandler": []
+                    }
+                  }
+                ],
+                "updatedAt": "5/15/2023",
+                "createdAt": "5/15/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
+              },
+              "selectedObjectBindingKey": "selectedObject",
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton" }],
+              "triggerId": "rY8bSOKEQ6Aoct_nq2Ijy",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
+        },
+        {
           "typeTemp": { "name": "Icon Button", "type": "iconButton" },
           "headerName": "Action",
           "field": "",
@@ -13092,7 +13295,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -13124,7 +13327,7 @@
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": {
           "//": "Use this class to style button component.",
@@ -13185,7 +13388,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -13217,7 +13420,7 @@
       "variant": "contained",
       "name": "Buttons",
       "label-locale-key": "",
-      "fullWidth": false,
+      "fullWidth": true,
       "layoutProperties": {
         "button": {
           "//": "Use this class to style button component.",
@@ -13235,7 +13438,9 @@
         "xs": 12
       },
       "cssClassNames": [{ "cssClassName": "CardButton" }],
-      "disableCondition": {}
+      "disableCondition": {
+        "logic": { "if": [{ "var": "currentScreen.sole" }, false, true] }
+      }
     },
     "events": [
       {

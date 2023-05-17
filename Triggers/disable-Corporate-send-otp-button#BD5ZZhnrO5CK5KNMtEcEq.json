@@ -1,0 +1,36 @@
+{
+  "id": "p5qtWwCGj7yCwgyYFDLXv",
+  "name": "disable Corporate send otp button",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "sendCorpOtp",
+          "sourceBindingKey": "sendCorpOtp",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "filterList": [
+            {
+              "key": "status",
+              "changeValueConditonally": true,
+              "logic": { "if": [false, "send", ""] }
+            }
+          ],
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "BD5ZZhnrO5CK5KNMtEcEq",
+  "updatedAt": "5/16/2023",
+  "createdAt": "5/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

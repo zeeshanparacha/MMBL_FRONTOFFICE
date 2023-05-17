@@ -593,7 +593,7 @@
                                                                     "errorMsg": "This Field is required"
                                                                   },
                                                                   "checked": true,
-                                                                  "label": "New User For Sign-Up",
+                                                                  "label": "New Corporate For Sign-Up",
                                                                   "name": "Radio",
                                                                   "searchInState": false,
                                                                   "stateName": "choose",
@@ -636,7 +636,7 @@
                                                                   "content": "Radio",
                                                                   "type": "20007"
                                                                 },
-                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-0-0-3-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -758,7 +758,7 @@
                                                                     "errorMsg": "This Field is required"
                                                                   },
                                                                   "checked": false,
-                                                                  "label": "Already Registered User",
+                                                                  "label": "Already Registered Corporate ",
                                                                   "name": "Radio",
                                                                   "searchInState": false,
                                                                   "stateName": "choose",
@@ -787,7 +787,7 @@
                                                                   "content": "Radio",
                                                                   "type": "20007"
                                                                 },
-                                                                "path": "0-0-0-0-0-0-0-0-0-0-2-1-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-0-0-3-1-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -1354,9 +1354,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "VqDM2bbHLDArZEoQJCuoZ",
-    "createdBy": "ajk",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2148,7 +2148,7 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": true,
-      "label": "New User For Sign-Up",
+      "label": "New Corporate For Sign-Up",
       "name": "Radio",
       "searchInState": false,
       "stateName": "choose",
@@ -2174,7 +2174,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-0-0-0-0-0-0-2-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-0-0-3-0-0-0-0",
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -2255,7 +2255,7 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": false,
-      "label": "Already Registered User",
+      "label": "Already Registered Corporate ",
       "name": "Radio",
       "searchInState": false,
       "stateName": "choose",
@@ -2274,7 +2274,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Radio", "type": "20007" },
-    "path": "0-0-0-0-0-0-0-0-0-0-2-1-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-0-0-3-1-0-0-0",
     "screenId": "VqDM2bbHLDArZEoQJCuoZ",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

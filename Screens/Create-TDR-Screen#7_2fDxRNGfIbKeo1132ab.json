@@ -208,13 +208,29 @@
                 "readOnly": true
               },
               {
+                "id": "sjo5KorsTz6KITUBVhFja",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "name": "Grid layout",
                 "id": "8zcoNZ11yYV-iH4lj0QF-",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "qB2Zr_jSBglkQ6HXXWQRC",
+                    "id": "GZhEHG3WXaY7l4AcatffX",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -1050,13 +1066,13 @@
                                                                                                     "required": true,
                                                                                                     "errorMsg": "This field is required"
                                                                                                   },
-                                                                                                  "placeholder": "minimum amount Rs. 5,000",
                                                                                                   "disableUnderline": true,
                                                                                                   "cssClassNames": [
                                                                                                     {
                                                                                                       "cssClassName": "emptyTextField"
                                                                                                     }
-                                                                                                  ]
+                                                                                                  ],
+                                                                                                  "disableCondition": {}
                                                                                                 },
                                                                                                 "icon": "FaDollarSign",
                                                                                                 "group": "Form",
@@ -2043,7 +2059,17 @@
                                                                                             {
                                                                                               "cssClassName": "CardButton"
                                                                                             }
-                                                                                          ]
+                                                                                          ],
+                                                                                          "disableCondition": {
+                                                                                            "logic": {
+                                                                                              "<": [
+                                                                                                {
+                                                                                                  "var": "currentScreen.form.amount"
+                                                                                                },
+                                                                                                5000
+                                                                                              ]
+                                                                                            }
+                                                                                          }
                                                                                         },
                                                                                         "name": "Button",
                                                                                         "icon": "FaBimobject",
@@ -2131,7 +2157,7 @@
                                                                                             "name": "On click"
                                                                                           }
                                                                                         ],
-                                                                                        "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-1-0-0-1-0-0-0"
+                                                                                        "path": "0-0-2-0-0-0-0-0-1-0-0-0-0-0-1-0-0-1-0-0-0"
                                                                                       }
                                                                                     ],
                                                                                     "layoutProperties": {
@@ -2648,8 +2674,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-1-0"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -2680,7 +2705,7 @@
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-1",
+                "path": "0-0-3",
                 "dimensions": {
                   "rows": 1,
                   "columns": 1,
@@ -2714,8 +2739,8 @@
     "gitBranchName": "master",
     "_id": "7_2fDxRNGfIbKeo1132ab",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/4/2023",
-    "createdAt": "5/4/2023",
+    "updatedAt": "5/15/2023",
+    "createdAt": "5/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2754,6 +2779,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "sjo5KorsTz6KITUBVhFja",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "8zcoNZ11yYV-iH4lj0QF-",
@@ -2898,6 +2935,22 @@
     "screenId": "7_2fDxRNGfIbKeo1132ab",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "sjo5KorsTz6KITUBVhFja",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "XcEXKS2IwBekPKrv-LTp6",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "7_2fDxRNGfIbKeo1132ab",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -4009,9 +4062,9 @@
         "xs": 12
       },
       "validate": { "required": true, "errorMsg": "This field is required" },
-      "placeholder": "minimum amount Rs. 5,000",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
+      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
+      "disableCondition": {}
     },
     "icon": "FaDollarSign",
     "group": "Form",
@@ -4876,7 +4929,10 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": { "<": [{ "var": "currentScreen.form.amount" }, 5000] }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -4899,7 +4955,7 @@
         "serviceType": "2"
       }
     ],
-    "path": "0-0-1-0-0-0-0-0-1-0-0-0-0-0-1-0-0-1-0-0-0",
+    "path": "0-0-2-0-0-0-0-0-1-0-0-0-0-0-1-0-0-1-0-0-0",
     "screenId": "7_2fDxRNGfIbKeo1132ab",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

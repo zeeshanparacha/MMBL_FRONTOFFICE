@@ -1,0 +1,63 @@
+{
+  "id": "OUwCh9GcXWq2iqEoJiVFn",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Enable Corporate Already Registered OTP btn after delay",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "delay": "120000",
+          "triggers": [
+            {
+              "id": "F7fbCiDnwfKETa0YUmqdE",
+              "name": "enable Corporate Already otp btn",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "object",
+                      "destinationBindingKey": "sendAlCorpOtp",
+                      "sourceBindingKey": "sendAlCorpOtp",
+                      "sourceStoreType": 1,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "status",
+                          "changeValueConditonally": true,
+                          "logic": { "if": [true, "send", ""] }
+                        }
+                      ],
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "4l0mYKkezm1nj0EPRriMF",
+              "updatedAt": "5/17/2023",
+              "createdAt": "5/17/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["F7fbCiDnwfKETa0YUmqdE"]
+        }
+      }
+    }
+  ],
+  "_id": "SsVgz3fhyjjINCII1dM9-",
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

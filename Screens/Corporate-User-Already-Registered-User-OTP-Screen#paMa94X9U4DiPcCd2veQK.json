@@ -682,6 +682,522 @@
                                                       },
                                                       {
                                                         "type": "10001",
+                                                        "name": "Grid layout",
+                                                        "id": "vtvoEhadKISqiFVhhITui",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "IsxhLi4y3eG3Fy05ynBX2",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "17tBZFJrJiAFwRS3WYYiV",
+                                                                "status": "ACTIVE",
+                                                                "name": "Label",
+                                                                "attributes": {
+                                                                  "variant": "body1",
+                                                                  "name": "Label",
+                                                                  "mandatory": false,
+                                                                  "layoutProperties": {
+                                                                    "label": {
+                                                                      "//": "Use this class to style label component.",
+                                                                      "color": "#a8a8a8",
+                                                                      "font-size": "14px"
+                                                                    },
+                                                                    "mainContainer": "label",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "label": "Please check your email/SMS for OTP"
+                                                                },
+                                                                "icon": "FaFont",
+                                                                "group": "Form",
+                                                                "type": "20002",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 15,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Label",
+                                                                  "type": "20002"
+                                                                },
+                                                                "events": [],
+                                                                "path": "0-0-0-0-0-0-0-0-2-0-0-0-3-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            }
+                                                          }
+                                                        ],
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "5px",
+                                                              "paddingLeft": "10px",
+                                                              "spacing": 0
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout"
+                                                        },
+                                                        "events": [],
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
+                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-0-3",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
+                                                      },
+                                                      {
+                                                        "type": "10001",
+                                                        "name": "Grid layout",
+                                                        "id": "R5PTE_YaHXHCL60IeOmOo",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "WQiLMDr2CeK6SWyaJwgxO",
+                                                            "gridProps": [],
+                                                            "layoutProperties": {
+                                                              "xl": 1,
+                                                              "lg": 1,
+                                                              "md": 1,
+                                                              "sm": 1,
+                                                              "xs": 1
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "column",
+                                                            "id": "TW8b5LIPnZUzRN59iH7AU",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "9vOcCHMtjrFiWFAg4O804",
+                                                                "status": "ACTIVE",
+                                                                "_id": "610134a1d1f5e860b1e8c751",
+                                                                "name": "Grid layout",
+                                                                "icon": "FaGripHorizontal",
+                                                                "attributes": {
+                                                                  "gridProps": [],
+                                                                  "label": "Header",
+                                                                  "layoutProperties": {
+                                                                    "gridLayout": {
+                                                                      "//": "Use this class to style grid layout component.",
+                                                                      "padding": "5px",
+                                                                      "spacing": 0
+                                                                    },
+                                                                    "mainContainer": "gridLayout"
+                                                                  },
+                                                                  "layoutProps": {
+                                                                    "direction": "row",
+                                                                    "justifyContent": "flex-start",
+                                                                    "alignItems": "flex-start"
+                                                                  },
+                                                                  "direction": "row",
+                                                                  "name": "Grid layout"
+                                                                },
+                                                                "group": "Layout",
+                                                                "type": "sidebarItem",
+                                                                "updatedAt": "23-Sep-2021",
+                                                                "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                                                                "createdAt": "24-Aug-2021",
+                                                                "events": [],
+                                                                "order": 1,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "allowedContainers": [
+                                                                  "10001",
+                                                                  "20030",
+                                                                  "noLayout",
+                                                                  "20010",
+                                                                  "widget"
+                                                                ],
+                                                                "component": {
+                                                                  "content": "Grid layout",
+                                                                  "type": "10001"
+                                                                },
+                                                                "path": 0,
+                                                                "gridProps": [
+                                                                  {
+                                                                    "type": "column",
+                                                                    "id": "hSPWlF7rnhae0MS-F7R2O",
+                                                                    "gridProps": [
+                                                                      {
+                                                                        "id": "lENTDPAmr7AzEc7GmDcVC",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "Resend Otp",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "button-class"
+                                                                            }
+                                                                          ],
+                                                                          "disableCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "==": [
+                                                                                    {
+                                                                                      "var": "currentScreen.form.sendAlCorpOtp.status"
+                                                                                    },
+                                                                                    "send"
+                                                                                  ]
+                                                                                },
+                                                                                false,
+                                                                                true
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "OUwCh9GcXWq2iqEoJiVFn",
+                                                                            "triggerName": "Enable Corporate Already Registered OTP btn after delay",
+                                                                            "serviceType": "2",
+                                                                            "attributes": {
+                                                                              "delay": "120000",
+                                                                              "triggers": [
+                                                                                {
+                                                                                  "id": "F7fbCiDnwfKETa0YUmqdE",
+                                                                                  "name": "enable Corporate Already otp btn",
+                                                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                                                  "gitBranchName": "master",
+                                                                                  "services": [
+                                                                                    {
+                                                                                      "type": "11",
+                                                                                      "command": {
+                                                                                        "type": "6",
+                                                                                        "attributes": {
+                                                                                          "storeType": "",
+                                                                                          "selectedObjectBindingKey": "selectedObject",
+                                                                                          "dataType": "object",
+                                                                                          "destinationBindingKey": "sendAlCorpOtp",
+                                                                                          "sourceBindingKey": "sendAlCorpOtp",
+                                                                                          "sourceStoreType": 1,
+                                                                                          "destinationStoreType": 1,
+                                                                                          "filterList": [
+                                                                                            {
+                                                                                              "key": "status",
+                                                                                              "changeValueConditonally": true,
+                                                                                              "logic": {
+                                                                                                "if": [
+                                                                                                  true,
+                                                                                                  "send",
+                                                                                                  ""
+                                                                                                ]
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "targettedType": "value"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "_id": "4l0mYKkezm1nj0EPRriMF",
+                                                                                  "updatedAt": "5/17/2023",
+                                                                                  "createdAt": "5/17/2023",
+                                                                                  "createdBy": "ahmerjavedkhan",
+                                                                                  "updatedBy": "ahmerjavedkhan"
+                                                                                }
+                                                                              ],
+                                                                              "triggerIds": [
+                                                                                "F7fbCiDnwfKETa0YUmqdE"
+                                                                              ]
+                                                                            },
+                                                                            "type": "1",
+                                                                            "name": "On initialization"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "OUwCh9GcXWq2iqEoJiVFn",
+                                                                            "triggerName": "Enable Corporate Already Registered OTP btn after delay",
+                                                                            "serviceType": "2",
+                                                                            "attributes": {
+                                                                              "delay": "120000",
+                                                                              "triggers": [
+                                                                                {
+                                                                                  "id": "F7fbCiDnwfKETa0YUmqdE",
+                                                                                  "name": "enable Corporate Already otp btn",
+                                                                                  "projectId": "63f4845e476fc83100e3a899",
+                                                                                  "gitBranchName": "master",
+                                                                                  "services": [
+                                                                                    {
+                                                                                      "type": "11",
+                                                                                      "command": {
+                                                                                        "type": "6",
+                                                                                        "attributes": {
+                                                                                          "storeType": "",
+                                                                                          "selectedObjectBindingKey": "selectedObject",
+                                                                                          "dataType": "object",
+                                                                                          "destinationBindingKey": "sendAlCorpOtp",
+                                                                                          "sourceBindingKey": "sendAlCorpOtp",
+                                                                                          "sourceStoreType": 1,
+                                                                                          "destinationStoreType": 1,
+                                                                                          "filterList": [
+                                                                                            {
+                                                                                              "key": "status",
+                                                                                              "changeValueConditonally": true,
+                                                                                              "logic": {
+                                                                                                "if": [
+                                                                                                  true,
+                                                                                                  "send",
+                                                                                                  ""
+                                                                                                ]
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "targettedType": "value"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "_id": "4l0mYKkezm1nj0EPRriMF",
+                                                                                  "updatedAt": "5/17/2023",
+                                                                                  "createdAt": "5/17/2023",
+                                                                                  "createdBy": "ahmerjavedkhan",
+                                                                                  "updatedBy": "ahmerjavedkhan"
+                                                                                }
+                                                                              ],
+                                                                              "triggerIds": [
+                                                                                "F7fbCiDnwfKETa0YUmqdE"
+                                                                              ]
+                                                                            },
+                                                                            "type": "2",
+                                                                            "name": "On click"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "kGb6Ys-xwy25KvGgNOKjR",
+                                                                            "triggerName": "disable send Already Corporate otp btn",
+                                                                            "serviceType": "11",
+                                                                            "attributes": {
+                                                                              "storeType": "",
+                                                                              "selectedObjectBindingKey": "selectedObject",
+                                                                              "dataType": "object",
+                                                                              "destinationBindingKey": "sendAlCorpOtp",
+                                                                              "sourceBindingKey": "sendAlCorpOtp",
+                                                                              "sourceStoreType": 1,
+                                                                              "destinationStoreType": 1,
+                                                                              "filterList": [
+                                                                                {
+                                                                                  "key": "status",
+                                                                                  "changeValueConditonally": true,
+                                                                                  "logic": {
+                                                                                    "if": [
+                                                                                      false,
+                                                                                      "send",
+                                                                                      ""
+                                                                                    ]
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "logic": false,
+                                                                              "changeValueConditonally": false,
+                                                                              "targettedType": "value"
+                                                                            },
+                                                                            "type": "2",
+                                                                            "name": "On click"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "ShL9lDP-WfRQ7wR1-nnVa",
+                                                                            "triggerName": "validate drafted request",
+                                                                            "serviceType": "8",
+                                                                            "attributes": {
+                                                                              "loaderWidgetIds": [
+                                                                                906070
+                                                                              ],
+                                                                              "messageWidgetIds": [
+                                                                                906070
+                                                                              ],
+                                                                              "responseStateKey": "response",
+                                                                              "url": "/pre-corp-reg/validate-drafted-request",
+                                                                              "checksum": true,
+                                                                              "encryption": true,
+                                                                              "isDeviceDetails": true,
+                                                                              "loginTrigger": "loginTrigger",
+                                                                              "formData": false,
+                                                                              "logoutTrigger": false,
+                                                                              "headers": {
+                                                                                "Content-Type": "application/json",
+                                                                                "Accept": "application/json",
+                                                                                "channel_key": "001",
+                                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                "locale": "en-ltr"
+                                                                              },
+                                                                              "requestBody": [
+                                                                                {
+                                                                                  "type": 1,
+                                                                                  "name": "Form",
+                                                                                  "key": "email",
+                                                                                  "value": "email"
+                                                                                },
+                                                                                {
+                                                                                  "type": 1,
+                                                                                  "name": "Form",
+                                                                                  "key": "mobileNumber",
+                                                                                  "value": "mobileNumber"
+                                                                                },
+                                                                                {
+                                                                                  "type": 1,
+                                                                                  "name": "Form",
+                                                                                  "key": "token",
+                                                                                  "value": "captcha"
+                                                                                },
+                                                                                {
+                                                                                  "type": 1,
+                                                                                  "name": "Form",
+                                                                                  "key": "companyName",
+                                                                                  "value": "companyName"
+                                                                                }
+                                                                              ],
+                                                                              "baseURL": "641aedb2676c823a449fd597",
+                                                                              "storeType": 3,
+                                                                              "triggerGenericErrorTrigger": true
+                                                                            },
+                                                                            "type": "2",
+                                                                            "name": "On click"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-0-0-0-0-0-0-2-0-0-0-4-1-0-0-0"
+                                                                      }
+                                                                    ],
+                                                                    "layoutProperties": {
+                                                                      "xl": 12,
+                                                                      "lg": 12,
+                                                                      "md": 12,
+                                                                      "sm": 12,
+                                                                      "xs": 12
+                                                                    },
+                                                                    "path": "0-0"
+                                                                  }
+                                                                ],
+                                                                "layoutProperties": {
+                                                                  "lg": 12,
+                                                                  "md": 12,
+                                                                  "sm": 12,
+                                                                  "xs": 12
+                                                                }
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 10,
+                                                              "lg": 10,
+                                                              "md": 10,
+                                                              "sm": 10,
+                                                              "xs": 10
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "column",
+                                                            "id": "JvwUtyfxBYpbFd29zP8I_",
+                                                            "gridProps": [],
+                                                            "layoutProperties": {
+                                                              "xl": 1,
+                                                              "lg": 1,
+                                                              "md": 1,
+                                                              "sm": 1,
+                                                              "xs": 1
+                                                            }
+                                                          }
+                                                        ],
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "5px",
+                                                              "spacing": 0
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout"
+                                                        },
+                                                        "events": [],
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "10001",
                                                         "id": "Id7xNkE_JattJkbSH2FGS",
                                                         "gridProps": [
                                                           {
@@ -1293,12 +1809,28 @@
                         "component": { "type": "20031" }
                       },
                       {
+                        "id": "f9DCmdfdio0fBP8Jd1lCB",
+                        "name": "show corporate user sub request modal ",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "r91aADBdlTHRqgdm0Jaub",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "id": "bWo9nsp-yLk3NDZPpKYxh",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "W2WDry4mMkCl82aWHs9QS",
+                            "id": "cHiLQ4vBel9wkFikYtVOy",
                             "gridProps": [
                               {
                                 "id": "FysmgVwceJW_4Lh9BMVmx",
@@ -1387,7 +1919,7 @@
                             }
                           }
                         ],
-                        "path": "0-0-0-0-2",
+                        "path": "0-0-0-0-3",
                         "events": [],
                         "attributes": {
                           "gridProps": [],
@@ -1516,9 +2048,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "paMa94X9U4DiPcCd2veQK",
-    "createdBy": "ajk",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1607,6 +2139,18 @@
             "xs": 12
           },
           "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "f9DCmdfdio0fBP8Jd1lCB",
           "componentType": "20031",
           "order": 1
         },
@@ -2108,6 +2652,44 @@
           }
         },
         {
+          "componentId": "vtvoEhadKISqiFVhhITui",
+          "componentType": "10001",
+          "id": "vtvoEhadKISqiFVhhITui",
+          "position": {
+            "i": "vtvoEhadKISqiFVhhITui",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "R5PTE_YaHXHCL60IeOmOo",
+          "componentType": "10001",
+          "id": "R5PTE_YaHXHCL60IeOmOo",
+          "position": {
+            "i": "R5PTE_YaHXHCL60IeOmOo",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
           "componentId": "Id7xNkE_JattJkbSH2FGS",
           "componentType": "10001",
           "id": "Id7xNkE_JattJkbSH2FGS",
@@ -2458,6 +3040,274 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "vtvoEhadKISqiFVhhITui",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "17tBZFJrJiAFwRS3WYYiV",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "paddingLeft": "10px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "17tBZFJrJiAFwRS3WYYiV",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "color": "#a8a8a8",
+          "font-size": "14px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "Please check your email/SMS for OTP"
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-0-0-2-0-0-0-3-0-0",
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "R5PTE_YaHXHCL60IeOmOo",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "9vOcCHMtjrFiWFAg4O804",
+          "componentType": "10001",
+          "id": "9vOcCHMtjrFiWFAg4O804",
+          "position": {
+            "i": "9vOcCHMtjrFiWFAg4O804",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 10,
+            "lg": 10,
+            "md": 10,
+            "sm": 10,
+            "xs": 10
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "9vOcCHMtjrFiWFAg4O804",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "lENTDPAmr7AzEc7GmDcVC",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "lENTDPAmr7AzEc7GmDcVC",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Resend Otp",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "button-class" }],
+      "disableCondition": {
+        "logic": {
+          "if": [
+            {
+              "==": [
+                { "var": "currentScreen.form.sendAlCorpOtp.status" },
+                "send"
+              ]
+            },
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "OUwCh9GcXWq2iqEoJiVFn",
+        "triggerName": "Enable Corporate Already Registered OTP btn after delay",
+        "name": "On initialization",
+        "type": "1",
+        "serviceType": "2"
+      },
+      {
+        "triggerId": "OUwCh9GcXWq2iqEoJiVFn",
+        "triggerName": "Enable Corporate Already Registered OTP btn after delay",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
+      },
+      {
+        "triggerId": "kGb6Ys-xwy25KvGgNOKjR",
+        "triggerName": "disable send Already Corporate otp btn",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      },
+      {
+        "triggerId": "ShL9lDP-WfRQ7wR1-nnVa",
+        "triggerName": "validate drafted request",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-0-2-0-0-0-4-1-0-0-0",
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "Id7xNkE_JattJkbSH2FGS",
     "name": "Grid layout",
     "type": "10001",
@@ -2714,6 +3564,22 @@
     "type": "20031",
     "attributes": {
       "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "paMa94X9U4DiPcCd2veQK",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "f9DCmdfdio0fBP8Jd1lCB",
+    "name": "show corporate user sub request modal ",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "r91aADBdlTHRqgdm0Jaub",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },

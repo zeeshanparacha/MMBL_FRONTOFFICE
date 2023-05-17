@@ -28,7 +28,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "aim6uiwddFO9h-Cj6mIts",
+            "id": "FkCBWMAJ3FzGS--7-n4-N",
             "gridProps": [
               {
                 "type": "10001",
@@ -1710,11 +1710,26 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Sign-Up-Input-Fields widget"
+          "name": "Sign-Up-Input-Fields"
         },
-        "events": [],
+        "events": [
+          {
+            "triggerId": "ThU36w4Xp254FOc9oFsRX",
+            "triggerName": "Clear Response Binding Key in Current Session",
+            "serviceType": "11",
+            "attributes": {
+              "stateName": "response",
+              "storeType": 3,
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "",
+              "sourceBindingKey": ""
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
         "component": { "type": "10001", "content": "Grid layout" },
-        "path": "0-0-0-0-0-0-0-0-0-0-2",
+        "path": "0",
         "dimensions": {
           "rows": 1,
           "columns": 1,
@@ -1735,8 +1750,8 @@
     "gitBranchName": "master",
     "_id": "XpTQjwGIj-lDVw1vunUcm",
     "createdBy": "ajk",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1781,10 +1796,17 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Sign-Up-Input-Fields widget"
+      "name": "Sign-Up-Input-Fields"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "ThU36w4Xp254FOc9oFsRX",
+        "triggerName": "Clear Response Binding Key in Current Session",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "projectId": "63f4845e476fc83100e3a899",
