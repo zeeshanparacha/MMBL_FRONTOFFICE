@@ -1050,6 +1050,24 @@
                                                             "id": "raq9ZRkKUoqVRUJd7Nzh9",
                                                             "gridProps": [
                                                               {
+                                                                "id": "MRRhHrlutc_vkMz5C0COC",
+                                                                "type": "20031",
+                                                                "name": "Open TDR Declaration Form Modal Conditional Trig",
+                                                                "attributes": {
+                                                                  "widgetId": "1lDqrtlUPbpS8xq11tSC8",
+                                                                  "layoutProperties": {
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  }
+                                                                },
+                                                                "component": {
+                                                                  "type": "20031"
+                                                                }
+                                                              },
+                                                              {
                                                                 "id": "zlCAATNUPNha6vwp5BlUp",
                                                                 "type": "20013",
                                                                 "name": "Checkbox",
@@ -1082,7 +1100,51 @@
                                                                   "stateName": "termConditions",
                                                                   "value": "true"
                                                                 },
-                                                                "events": [],
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "M-rOJrofLXWoNc5l7D4LM",
+                                                                    "triggerName": "Open TDR Declaration Form Modal Conditional Trig",
+                                                                    "serviceType": "13",
+                                                                    "attributes": {
+                                                                      "triggers": [
+                                                                        {
+                                                                          "logic": {
+                                                                            "if": [
+                                                                              {
+                                                                                "!=": [
+                                                                                  {
+                                                                                    "var": "currentScreen.form.termConditions"
+                                                                                  },
+                                                                                  "true"
+                                                                                ]
+                                                                              },
+                                                                              false,
+                                                                              true
+                                                                            ]
+                                                                          },
+                                                                          "triggerName": "Show TDR Declaration Modal",
+                                                                          "triggerId": "iehyLfveuogtvGeaH0xSK",
+                                                                          "services": [
+                                                                            {
+                                                                              "type": "9",
+                                                                              "command": {
+                                                                                "type": "1",
+                                                                                "attributes": {
+                                                                                  "widgetId": "1lDqrtlUPbpS8xq11tSC8",
+                                                                                  "content": "",
+                                                                                  "type": "",
+                                                                                  "modalId": "MRRhHrlutc_vkMz5C0COC"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    "type": "3",
+                                                                    "name": "On change"
+                                                                  }
+                                                                ],
                                                                 "path": "0-0-0-0-0-0-2-0-0-0-0-0-0-0-0",
                                                                 "version": "1.0.0"
                                                               }
@@ -1933,9 +1995,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "UMARmP5BCUroEKPEB35O0",
-    "createdBy": "ajk",
-    "updatedAt": "5/15/2023",
-    "createdAt": "5/15/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3215,6 +3277,18 @@
             "sm": 12,
             "xs": 12
           },
+          "componentId": "MRRhHrlutc_vkMz5C0COC",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
           "componentId": "zlCAATNUPNha6vwp5BlUp",
           "componentType": "20013",
           "order": 1
@@ -3248,6 +3322,22 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "MRRhHrlutc_vkMz5C0COC",
+    "type": "20031",
+    "name": "Open TDR Declaration Form Modal Conditional Trig",
+    "attributes": {
+      "widgetId": "1lDqrtlUPbpS8xq11tSC8",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "UMARmP5BCUroEKPEB35O0",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "zlCAATNUPNha6vwp5BlUp",
     "type": "20013",
     "name": "Checkbox",
@@ -3275,7 +3365,15 @@
       "stateName": "termConditions",
       "value": "true"
     },
-    "events": [],
+    "events": [
+      {
+        "triggerId": "M-rOJrofLXWoNc5l7D4LM",
+        "triggerName": "Open TDR Declaration Form Modal Conditional Trig",
+        "name": "On change",
+        "type": "3",
+        "serviceType": "13"
+      }
+    ],
     "path": "0-0-0-0-0-0-2-0-0-0-0-0-0-0-0",
     "version": "1.0.0",
     "screenId": "UMARmP5BCUroEKPEB35O0",

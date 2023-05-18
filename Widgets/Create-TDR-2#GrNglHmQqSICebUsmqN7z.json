@@ -494,7 +494,7 @@
                                                           "name": "Drop down",
                                                           "stateName": "tdrType",
                                                           "allValues": true,
-                                                          "dataSource": "tdrLookup.tdrType",
+                                                          "dataSource": "TDRType",
                                                           "dataKey": "value",
                                                           "dataValue": "displayName",
                                                           "mandatory": true,
@@ -604,42 +604,242 @@
                                                         "type": "20003",
                                                         "events": [
                                                           {
-                                                            "triggerId": "KB9WKa1t04xI554PpDEiE",
-                                                            "triggerName": "Get tdr Dropdown data",
-                                                            "serviceType": "8",
+                                                            "triggerId": "FHrOzIn4-xHUuCThWy8T6",
+                                                            "triggerName": "Get TDR Monthly and Maturity Conditional Dropdown data",
+                                                            "serviceType": "13",
                                                             "attributes": {
-                                                              "loaderWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "messageWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "responseStateKey": "tdrLookup",
-                                                              "responseReturnValue": "data.result",
-                                                              "url": "/lookup/values",
-                                                              "checksum": true,
-                                                              "encryption": true,
-                                                              "isDeviceDetails": true,
-                                                              "loginTrigger": false,
-                                                              "formData": false,
-                                                              "logoutTrigger": false,
-                                                              "headers": {
-                                                                "Content-Type": "application/json",
-                                                                "Accept": "application/json",
-                                                                "channel_key": "001",
-                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                "locale": "en-ltr"
-                                                              },
-                                                              "requestBody": [
+                                                              "triggers": [
                                                                 {
-                                                                  "type": 2,
-                                                                  "name": "Current screen",
-                                                                  "key": "lookupType",
-                                                                  "value": "lookupType"
+                                                                  "logic": {
+                                                                    "==": [
+                                                                      {
+                                                                        "var": "currentScreen.profitFrequency.value"
+                                                                      },
+                                                                      "Monthly"
+                                                                    ]
+                                                                  },
+                                                                  "triggerName": "TDR Type Monthly chain trigger",
+                                                                  "triggerId": "H6dGJXDNcTXQ-5gruaZat",
+                                                                  "services": [
+                                                                    {
+                                                                      "type": "2",
+                                                                      "command": {
+                                                                        "type": "1",
+                                                                        "attributes": {
+                                                                          "delay": "",
+                                                                          "triggers": [
+                                                                            {
+                                                                              "id": "KB9WKa1t04xI554PpDEiE",
+                                                                              "_id": "gXkhbZDGqyZxfM19cdsUQ",
+                                                                              "projectId": "63f4845e476fc83100e3a899",
+                                                                              "gitBranchName": "master",
+                                                                              "name": "Get tdr Dropdown data",
+                                                                              "old_name": "Get tdr Dropdown data",
+                                                                              "status": "ACTIVE",
+                                                                              "services": [
+                                                                                {
+                                                                                  "type": "8",
+                                                                                  "command": {
+                                                                                    "type": "1",
+                                                                                    "attributes": {
+                                                                                      "loaderWidgetIds": [
+                                                                                        906070
+                                                                                      ],
+                                                                                      "messageWidgetIds": [
+                                                                                        906070
+                                                                                      ],
+                                                                                      "responseStateKey": "tdrLookup",
+                                                                                      "responseReturnValue": "data.result",
+                                                                                      "url": "/lookup/values",
+                                                                                      "checksum": true,
+                                                                                      "encryption": true,
+                                                                                      "isDeviceDetails": true,
+                                                                                      "loginTrigger": false,
+                                                                                      "formData": false,
+                                                                                      "logoutTrigger": false,
+                                                                                      "headers": {
+                                                                                        "Content-Type": "application/json",
+                                                                                        "Accept": "application/json",
+                                                                                        "channel_key": "001",
+                                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                        "locale": "en-ltr"
+                                                                                      },
+                                                                                      "requestBody": [
+                                                                                        {
+                                                                                          "type": 2,
+                                                                                          "name": "Current screen",
+                                                                                          "key": "lookupType",
+                                                                                          "value": "lookupType"
+                                                                                        }
+                                                                                      ],
+                                                                                      "baseURL": "6320700d967b3c4df8e32265",
+                                                                                      "storeType": 2
+                                                                                    },
+                                                                                    "responseHandler": []
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "updatedAt": "4/13/2023",
+                                                                              "createdAt": "4/13/2023",
+                                                                              "createdBy": "muzzamil",
+                                                                              "updatedBy": "muzzamil"
+                                                                            },
+                                                                            {
+                                                                              "id": "y2u-A0F5Tnl5EisKhR6-q",
+                                                                              "name": "Manipulate TDR Type Monthly value",
+                                                                              "projectId": "63f4845e476fc83100e3a899",
+                                                                              "gitBranchName": "master",
+                                                                              "services": [
+                                                                                {
+                                                                                  "type": "11",
+                                                                                  "command": {
+                                                                                    "type": "6",
+                                                                                    "attributes": {
+                                                                                      "storeType": "",
+                                                                                      "selectedObjectBindingKey": "selectedObject",
+                                                                                      "dataType": "value",
+                                                                                      "destinationBindingKey": "TDRType",
+                                                                                      "sourceBindingKey": "tdrLookup.TDRTypeMonthly",
+                                                                                      "sourceStoreType": 2,
+                                                                                      "destinationStoreType": 2,
+                                                                                      "targettedType": "value"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "_id": "uEr2MmuyOujNeJJFJboMz",
+                                                                              "updatedAt": "5/18/2023",
+                                                                              "createdAt": "5/18/2023",
+                                                                              "createdBy": "ajk",
+                                                                              "updatedBy": "ajk"
+                                                                            }
+                                                                          ],
+                                                                          "triggerIds": [
+                                                                            "KB9WKa1t04xI554PpDEiE",
+                                                                            "y2u-A0F5Tnl5EisKhR6-q"
+                                                                          ]
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "logic": {
+                                                                    "==": [
+                                                                      {
+                                                                        "var": "currentScreen.profitFrequency.value"
+                                                                      },
+                                                                      "Maturity"
+                                                                    ]
+                                                                  },
+                                                                  "triggerName": "TDR Maturity Chain trigger",
+                                                                  "triggerId": "IA0YB7T5pETM_7dRYBVxI",
+                                                                  "services": [
+                                                                    {
+                                                                      "type": "2",
+                                                                      "command": {
+                                                                        "type": "1",
+                                                                        "attributes": {
+                                                                          "delay": "",
+                                                                          "triggers": [
+                                                                            {
+                                                                              "id": "KB9WKa1t04xI554PpDEiE",
+                                                                              "_id": "gXkhbZDGqyZxfM19cdsUQ",
+                                                                              "projectId": "63f4845e476fc83100e3a899",
+                                                                              "gitBranchName": "master",
+                                                                              "name": "Get tdr Dropdown data",
+                                                                              "old_name": "Get tdr Dropdown data",
+                                                                              "status": "ACTIVE",
+                                                                              "services": [
+                                                                                {
+                                                                                  "type": "8",
+                                                                                  "command": {
+                                                                                    "type": "1",
+                                                                                    "attributes": {
+                                                                                      "loaderWidgetIds": [
+                                                                                        906070
+                                                                                      ],
+                                                                                      "messageWidgetIds": [
+                                                                                        906070
+                                                                                      ],
+                                                                                      "responseStateKey": "tdrLookup",
+                                                                                      "responseReturnValue": "data.result",
+                                                                                      "url": "/lookup/values",
+                                                                                      "checksum": true,
+                                                                                      "encryption": true,
+                                                                                      "isDeviceDetails": true,
+                                                                                      "loginTrigger": false,
+                                                                                      "formData": false,
+                                                                                      "logoutTrigger": false,
+                                                                                      "headers": {
+                                                                                        "Content-Type": "application/json",
+                                                                                        "Accept": "application/json",
+                                                                                        "channel_key": "001",
+                                                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                                        "locale": "en-ltr"
+                                                                                      },
+                                                                                      "requestBody": [
+                                                                                        {
+                                                                                          "type": 2,
+                                                                                          "name": "Current screen",
+                                                                                          "key": "lookupType",
+                                                                                          "value": "lookupType"
+                                                                                        }
+                                                                                      ],
+                                                                                      "baseURL": "6320700d967b3c4df8e32265",
+                                                                                      "storeType": 2
+                                                                                    },
+                                                                                    "responseHandler": []
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "updatedAt": "4/13/2023",
+                                                                              "createdAt": "4/13/2023",
+                                                                              "createdBy": "muzzamil",
+                                                                              "updatedBy": "muzzamil"
+                                                                            },
+                                                                            {
+                                                                              "id": "BdeV4M7epSQXg4KmNi3cS",
+                                                                              "_id": "9Npf9O0zwo1Uz0QvaQeaA",
+                                                                              "name": "Manipulate TDR Type Maturity value",
+                                                                              "old_name": "Manipulate TDR Type Monthly value",
+                                                                              "projectId": "63f4845e476fc83100e3a899",
+                                                                              "gitBranchName": "master",
+                                                                              "services": [
+                                                                                {
+                                                                                  "type": "11",
+                                                                                  "command": {
+                                                                                    "type": "6",
+                                                                                    "attributes": {
+                                                                                      "requestBody": [],
+                                                                                      "storeType": "",
+                                                                                      "selectedObjectBindingKey": "selectedObject",
+                                                                                      "dataType": "value",
+                                                                                      "destinationBindingKey": "TDRType",
+                                                                                      "sourceBindingKey": "tdrLookup.TDRTypeMaturity",
+                                                                                      "sourceStoreType": 2,
+                                                                                      "destinationStoreType": 2,
+                                                                                      "targettedType": "value"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "updatedAt": "5/18/2023",
+                                                                              "createdAt": "5/18/2023",
+                                                                              "createdBy": "ajk",
+                                                                              "updatedBy": "ajk"
+                                                                            }
+                                                                          ],
+                                                                          "triggerIds": [
+                                                                            "KB9WKa1t04xI554PpDEiE",
+                                                                            "BdeV4M7epSQXg4KmNi3cS"
+                                                                          ]
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ]
                                                                 }
-                                                              ],
-                                                              "baseURL": "6320700d967b3c4df8e32265",
-                                                              "storeType": 2
+                                                              ]
                                                             },
                                                             "type": "1",
                                                             "name": "On initialization"
@@ -795,7 +995,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "l36aZLXQ32X4aVfXArqZF",
+                                    "id": "yfHi-Y0Sl7vE87Lr3UHwZ",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -1107,7 +1307,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "wFJII5dsU0Hba9Ks2iG63",
+                                                            "id": "NIp7ErKbljCm8VBUsOrzg",
                                                             "gridProps": [
                                                               {
                                                                 "id": "0UsdgM8MmJrKeWDtCkpmw",
@@ -1164,7 +1364,7 @@
                                                           },
                                                           {
                                                             "type": "column",
-                                                            "id": "fmBJ_k7-TiuFwmT2ryfsm",
+                                                            "id": "tXlNTKBkPfu-LQqUbwQP9",
                                                             "gridProps": [
                                                               {
                                                                 "id": "__-U9VfFFgTBZyxEZiURR",
@@ -1222,7 +1422,7 @@
                                                           },
                                                           {
                                                             "type": "column",
-                                                            "id": "DlikFAiPDt5gOzCXM_Pyt",
+                                                            "id": "Ph1oTopty1VV6S2JQwhaQ",
                                                             "gridProps": [
                                                               {
                                                                 "id": "TPMNikdqo1oQmi8QwUFdS",
@@ -1473,8 +1673,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-0-1-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -1503,51 +1702,7 @@
                                   "direction": "row",
                                   "name": "Grid layout"
                                 },
-                                "events": [
-                                  {
-                                    "triggerId": "a5x3gsDppUKfzmsM0UQDK",
-                                    "triggerName": "Get filtered Product for TDR",
-                                    "serviceType": "8",
-                                    "attributes": {
-                                      "loaderWidgetIds": [906070],
-                                      "messageWidgetIds": [906070],
-                                      "responseStateKey": "tdrProductInfo",
-                                      "responseReturnValue": "data.tdrProducts",
-                                      "url": "/tdr/filtered-products",
-                                      "checksum": true,
-                                      "encryption": true,
-                                      "isDeviceDetails": true,
-                                      "loginTrigger": false,
-                                      "formData": false,
-                                      "logoutTrigger": false,
-                                      "headers": {
-                                        "Content-Type": "application/json",
-                                        "Accept": "application/json",
-                                        "channel_key": "001",
-                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                        "locale": "en-ltr"
-                                      },
-                                      "requestBody": [
-                                        {
-                                          "type": 1,
-                                          "name": "Form",
-                                          "key": "frequency",
-                                          "value": "profitFrequency.value"
-                                        },
-                                        {
-                                          "type": 1,
-                                          "name": "Form",
-                                          "key": "tenure",
-                                          "value": "tenure.value"
-                                        }
-                                      ],
-                                      "baseURL": "631b0ff6d005932c10ce3bbe",
-                                      "storeType": 2
-                                    },
-                                    "type": "1",
-                                    "name": "On initialization"
-                                  }
-                                ],
+                                "events": [],
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
@@ -2148,8 +2303,8 @@
     "gitBranchName": "master",
     "_id": "GrNglHmQqSICebUsmqN7z",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/15/2023",
-    "createdAt": "5/15/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2872,7 +3027,7 @@
       "name": "Drop down",
       "stateName": "tdrType",
       "allValues": true,
-      "dataSource": "tdrLookup.tdrType",
+      "dataSource": "TDRType",
       "dataKey": "value",
       "dataValue": "displayName",
       "mandatory": true,
@@ -2969,11 +3124,11 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "KB9WKa1t04xI554PpDEiE",
-        "triggerName": "Get tdr Dropdown data",
+        "triggerId": "FHrOzIn4-xHUuCThWy8T6",
+        "triggerName": "Get TDR Monthly and Maturity Conditional Dropdown data",
         "name": "On initialization",
         "type": "1",
-        "serviceType": "8"
+        "serviceType": "13"
       }
     ],
     "order": 10,
@@ -3032,14 +3187,7 @@
       "name": "Grid layout"
     },
     "layout": null,
-    "events": [
-      {
-        "triggerId": "a5x3gsDppUKfzmsM0UQDK",
-        "triggerName": "Get filtered Product for TDR",
-        "name": "On initialization",
-        "type": "1"
-      }
-    ],
+    "events": [],
     "subType": "component",
     "screenId": "GrNglHmQqSICebUsmqN7z",
     "projectId": "63f4845e476fc83100e3a899",

@@ -281,6 +281,32 @@
               "createdAt": "4/14/2023",
               "createdBy": "ajk",
               "updatedBy": "ajk"
+            },
+            {
+              "id": "J7UUGSjuIXgQg1JY_6gYW",
+              "name": "clear sole File Upload bindingKey",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "uploadFileResponse",
+                      "storeType": 3,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "CIMEOV5C1kESDkWWYSycP",
+              "updatedAt": "5/18/2023",
+              "createdAt": "5/18/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
             }
           ],
           "triggerIds": [
@@ -292,14 +318,15 @@
             "MTqg9mvwyWlBqouQhLhOQ",
             "Z1aFcdiVYkSE4SNI_6nVk",
             "Nl3j4HLswjZ2axBDWobkT",
-            "BwaypH1e6ZYaNAp3otrSt"
+            "BwaypH1e6ZYaNAp3otrSt",
+            "J7UUGSjuIXgQg1JY_6gYW"
           ]
         }
       }
     }
   ],
-  "updatedAt": "5/10/2023",
-  "createdAt": "5/10/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

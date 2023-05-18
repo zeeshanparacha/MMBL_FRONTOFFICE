@@ -1395,7 +1395,7 @@
                                                                           "name": "Text box",
                                                                           "label-locale-key": "",
                                                                           "maxLength": "12",
-                                                                          "type": "number",
+                                                                          "type": "number_only",
                                                                           "variant": "standard",
                                                                           "value": "",
                                                                           "readOnly": false,
@@ -1732,8 +1732,8 @@
                                                                           "label": "",
                                                                           "name": "Text box",
                                                                           "label-locale-key": "",
-                                                                          "maxLength": 20,
-                                                                          "type": "number",
+                                                                          "maxLength": "200",
+                                                                          "type": "text",
                                                                           "variant": "standard",
                                                                           "value": "",
                                                                           "readOnly": false,
@@ -3300,7 +3300,9 @@
                                                                                 "gitBranchName": "master",
                                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                               }
-                                                                            ]
+                                                                            ],
+                                                                            "regex": "/^.{6,15}$/",
+                                                                            "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
                                                                           },
                                                                           "placeholder": "",
                                                                           "disableUnderline": true,
@@ -10251,7 +10253,7 @@
                                                                           "name": "Text box",
                                                                           "label-locale-key": "",
                                                                           "maxLength": 20,
-                                                                          "type": "number",
+                                                                          "type": "number_only",
                                                                           "variant": "standard",
                                                                           "value": "",
                                                                           "readOnly": false,
@@ -13463,7 +13465,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "GJ9CR-fOcreoK_5eT6kUy",
+                                                            "id": "9f6qv5bLGgc8AhCPXFCfJ",
                                                             "gridProps": [
                                                               {
                                                                 "id": "JrOM9ux14bpaAJEr8_5fG",
@@ -13477,7 +13479,7 @@
                                                                   "layoutProperties": {
                                                                     "gridLayout": {
                                                                       "//": "Use this class to style grid layout component.",
-                                                                      "padding": "0px",
+                                                                      "padding": "5px",
                                                                       "spacing": 0
                                                                     },
                                                                     "mainContainer": "gridLayout"
@@ -13515,7 +13517,7 @@
                                                                 "gridProps": [
                                                                   {
                                                                     "type": "column",
-                                                                    "id": "FgTUaCj-7vCsPnLv-Vmti",
+                                                                    "id": "C4upigbpwxZg6ZUUK1z6g",
                                                                     "gridProps": [
                                                                       {
                                                                         "id": "ObUbPilW3gzAHPN5u-5G0",
@@ -14002,8 +14004,7 @@
                                                                       "md": 12,
                                                                       "sm": 12,
                                                                       "xs": 12
-                                                                    },
-                                                                    "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-0-0-0"
+                                                                    }
                                                                   }
                                                                 ],
                                                                 "layoutProperties": {
@@ -14030,12 +14031,11 @@
                                                               "md": 6,
                                                               "sm": 6,
                                                               "xs": 6
-                                                            },
-                                                            "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-0"
+                                                            }
                                                           },
                                                           {
                                                             "type": "column",
-                                                            "id": "fR-MO3zNwENwBGCY16e2d",
+                                                            "id": "IW9pFHOclfaQRTn-6bsdW",
                                                             "gridProps": [
                                                               {
                                                                 "id": "8-D3y8IfpsIrcAaUKe8ET",
@@ -14049,7 +14049,7 @@
                                                                   "layoutProperties": {
                                                                     "gridLayout": {
                                                                       "//": "Use this class to style grid layout component.",
-                                                                      "padding": "0px",
+                                                                      "padding": "5px",
                                                                       "spacing": 0
                                                                     },
                                                                     "mainContainer": "gridLayout"
@@ -14087,7 +14087,7 @@
                                                                 "gridProps": [
                                                                   {
                                                                     "type": "column",
-                                                                    "id": "vOPvSA1YWfo3JSwdgRUcL",
+                                                                    "id": "DasXW6Vq9XJ7T2spvhp59",
                                                                     "gridProps": [
                                                                       {
                                                                         "id": "OL3jvFT2p4Rzyl7rpqFOe",
@@ -14631,8 +14631,7 @@
                                                                       "md": 12,
                                                                       "sm": 12,
                                                                       "xs": 12
-                                                                    },
-                                                                    "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-1-0-0"
+                                                                    }
                                                                   }
                                                                 ],
                                                                 "layoutProperties": {
@@ -14659,8 +14658,7 @@
                                                               "md": 6,
                                                               "sm": 6,
                                                               "xs": 6
-                                                            },
-                                                            "path": "0-0-0-0-0-0-0-0-1-0-12-1-0-1"
+                                                            }
                                                           }
                                                         ],
                                                         "allowedContainers": [
@@ -14676,7 +14674,7 @@
                                                           "layoutProperties": {
                                                             "gridLayout": {
                                                               "//": "Use this class to style grid layout component.",
-                                                              "padding": "5px",
+                                                              "padding": "0px",
                                                               "spacing": 0
                                                             },
                                                             "mainContainer": "gridLayout"
@@ -14694,7 +14692,22 @@
                                                           "type": "10001",
                                                           "content": "Grid layout"
                                                         },
-                                                        "path": "0-0-0-0-0-0-0-0-1-0-12-1-0"
+                                                        "path": "0-0-0-0-0-0-0-0-1-0-12-1-0",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 2,
+                                                          "colSize0xs": 6,
+                                                          "colSize0sm": 6,
+                                                          "colSize0md": 6,
+                                                          "colSize0lg": 6,
+                                                          "colSize0xl": 6,
+                                                          "colSize1xs": 6,
+                                                          "colSize1sm": 6,
+                                                          "colSize1md": 6,
+                                                          "colSize1lg": 6,
+                                                          "colSize1xl": 6
+                                                        },
+                                                        "readOnly": true
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -15326,8 +15339,8 @@
     "gitBranchName": "master",
     "_id": "iMTfa-8k_Ze9dhK1jxZ0y",
     "createdBy": "ajk",
-    "updatedAt": "5/17/2023",
-    "createdAt": "5/17/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -17181,7 +17194,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "12",
-      "type": "number",
+      "type": "number_only",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -17490,8 +17503,8 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "number",
+      "maxLength": "200",
+      "type": "text",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -18887,7 +18900,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^.{6,15}$/",
+        "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -25357,7 +25372,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": 20,
-      "type": "number",
+      "type": "number_only",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -28246,7 +28261,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -28291,7 +28306,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -28385,7 +28400,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"

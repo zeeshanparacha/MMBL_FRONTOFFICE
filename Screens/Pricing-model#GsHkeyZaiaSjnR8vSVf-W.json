@@ -145,7 +145,7 @@
                     "alignItems": "flex-start"
                   },
                   "direction": "row",
-                  "name": "View Beneficiary"
+                  "name": "view beni full widget"
                 },
                 "group": "Layout",
                 "type": "10001",
@@ -169,7 +169,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "oLi3Sh0vDKJDjdw39TMSN",
+                    "id": "RKzcVYjYsMSDB5isPw65R",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -305,7 +305,7 @@
                                         "id": "fAAud47SXOZ2w89lO9PD_",
                                         "status": "ACTIVE",
                                         "attributes": {
-                                          "label": "Login",
+                                          "label": "Logout",
                                           "variant": "contained",
                                           "name": "Button",
                                           "label-locale-key": "",
@@ -3476,8 +3476,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -3523,8 +3522,8 @@
     "gitBranchName": "master",
     "_id": "GsHkeyZaiaSjnR8vSVf-W",
     "createdBy": "ajk",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3778,7 +3777,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "View Beneficiary"
+      "name": "view beni full widget"
     },
     "layout": null,
     "events": [],
@@ -3980,7 +3979,7 @@
     "id": "fAAud47SXOZ2w89lO9PD_",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Login",
+      "label": "Logout",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",

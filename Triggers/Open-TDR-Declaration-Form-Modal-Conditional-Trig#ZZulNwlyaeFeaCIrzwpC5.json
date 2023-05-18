@@ -1,0 +1,55 @@
+{
+  "id": "M-rOJrofLXWoNc5l7D4LM",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Open TDR Declaration Form Modal Conditional Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "13",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggers": [
+            {
+              "logic": {
+                "if": [
+                  {
+                    "!=": [
+                      { "var": "currentScreen.form.termConditions" },
+                      "true"
+                    ]
+                  },
+                  false,
+                  true
+                ]
+              },
+              "triggerName": "Show TDR Declaration Modal",
+              "triggerId": "iehyLfveuogtvGeaH0xSK",
+              "services": [
+                {
+                  "type": "9",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "widgetId": "1lDqrtlUPbpS8xq11tSC8",
+                      "content": "",
+                      "type": "",
+                      "modalId": "MRRhHrlutc_vkMz5C0COC"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "_id": "ZZulNwlyaeFeaCIrzwpC5",
+  "updatedAt": "5/17/2023",
+  "createdAt": "5/17/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

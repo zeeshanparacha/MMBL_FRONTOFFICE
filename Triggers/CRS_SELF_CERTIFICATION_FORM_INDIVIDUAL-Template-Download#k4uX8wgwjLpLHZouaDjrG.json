@@ -1,0 +1,52 @@
+{
+  "id": "qPDyPRpy2UjVPrzI6x13X",
+  "_id": "k4uX8wgwjLpLHZouaDjrG",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "CRS_SELF_CERTIFICATION_FORM_INDIVIDUAL Template Download",
+  "old_name": "CRS_SELF_CERTIFICATION_FORM_INDIVIDUAL Template Download",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "crsTempResponse1",
+          "url": "/pre-corp-reg/template",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "CRS_SELF_CERTIFICATION_FORM_INDIVIDUAL.pdf",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "data",
+              "value": "CRS_SELF_CERTIFICATION_FORM_INDIVIDUAL"
+            }
+          ],
+          "baseURL": "641aedb2676c823a449fd597",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

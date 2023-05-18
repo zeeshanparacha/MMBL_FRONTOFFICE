@@ -3379,7 +3379,9 @@
                                                                 "gitBranchName": "master",
                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                               }
-                                                            ]
+                                                            ],
+                                                            "regex": "/^.{1,35}$/",
+                                                            "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
                                                           },
                                                           "placeholder": "",
                                                           "disableUnderline": true,
@@ -3744,8 +3746,8 @@
                                                   "label": "Upload File (PDF)",
                                                   "stateName": "file",
                                                   "accept": "image/*",
-                                                  "maxSize": "4096",
-                                                  "minSize": "10",
+                                                  "maxSize": "30720",
+                                                  "minSize": "5",
                                                   "validate": {
                                                     "errorMsg": "File Required",
                                                     "required": true,
@@ -6047,38 +6049,130 @@
                                                   "asset": null,
                                                   "iconname": "FaTrash",
                                                   "trigger": {
-                                                    "id": "d236o0U0m4OYly07wXCy-",
-                                                    "name": "Delete record from sole prop table",
+                                                    "id": "o5HKdLVassO-L6Sc5NIwy",
                                                     "projectId": "63f4845e476fc83100e3a899",
                                                     "gitBranchName": "master",
+                                                    "name": "Signatories Sole chain trig",
+                                                    "old_name": "",
+                                                    "status": "ACTIVE",
                                                     "services": [
                                                       {
-                                                        "type": "11",
+                                                        "type": "2",
                                                         "command": {
-                                                          "type": "3",
+                                                          "type": "1",
                                                           "attributes": {
-                                                            "stateName": "sole",
-                                                            "storeType": "",
-                                                            "selectedObjectBindingKey": "selectedObject",
-                                                            "dataType": "",
-                                                            "sourceBindingKey": ""
+                                                            "delay": "",
+                                                            "triggers": [
+                                                              {
+                                                                "id": "NDPmhL_n8KOZt8kwQOY1p",
+                                                                "_id": "TWo9GHiTICVapAldm3ucd",
+                                                                "projectId": "63f4845e476fc83100e3a899",
+                                                                "gitBranchName": "master",
+                                                                "name": "delete file for table signatories",
+                                                                "old_name": "delete file for table signatories",
+                                                                "status": "ACTIVE",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "8",
+                                                                    "command": {
+                                                                      "type": "1",
+                                                                      "attributes": {
+                                                                        "loaderWidgetIds": [
+                                                                          906070
+                                                                        ],
+                                                                        "messageWidgetIds": [
+                                                                          906070
+                                                                        ],
+                                                                        "responseStateKey": "deleteFileSignatories",
+                                                                        "url": "/doc-mgmt/delete-files",
+                                                                        "checksum": true,
+                                                                        "encryption": true,
+                                                                        "isDeviceDetails": true,
+                                                                        "loginTrigger": false,
+                                                                        "formData": false,
+                                                                        "logoutTrigger": false,
+                                                                        "headers": {
+                                                                          "Content-Type": "application/json",
+                                                                          "Accept": "application/json",
+                                                                          "channel_key": "001",
+                                                                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                          "locale": "en-ltr"
+                                                                        },
+                                                                        "requestBody": [
+                                                                          {
+                                                                            "type": 2,
+                                                                            "name": "Current screen",
+                                                                            "key": "docId",
+                                                                            "value": "selectedObject.ntnDocId"
+                                                                          },
+                                                                          {
+                                                                            "type": 2,
+                                                                            "name": "Current screen",
+                                                                            "key": "uuid",
+                                                                            "value": "uuid"
+                                                                          }
+                                                                        ],
+                                                                        "baseURL": "641aedb2676c823a449fd597",
+                                                                        "storeType": 2
+                                                                      },
+                                                                      "responseHandler": []
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "updatedAt": "5/18/2023",
+                                                                "createdAt": "5/18/2023",
+                                                                "createdBy": "ajk",
+                                                                "updatedBy": "ajk"
+                                                              },
+                                                              {
+                                                                "id": "d236o0U0m4OYly07wXCy-",
+                                                                "name": "Delete record from sole prop table",
+                                                                "projectId": "63f4845e476fc83100e3a899",
+                                                                "gitBranchName": "master",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "11",
+                                                                    "command": {
+                                                                      "type": "3",
+                                                                      "attributes": {
+                                                                        "stateName": "sole",
+                                                                        "storeType": "",
+                                                                        "selectedObjectBindingKey": "selectedObject",
+                                                                        "dataType": "",
+                                                                        "sourceBindingKey": ""
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "_id": "KHy0_RTYE0gjp9oMnrw0F",
+                                                                "updatedAt": "4/14/2023",
+                                                                "createdAt": "4/14/2023",
+                                                                "createdBy": "talha",
+                                                                "updatedBy": "talha"
+                                                              }
+                                                            ],
+                                                            "triggerIds": [
+                                                              "NDPmhL_n8KOZt8kwQOY1p",
+                                                              "d236o0U0m4OYly07wXCy-"
+                                                            ]
                                                           }
                                                         }
                                                       }
                                                     ],
-                                                    "_id": "KHy0_RTYE0gjp9oMnrw0F",
-                                                    "updatedAt": "4/14/2023",
-                                                    "createdAt": "4/14/2023",
-                                                    "createdBy": "talha",
-                                                    "updatedBy": "talha"
+                                                    "_id": "l2cbSPLggMP6_sFn3eZsK",
+                                                    "updatedAt": "5/18/2023",
+                                                    "createdAt": "5/18/2023",
+                                                    "createdBy": "ajk",
+                                                    "updatedBy": "ajk"
                                                   },
-                                                  "triggerId": "d236o0U0m4OYly07wXCy-",
+                                                  "triggerId": "o5HKdLVassO-L6Sc5NIwy",
                                                   "conditional": {},
                                                   "values": [],
                                                   "disableConditional": {},
                                                   "disableValues": [],
                                                   "cssConditional": {},
-                                                  "cssValues": []
+                                                  "cssValues": [],
+                                                  "selectedObjectBindingKey": "selectedObject"
                                                 }
                                               ],
                                               "type": "iconButton"
@@ -6769,10 +6863,7 @@
                                                   "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
-                                                      "//": "Use this class to style button component.",
-                                                      "color": "#fff !important",
-                                                      "float": "right",
-                                                      "margin": "10px 0px 0px 0px"
+                                                      "//": "Use this class to style button component."
                                                     },
                                                     "inputProps": {
                                                       "//": "Use this class to style button element."
@@ -7171,11 +7262,7 @@
                                                   "fullWidth": true,
                                                   "layoutProperties": {
                                                     "button": {
-                                                      "//": "Use this class to style button component.",
-                                                      "color": "#fff !important",
-                                                      "background": "#DA0006 !important",
-                                                      "float": "right",
-                                                      "margin": "10px 0px 0px 0px"
+                                                      "//": "Use this class to style button component."
                                                     },
                                                     "inputProps": {
                                                       "//": "Use this class to style button element."
@@ -7783,8 +7870,8 @@
     "gitBranchName": "master",
     "_id": "bkMldbOK186usdb9G0SuZ",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/15/2023",
-    "createdAt": "5/15/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -11143,7 +11230,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^.{1,35}$/",
+        "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -11437,8 +11526,8 @@
       "label": "Upload File (PDF)",
       "stateName": "file",
       "accept": "image/*",
-      "maxSize": "4096",
-      "minSize": "10",
+      "maxSize": "30720",
+      "minSize": "5",
       "validate": {
         "errorMsg": "File Required",
         "required": true,
@@ -12786,38 +12875,126 @@
               "asset": null,
               "iconname": "FaTrash",
               "trigger": {
-                "id": "d236o0U0m4OYly07wXCy-",
-                "name": "Delete record from sole prop table",
+                "id": "o5HKdLVassO-L6Sc5NIwy",
                 "projectId": "63f4845e476fc83100e3a899",
                 "gitBranchName": "master",
+                "name": "Signatories Sole chain trig",
+                "old_name": "",
+                "status": "ACTIVE",
                 "services": [
                   {
-                    "type": "11",
+                    "type": "2",
                     "command": {
-                      "type": "3",
+                      "type": "1",
                       "attributes": {
-                        "stateName": "sole",
-                        "storeType": "",
-                        "selectedObjectBindingKey": "selectedObject",
-                        "dataType": "",
-                        "sourceBindingKey": ""
+                        "delay": "",
+                        "triggers": [
+                          {
+                            "id": "NDPmhL_n8KOZt8kwQOY1p",
+                            "_id": "TWo9GHiTICVapAldm3ucd",
+                            "projectId": "63f4845e476fc83100e3a899",
+                            "gitBranchName": "master",
+                            "name": "delete file for table signatories",
+                            "old_name": "delete file for table signatories",
+                            "status": "ACTIVE",
+                            "services": [
+                              {
+                                "type": "8",
+                                "command": {
+                                  "type": "1",
+                                  "attributes": {
+                                    "loaderWidgetIds": [906070],
+                                    "messageWidgetIds": [906070],
+                                    "responseStateKey": "deleteFileSignatories",
+                                    "url": "/doc-mgmt/delete-files",
+                                    "checksum": true,
+                                    "encryption": true,
+                                    "isDeviceDetails": true,
+                                    "loginTrigger": false,
+                                    "formData": false,
+                                    "logoutTrigger": false,
+                                    "headers": {
+                                      "Content-Type": "application/json",
+                                      "Accept": "application/json",
+                                      "channel_key": "001",
+                                      "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                      "locale": "en-ltr"
+                                    },
+                                    "requestBody": [
+                                      {
+                                        "type": 2,
+                                        "name": "Current screen",
+                                        "key": "docId",
+                                        "value": "selectedObject.ntnDocId"
+                                      },
+                                      {
+                                        "type": 2,
+                                        "name": "Current screen",
+                                        "key": "uuid",
+                                        "value": "uuid"
+                                      }
+                                    ],
+                                    "baseURL": "641aedb2676c823a449fd597",
+                                    "storeType": 2
+                                  },
+                                  "responseHandler": []
+                                }
+                              }
+                            ],
+                            "updatedAt": "5/18/2023",
+                            "createdAt": "5/18/2023",
+                            "createdBy": "ajk",
+                            "updatedBy": "ajk"
+                          },
+                          {
+                            "id": "d236o0U0m4OYly07wXCy-",
+                            "name": "Delete record from sole prop table",
+                            "projectId": "63f4845e476fc83100e3a899",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "type": "11",
+                                "command": {
+                                  "type": "3",
+                                  "attributes": {
+                                    "stateName": "sole",
+                                    "storeType": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "dataType": "",
+                                    "sourceBindingKey": ""
+                                  }
+                                }
+                              }
+                            ],
+                            "_id": "KHy0_RTYE0gjp9oMnrw0F",
+                            "updatedAt": "4/14/2023",
+                            "createdAt": "4/14/2023",
+                            "createdBy": "talha",
+                            "updatedBy": "talha"
+                          }
+                        ],
+                        "triggerIds": [
+                          "NDPmhL_n8KOZt8kwQOY1p",
+                          "d236o0U0m4OYly07wXCy-"
+                        ]
                       }
                     }
                   }
                 ],
-                "_id": "KHy0_RTYE0gjp9oMnrw0F",
-                "updatedAt": "4/14/2023",
-                "createdAt": "4/14/2023",
-                "createdBy": "talha",
-                "updatedBy": "talha"
+                "_id": "l2cbSPLggMP6_sFn3eZsK",
+                "updatedAt": "5/18/2023",
+                "createdAt": "5/18/2023",
+                "createdBy": "ajk",
+                "updatedBy": "ajk"
               },
-              "triggerId": "d236o0U0m4OYly07wXCy-",
+              "triggerId": "o5HKdLVassO-L6Sc5NIwy",
               "conditional": {},
               "values": [],
               "disableConditional": {},
               "disableValues": [],
               "cssConditional": {},
-              "cssValues": []
+              "cssValues": [],
+              "selectedObjectBindingKey": "selectedObject"
             }
           ],
           "type": "iconButton"
@@ -13329,12 +13506,7 @@
       "label-locale-key": "",
       "fullWidth": true,
       "layoutProperties": {
-        "button": {
-          "//": "Use this class to style button component.",
-          "color": "#fff !important",
-          "float": "right",
-          "margin": "10px 0px 0px 0px"
-        },
+        "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
         "xl": 12,
@@ -13422,13 +13594,7 @@
       "label-locale-key": "",
       "fullWidth": true,
       "layoutProperties": {
-        "button": {
-          "//": "Use this class to style button component.",
-          "color": "#fff !important",
-          "background": "#DA0006 !important",
-          "float": "right",
-          "margin": "10px 0px 0px 0px"
-        },
+        "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
         "xl": 12,

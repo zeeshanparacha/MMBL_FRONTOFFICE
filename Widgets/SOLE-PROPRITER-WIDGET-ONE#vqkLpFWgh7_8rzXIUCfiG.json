@@ -1718,7 +1718,7 @@
                                                                   "name": "Text box",
                                                                   "label-locale-key": "",
                                                                   "maxLength": "12",
-                                                                  "type": "number",
+                                                                  "type": "number_only",
                                                                   "variant": "standard",
                                                                   "value": "",
                                                                   "readOnly": false,
@@ -4985,14 +4985,14 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "9XX5aUKZv0-btnmFKXc2C",
+                                                        "id": "ryr_egwvVzmT82qqz7hhy",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "LvIUTVNBYzScsq2-lLj8d",
+                                                            "id": "t9nImeiuU6xmXKojkKF8d",
                                                             "gridProps": [
                                                               {
-                                                                "id": "gDw6V29oDWaFLUStGZJ08",
+                                                                "id": "7yEb-WqEr-pS3E0ZlqLen",
                                                                 "status": "ACTIVE",
                                                                 "name": "Drop down",
                                                                 "icon": "FaCaretSquareDown",
@@ -11333,14 +11333,14 @@
                                                       },
                                                       {
                                                         "type": "10001",
-                                                        "id": "QhMk8Skt0epoMoE73eXAC",
+                                                        "id": "uAaqQFuyReKmf46nwSTdq",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "ZtQEFs56lSeQrZLIC3VPQ",
+                                                            "id": "l-HqBhpct_Cm_uu7LUG4P",
                                                             "gridProps": [
                                                               {
-                                                                "id": "3oJeOMeOcNXC6UQIicgZR",
+                                                                "id": "aYJShdyE8Trt3HSL-dDhZ",
                                                                 "status": "ACTIVE",
                                                                 "name": "Drop down",
                                                                 "icon": "FaCaretSquareDown",
@@ -12150,7 +12150,9 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ]
+                                                                    ],
+                                                                    "regex": "/^.{6,15}$/",
+                                                                    "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -12176,7 +12178,7 @@
                                                                   "type": "20004"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-12-2-0-0-1-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-11-2-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -13535,7 +13537,7 @@
                                                           "layoutProperties": {
                                                             "gridLayout": {
                                                               "//": "Use this class to style grid layout component.",
-                                                              "padding": "0px",
+                                                              "padding": "5px",
                                                               "spacing": 0
                                                             },
                                                             "mainContainer": "gridLayout"
@@ -13569,11 +13571,11 @@
                                                           "content": "Grid layout",
                                                           "type": "10001"
                                                         },
-                                                        "path": "0-0-0-0-0-0-0-0-14-1-0-0-0",
+                                                        "path": "0-0-0-0-0-0-0-0-13-1-0-0-0",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "2EvJICKz3lobLqEy0XVSh",
+                                                            "id": "RuuKuy5BGV6pEWCgqwUYi",
                                                             "gridProps": [
                                                               {
                                                                 "id": "dbvudiGn1mKqSoJXQobrq",
@@ -13946,8 +13948,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "0-0-0-0-0-0-0-0-14-1-0-0-0-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -13987,7 +13988,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "j_uWXJoRGsJcYX98ZFE07",
+                                                            "id": "izKvaQMci76cEufNQ_E2V",
                                                             "gridProps": [
                                                               {
                                                                 "id": "YzeOrGktIZ7c5ROCzDY_q",
@@ -14495,11 +14496,10 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "0-0-0-0-0-0-0-0-14-1-0-1-0-0"
+                                                            }
                                                           }
                                                         ],
-                                                        "path": "0-0-0-0-0-0-0-0-14-1-0-1-0",
+                                                        "path": "0-0-0-0-0-0-0-0-13-1-0-1-0",
                                                         "events": [],
                                                         "attributes": {
                                                           "gridProps": [],
@@ -14507,7 +14507,7 @@
                                                           "layoutProperties": {
                                                             "gridLayout": {
                                                               "//": "Use this class to style grid layout component.",
-                                                              "padding": "0px",
+                                                              "padding": "5px",
                                                               "spacing": 0
                                                             },
                                                             "mainContainer": "gridLayout"
@@ -14845,8 +14845,8 @@
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/17/2023",
-    "createdAt": "5/17/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -16955,7 +16955,7 @@
       "name": "Text box",
       "label-locale-key": "",
       "maxLength": "12",
-      "type": "number",
+      "type": "number_only",
       "variant": "standard",
       "value": "",
       "readOnly": false,
@@ -19855,11 +19855,11 @@
           }
         },
         {
-          "componentId": "9XX5aUKZv0-btnmFKXc2C",
+          "componentId": "ryr_egwvVzmT82qqz7hhy",
           "componentType": "10001",
-          "id": "9XX5aUKZv0-btnmFKXc2C",
+          "id": "ryr_egwvVzmT82qqz7hhy",
           "position": {
-            "i": "9XX5aUKZv0-btnmFKXc2C",
+            "i": "ryr_egwvVzmT82qqz7hhy",
             "x": null,
             "y": null,
             "w": null,
@@ -19984,7 +19984,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "9XX5aUKZv0-btnmFKXc2C",
+    "id": "ryr_egwvVzmT82qqz7hhy",
     "name": "CDOB Drop Down ",
     "type": "10001",
     "attributes": {
@@ -19997,7 +19997,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "gDw6V29oDWaFLUStGZJ08",
+          "componentId": "7yEb-WqEr-pS3E0ZlqLen",
           "componentType": "20003",
           "order": 1
         }
@@ -20029,7 +20029,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "gDw6V29oDWaFLUStGZJ08",
+    "id": "7yEb-WqEr-pS3E0ZlqLen",
     "status": "ACTIVE",
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
@@ -25728,11 +25728,11 @@
           }
         },
         {
-          "componentId": "QhMk8Skt0epoMoE73eXAC",
+          "componentId": "uAaqQFuyReKmf46nwSTdq",
           "componentType": "10001",
-          "id": "QhMk8Skt0epoMoE73eXAC",
+          "id": "uAaqQFuyReKmf46nwSTdq",
           "position": {
-            "i": "QhMk8Skt0epoMoE73eXAC",
+            "i": "uAaqQFuyReKmf46nwSTdq",
             "x": null,
             "y": null,
             "w": null,
@@ -25857,7 +25857,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "QhMk8Skt0epoMoE73eXAC",
+    "id": "uAaqQFuyReKmf46nwSTdq",
     "name": "CDOB Drop Down ",
     "type": "10001",
     "attributes": {
@@ -25870,7 +25870,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "3oJeOMeOcNXC6UQIicgZR",
+          "componentId": "aYJShdyE8Trt3HSL-dDhZ",
           "componentType": "20003",
           "order": 1
         }
@@ -25902,7 +25902,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "3oJeOMeOcNXC6UQIicgZR",
+    "id": "aYJShdyE8Trt3HSL-dDhZ",
     "status": "ACTIVE",
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
@@ -26632,7 +26632,9 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ]
+        ],
+        "regex": "/^.{6,15}$/",
+        "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -26651,7 +26653,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-12-2-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-11-2-0-0-1-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -27819,7 +27821,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -27913,7 +27915,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
+          "padding": "5px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"

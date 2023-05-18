@@ -1,0 +1,110 @@
+{
+  "id": "o5HKdLVassO-L6Sc5NIwy",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "Signatories Sole chain trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "NDPmhL_n8KOZt8kwQOY1p",
+              "_id": "TWo9GHiTICVapAldm3ucd",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "delete file for table signatories",
+              "old_name": "delete file for table signatories",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "deleteFileSignatories",
+                      "url": "/doc-mgmt/delete-files",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "docId",
+                          "value": "selectedObject.ntnDocId"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "uuid",
+                          "value": "uuid"
+                        }
+                      ],
+                      "baseURL": "641aedb2676c823a449fd597",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "5/18/2023",
+              "createdAt": "5/18/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "d236o0U0m4OYly07wXCy-",
+              "name": "Delete record from sole prop table",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "3",
+                    "attributes": {
+                      "stateName": "sole",
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "KHy0_RTYE0gjp9oMnrw0F",
+              "updatedAt": "4/14/2023",
+              "createdAt": "4/14/2023",
+              "createdBy": "talha",
+              "updatedBy": "talha"
+            }
+          ],
+          "triggerIds": ["NDPmhL_n8KOZt8kwQOY1p", "d236o0U0m4OYly07wXCy-"]
+        }
+      }
+    }
+  ],
+  "_id": "l2cbSPLggMP6_sFn3eZsK",
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

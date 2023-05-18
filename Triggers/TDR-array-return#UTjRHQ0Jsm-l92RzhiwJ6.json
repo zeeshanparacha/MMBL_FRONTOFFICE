@@ -1,6 +1,8 @@
 {
   "id": "Zp4REVu588oAAesCoWKGl",
+  "_id": "UTjRHQ0Jsm-l92RzhiwJ6",
   "name": "TDR array return",
+  "old_name": "TDR array return",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,6 +11,7 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
@@ -17,7 +20,16 @@
           "sourceStoreType": 1,
           "destinationStoreType": 2,
           "logic": {
-            "if": [true, ["tdrTenure", "tdrFrequency", "tdrType"], []]
+            "if": [
+              true,
+              [
+                "tdrTenure",
+                "tdrFrequency",
+                "TDRTypeMonthly",
+                "TDRTypeMaturity"
+              ],
+              []
+            ]
           },
           "changeValueConditonally": true,
           "targettedType": "value"
@@ -25,9 +37,8 @@
       }
     }
   ],
-  "_id": "UTjRHQ0Jsm-l92RzhiwJ6",
-  "updatedAt": "4/13/2023",
-  "createdAt": "4/13/2023",
-  "createdBy": "muzzamil",
-  "updatedBy": "muzzamil"
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

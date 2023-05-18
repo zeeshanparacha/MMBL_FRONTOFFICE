@@ -663,6 +663,16 @@
                                                             },
                                                             "type": "2",
                                                             "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+                                                            "triggerName": "Hide Modal",
+                                                            "serviceType": "9",
+                                                            "attributes": {
+                                                              "modalId": "438b2SqQghyEM0HS-tgt4"
+                                                            },
+                                                            "type": "2",
+                                                            "name": "On click"
                                                           }
                                                         ],
                                                         "path": "0-0-0-0-0-0-1-0-2-1-0-0-0",
@@ -1171,8 +1181,8 @@
     "gitBranchName": "master",
     "_id": "4i01HE4qTvScp5u4aWX3F",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "updatedAt": "5/17/2023",
+    "createdAt": "5/17/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1951,6 +1961,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+        "triggerName": "Hide Modal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
       }
     ],
     "path": "0-0-0-0-0-0-1-0-2-1-0-0-0",

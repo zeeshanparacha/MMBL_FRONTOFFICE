@@ -1,0 +1,29 @@
+{
+  "id": "y2u-A0F5Tnl5EisKhR6-q",
+  "name": "Manipulate TDR Type Monthly value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "TDRType",
+          "sourceBindingKey": "tdrLookup.TDRTypeMonthly",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "uEr2MmuyOujNeJJFJboMz",
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

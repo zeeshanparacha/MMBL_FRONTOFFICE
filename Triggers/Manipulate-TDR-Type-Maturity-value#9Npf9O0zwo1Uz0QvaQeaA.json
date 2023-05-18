@@ -1,0 +1,31 @@
+{
+  "id": "BdeV4M7epSQXg4KmNi3cS",
+  "_id": "9Npf9O0zwo1Uz0QvaQeaA",
+  "name": "Manipulate TDR Type Maturity value",
+  "old_name": "Manipulate TDR Type Monthly value",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "TDRType",
+          "sourceBindingKey": "tdrLookup.TDRTypeMaturity",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

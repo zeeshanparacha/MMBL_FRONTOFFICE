@@ -1,6 +1,8 @@
 {
   "id": "kuQnVVsvYUyXPNQganF3-",
+  "_id": "gpYlrNuKWy1qE9_vWCbzr",
   "name": "view tdr to pre encashment ",
+  "old_name": "view tdr to pre encashment ",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -11,15 +13,14 @@
         "attributes": {
           "nextWidgetId": "t4zV99uZce2H-TAohvcNg",
           "gridRadioValue": "",
-          "selectedObjectBindingKey": "selectedObject",
-          "editableForm": false
+          "selectedObjectBindingKey": "response.data.tdrEarlyEncash",
+          "editableForm": true
         }
       }
     }
   ],
-  "_id": "gpYlrNuKWy1qE9_vWCbzr",
-  "updatedAt": "4/18/2023",
-  "createdAt": "4/18/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

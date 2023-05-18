@@ -1,0 +1,110 @@
+{
+  "id": "IA0YB7T5pETM_7dRYBVxI",
+  "projectId": "63f4845e476fc83100e3a899",
+  "gitBranchName": "master",
+  "name": "TDR Maturity Chain trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "KB9WKa1t04xI554PpDEiE",
+              "_id": "gXkhbZDGqyZxfM19cdsUQ",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "name": "Get tdr Dropdown data",
+              "old_name": "Get tdr Dropdown data",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "tdrLookup",
+                      "responseReturnValue": "data.result",
+                      "url": "/lookup/values",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "lookupType",
+                          "value": "lookupType"
+                        }
+                      ],
+                      "baseURL": "6320700d967b3c4df8e32265",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "4/13/2023",
+              "createdAt": "4/13/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            },
+            {
+              "id": "BdeV4M7epSQXg4KmNi3cS",
+              "_id": "9Npf9O0zwo1Uz0QvaQeaA",
+              "name": "Manipulate TDR Type Maturity value",
+              "old_name": "Manipulate TDR Type Monthly value",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "TDRType",
+                      "sourceBindingKey": "tdrLookup.TDRTypeMaturity",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/18/2023",
+              "createdAt": "5/18/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            }
+          ],
+          "triggerIds": ["KB9WKa1t04xI554PpDEiE", "BdeV4M7epSQXg4KmNi3cS"]
+        }
+      }
+    }
+  ],
+  "_id": "wzrnavd25S4g3hg3-TBT-",
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}
