@@ -2050,13 +2050,29 @@
                                 "readOnly": true
                               },
                               {
+                                "id": "A-ILXb_OcmXs_8OQtk6Kb",
+                                "name": "Show Error Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
                                 "type": "10001",
                                 "name": "Grid layout",
                                 "id": "TvaZL4PKTFGBattqP9FdV",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "zSKBIB5tACai_0i-RiJK0",
+                                    "id": "btrSA-Sph1UvUk6lzedlo",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -2121,7 +2137,7 @@
                                   },
                                   {
                                     "type": "column",
-                                    "id": "VKz1eGe5lxVQZkjUI8nK_",
+                                    "id": "5-nDtzAm21n3vMuOm1or4",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -2186,7 +2202,7 @@
                                   },
                                   {
                                     "type": "column",
-                                    "id": "-asLBygqRN6MNa6s_jGXY",
+                                    "id": "qqmsLxa3TgrS_KPSTiWST",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -2251,7 +2267,7 @@
                                   },
                                   {
                                     "type": "column",
-                                    "id": "NJAtXMWYLt4MVrEHQjiCB",
+                                    "id": "K7DvHXfiHLvYnEdUS1ePN",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -2454,7 +2470,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "0-0-1-0-0-0-4",
+                                "path": "0-0-1-0-0-0-5",
                                 "dimensions": {
                                   "rows": 1,
                                   "columns": 4,
@@ -2468,16 +2484,16 @@
                                   "colSize1md": 3,
                                   "colSize1lg": 3,
                                   "colSize1xl": 3,
-                                  "colSize2xs": 3,
-                                  "colSize2sm": 3,
-                                  "colSize2md": 3,
-                                  "colSize2lg": 3,
-                                  "colSize2xl": 3,
-                                  "colSize3xs": 3,
-                                  "colSize3sm": 3,
-                                  "colSize3md": 3,
-                                  "colSize3lg": 3,
-                                  "colSize3xl": 3
+                                  "colSize2xs": 4,
+                                  "colSize2sm": 4,
+                                  "colSize2md": 4,
+                                  "colSize2lg": 4,
+                                  "colSize2xl": 4,
+                                  "colSize3xs": 2,
+                                  "colSize3sm": 2,
+                                  "colSize3md": 2,
+                                  "colSize3lg": 2,
+                                  "colSize3xl": 2
                                 },
                                 "readOnly": true
                               }
@@ -2583,7 +2599,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "t4zV99uZce2H-TAohvcNg",
-    "createdBy": "ajk",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "5/18/2023",
     "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2877,6 +2893,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-ILXb_OcmXs_8OQtk6Kb",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "TvaZL4PKTFGBattqP9FdV",
@@ -4489,6 +4517,22 @@
     "screenId": "t4zV99uZce2H-TAohvcNg",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-ILXb_OcmXs_8OQtk6Kb",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "T6hv-U5eWLpUurYmDWNIn",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "t4zV99uZce2H-TAohvcNg",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

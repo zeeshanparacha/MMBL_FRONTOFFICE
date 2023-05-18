@@ -50,7 +50,8 @@
           {
             "triggerName": "early in cash to view tdr back button",
             "triggerId": "FnBjDa_JbJoTl1mRxdmGG",
-            "httpStatus": 200
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] }
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -62,8 +63,8 @@
       }
     }
   ],
-  "updatedAt": "4/20/2023",
-  "createdAt": "4/20/2023",
-  "createdBy": "zeeshan",
-  "updatedBy": "zeeshan"
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }
