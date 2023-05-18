@@ -2825,6 +2825,27 @@
                             },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Consumer Name",
+                              "field": "consumerName",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Invoice Month",
+                              "field": "invoiceMonth",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Type",
+                              "field": "type",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "Invoice Number",
                               "field": "invoiceNumber",
                               "type": "text",
@@ -2838,25 +2859,17 @@
                               "triggerId": null
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Invoice Month",
-                              "field": "invoiceMonth",
                               "type": "text",
-                              "triggerId": null
-                            },
-                            {
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Consumer Name",
-                              "field": "consumerName",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Type",
-                              "field": "type",
-                              "type": "text",
-                              "triggerId": null
+                              "field": "status",
+                              "headerName": "Status",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
                               "typeTemp": {
@@ -2935,7 +2948,7 @@
                           "type": "20014"
                         },
                         "events": [],
-                        "path": "0-0-3-0-0"
+                        "path": "0-0-3-0-1"
                       }
                     ],
                     "layoutProperties": {
@@ -2982,8 +2995,8 @@
     "gitBranchName": "master",
     "_id": "sOhbM902mH_D7HYq54qTc",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/5/2023",
-    "createdAt": "4/5/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5243,6 +5256,27 @@
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Consumer Name",
+          "field": "consumerName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Invoice Month",
+          "field": "invoiceMonth",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Type",
+          "field": "type",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Invoice Number",
           "field": "invoiceNumber",
           "type": "text",
@@ -5256,25 +5290,14 @@
           "triggerId": null
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Invoice Month",
-          "field": "invoiceMonth",
           "type": "text",
-          "triggerId": null
-        },
-        {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Consumer Name",
-          "field": "consumerName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Type",
-          "field": "type",
-          "type": "text",
-          "triggerId": null
+          "field": "status",
+          "headerName": "Status",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Icon Button", "type": "iconButton" },
@@ -5345,7 +5368,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-3-0-0",
+    "path": "0-0-3-0-1",
     "screenId": "sOhbM902mH_D7HYq54qTc",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
