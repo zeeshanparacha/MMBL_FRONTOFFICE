@@ -31,8 +31,8 @@
           },
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "tdrNumber",
               "value": "selectedObject.ArrangementID"
             }
