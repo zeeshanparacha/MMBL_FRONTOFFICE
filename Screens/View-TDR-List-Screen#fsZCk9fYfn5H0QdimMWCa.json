@@ -484,6 +484,22 @@
                                       "cssValues": [""]
                                     },
                                     {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "OldRate",
+                                      "headerName": "Booked Rate",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": []
+                                    },
+                                    {
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
@@ -492,22 +508,6 @@
                                       "field": "ProductName",
                                       "type": "text",
                                       "triggerId": null
-                                    },
-                                    {
-                                      "type": "text",
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "field": "Status",
-                                      "headerName": "Status",
-                                      "conditional": { "bindingKey": "" },
-                                      "values": [""],
-                                      "cssConditional": {
-                                        "bindingKey": "",
-                                        "cssClassNames": []
-                                      },
-                                      "cssValues": [""]
                                     },
                                     {
                                       "typeTemp": {
@@ -546,6 +546,22 @@
                                       "cssValues": [""]
                                     },
                                     {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "PrincipalAmount",
+                                      "headerName": "Booking Amount",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
                                       "typeTemp": {
                                         "name": "Icon Button",
                                         "type": "iconButton"
@@ -555,7 +571,7 @@
                                       "rowId": "id",
                                       "iconButtons": [
                                         {
-                                          "label": "Early Encash",
+                                          "label": "View Detail",
                                           "trigger": {
                                             "id": "9K-gi1D83B5cTJ2TAW6cP",
                                             "_id": "bZHFjNx6ApCzkxnLhK7Tg",
@@ -1193,21 +1209,21 @@
           "cssValues": [""]
         },
         {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "OldRate",
+          "headerName": "Booked Rate",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
+        },
+        {
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "TDR Plan Name",
           "field": "ProductName",
           "type": "text",
           "triggerId": null
-        },
-        {
-          "type": "text",
-          "typeTemp": { "name": "Text", "type": "text" },
-          "field": "Status",
-          "headerName": "Status",
-          "conditional": { "bindingKey": "" },
-          "values": [""],
-          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
@@ -1234,13 +1250,23 @@
           "cssValues": [""]
         },
         {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "PrincipalAmount",
+          "headerName": "Booking Amount",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
           "typeTemp": { "name": "Icon Button", "type": "iconButton" },
           "headerName": "Action",
           "field": "",
           "rowId": "id",
           "iconButtons": [
             {
-              "label": "Early Encash",
+              "label": "View Detail",
               "trigger": {
                 "id": "9K-gi1D83B5cTJ2TAW6cP",
                 "_id": "bZHFjNx6ApCzkxnLhK7Tg",

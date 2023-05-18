@@ -2768,7 +2768,7 @@
                                                           "label": "Comment (Write comment in text field or select from dropdown)",
                                                           "variant": "body1",
                                                           "name": "Label",
-                                                          "mandatory": true,
+                                                          "mandatory": false,
                                                           "layoutProperties": {
                                                             "label": {
                                                               "//": "Use this class to style label component.",
@@ -3052,7 +3052,7 @@
                                                             "xs": 12
                                                           },
                                                           "validate": {
-                                                            "required": true,
+                                                            "required": false,
                                                             "errorMsg": "This field is required"
                                                           },
                                                           "placeholder": "",
@@ -3922,9 +3922,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "aFPV8_CvC41xu6FWSPxEF",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6520,7 +6520,7 @@
       "label": "Comment (Write comment in text field or select from dropdown)",
       "variant": "body1",
       "name": "Label",
-      "mandatory": true,
+      "mandatory": false,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -6744,7 +6744,7 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "This field is required" },
+      "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],

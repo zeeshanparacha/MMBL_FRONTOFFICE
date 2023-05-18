@@ -1,6 +1,8 @@
 {
   "id": "83efOal506fxt-5O3jCx0",
+  "_id": "o6LpCLY3rF3_E0Ef6NtAb",
   "name": "view tdr data in form",
+  "old_name": "view tdr data in form",
   "projectId": "63f4845e476fc83100e3a899",
   "gitBranchName": "master",
   "services": [
@@ -9,11 +11,12 @@
       "command": {
         "type": "6",
         "attributes": {
+          "requestBody": [],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "value",
-          "destinationBindingKey": "preEncashmentResponse",
-          "sourceBindingKey": "preEncashmentResponse",
+          "destinationBindingKey": "selectedObject",
+          "sourceBindingKey": "selectedObject",
           "sourceStoreType": 2,
           "destinationStoreType": 1,
           "targettedType": "value"
@@ -21,9 +24,8 @@
       }
     }
   ],
-  "_id": "o6LpCLY3rF3_E0Ef6NtAb",
-  "updatedAt": "4/18/2023",
-  "createdAt": "4/18/2023",
-  "createdBy": "areeb",
-  "updatedBy": "areeb"
+  "updatedAt": "5/18/2023",
+  "createdAt": "5/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }
