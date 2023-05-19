@@ -45,7 +45,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Sign-Up-2"
         },
         "group": "Layout",
         "type": "10001",
@@ -180,7 +180,7 @@
                                   },
                                   "validate": {
                                     "required": true,
-                                    "errorMsg": "This field is required",
+                                    "errorMsg": "email is required",
                                     "bindButton": [
                                       {
                                         "id": "CyBngolewlZfXO8119bGI",
@@ -263,7 +263,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-1-0-0"
+                                "path": "0-0-0-0-0-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -359,7 +359,7 @@
                                   },
                                   "validate": {
                                     "required": true,
-                                    "errorMsg": "Username is required",
+                                    "errorMsg": "mobile number is required",
                                     "bindButton": [
                                       {
                                         "id": "CyBngolewlZfXO8119bGI",
@@ -442,7 +442,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-2-0-0"
+                                "path": "0-0-0-0-1-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -539,7 +539,7 @@
                                   },
                                   "validate": {
                                     "required": true,
-                                    "errorMsg": "This field is required",
+                                    "errorMsg": "company name is required",
                                     "bindButton": [
                                       {
                                         "id": "CyBngolewlZfXO8119bGI",
@@ -622,7 +622,7 @@
                                   "type": "20004"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-3-0-0"
+                                "path": "0-0-0-0-2-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -1184,9 +1184,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "_15cDoX-7yNHpuad948BA",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/17/2023",
-    "createdAt": "5/17/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1231,7 +1231,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Sign-Up-2"
     },
     "layout": null,
     "events": [
@@ -1465,7 +1465,7 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "This field is required",
+        "errorMsg": "email is required",
         "bindButton": [
           {
             "id": "CyBngolewlZfXO8119bGI",
@@ -1537,7 +1537,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0",
     "screenId": "_15cDoX-7yNHpuad948BA",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -1630,7 +1630,7 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "Username is required",
+        "errorMsg": "mobile number is required",
         "bindButton": [
           {
             "id": "CyBngolewlZfXO8119bGI",
@@ -1702,7 +1702,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-2-0-0",
+    "path": "0-0-0-0-1-0-0",
     "screenId": "_15cDoX-7yNHpuad948BA",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -1796,7 +1796,7 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "This field is required",
+        "errorMsg": "company name is required",
         "bindButton": [
           {
             "id": "CyBngolewlZfXO8119bGI",
@@ -1868,7 +1868,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-0-0-3-0-0",
+    "path": "0-0-0-0-2-0-0",
     "screenId": "_15cDoX-7yNHpuad948BA",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",

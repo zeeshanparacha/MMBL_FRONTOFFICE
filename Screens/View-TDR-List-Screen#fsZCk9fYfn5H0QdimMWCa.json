@@ -441,15 +441,15 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "field": "ArrangementID",
+                                      "field": "AccountNo",
                                       "headerName": "TDR No",
                                       "conditional": { "bindingKey": "" },
-                                      "values": [""],
+                                      "values": [],
                                       "cssConditional": {
                                         "bindingKey": "",
                                         "cssClassNames": []
                                       },
-                                      "cssValues": [""]
+                                      "cssValues": []
                                     },
                                     {
                                       "type": "text",
@@ -457,31 +457,15 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "field": "AccountNo",
-                                      "headerName": "Account #",
+                                      "field": "ArrangementID",
+                                      "headerName": "Reference Id",
                                       "conditional": { "bindingKey": "" },
-                                      "values": [""],
+                                      "values": [],
                                       "cssConditional": {
                                         "bindingKey": "",
                                         "cssClassNames": []
                                       },
-                                      "cssValues": [""]
-                                    },
-                                    {
-                                      "type": "text",
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "field": "AccountTittle",
-                                      "headerName": "AccountTitle",
-                                      "conditional": { "bindingKey": "" },
-                                      "values": [""],
-                                      "cssConditional": {
-                                        "bindingKey": "",
-                                        "cssClassNames": []
-                                      },
-                                      "cssValues": [""]
+                                      "cssValues": []
                                     },
                                     {
                                       "type": "text",
@@ -510,26 +494,6 @@
                                       "triggerId": null
                                     },
                                     {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "TDR Start Date",
-                                      "field": "ValueDate",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "TDR End Date",
-                                      "field": "MaturityDate",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
                                       "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
@@ -553,6 +517,58 @@
                                       },
                                       "field": "PrincipalAmount",
                                       "headerName": "Booking Amount",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "AccountTittle",
+                                      "headerName": "AccountTitle",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "TDR End Date",
+                                      "field": "MaturityDate",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "TDR Start Date",
+                                      "field": "ValueDate",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "Status",
+                                      "headerName": "Rollover Status",
                                       "conditional": { "bindingKey": "" },
                                       "values": [""],
                                       "cssConditional": {
@@ -782,8 +798,8 @@
     "gitBranchName": "master",
     "_id": "fsZCk9fYfn5H0QdimMWCa",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1181,32 +1197,22 @@
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "ArrangementID",
+          "field": "AccountNo",
           "headerName": "TDR No",
           "conditional": { "bindingKey": "" },
-          "values": [""],
+          "values": [],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
+          "cssValues": []
         },
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "AccountNo",
-          "headerName": "Account #",
+          "field": "ArrangementID",
+          "headerName": "Reference Id",
           "conditional": { "bindingKey": "" },
-          "values": [""],
+          "values": [],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
-        },
-        {
-          "type": "text",
-          "typeTemp": { "name": "Text", "type": "text" },
-          "field": "AccountTittle",
-          "headerName": "AccountTitle",
-          "conditional": { "bindingKey": "" },
-          "values": [""],
-          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
+          "cssValues": []
         },
         {
           "type": "text",
@@ -1226,20 +1232,6 @@
           "triggerId": null
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "TDR Start Date",
-          "field": "ValueDate",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "TDR End Date",
-          "field": "MaturityDate",
-          "type": "text",
-          "triggerId": null
-        },
-        {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "BranchCode",
@@ -1254,6 +1246,40 @@
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "PrincipalAmount",
           "headerName": "Booking Amount",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "AccountTittle",
+          "headerName": "AccountTitle",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "TDR End Date",
+          "field": "MaturityDate",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "TDR Start Date",
+          "field": "ValueDate",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "Status",
+          "headerName": "Rollover Status",
           "conditional": { "bindingKey": "" },
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },

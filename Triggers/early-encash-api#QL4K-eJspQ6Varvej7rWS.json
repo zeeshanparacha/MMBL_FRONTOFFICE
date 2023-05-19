@@ -58,13 +58,19 @@
             "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "ciCkbWjxsNUlCoImahdDT"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/18/2023",
-  "createdAt": "5/18/2023",
+  "updatedAt": "5/19/2023",
+  "createdAt": "5/19/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

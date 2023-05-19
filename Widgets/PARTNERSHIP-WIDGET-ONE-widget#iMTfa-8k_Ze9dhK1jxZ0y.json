@@ -3064,7 +3064,7 @@
                                                                         "status": "ACTIVE",
                                                                         "name": "Label",
                                                                         "attributes": {
-                                                                          "label": "NTN No/CNIC/Registration",
+                                                                          "label": "Legal Doc Id",
                                                                           "variant": "body1",
                                                                           "name": "Label",
                                                                           "mandatory": true,
@@ -3468,7 +3468,7 @@
                                                                         "status": "ACTIVE",
                                                                         "name": "Label",
                                                                         "attributes": {
-                                                                          "label": "NTN No/CNIC/Registration Issuing Authority",
+                                                                          "label": "Legal Doc Issuing Authority",
                                                                           "variant": "body1",
                                                                           "name": "Label",
                                                                           "mandatory": true,
@@ -3824,7 +3824,7 @@
                                                                         "status": "ACTIVE",
                                                                         "name": "Label",
                                                                         "attributes": {
-                                                                          "label": "NTN No/CNIC/Registration Date of Issuance",
+                                                                          "label": "Legal Doc Date of Issuance",
                                                                           "variant": "body1",
                                                                           "name": "Label",
                                                                           "mandatory": true,
@@ -4172,7 +4172,7 @@
                                                                         "status": "ACTIVE",
                                                                         "name": "Label",
                                                                         "attributes": {
-                                                                          "label": "NTN No/CNIC/Registration  Date of Expiry",
+                                                                          "label": "Legal Doc Date of Expiry",
                                                                           "variant": "body1",
                                                                           "name": "Label",
                                                                           "mandatory": true,
@@ -15339,8 +15339,8 @@
     "gitBranchName": "master",
     "_id": "iMTfa-8k_Ze9dhK1jxZ0y",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -18730,7 +18730,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration",
+      "label": "Legal Doc Id",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -19122,7 +19122,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration Issuing Authority",
+      "label": "Legal Doc Issuing Authority",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -19433,7 +19433,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration Date of Issuance",
+      "label": "Legal Doc Date of Issuance",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -19735,7 +19735,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration  Date of Expiry",
+      "label": "Legal Doc Date of Expiry",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,

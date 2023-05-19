@@ -11809,12 +11809,60 @@
                                                                   },
                                                                   "dropdownOptions": [
                                                                     {
-                                                                      "code": "cnic",
-                                                                      "name": "cnic"
+                                                                      "code": "CNIC",
+                                                                      "name": "CNIC"
                                                                     },
                                                                     {
-                                                                      "code": "ntn",
-                                                                      "name": "ntn"
+                                                                      "code": "Driving license",
+                                                                      "name": "Driving license"
+                                                                    },
+                                                                    {
+                                                                      "code": "Employees card",
+                                                                      "name": "Employees card"
+                                                                    },
+                                                                    {
+                                                                      "code": "Form B",
+                                                                      "name": "Form B"
+                                                                    },
+                                                                    {
+                                                                      "code": "FTN",
+                                                                      "name": "FTN"
+                                                                    },
+                                                                    {
+                                                                      "code": "Incorporation Certificate",
+                                                                      "name": "Incorporation Certificate"
+                                                                    },
+                                                                    {
+                                                                      "code": "Instruction circular",
+                                                                      "name": "Instruction circular"
+                                                                    },
+                                                                    {
+                                                                      "code": "Nadra Token",
+                                                                      "name": "Nadra Token"
+                                                                    },
+                                                                    {
+                                                                      "code": "Nicop",
+                                                                      "name": "Nicop"
+                                                                    },
+                                                                    {
+                                                                      "code": "NTN",
+                                                                      "name": "NTN"
+                                                                    },
+                                                                    {
+                                                                      "code": "Passport",
+                                                                      "name": "Passport"
+                                                                    },
+                                                                    {
+                                                                      "code": "POC",
+                                                                      "name": "POC"
+                                                                    },
+                                                                    {
+                                                                      "code": "POR",
+                                                                      "name": "POR"
+                                                                    },
+                                                                    {
+                                                                      "code": "Social Security No",
+                                                                      "name": "Social Security No"
                                                                     }
                                                                   ],
                                                                   "variant": "standard",
@@ -11838,7 +11886,7 @@
                                                                   "content": "Drop down",
                                                                   "type": "20003"
                                                                 },
-                                                                "path": "0-0-0-0-0-0-0-0-12-1-0-0-1-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-11-1-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -11964,7 +12012,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Legal Doc Id(ntn/cnic)",
+                                                                  "label": "Legal Doc Id",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -11999,7 +12047,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-12-2-0-0-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-11-2-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -12366,7 +12414,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "NTN No/CNIC/Registration Issuing Authority",
+                                                                  "label": "Legal Doc Issuing Authority",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -12401,7 +12449,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-13-0-0-0-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-12-0-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -12704,7 +12752,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "NTN No/CNIC/Registration Date of Issuance",
+                                                                  "label": "Legal Doc Date of Issuance",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -12739,7 +12787,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-13-1-0-0-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-12-1-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -13051,7 +13099,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "NTN No/CNIC/Registration  Date of Expiry",
+                                                                  "label": "Legal Doc Date of Expiry",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": true,
@@ -13086,7 +13134,7 @@
                                                                   "type": "20002"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-0-0-0-0-0-0-13-2-0-0-0-0-0"
+                                                                "path": "0-0-0-0-0-0-0-0-12-2-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -14845,8 +14893,8 @@
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
     "createdBy": "ajk",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -26323,8 +26371,23 @@
         "xs": 12
       },
       "dropdownOptions": [
-        { "code": "cnic", "name": "cnic" },
-        { "code": "ntn", "name": "ntn" }
+        { "code": "CNIC", "name": "CNIC" },
+        { "code": "Driving license", "name": "Driving license" },
+        { "code": "Employees card", "name": "Employees card" },
+        { "code": "Form B", "name": "Form B" },
+        { "code": "FTN", "name": "FTN" },
+        {
+          "code": "Incorporation Certificate",
+          "name": "Incorporation Certificate"
+        },
+        { "code": "Instruction circular", "name": "Instruction circular" },
+        { "code": "Nadra Token", "name": "Nadra Token" },
+        { "code": "Nicop", "name": "Nicop" },
+        { "code": "NTN", "name": "NTN" },
+        { "code": "Passport", "name": "Passport" },
+        { "code": "POC", "name": "POC" },
+        { "code": "POR", "name": "POR" },
+        { "code": "Social Security No", "name": "Social Security No" }
       ],
       "variant": "standard",
       "disableUnderline": true,
@@ -26340,7 +26403,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-0-0-0-12-1-0-0-1-0-0",
+    "path": "0-0-0-0-0-0-0-0-11-1-0-0-1-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -26469,7 +26532,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Legal Doc Id(ntn/cnic)",
+      "label": "Legal Doc Id",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -26495,7 +26558,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-12-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-11-2-0-0-0-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -26854,7 +26917,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration Issuing Authority",
+      "label": "Legal Doc Issuing Authority",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -26880,7 +26943,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-13-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-12-0-0-0-0-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -27165,7 +27228,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration Date of Issuance",
+      "label": "Legal Doc Date of Issuance",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -27191,7 +27254,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-13-1-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-12-1-0-0-0-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
@@ -27467,7 +27530,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "NTN No/CNIC/Registration  Date of Expiry",
+      "label": "Legal Doc Date of Expiry",
       "variant": "body1",
       "name": "Label",
       "mandatory": true,
@@ -27493,7 +27556,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-0-0-0-0-0-0-13-2-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0-0-12-2-0-0-0-0-0",
     "screenId": "vqkLpFWgh7_8rzXIUCfiG",
     "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
