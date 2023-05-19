@@ -48,23 +48,23 @@
         },
         "responseHandler": [
           {
-            "httpStatus": 200,
-            "triggerName": "view tdr to pre encashment ",
-            "triggerId": "kuQnVVsvYUyXPNQganF3-",
-            "logic": { "==": [{ "var": "status" }, 1] }
-          },
-          {
             "logic": { "==": [{ "var": "status" }, 0] },
             "httpStatus": 200,
             "triggerName": "Show Error Modal",
             "triggerId": "JUh-C4wZ4q66zhdsrSC8r"
+          },
+          {
+            "httpStatus": 200,
+            "triggerName": "view tdr to pre encashment ",
+            "triggerId": "kuQnVVsvYUyXPNQganF3-",
+            "logic": { "==": [{ "var": "status" }, 1] }
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/18/2023",
-  "createdAt": "5/18/2023",
+  "updatedAt": "5/20/2023",
+  "createdAt": "5/20/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

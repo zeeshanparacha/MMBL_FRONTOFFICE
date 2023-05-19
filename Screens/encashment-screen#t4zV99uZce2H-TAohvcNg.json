@@ -2344,13 +2344,29 @@
                                 "name": "Grid layout"
                               },
                               {
+                                "id": "Klct48kLST-F5905vpCjY",
+                                "name": "Open Early Encashment Declaration Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "GZbfXCHVmOs7RMRQ7mBBA",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
                                 "type": "10001",
                                 "name": "Terms&Conditions",
                                 "id": "cVfD2ttsd5WS1Y-aMGvVl",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "EkY76o_wKTAaON1JwRlhX",
+                                    "id": "P4kO4JheVkO7wMYH3tTh1",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -2743,8 +2759,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-1-0-0-0-4-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -2772,14 +2787,14 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout"
+                                  "name": "Terms&Conditions"
                                 },
                                 "events": [],
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "0-0-1-0-0-0-4",
+                                "path": "0-0-1-0-0-0-5",
                                 "dimensions": {
                                   "rows": 1,
                                   "columns": 1,
@@ -3347,9 +3362,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "t4zV99uZce2H-TAohvcNg",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/19/2023",
-    "createdAt": "5/19/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/20/2023",
+    "createdAt": "5/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3641,6 +3656,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "Klct48kLST-F5905vpCjY",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "cVfD2ttsd5WS1Y-aMGvVl",
@@ -5528,6 +5555,22 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "Klct48kLST-F5905vpCjY",
+    "type": "20031",
+    "name": "Open Early Encash Declaration Modal Conditional Trig",
+    "attributes": {
+      "widgetId": "GZbfXCHVmOs7RMRQ7mBBA",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "t4zV99uZce2H-TAohvcNg",
+    "subType": "component",
+    "projectId": "63f4845e476fc83100e3a899",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "cVfD2ttsd5WS1Y-aMGvVl",
     "name": "Terms&Conditions",
     "type": "10001",
@@ -5569,7 +5612,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Terms&Conditions"
     },
     "layout": null,
     "events": [],
@@ -5757,22 +5800,6 @@
     "events": [],
     "subType": "component",
     "screenId": "t4zV99uZce2H-TAohvcNg",
-    "projectId": "63f4845e476fc83100e3a899",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "Klct48kLST-F5905vpCjY",
-    "type": "20031",
-    "name": "Open Early Encash Declaration Modal Conditional Trig",
-    "attributes": {
-      "widgetId": "GZbfXCHVmOs7RMRQ7mBBA",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "screenId": "t4zV99uZce2H-TAohvcNg",
-    "subType": "component",
     "projectId": "63f4845e476fc83100e3a899",
     "version": "1.0.0",
     "gitBranchName": "master",
