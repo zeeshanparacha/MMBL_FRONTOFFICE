@@ -188,24 +188,47 @@
                             "id": "dW7M8J5iKFyDBTxzuGZ1q",
                             "gridProps": [
                               {
-                                "id": "rtti4gCHD3SjGHN_8N5Fr",
+                                "id": "xzNQpbEPNHvxaygJwkNZZ",
                                 "status": "ACTIVE",
-                                "name": "Drop down",
-                                "icon": "FaCaretSquareDown",
-                                "group": "Form",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
+                                "name": "Text Box",
                                 "attributes": {
-                                  "name": "Drop down",
-                                  "stateName": "designation",
-                                  "allValues": true,
-                                  "dataSource": "lookUpValueResponse.designation",
-                                  "dataKey": "value",
-                                  "dataValue": "displayName",
+                                  "name": "Text box",
+                                  "label-locale-key": "",
+                                  "maxLength": "200",
+                                  "type": "text",
+                                  "variant": "standard",
+                                  "value": "",
+                                  "readOnly": false,
+                                  "tooltip": "",
+                                  "font-family": "Verdana",
                                   "mandatory": true,
+                                  "tooltipState": "",
+                                  "layoutProperties": {
+                                    "textField": {
+                                      "//": "Use this class to style text field component.",
+                                      "borderWidth": "1px",
+                                      "borderRadius": "27px",
+                                      "background-color": "#f5f5f5",
+                                      "color": "rgb(122 122 122)",
+                                      "border": "1px solid rgb(221 211 211)",
+                                      "width": "90%"
+                                    },
+                                    "inputProps": {
+                                      "//": "Use this class to style  text field element.",
+                                      "paddingLeft": "10px",
+                                      "margin": "8px",
+                                      "color": "rgb(122 122 122)"
+                                    },
+                                    "mainContainer": "textField",
+                                    "xl": 6,
+                                    "lg": 6,
+                                    "md": 6,
+                                    "sm": 6,
+                                    "xs": 6
+                                  },
                                   "validate": {
                                     "required": true,
-                                    "errorMsg": "This Field is Required",
+                                    "errorMsg": "This field is required",
                                     "bindButton": [
                                       {
                                         "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -248,7 +271,8 @@
                                                 1
                                               ]
                                             }
-                                          }
+                                          },
+                                          "onEnterKey": true
                                         },
                                         "events": [
                                           {
@@ -259,7 +283,7 @@
                                             "serviceType": "8"
                                           }
                                         ],
-                                        "path": "0-0-0-0-3-0-0-0-0",
+                                        "path": "0-0-0-0-4-0-0-0-0",
                                         "version": "1.0.0",
                                         "screenId": "XpTQjwGIj-lDVw1vunUcm",
                                         "subType": "component",
@@ -269,80 +293,26 @@
                                       }
                                     ]
                                   },
-                                  "layoutProperties": {
-                                    "textField": {
-                                      "//": "Use this class to style text field component.",
-                                      "borderWidth": "1px",
-                                      "borderRadius": "27px",
-                                      "background-color": "#f5f5f5",
-                                      "color": "rgb(122 122 122)",
-                                      "border": "1px solid rgb(221 211 211)",
-                                      "width": "83%",
-                                      "height": "39px",
-                                      "padding": "10px 10px 0px"
-                                    },
-                                    "inputProps": {
-                                      "//": "Use this class to style  text field element.",
-                                      "paddingLeft": "10px",
-                                      "margin": "8px",
-                                      "color": "rgb(122 122 122)"
-                                    },
-                                    "mainContainer": "textField",
-                                    "xl": 6,
-                                    "lg": 6,
-                                    "md": 6,
-                                    "sm": 6,
-                                    "xs": 6
-                                  },
-                                  "dropdownOptions": [],
-                                  "variant": "standard",
-                                  "selectedDataType": 0,
-                                  "disableUnderline": true,
-                                  "storeType": 2,
-                                  "placeholder": "Designation"
+                                  "placeholder": "Designation",
+                                  "stateName": "designation",
+                                  "disableUnderline": true
                                 },
-                                "type": "20003",
-                                "events": [
-                                  {
-                                    "triggerId": "B5Ds6aJcvRFrOckuDFFzS",
-                                    "triggerName": "LookUp Keys API",
-                                    "serviceType": "8",
-                                    "attributes": {
-                                      "loaderWidgetIds": [906070],
-                                      "messageWidgetIds": [906070],
-                                      "responseStateKey": "lookUpKeyResponse",
-                                      "responseReturnValue": "data.result",
-                                      "url": "/lookup/keys",
-                                      "checksum": true,
-                                      "encryption": true,
-                                      "isDeviceDetails": true,
-                                      "loginTrigger": false,
-                                      "formData": false,
-                                      "logoutTrigger": false,
-                                      "headers": {
-                                        "Content-Type": "application/json",
-                                        "Accept": "application/json",
-                                        "channel_key": "001",
-                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                        "locale": "en-ltr"
-                                      },
-                                      "requestBody": [],
-                                      "baseURL": "641aedb2676c823a449fd597",
-                                      "storeType": 2
-                                    },
-                                    "type": "1",
-                                    "name": "On initialization"
-                                  }
-                                ],
-                                "order": 10,
+                                "icon": "FaWindowMinimize",
+                                "group": "Form",
+                                "type": "20004",
+                                "Documentation": "<div>components 12344</div>",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 20,
                                 "version": "1.0.0",
                                 "isLatest": true,
                                 "projectType": "web",
                                 "component": {
-                                  "content": "Drop down",
-                                  "type": "20003"
+                                  "content": "Text Box",
+                                  "type": "20004"
                                 },
-                                "path": "0-0-0-0-0-1-0"
+                                "events": [],
+                                "path": "0-0-0-0-0-1-1"
                               }
                             ],
                             "layoutProperties": {
@@ -1751,8 +1721,8 @@
     "gitBranchName": "master",
     "_id": "XpTQjwGIj-lDVw1vunUcm",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/19/2023",
-    "createdAt": "5/19/2023",
+    "updatedAt": "5/23/2023",
+    "createdAt": "5/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1957,8 +1927,8 @@
         },
         {
           "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
-          "componentId": "rtti4gCHD3SjGHN_8N5Fr",
-          "componentType": "20003",
+          "componentId": "xzNQpbEPNHvxaygJwkNZZ",
+          "componentType": "20004",
           "order": 1
         }
       ],
@@ -2110,24 +2080,47 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "rtti4gCHD3SjGHN_8N5Fr",
+    "id": "xzNQpbEPNHvxaygJwkNZZ",
     "status": "ACTIVE",
-    "name": "Drop down",
-    "icon": "FaCaretSquareDown",
-    "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "name": "Text Box",
     "attributes": {
-      "name": "Drop down",
-      "stateName": "designation",
-      "allValues": true,
-      "dataSource": "lookUpValueResponse.designation",
-      "dataKey": "value",
-      "dataValue": "displayName",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": "200",
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
       "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "borderWidth": "1px",
+          "borderRadius": "27px",
+          "background-color": "#f5f5f5",
+          "color": "rgb(122 122 122)",
+          "border": "1px solid rgb(221 211 211)",
+          "width": "90%"
+        },
+        "inputProps": {
+          "//": "Use this class to style  text field element.",
+          "paddingLeft": "10px",
+          "margin": "8px",
+          "color": "rgb(122 122 122)"
+        },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
       "validate": {
         "required": true,
-        "errorMsg": "This Field is Required",
+        "errorMsg": "This field is required",
         "bindButton": [
           {
             "id": "QkXHmQUlBDoP0fvbdnBkK",
@@ -2162,7 +2155,8 @@
                 "logic": {
                   "==": [{ "var": "currentScreen.otpResponse.status" }, 1]
                 }
-              }
+              },
+              "onEnterKey": true
             },
             "events": [
               {
@@ -2173,7 +2167,7 @@
                 "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-3-0-0-0-0",
+            "path": "0-0-0-0-4-0-0-0-0",
             "version": "1.0.0",
             "screenId": "XpTQjwGIj-lDVw1vunUcm",
             "subType": "component",
@@ -2183,56 +2177,25 @@
           }
         ]
       },
-      "layoutProperties": {
-        "textField": {
-          "//": "Use this class to style text field component.",
-          "borderWidth": "1px",
-          "borderRadius": "27px",
-          "background-color": "#f5f5f5",
-          "color": "rgb(122 122 122)",
-          "border": "1px solid rgb(221 211 211)",
-          "width": "83%",
-          "height": "39px",
-          "padding": "10px 10px 0px"
-        },
-        "inputProps": {
-          "//": "Use this class to style  text field element.",
-          "paddingLeft": "10px",
-          "margin": "8px",
-          "color": "rgb(122 122 122)"
-        },
-        "mainContainer": "textField",
-        "xl": 6,
-        "lg": 6,
-        "md": 6,
-        "sm": 6,
-        "xs": 6
-      },
-      "dropdownOptions": [],
-      "variant": "standard",
-      "selectedDataType": 0,
-      "disableUnderline": true,
-      "storeType": 2,
-      "placeholder": "Designation"
+      "placeholder": "Designation",
+      "stateName": "designation",
+      "disableUnderline": true
     },
-    "type": "20003",
-    "events": [
-      {
-        "triggerId": "B5Ds6aJcvRFrOckuDFFzS",
-        "triggerName": "LookUp Keys API",
-        "name": "On initialization",
-        "type": "1",
-        "serviceType": "8"
-      }
-    ],
-    "order": 10,
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-0-1-0",
-    "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "subType": "component",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0-0-0-1-1",
+    "screenId": "XpTQjwGIj-lDVw1vunUcm",
     "projectId": "63f4845e476fc83100e3a899",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

@@ -21,12 +21,12 @@
           "destinationStoreType": 1,
           "filterList": [
             {
-              "key": "value",
+              "key": "displayName",
               "changeValueConditonally": true,
               "logic": { "var": "currentScreen.form.accountCategory" }
             },
             {
-              "key": "displayName",
+              "key": "value",
               "changeValueConditonally": true,
               "logic": { "var": "currentScreen.form.accountCategory" }
             }
@@ -36,8 +36,8 @@
       }
     }
   ],
-  "updatedAt": "4/14/2023",
-  "createdAt": "4/14/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/23/2023",
+  "createdAt": "5/23/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

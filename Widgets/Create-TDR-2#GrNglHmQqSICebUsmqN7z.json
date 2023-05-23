@@ -1192,20 +1192,21 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "YhBiuRZzvFiZ_K_MoONfa",
+                                                            "id": "nDo_oKZSS5BatjrcF0_Gu",
                                                             "gridProps": [
                                                               {
                                                                 "id": "b0wOOiaaXMHcB3XOK_x6Z",
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "No plan for selected frequency and tenure",
+                                                                  "label": "Sorry, no TDR available with selected profit tenure and frequency. Please go back to the previous screen and change your selection.",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": false,
                                                                   "layoutProperties": {
                                                                     "label": {
-                                                                      "//": "Use this class to style label component."
+                                                                      "//": "Use this class to style label component.",
+                                                                      "textAlign": "center"
                                                                     },
                                                                     "mainContainer": "label",
                                                                     "xl": 12,
@@ -2303,8 +2304,8 @@
     "gitBranchName": "master",
     "_id": "GrNglHmQqSICebUsmqN7z",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "updatedAt": "5/23/2023",
+    "createdAt": "5/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3514,12 +3515,15 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "No plan for selected frequency and tenure",
+      "label": "Sorry, no TDR available with selected profit tenure and frequency. Please go back to the previous screen and change your selection.",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
       "layoutProperties": {
-        "label": { "//": "Use this class to style label component." },
+        "label": {
+          "//": "Use this class to style label component.",
+          "textAlign": "center"
+        },
         "mainContainer": "label",
         "xl": 12,
         "lg": 12,

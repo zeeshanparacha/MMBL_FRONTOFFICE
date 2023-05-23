@@ -12198,9 +12198,7 @@
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       }
-                                                                    ],
-                                                                    "regex": "/^.{6,15}$/",
-                                                                    "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -14893,8 +14891,8 @@
     "gitBranchName": "master",
     "_id": "vqkLpFWgh7_8rzXIUCfiG",
     "createdBy": "ajk",
-    "updatedAt": "5/19/2023",
-    "createdAt": "5/19/2023",
+    "updatedAt": "5/23/2023",
+    "createdAt": "5/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -26695,9 +26693,7 @@
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           }
-        ],
-        "regex": "/^.{6,15}$/",
-        "regexErrorMsg": "minimum 6 digits for NTN & 13 digits for CNIC without dashes & 15 digits with dashes"
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,

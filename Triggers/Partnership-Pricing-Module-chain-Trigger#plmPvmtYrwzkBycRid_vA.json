@@ -834,53 +834,6 @@
               "updatedBy": "ahmerjavedkhan"
             },
             {
-              "id": "rbywCbuqgD47mwTUuZ22T",
-              "_id": "ryWvCCH37rEJp315CVDpr",
-              "name": "Manipulate Key To Object account Category Private",
-              "old_name": "Manipulate Key To Object account Category Private",
-              "projectId": "63f4845e476fc83100e3a899",
-              "gitBranchName": "master",
-              "services": [
-                {
-                  "type": "11",
-                  "command": {
-                    "type": "6",
-                    "attributes": {
-                      "requestBody": [],
-                      "storeType": "",
-                      "selectedObjectBindingKey": "selectedObject",
-                      "dataType": "",
-                      "destinationBindingKey": "accountCategory",
-                      "sourceBindingKey": "form.accountCategory",
-                      "sourceStoreType": 2,
-                      "destinationStoreType": 1,
-                      "filterList": [
-                        {
-                          "key": "value",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.form.accountCategory"
-                          }
-                        },
-                        {
-                          "key": "displayName",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.form.accountCategory"
-                          }
-                        }
-                      ],
-                      "targettedType": "object"
-                    }
-                  }
-                }
-              ],
-              "updatedAt": "4/14/2023",
-              "createdAt": "4/14/2023",
-              "createdBy": "ahmerjavedkhan",
-              "updatedBy": "ahmerjavedkhan"
-            },
-            {
               "id": "8yn9R8loC5uQLlAVqMBzu",
               "_id": "ZEy25n_j-Y8updo_s05WH",
               "name": "Manipulate Key To Object tax Exemption Private",
@@ -1016,46 +969,6 @@
               "createdAt": "4/14/2023",
               "createdBy": "ahmerjavedkhan",
               "updatedBy": "ahmerjavedkhan"
-            },
-            {
-              "id": "KP0FdSPNcGby4vi3MQqBz",
-              "_id": "g0IOoKKiaIxdiPfPNckY1",
-              "name": "map designation in form 2",
-              "old_name": "map designation in form 2",
-              "projectId": "63f4845e476fc83100e3a899",
-              "gitBranchName": "master",
-              "services": [
-                {
-                  "type": "11",
-                  "command": {
-                    "type": "6",
-                    "attributes": {
-                      "requestBody": [],
-                      "storeType": "",
-                      "selectedObjectBindingKey": "selectedObject",
-                      "dataType": "",
-                      "destinationBindingKey": "designation",
-                      "sourceBindingKey": "response",
-                      "sourceStoreType": 2,
-                      "destinationStoreType": 1,
-                      "filterList": [
-                        {
-                          "key": "value",
-                          "changeValueConditonally": true,
-                          "logic": {
-                            "var": "currentScreen.response.data.result.formRequest.data.designation"
-                          }
-                        }
-                      ],
-                      "targettedType": "object"
-                    }
-                  }
-                }
-              ],
-              "updatedAt": "4/12/2023",
-              "createdAt": "4/12/2023",
-              "createdBy": "ajk",
-              "updatedBy": "ajk"
             },
             {
               "id": "xaa54_7kqowMYmkssTsLS",
@@ -1284,6 +1197,53 @@
               "createdAt": "5/17/2023",
               "createdBy": "ahmerjavedkhan",
               "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "rbywCbuqgD47mwTUuZ22T",
+              "_id": "ryWvCCH37rEJp315CVDpr",
+              "name": "Manipulate Key To Object account Category Private",
+              "old_name": "Manipulate Key To Object account Category Private",
+              "projectId": "63f4845e476fc83100e3a899",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "accountCategory",
+                      "sourceBindingKey": "form.accountCategory",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        {
+                          "key": "displayName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountCategory"
+                          }
+                        },
+                        {
+                          "key": "value",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.form.accountCategory"
+                          }
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/23/2023",
+              "createdAt": "5/23/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
             }
           ],
           "triggerIds": [
@@ -1297,23 +1257,22 @@
             "rIPTYEDjCF9YrS7DbPyhl",
             "vCSKqfjyY4M6uUDeSbQOL",
             "akkJsBjhFhFScLQy8QYzv",
-            "rbywCbuqgD47mwTUuZ22T",
             "8yn9R8loC5uQLlAVqMBzu",
             "EddDdTFFZBe4lDSk1tAHX",
             "q5FIJCF7aJtscduJAseL8",
-            "KP0FdSPNcGby4vi3MQqBz",
             "xaa54_7kqowMYmkssTsLS",
             "s6Otby_tXIcvEz7FSr7x0",
             "J5dlcXw_D3IV1rjMQ4_K-",
             "q1cTxYHzjBRQ8bic6FPCY",
-            "EO4WXaNeonF_0h9j7AVN7"
+            "EO4WXaNeonF_0h9j7AVN7",
+            "rbywCbuqgD47mwTUuZ22T"
           ]
         }
       }
     }
   ],
-  "updatedAt": "5/17/2023",
-  "createdAt": "5/17/2023",
+  "updatedAt": "5/23/2023",
+  "createdAt": "5/23/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
