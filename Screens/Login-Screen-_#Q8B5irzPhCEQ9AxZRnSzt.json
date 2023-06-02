@@ -1022,14 +1022,14 @@
                                                         },
                                                         "events": [
                                                           {
-                                                            "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-                                                            "triggerName": "Clear Form Validations",
+                                                            "triggerId": "SKGprdZe9CzD3MmvRegMh",
+                                                            "triggerName": "Login To Forgot Password",
                                                             "type": "2",
                                                             "name": "On click"
                                                           },
                                                           {
-                                                            "triggerId": "SKGprdZe9CzD3MmvRegMh",
-                                                            "triggerName": "Login To Forgot Password",
+                                                            "triggerId": "C9VAY5AImRfafff65",
+                                                            "triggerName": "Clear validations",
                                                             "type": "2",
                                                             "name": "On click"
                                                           }
@@ -1934,9 +1934,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "createdBy": "ajk",
+    "updatedAt": "6/2/2023",
+    "createdAt": "6/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3201,14 +3201,14 @@
     "component": { "content": "Link", "type": "20011" },
     "events": [
       {
-        "triggerId": "C9VAY5AIiTfVpeNy7pz65",
-        "triggerName": "Clear Form Validations",
+        "triggerId": "SKGprdZe9CzD3MmvRegMh",
+        "triggerName": "Login To Forgot Password",
         "name": "On click",
         "type": "2"
       },
       {
-        "triggerId": "SKGprdZe9CzD3MmvRegMh",
-        "triggerName": "Login To Forgot Password",
+        "triggerId": "C9VAY5AImRfafff65",
+        "triggerName": "Clear validations",
         "name": "On click",
         "type": "2"
       }
